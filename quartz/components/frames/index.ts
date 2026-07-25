@@ -2,6 +2,7 @@ import { PageFrame } from "./types"
 import { DefaultFrame } from "./DefaultFrame"
 import { FullWidthFrame } from "./FullWidthFrame"
 import { MinimalFrame } from "./MinimalFrame"
+import { EwaFrame } from "./EwaFrame"
 import { frameRegistry } from "./registry"
 
 export type { PageFrame, PageFrameProps } from "./types"
@@ -22,6 +23,7 @@ const builtinFrames: Record<string, PageFrame> = {
   default: DefaultFrame,
   "full-width": FullWidthFrame,
   minimal: MinimalFrame,
+  ewa: EwaFrame,
 }
 
 /**

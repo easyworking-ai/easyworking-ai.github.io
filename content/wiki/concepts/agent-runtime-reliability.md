@@ -4,6 +4,7 @@ description: AI 에이전트 경쟁의 중심이 모델 지능에서 런타임 �
 created: 2026-05-01
 updated: 2026-07-25
 cssclass: wiki-concept
+section: CONCEPTS
 publish: true
 lang: ko
 tags:
@@ -15,8 +16,6 @@ tags:
 cover:
 audio:
 ---
-
-# 에이전트 런타임 신뢰성
 
 ## 모델이 똑똑한 것과 에이전트가 안 깨지는 것은 다른 문제다
 
