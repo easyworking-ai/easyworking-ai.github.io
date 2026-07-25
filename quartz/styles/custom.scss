@@ -640,8 +640,8 @@ body {
 .ewa-article-meta a { color: var(--ewa-accent); text-decoration: none; }
 .ewa-frame > article { width: min(720px, calc(100% - 2rem)); margin: 0 auto; padding: 0 0 6rem; }
 .ewa-frame > article h1 { display: none; }
-.ewa-frame > article h2 { margin: 3.5rem 0 1rem; color: var(--ewa-text); font-family: Georgia, "Times New Roman", serif; font-size: 1.8rem; font-weight: 400; letter-spacing: -.05em; line-height: 1.2; }
-.ewa-frame > article h3 { margin: 2.3rem 0 .8rem; color: var(--ewa-text); font-size: 1.05rem; }
+.ewa-frame > article h2 { margin: 3.5rem 0 1rem; color: var(--ewa-text); font-family: var(--ewa-font); font-size: 1.3rem; font-weight: 700; letter-spacing: -.02em; line-height: 1.3; }
+.ewa-frame > article h3 { margin: 2.3rem 0 .8rem; color: var(--ewa-text); font-family: var(--ewa-font); font-size: 1.05rem; font-weight: 700; letter-spacing: -.01em; }
 .ewa-frame > article p, .ewa-frame > article li { color: color-mix(in srgb, var(--ewa-text) 86%, var(--ewa-text-muted)); font-size: .94rem; line-height: 1.95; }
 .ewa-frame > article p { margin: 0 0 1.25rem; }
 .ewa-frame > article a { color: var(--ewa-blue); text-underline-offset: 3px; }
