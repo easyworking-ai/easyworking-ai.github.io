@@ -633,7 +633,7 @@ body {
 .ewa-article-breadcrumb a { color: var(--ewa-text-muted); text-decoration: none; }
 .ewa-article-kicker { color: var(--ewa-text-muted); font-size: .58rem; font-weight: 700; letter-spacing: .13em; }
 .ewa-article-kicker i { display: inline-block; width: 18px; height: 1px; margin: 0 .45rem .2rem; background: var(--ewa-border); }
-.ewa-article-chrome h1 { max-width: 820px; margin: 1.1rem 0 1.1rem; color: var(--ewa-text); font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.4rem, 6vw, 5rem); font-weight: 400; letter-spacing: -.075em; line-height: 1.02; }
+.ewa-article-chrome h1 { max-width: 820px; margin: 1.1rem 0 1.1rem; color: var(--ewa-text); font-family: var(--ewa-font); font-size: clamp(1.45rem, 4.5vw, 2.2rem); font-weight: 700; letter-spacing: -.02em; line-height: 1.25; }
 .ewa-article-dek { max-width: 650px; margin: 0; color: var(--ewa-text-muted); font-size: .98rem; line-height: 1.8; }
 .ewa-article-meta { display: flex; flex-wrap: wrap; gap: .75rem; align-items: center; margin-top: 1.5rem; color: var(--ewa-text-dim); font-size: .62rem; }
 .ewa-article-meta span::before { content: "·"; margin-right: .75rem; color: var(--ewa-border); }
@@ -691,7 +691,7 @@ body {
   .ewa-search-panel { position: fixed; top: 70px; right: 1rem; left: 1rem; width: auto; }
   .ewa-nav-panel { right: -5rem; left: auto; width: 300px; }
   .ewa-article-chrome { padding-top: 3rem; }
-  .ewa-article-chrome h1 { font-size: clamp(2.5rem, 13vw, 4.2rem); }
+  .ewa-article-chrome h1 { font-size: clamp(1.35rem, 5.5vw, 1.8rem); }
   .ewa-article-dek { font-size: .86rem; }
   .ewa-audio-heading { display: block; }
   .ewa-audio-heading small { display: block; margin-top: .5rem; }
