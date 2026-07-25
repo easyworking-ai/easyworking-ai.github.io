@@ -54,8 +54,8 @@ tags:
         <a class="ewa-note-media" href="/wiki/concepts/agent-runtime-reliability" aria-label="에이전트 런타임 신뢰성 읽기"><span>01</span><i aria-hidden="true"></i></a>
         <div class="ewa-note-body">
           <div class="ewa-note-meta"><time>2026년 7월</time><span>ai-agent</span></div>
-          <h3><a href="/wiki/concepts/agent-runtime-reliability">에이전트 런타임 신뢰성</a></h3>
-          <p>AI 에이전트를 실제 업무에 붙일 때 확인해야 할 실행 구조와 신뢰성 평가 항목.</p>
+          <h3><a href="/wiki/concepts/agent-runtime-reliability">AI 에이전트는 왜 자꾸 깨질까?</a></h3>
+          <p>벤치마크 점수가 높아도 업무가 멈추는 이유와 실무에서 확인할 다섯 가지 신뢰성 기준.</p>
           <a class="ewa-note-more" href="/wiki/concepts/agent-runtime-reliability">읽기 <span aria-hidden="true">↗</span></a>
         </div>
       </article>
