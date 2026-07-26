@@ -3,801 +3,252 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 업무 준비도 테스트 · 일하는 AI</title>
-<meta name="description" content="7문항으로 당신의 AI 업무 준비도를 진단합니다. 유형, 가장 위험한 함정, 이번 주 할 일까지.">
+<title>AI 업무 진단 · 일하는 AI</title>
+<meta name="description" content="8문항으로 당신의 AI 업무 패턴을 진단합니다. '잘하고 있다'고 생각하지만 알고 보면 함정인 선택지를 찾아내세요.">
 <style>
-:root {
-  --bg: #0d1117;
-  --surface: #161b22;
-  --surface-2: #1c2230;
-  --border: #30363d;
-  --text: #e6edf3;
-  --text-dim: #7d8590;
-  --accent: #58a6ff;
-  --accent-2: #3fb950;
-  --warn: #f0883e;
-  --danger: #f85149;
-  --purple: #bc8cff;
-  --radius: 16px;
-  --font: 'Pretendard', 'Apple SD Gothic Neo', -apple-system, 'Segoe UI', sans-serif;
-}
-
-* { box-sizing: border-box; margin: 0; padding: 0; }
-
-body {
-  font-family: var(--font);
-  background: var(--bg);
-  color: var(--text);
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1.5rem;
-  -webkit-font-smoothing: antialiased;
-}
-
-.app {
-  width: 100%;
-  max-width: 600px;
-  min-height: 500px;
-  position: relative;
-}
-
-/* ─── Start Screen ─── */
-.start-screen {
-  text-align: center;
-  padding: 2rem 1rem;
-  animation: fadeIn 0.6s ease;
-}
-
-.start-screen .badge {
-  display: inline-block;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.15em;
-  color: var(--accent);
-  background: rgba(88,166,255,0.1);
-  border: 1px solid rgba(88,166,255,0.3);
-  padding: 0.35rem 0.8rem;
-  border-radius: 100px;
-  margin-bottom: 1.5rem;
-}
-
-.start-screen h1 {
-  font-size: clamp(1.6rem, 5vw, 2.2rem);
-  font-weight: 800;
-  line-height: 1.3;
-  margin-bottom: 1rem;
-}
-
-.start-screen h1 em {
-  font-style: normal;
-  background: linear-gradient(135deg, var(--accent), var(--purple));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.start-screen p {
-  color: var(--text-dim);
-  font-size: 0.95rem;
-  line-height: 1.7;
-  margin-bottom: 2rem;
-}
-
-.start-meta {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  margin-bottom: 2.5rem;
-  flex-wrap: wrap;
-}
-
-.start-meta span {
-  font-size: 0.8rem;
-  color: var(--text-dim);
-  display: flex;
-  align-items: center;
-  gap: 0.35rem;
-}
-
-.start-meta span::before {
-  content: '';
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--accent-2);
-}
-
-/* ─── Button ─── */
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  font-family: var(--font);
-  font-size: 1.05rem;
-  font-weight: 700;
-  color: var(--bg);
-  background: linear-gradient(135deg, var(--accent), #4c8dff);
-  border: none;
-  padding: 1rem 2.5rem;
-  border-radius: 100px;
-  cursor: pointer;
-  transition: transform 0.15s, box-shadow 0.15s;
-  text-decoration: none;
-}
-
-.btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(88,166,255,0.35);
-}
-
-.btn:active { transform: translateY(0); }
-
-.btn-ghost {
-  background: transparent;
-  color: var(--text-dim);
-  border: 1px solid var(--border);
-  font-size: 0.85rem;
-  padding: 0.6rem 1.2rem;
-}
-
-.btn-ghost:hover {
-  border-color: var(--accent);
-  color: var(--text);
-  box-shadow: none;
-  transform: none;
-}
-
-/* ─── Progress Bar ─── */
-.progress-wrap {
-  margin-bottom: 2rem;
-  transition: opacity 0.3s;
-}
-
-.progress-label {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.75rem;
-  color: var(--text-dim);
-  margin-bottom: 0.5rem;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-}
-
-.progress-bar {
-  height: 6px;
-  background: var(--surface);
-  border-radius: 3px;
-  overflow: hidden;
-}
-
-.progress-fill {
-  height: 100%;
-  background: linear-gradient(90deg, var(--accent), var(--purple));
-  border-radius: 3px;
-  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  width: 0%;
-}
-
-/* ─── Question Screen ─── */
-.question-screen { animation: fadeIn 0.4s ease; }
-
-.question-num {
-  font-size: 0.75rem;
-  font-weight: 700;
-  color: var(--accent);
-  letter-spacing: 0.1em;
-  margin-bottom: 0.75rem;
-}
-
-.question-text {
-  font-size: 1.15rem;
-  font-weight: 700;
-  line-height: 1.5;
-  margin-bottom: 1.75rem;
-}
-
-.question-text .scenario {
-  display: block;
-  font-weight: 400;
-  font-size: 0.9rem;
-  color: var(--text-dim);
-  margin-top: 0.5rem;
-  line-height: 1.7;
-}
-
-.choices { display: flex; flex-direction: column; gap: 0.75rem; }
-
-.choice {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.75rem;
-  padding: 1rem 1.25rem;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  cursor: pointer;
-  transition: all 0.18s ease;
-  font-size: 0.95rem;
-  line-height: 1.5;
-  color: var(--text);
-}
-
-.choice:hover {
-  border-color: var(--accent);
-  background: var(--surface-2);
-  transform: translateX(4px);
-}
-
-.choice .marker {
-  flex-shrink: 0;
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  border: 2px solid var(--border);
-  transition: all 0.18s;
-  margin-top: 1px;
-}
-
-.choice:hover .marker {
-  border-color: var(--accent);
-  background: rgba(88,166,255,0.15);
-}
-
-.choice.selected {
-  border-color: var(--accent);
-  background: rgba(88,166,255,0.08);
-}
-
-.choice.selected .marker {
-  border-color: var(--accent);
-  background: var(--accent);
-}
-
-/* ─── Result Screen ─── */
-.result-screen { animation: fadeIn 0.5s ease; text-align: center; }
-
-.result-type-badge {
-  display: inline-block;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.15em;
-  padding: 0.3rem 0.8rem;
-  border-radius: 100px;
-  margin-bottom: 1rem;
-}
-
-.result-title {
-  font-size: clamp(1.4rem, 5vw, 1.8rem);
-  font-weight: 800;
-  margin-bottom: 0.5rem;
-}
-
-.result-tagline {
-  font-size: 0.95rem;
-  color: var(--text-dim);
-  margin-bottom: 2rem;
-  line-height: 1.6;
-}
-
-/* Score bars */
-.score-section {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  text-align: left;
-}
-
-.score-row {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  margin-bottom: 0.85rem;
-}
-
-.score-row:last-child { margin-bottom: 0; }
-
-.score-label {
-  width: 70px;
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--text-dim);
-  flex-shrink: 0;
-}
-
-.score-track {
-  flex: 1;
-  height: 10px;
-  background: var(--bg);
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.score-fill {
-  height: 100%;
-  border-radius: 5px;
-  transition: width 1s cubic-bezier(0.34, 1.56, 0.64, 1);
-  width: 0%;
-}
-
-.score-row[data-axis="T"] .score-fill { background: var(--accent); }
-.score-row[data-axis="P"] .score-fill { background: var(--purple); }
-.score-row[data-axis="V"] .score-fill { background: var(--accent-2); }
-.score-row[data-axis="S"] .score-fill { background: var(--warn); }
-
-.score-value {
-  width: 40px;
-  text-align: right;
-  font-size: 0.8rem;
-  font-weight: 700;
-  color: var(--text-dim);
-  font-variant-numeric: tabular-nums;
-}
-
-/* Risk + Action cards */
-.insight-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-left: 4px solid var(--danger);
-  border-radius: 0 var(--radius) var(--radius) 0;
-  padding: 1.25rem 1.5rem;
-  margin-bottom: 1rem;
-  text-align: left;
-}
-
-.insight-card.action {
-  border-left-color: var(--accent-2);
-}
-
-.insight-label {
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  color: var(--danger);
-  margin-bottom: 0.5rem;
-}
-
-.insight-card.action .insight-label { color: var(--accent-2); }
-
-.insight-body {
-  font-size: 0.9rem;
-  line-height: 1.7;
-  color:-within(--text);
-  color: var(--text);
-}
-
-.insight-body strong { color: var(--text); }
-
-/* Email gate */
-.gate {
-  background: linear-gradient(135deg, rgba(88,166,255,0.08), rgba(188,140,255,0.06));
-  border: 1px solid rgba(88,166,255,0.3);
-  border-radius: var(--radius);
-  padding: 1.75rem 1.5rem;
-  margin: 1.5rem 0;
-}
-
-.gate h3 {
-  font-size: 1.05rem;
-  margin-bottom: 0.5rem;
-}
-
-.gate p {
-  font-size: 0.85rem;
-  color: var(--text-dim);
-  margin-bottom: 1.25rem;
-  line-height: 1.6;
-}
-
-.gate-form {
-  display: flex;
-  gap: 0.5rem;
-  flex-direction: column;
-}
-
-.gate-form input {
-  font-family: var(--font);
-  font-size: 0.95rem;
-  padding: 0.85rem 1rem;
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  color: var(--text);
-  outline: none;
-  transition: border-color 0.2s;
-}
-
-.gate-form input:focus { border-color: var(--accent); }
-
-.gate-form button {
-  font-family: var(--font);
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: var(--bg);
-  background: var(--accent);
-  border: none;
-  padding: 0.85rem;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-
-.gate-form button:hover { background: #4c8dff; }
-.gate-form button:disabled { opacity: 0.6; cursor: default; }
-
-.gate-skip {
-  margin-top: 0.75rem;
-  font-size: 0.8rem;
-}
-
-.share-row {
-  display: flex;
-  justify-content: center;
-  gap: 0.75rem;
-  margin-top: 1.5rem;
-}
-
-/* ─── Animations ─── */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.hidden { display: none !important; }
-
-/* ─── Responsive ─── */
-@media (max-width: 480px) {
-  body { padding: 1rem; }
-  .question-text { font-size: 1.05rem; }
-  .choice { padding: 0.85rem 1rem; font-size: 0.9rem; }
-  .score-label { width: 60px; font-size: 0.75rem; }
-}
+:root{--bg:#0d1117;--surface:#161b22;--surface2:#1c2230;--border:#30363d;--text:#e6edf3;--dim:#7d8590;--blue:#58a6ff;--green:#3fb950;--orange:#f0883e;--red:#f85149;--purple:#bc8cff;--r:16px;--font:'Pretendard','Apple SD Gothic Neo',-apple-system,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);background:var(--bg);color:var(--text);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:1.5rem;-webkit-font-smoothing:antialiased}
+.app{width:100%;max-width:620px;min-height:480px}
+.start{text-align:center;padding:2rem 1rem;animation:fi .6s ease}
+.start .badge{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.15em;color:var(--blue);background:rgba(88,166,255,.1);border:1px solid rgba(88,166,255,.3);padding:.35rem .8rem;border-radius:100px;margin-bottom:1.5rem}
+.start h1{font-size:clamp(1.6rem,5vw,2.2rem);font-weight:800;line-height:1.3;margin-bottom:1rem}
+.start h1 em{font-style:normal;background:linear-gradient(135deg,var(--blue),var(--purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.start p{color:var(--dim);font-size:.95rem;line-height:1.7;margin-bottom:1.5rem}
+.start .warn{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:1.25rem;margin-bottom:2rem;text-align:left}
+.start .warn h3{font-size:.85rem;color:var(--orange);margin-bottom:.5rem}
+.start .warn p{font-size:.82rem;margin:0}
+.start-meta{display:flex;justify-content:center;gap:1.5rem;margin-bottom:2.5rem;flex-wrap:wrap}
+.start-meta span{font-size:.8rem;color:var(--dim);display:flex;align-items:center;gap:.35rem}
+.start-meta span::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--green)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;font-family:var(--font);font-size:1.05rem;font-weight:700;color:var(--bg);background:linear-gradient(135deg,var(--blue),#4c8dff);border:none;padding:1rem 2.5rem;border-radius:100px;cursor:pointer;transition:transform .15s,box-shadow .15s;text-decoration:none}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(88,166,255,.35)}
+.btn:active{transform:translateY(0)}
+.btn-sm{font-size:.85rem;padding:.6rem 1.2rem;border-radius:100px}
+.btn-ghost{background:transparent;color:var(--dim);border:1px solid var(--border)}
+.btn-ghost:hover{border-color:var(--blue);color:var(--text);box-shadow:none;transform:none}
+.pwrap{margin-bottom:2rem}
+.plabel{display:flex;justify-content:space-between;font-size:.75rem;color:var(--dim);margin-bottom:.5rem;font-weight:600;letter-spacing:.05em}
+.pbar{height:6px;background:var(--surface);border-radius:3px;overflow:hidden}
+.pfill{height:100%;background:linear-gradient(90deg,var(--blue),var(--purple));border-radius:3px;transition:width .4s cubic-bezier(.4,0,.2,1);width:0%}
+.q-screen{animation:fi .4s ease}
+.qnum{font-size:.75rem;font-weight:700;color:var(--blue);letter-spacing:.1em;margin-bottom:.75rem}
+.qtext{font-size:1.15rem;font-weight:700;line-height:1.5;margin-bottom:.5rem}
+.qscene{font-size:.88rem;color:var(--dim);line-height:1.6;margin-bottom:1.5rem;padding-left:.75rem;border-left:3px solid var(--border)}
+.choices{display:flex;flex-direction:column;gap:.75rem}
+.choice{display:flex;align-items:flex-start;gap:.75rem;padding:1rem 1.25rem;background:var(--surface);border:1px solid var(--border);border-radius:12px;cursor:pointer;transition:all .18s;font-size:.95rem;line-height:1.5;color:var(--text)}
+.choice:hover{border-color:var(--blue);background:var(--surface2);transform:translateX(4px)}
+.choice .mk{flex-shrink:0;width:22px;height:22px;border-radius:50%;border:2px solid var(--border);transition:all .18s;margin-top:1px}
+.choice:hover .mk{border-color:var(--blue);background:rgba(88,166,255,.15)}
+.choice.sel{border-color:var(--blue);background:rgba(88,166,255,.08)}
+.choice.sel .mk{border-color:var(--blue);background:var(--blue)}
+.result{animation:fi .5s ease;text-align:center}
+.rbadge{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.15em;padding:.3rem .8rem;border-radius:100px;margin-bottom:1rem}
+.rtitle{font-size:clamp(1.4rem,5vw,1.8rem);font-weight:800;margin-bottom:.5rem}
+.rtag{font-size:.95rem;color:var(--dim);margin-bottom:1.5rem;line-height:1.6}
+.score-box{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:1.5rem;margin-bottom:1.5rem;text-align:left}
+.srow{display:flex;align-items:center;gap:.75rem;margin-bottom:.85rem}
+.srow:last-child{margin-bottom:0}
+.slabel{width:80px;font-size:.8rem;font-weight:600;color:var(--dim);flex-shrink:0}
+.strack{flex:1;height:10px;background:var(--bg);border-radius:5px;overflow:hidden;position:relative}
+.sfill{height:100%;border-radius:5px;transition:width 1s cubic-bezier(.34,1.56,.64,1);width:0%}
+.srow[data-axis=T] .sfill{background:var(--blue)}
+.srow[data-axis=P] .sfill{background:var(--purple)}
+.srow[data-axis=V] .sfill{background:var(--green)}
+.srow[data-axis=S] .sfill{background:var(--orange)}
+.sval{width:45px;text-align:right;font-size:.8rem;font-weight:700;color:var(--dim);font-variant-numeric:tabular-nums}
+.sval.neg{color:var(--red)}
+.icard{background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--red);border-radius:0 var(--r) var(--r) 0;padding:1.25rem 1.5rem;margin-bottom:1rem;text-align:left}
+.icard.act{border-left-color:var(--green)}
+.icard.book{border-left-color:var(--purple)}
+.ilabel{font-size:.7rem;font-weight:700;letter-spacing:.1em;color:var(--red);margin-bottom:.5rem}
+.icard.act .ilabel{color:var(--green)}
+.icard.book .ilabel{color:var(--purple)}
+.ibody{font-size:.9rem;line-height:1.7;color:var(--text)}
+.ibody strong{color:var(--text)}
+.gate{background:linear-gradient(135deg,rgba(88,166,255,.08),rgba(188,140,255,.06));border:1px solid rgba(88,166,255,.3);border-radius:var(--r);padding:1.75rem 1.5rem;margin:1.5rem 0}
+.gate h3{font-size:1.05rem;margin-bottom:.5rem}
+.gate p{font-size:.85rem;color:var(--dim);margin-bottom:1.25rem;line-height:1.6}
+.gform{display:flex;gap:.5rem;flex-direction:column}
+.gform input{font-family:var(--font);font-size:.95rem;padding:.85rem 1rem;background:var(--bg);border:1px solid var(--border);border-radius:10px;color:var(--text);outline:none;transition:border-color .2s}
+.gform input:focus{border-color:var(--blue)}
+.gform button{font-family:var(--font);font-size:.95rem;font-weight:700;color:var(--bg);background:var(--blue);border:none;padding:.85rem;border-radius:10px;cursor:pointer;transition:background .2s}
+.gform button:hover{background:#4c8dff}
+.gform button:disabled{opacity:.6;cursor:default}
+.gskip{margin-top:.75rem}
+.share-row{display:flex;justify-content:center;gap:.75rem;margin-top:1.5rem}
+@keyframes fi{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.hidden{display:none!important}
+@media(max-width:480px){body{padding:1rem}.qtext{font-size:1.05rem}.choice{padding:.85rem 1rem;font-size:.9rem}.slabel{width:60px;font-size:.75rem}}
 </style>
 </head>
 <body>
 <div class="app">
-
-  <div id="screen-start" class="start-screen">
-    <span class="badge">3분 · 7문항</span>
-    <h1>당신의 업무는<br><em>AI에 얼마나 준비되어</em> 있나?</h1>
-    <p>7개의 상황에 어떻게 반응하는지 고르세요.<br>당신의 유형, 가장 위험한 함정, 이번 주 할 일까지 알려드립니다.</p>
-    <div class="start-meta">
-      <span>7문항</span>
-      <span>약 3분</span>
-      <span>즉시 결과</span>
-    </div>
-    <button class="btn" onclick="startTest()">시작하기 <span aria-hidden="true">→</span></button>
-  </div>
-
-  <div id="screen-question" class="question-screen hidden">
-    <div class="progress-wrap">
-      <div class="progress-label">
-        <span id="prog-text">1 / 7</span>
-        <span id="prog-pct">14%</span>
-      </div>
-      <div class="progress-bar"><div id="prog-fill" class="progress-fill"></div></div>
-    </div>
-    <div class="question-num" id="q-num">QUESTION 01</div>
-    <div class="question-text" id="q-text"></div>
-    <div class="choices" id="choices"></div>
-  </div>
-
-  <div id="screen-result" class="result-screen hidden">
-    <div id="result-content"></div>
-  </div>
-
+<div id="s-start" class="start">
+<span class="badge">4분 · 8문항</span>
+<h1>당신의 AI 업무는<br><em>정말 잘 작동하고</em> 있나?</h1>
+<p>"잘 쓰고 있다"고 생각하는 패턴이 실은 가장 흔한 함정일 수 있습니다.<br>8개의 상황에서 당신이 어떤 선택을 하는지 보세요.</p>
+<div class="warn">
+<h3>⚠️ 주의</h3>
+<p>정답이 없습니다. 모든 선택지는 합리적으로 보이지만, 각각 다른 결과를 만듭니다. "이게 제일 좋은 것 같은데"라고 생각한 선택이 함정일 수 있습니다.</p>
 </div>
-
+<div class="start-meta"><span>8문항</span><span>약 4분</span><span>즉시 결과</span></div>
+<button class="btn" onclick="startTest()">시작하기 <span aria-hidden="true">→</span></button>
+</div>
+<div id="s-q" class="q-screen hidden">
+<div class="pwrap"><div class="plabel"><span id="pt">1 / 8</span><span id="pp">12%</span></div><div class="pbar"><div id="pf" class="pfill"></div></div></div>
+<div class="qnum" id="qn">QUESTION 01</div>
+<div class="qtext" id="qt"></div>
+<div class="qscene" id="qs"></div>
+<div class="choices" id="qc"></div>
+</div>
+<div id="s-r" class="result hidden"><div id="rc"></div></div>
+</div>
 <script>
-const QUESTIONS = [
-  {
-    text: '오늘 자정까지 올려야 할 보고서가 있다. 회의 메모 200줄을 손에 쥐고 있다.',
-    scenario: '시간은 3시간 남았다. 어떻게 하나?',
-    choices: [
-      { text: '메모를 훑으며 직접 구조를 잡고 쓰기 시작한다', w: {T:0,P:2,V:1,S:0} },
-      { text: 'ChatGPT에 전부 붙여 넣고 "보고서로 정리해 줘"라고 한다', w: {T:2,P:0,V:0,S:0} },
-      { text: '메모에서 핵심 결정만 먼저 뽑고, AI에게 형식 변환만 맡긴다', w: {T:2,P:2,V:2,S:0} },
-      { text: '팀 채널에 "누가 정리하나요?"라고 묻는다', w: {T:0,P:0,V:0,S:1} },
-    ],
-  },
-  {
-    text: 'AI가 만든 표에 숫자가 있다.',
-    scenario: '이 숫자를 어디까지 확인하나?',
-    choices: [
-      { text: '안 확인한다. 시간이 없다', w: {V:0} },
-      { text: '합계 정도만 본다', w: {V:1} },
-      { text: '원본에서 표본 3~5개를 다시 계산한다', w: {V:2} },
-      { text: 'AI에게 계산식을 함께 출력하게 하고, 수식으로 재현한다', w: {V:3} },
-    ],
-  },
-  {
-    text: '같은 프롬프트를 다음 달에도 써야 한다.',
-    scenario: '어떻게 하나?',
-    choices: [
-      { text: '그때 가서 다시 생각한다', w: {P:0} },
-      { text: '메모장에 적어둔다', w: {P:1} },
-      { text: '팀 위키나 공유 문서에 올린다', w: {P:2,S:1} },
-      { text: '프롬프트 + 입력 조건 + 검수 체크리스트를 세트로 만든다', w: {P:3,V:1,S:1} },
-    ],
-  },
-  {
-    text: 'AI가 쓴 초안에 없던 담당자 이름이 들어 있다.',
-    scenario: '반응은?',
-    choices: [
-      { text: '비슷한 사람이니 그냥 둔다', w: {V:0} },
-      { text: '지우고 빈칸으로 둔다', w: {V:1} },
-      { text: '원문을 확인하고, 프롬프트에 "없는 사람을 만들지 마라"를 추가한다', w: {V:2,P:1} },
-      { text: '팀에 공유하고, 같은 실수를 줄이는 규칙을 만든다', w: {V:2,S:2} },
-    ],
-  },
-  {
-    text: '팀원이 "저도 AI 좀 써볼까요?"라고 묻는다.',
-    scenario: '대답은?',
-    choices: [
-      { text: '"좋아요, ChatGPT 한번 써보세요"', w: {S:0} },
-      { text: '내가 쓰는 프롬프트를 하나 준다', w: {S:1} },
-      { text: '우리 팀에서 잘 작동한 업무 하나를 골라 같이 해본다', w: {S:2,P:1} },
-      { text: '검수 체크리스트까지 포함한 템플릿을 만들어 넘긴다', w: {S:3,P:1,V:1} },
-    ],
-  },
-  {
-    text: 'AI가 만든 결과물을 고객이나 임원에게 보내기 직전이다.',
-    scenario: '마지막으로 하는 일은?',
-    choices: [
-      { text: '안 한다. AI가 충분히 잘했다', w: {V:0} },
-      { text: '맞춤법·어조만 확인한다', w: {V:1} },
-      { text: '사실관계(이름·숫자·날짜)를 전부 원문과 대조한다', w: {V:2} },
-      { text: '위 항목 + 사내 민감정보가 섞이지 않았는지 확인한다', w: {V:3} },
-    ],
-  },
-  {
-    text: '지난 한 달, 업무에 AI를 붙인 횟수는?',
-    scenario: '',
-    choices: [
-      { text: '0회. 아직 업무에 안 쓴다', w: {T:0} },
-      { text: '1~3회. 가끔 써봤다', w: {T:1} },
-      { text: '주 1회 이상. 몇 가지 업무에 반복해서 쓴다', w: {T:2,P:1} },
-      { text: '거의 매일. 쓰는 업무와 아닌 업무를 구분해둔 상태다', w: {T:3,P:2} },
-    ],
-  },
+var Q=[
+{text:"회의 5분 전. AI가 3초 만에 분석 보고서를 완성했다.",scene:"표, 그래프, 결론까지 완벽해 보인다. 임원 3명이 기다리고 있다. 지금 들어가면 정시 발표 가능하다.",c:[
+{t:"핵심 숫자 3개만 손으로 다시 계산하고 들어간다. 5분 늦더라도",w:{V:1,P:-1}},
+{t:"AI에게 \"이 숫자들의 출처를 표시하고, 출처가 없으면 [확인 필요]로 표시해 줘\"라고 다시 요청한다. 30초. 그대로 들어간다",w:{V:2,P:2,T:1}},
+{t:"원본 데이터를 탭에 열어놓고 들어간다. 질문 나오면 그때 확인",w:{V:0,P:-1}},
+{t:"그대로 들어간다. 표 형태가 일관되니까. 틀린 부분은 회의 중 잡으면 된다",w:{V:-1,P:0}}
+]},
+{text:"후배가 AI로 만든 기획서를 들고 왔다. 매출 추정이 \"시장 조사 기반\"이라고 적혀 있지만 출처가 없다.",scene:"",c:[
+{t:"후배 앞에서 출처를 찾아 기획서를 직접 고쳐준다. 한 시간 걸린다",w:{V:1,S:-1}},
+{t:"\"시장 조사 링크 달아줘\"라고만 한다",w:{S:1,V:0}},
+{t:"본인도 AI에게 물어본다. 다른 숫자가 나온다. 후배에게 알려준다",w:{T:1,V:-1}},
+{t:"\"AI한테 물어보기 전에, 업계 보고서 2개에서 숫자를 찾아와 줘. 그걸로 AI에게 비교해 달라고 하자\"라고 안내한다",w:{P:2,V:2,S:2,T:1}}
+]},
+{text:"팀장이 \"우리 팀도 AI 좀 도입해야 하는데?\"라고 물었다. 당신은 이미 3개월째 쓰고 있다.",scene:"",c:[
+{t:"\"제가 쓰는 프롬프트 정리해서 공유드리겠습니다\"",w:{S:-1,P:0}},
+{t:"그 자리에서 노트북을 열고, 지금 하고 있는 업무를 직접 보여준다. 5분이면 충분하다",w:{S:3,T:2}},
+{t:"\"제가 한 달간 해보고 결과를 보고하겠습니다\"",w:{P:1,S:-1}},
+{t:"\"ChatGPT 쓰시면 됩니다\"",w:{S:0,P:-1}}
+]},
+{text:"AI가 회의록을 정리해줬다. 당신이 발언하지 않은 내용이 \"김 대리가 말했다\"고 적혀 있다. 김 대리가 실제로 비슷한 말을 했다.",scene:"",c:[
+{t:"그냥 둔다. 김 대리 말이 맞으니까",w:{V:-1}},
+{t:"지우고 \"발언자 불명\"으로 바꾼다",w:{V:1,P:-1}},
+{t:"원문 대화록을 확인해서 정확히 누가 말했는지 찾는다. 15분 걸린다",w:{V:2,P:-2}},
+{t:"AI에게 \"발언자를 100% 확실하지 않으면 [확인 필요]로 표시해 줘\"라고 프롬프트를 고치고 다시 돌린다",w:{V:2,P:2,T:1}}
+]},
+{text:"동료가 AI로 만든 고객 발송 메일을 보내기 직전이다. 내용은 좋은데, 톤이 너무 캐주얼하다. 고객은 보수적인 기업 담당자다.",scene:"",c:[
+{t:"\"내용 좋은데 톤이 좀...\" 정도만 말한다",w:{S:-1,V:0}},
+{t:"구체적으로 \"2번째 문단 '가보자고!'는 빼는 게 좋겠어요\"라고 짚어준다",w:{S:2,V:1}},
+{t:"동료 앞에서 직접 AI에게 \"B2B 정중한 톤으로 다시 써 줘\"라고 돌려서 보여준다",w:{S:1,P:-1}},
+{t:"\"톤 가이드라인을 같이 만들어요. AI가 캐주얼하게 쓰면 이렇게 고치는 거예요\"라고 템플릿을 제안한다",w:{S:2,P:3,V:1}}
+]},
+{text:"당신이 만든 프롬프트로 후배가 업무를 했다. 결과물에 문제가 생겼다. 원인은 후배가 입력 자료를 잘못 넣은 것이었다.",scene:"",c:[
+{t:"\"입력 자료를 다시 확인해 줘\"라고 한다",w:{S:1,V:0}},
+{t:"본인이 직접 올바른 자료로 다시 돌려본다. 후배 옆에서",w:{S:-1,V:0}},
+{t:"프롬프트 첫 줄에 \"[입력 전 확인] 자료가 다음 조건을 충족하는지 먼저 답해라:\"를 추가한다. 후배에게 알려준다",w:{P:3,V:2,S:2}},
+{t:"\"내 프롬프트가 불충분했어, 내가 고칠게\" → 고치지만 후배에게 공유 안 함",w:{P:2,S:-1}}
+]},
+{text:"AI로 업무를 자동화한 지 3개월. 처음엔 시간이 절반으로 줄었다. 최근 2주 품질이 떨어지는 것 같다.",scene:"",c:[
+{t:"\"AI가 최근 성능이 떨어지네\" → 프롬프트를 더 길게 써본다",w:{T:1,V:-1}},
+{t:"3개월 전 결과물과 지금 결과물을 나란히 놓고 비교한다",w:{V:1,P:1}},
+{t:"입력 자료가 바뀌었는지 확인한다. 3개월 전과 비교해서 원본 데이터 형식이 달라졌는지 본다",w:{V:2,P:3,T:1}},
+{t:"\"다른 AI로 바꿔볼까?\" → 새 모델을 테스트한다",w:{T:-1,P:-1}}
+]},
+{text:"AI를 업무에 쓸 때, 당신에게 가장 필요한 것은?",scene:"마지막 문항입니다. 솔직하게 골라주세요.",c:[
+{t:"더 좋은 도구. 더 똑똑한 모델이 필요하다",w:{T:2,V:-1}},
+{t:"더 좋은 프롬프트. 질문을 더 잘하면 될 것이다",w:{P:2,T:-1}},
+{t:"더 좋은 검수 습관. AI가 뭘 하든 내가 확인하는 게 먼저다",w:{V:3,P:-1}},
+{t:"더 많은 동료가 같은 방식으로 쓰는 것. 혼자 잘하면 한계가 온다",w:{S:3,P:1}}
+]}
 ];
-
-const MAX = { T:5, P:9, V:12, S:7 };
-
-const TYPES = {
-  potential: {
-    name: '잠재력형',
-    color: '#f0883e',
-    condition: (s) => s.T <= 1,
-    tagline: '호기심은 있지만, 아직 업무에 붙이지 못한 상태입니다.',
-    risk: '<strong>"나중에 해야지"</strong>라는 마음이 영영 시작하지 않는 가장 흔한 이유입니다. AI 도구를 한 번 써보는 것과 업무에 붙이는 것은 다른 일입니다. 첫 번째는 호기심으로 끝나지만, 두 번째는 습관이 되어야 합니다.',
-    action: '<strong>이번 주, 회의록 하나만</strong> AI에게 맡겨보세요. 전체를 맡기지 말고 "핵심 결정 3개만 뽑아줘"라고만 하세요. 3분 안에 결과가 나오고, 틀린 부분을 직접 눈으로 확인하는 순간이 시작입니다.',
-    chapter: '1장 · 왜 교육으로는 업무가 안 바뀌는가',
-  },
-  velocity: {
-    name: '속도형',
-    color: '#f85149',
-    condition: (s) => s.T >= 2 && s.V <= 1,
-    tagline: '빠르게 결과를 내지만, 틀린 결과도 빠르게 배포하고 있습니다.',
-    risk: '검수 없는 속도는 <strong>언젠가 한 번 큰 사고</strong>를 만듭니다. AI가 지어낸 숫자가 보고서에 들어가거나, 없던 약속이 고객에게 전달되는 순간, 돌이킬 수 없는 신뢰 손실이 발생합니다. 그 사건 이후 팀 전체가 AI를 기피하게 됩니다.',
-    action: '<strong>오늘부터 AI 출력에 반드시 한 줄을 추가하세요:</strong> "계산에 사용한 조건과 제외한 항목을 마지막에 적어라." 이 한 줄이 검수 부담을 절반으로 줄입니다.',
-    chapter: '4장 · 엑셀에서 AI가 틀리는 이유를 줄이는 법',
-  },
-  craft: {
-    name: '장인형',
-    color: '#bc8cff',
-    condition: (s) => s.T >= 2 && s.V >= 2 && s.S <= 1,
-    tagline: '혼자는 훌륭합니다. 하지만 퇴사하면 끝입니다.',
-    risk: '<strong>당신이 병목입니다.</strong> "내가 해야 제대로 된다"는 말이 익숙하다면, 그건 시스템이 아니라 개인 역량에 의존하고 있다는 뜻입니다. 휴가를 가면 업무가 멈추고, 이직하면 초기화됩니다.',
-    action: '<strong>이번 주, 당신이 쓰는 프롬프트 하나를 문서로 만드세요.</strong> 입력 조건, 출력 형식, 검수 체크리스트까지 한 페이지로 정리해서 팀 위키에 올리세요. 그 한 장이 당신의 역량을 팀의 자산으로 바꿉니다.',
-    chapter: '3장 · 회의록을 판단자료로 바꾸는 법',
-  },
-  system: {
-    name: '시스템형',
-    color: '#58a6ff',
-    condition: (s) => s.T >= 2 && s.V >= 2 && s.S >= 2,
-    tagline: '개인 능력이 조직 역량으로 전환된 상태입니다.',
-    risk: '시스템이 잘 작동할 때의 함정은 <strong>과신</strong>입니다. 도구가 바뀌면 기존 시스템이 경직으로 변합니다. 프롬프트와 체크리스트를 "완성본"이 아니라 "이번 분기 버전"으로 취급하세요.',
-    action: '<strong>월 1회, 시스템 재검토 시간을 잡으세요.</strong> 어떤 프롬프트가 더 이상 쓸모없는지, 어떤 검수 항목이 중복인지 확인합니다. 시스템을 만드는 것보다 유지하는 것이 더 어렵습니다.',
-    chapter: '7장 · AI를 업무에 붙일 때 자주 어긋나는 지점',
-  },
+var TYPES={
+potential:{name:"잠재력형",color:"#f0883e",tag:"도구 자체를 덜 쓰거나, 도구만 바꾸고 있는 상태입니다.",
+risk:"<strong>\"더 좋은 도구가 필요해\"</strong>라는 생각이 가장 흔한 함정입니다. 도구를 바꿔도 검수 시스템이 없으면 같은 문제가 반복됩니다. GPT-4로 바꿔도, Claude로 바꿔도, 결과를 확인하지 않으면 사고가 납니다.",
+act:"<strong>현재 쓰는 도구를 그대로 쓰세요.</strong> 대신 AI가 낸 결과물에 \"이 숫자의 출처가 뭐야?\"라고 한 번 더 물어보는 습관을 만드세요. 도구를 바꾸는 것보다 한 번의 재질문이 품질을 더 올립니다。",
+ch:"1장 · 왜 교육으로는 업무가 안 바뀌는가"},
+velocity:{name:"속도형",color:"#f85149",tag:"빠르게 결과를 내지만, 틀린 결과도 빠르게 배포하고 있습니다.",
+risk:"검수 없는 속도는 <strong>반드시 한 번 큰 사고</strong>를 만듭니다. AI가 지어낸 숫자가 보고서에 들어가거나, 없던 약속이 고객에게 전달되는 순간, 그 사건 이후 팀 전체가 AI를 기피하게 됩니다. 당신의 속도가 오히려 팀의 AI 도입을 막는 첫 단추가 됩니다.",
+act:"<strong>오늘부터 AI 출력에 한 줄을 추가하세요:</strong> \"위 내용 중 확신할 수 없는 부분은 [확인 필요]로 표시해라.\" 이 한 줄이 사고 확률을 절반으로 줄입니다.",
+ch:"4장 · 엑셀에서 AI가 틀리는 이유를 줄이는 법"},
+craft:{name:"장인형",color:"#bc8cff",tag:"혼자는 훌륭합니다. 하지만 퇴사하면 끝입니다.",
+risk:"<strong>당신이 병목입니다.</strong> \"내가 해야 제대로 된다\"는 익숙한 말은, 시스템이 아니라 개인 역량에 의존하고 있다는 뜻입니다. 휴가를 가면 업무가 멈추고, 이직하면 초기화됩니다. 본인이 아닌 팀이 AI를 쓸 수 있어야 합니다.",
+act:"<strong>이번 주, 당신이 쓰는 프롬프트 하나를 문서로 만드세요.</strong> 입력 조건, 출력 형식, 검수 체크리스트까지 한 페이지로 정리해서 팀 위키에 올리세요. 그 한 장이 당신의 개인 역량을 팀의 자산으로 바꿉니다.",
+ch:"3장 · 회의록을 판단자료로 바꾸는 법"},
+overconfidence:{name:"과신형",color:"#f0883e",tag:"AI를 잘 쓴다고 생각하지만, 실제로는 가장 흔한 함정 패턴에 빠져 있습니다.",
+risk:"<strong>\"잘하고 있다\"는 확신이 가장 위험합니다.</strong> 꼼꼼하게 확인하는 것처럼 보이지만, 매번 수동으로 확인하거나, 프롬프트만 고치고 입력 자료는 무시하거나, \"정리해서 공유하겠다\"고 하고 안 합니다. 이 패턴은 스스로를 가장 잘 속이는 형태입니다.",
+act:"<strong>지난주 AI로处理한 업무 하나를 골라, 처음부터 끝까지 다시 추적해보세요.</strong> 입력 자료가 무엇이었는지, AI가 어떤 단계를 거쳤는지, 최종 결과물의 숫자가 어디서 왔는지. 아마 한 군데 이상 \"이건 확인 안 했는데\"가 나올 것입니다.",
+ch:"7장 · AI를 업무에 붙일 때 자주 어긋나는 지점"},
+system:{name:"시스템형",color:"#58a6ff",tag:"개인 능력이 조직 역량으로 전환된, 가장 희귀한 상태입니다.",
+risk:"시스템이 잘 작동할 때의 함정은 <strong>과신</strong>입니다. 도구가 바뀌면 기존 시스템이 경직으로 변합니다. 프롬프트와 체크리스트를 \"완성본\"이 아니라 \"이번 분기 버전\"으로 취급하세요. 월 1회, 낡은 규칙을 걷어내는 시간이 필요합니다.",
+act:"<strong>월 1회 시스템 재검토 시간을 잡으세요.</strong> 어떤 프롬프트가 더 이상 쓸모없는지, 어떤 검수 항목이 중복인지 확인합니다. 시스템을 만드는 것보다 유지하는 것이 더 어렵습니다.",
+ch:"7장 · AI를 업무에 붙일 때 자주 어긋나는 지점"}
 };
-
-let currentQ = 0;
-let answers = [];
-let scores = { T:0, P:0, V:0, S:0 };
-
-function startTest() {
-  currentQ = 0;
-  answers = [];
-  scores = { T:0, P:0, V:0, S:0 };
-  show('screen-question');
-  renderQuestion();
-}
-
-function renderQuestion() {
-  const q = QUESTIONS[currentQ];
-  const total = QUESTIONS.length;
-  const pct = Math.round((currentQ / total) * 100);
-
-  document.getElementById('prog-text').textContent = currentQ + 1 + ' / ' + total;
-  document.getElementById('prog-pct').textContent = pct + '%';
-  document.getElementById('prog-fill').style.width = pct + '%';
-  document.getElementById('q-num').textContent = 'QUESTION ' + String(currentQ + 1).padStart(2, '0');
-
-  var qText = document.getElementById('q-text');
-  qText.innerHTML = q.text + (q.scenario ? '<span class="scenario">' + q.scenario + '</span>' : '');
-
-  var choicesEl = document.getElementById('choices');
-  choicesEl.innerHTML = '';
-  q.choices.forEach(function(c, i) {
-    var div = document.createElement('div');
-    div.className = 'choice';
-    div.innerHTML = '<span class="marker"></span><span>' + c.text + '</span>';
-    div.onclick = function() { selectChoice(i, div); };
-    choicesEl.appendChild(div);
-  });
-}
-
-function selectChoice(idx, el) {
-  document.querySelectorAll('.choice').forEach(function(c) { c.classList.remove('selected'); });
-  el.classList.add('selected');
-
-  answers[currentQ] = idx;
-
-  setTimeout(function() {
-    currentQ++;
-    if (currentQ < QUESTIONS.length) {
-      renderQuestion();
-    } else {
-      calculateResult();
-    }
-  }, 300);
-}
-
-function calculateResult() {
-  scores = { T:0, P:0, V:0, S:0 };
-  answers.forEach(function(ansIdx, qIdx) {
-    var w = QUESTIONS[qIdx].choices[ansIdx].w;
-    for (var axis in w) { scores[axis] += w[axis]; }
-  });
-
-  var type = null;
-  var order = ['potential', 'velocity', 'craft', 'system'];
-  for (var i = 0; i < order.length; i++) {
-    if (TYPES[order[i]].condition(scores)) { type = order[i]; break; }
-  }
-  if (!type) {
-    var minAxis = Object.keys(scores).sort(function(a,b) { return scores[a] - scores[b]; })[0];
-    if (minAxis === 'T') type = 'potential';
-    else if (minAxis === 'V') type = 'velocity';
-    else if (minAxis === 'S') type = 'craft';
-    else type = 'system';
-  }
-
-  renderResult(type);
-}
-
-function renderResult(typeKey) {
-  var t = TYPES[typeKey];
-  show('screen-result');
-
-  var axisNames = { T:'도구', P:'프로세스', V:'검수', S:'확산' };
-  var scoreBars = '';
-  ['T','P','V','S'].forEach(function(axis) {
-    var pct = Math.round((scores[axis] / MAX[axis]) * 100);
-    scoreBars += '<div class="score-row" data-axis="' + axis + '">' +
-      '<span class="score-label">' + axisNames[axis] + '</span>' +
-      '<div class="score-track"><div class="score-fill" data-target="' + pct + '"></div></div>' +
-      '<span class="score-value">' + scores[axis] + '/' + MAX[axis] + '</span>' +
-      '</div>';
-  });
-
-  document.getElementById('result-content').innerHTML =
-    '<span class="result-type-badge" style="background:' + t.color + '22;color:' + t.color + ';border:1px solid ' + t.color + '55">YOUR TYPE</span>' +
-    '<div class="result-title">' + t.name + '</div>' +
-    '<p class="result-tagline">' + t.tagline + '</p>' +
-    '<div class="score-section">' + scoreBars + '</div>' +
-    '<div class="insight-card">' +
-      '<div class="insight-label">⚠️ 가장 위험한 함정</div>' +
-      '<div class="insight-body">' + t.risk + '</div>' +
-    '</div>' +
-    '<div class="insight-card action">' +
-      '<div class="insight-label">→ 이번 주 할 일</div>' +
-      '<div class="insight-body">' + t.action + '</div>' +
-    '</div>' +
-    '<div class="insight-card" style="border-left-color:' + t.color + '">' +
-      '<div class="insight-label" style="color:' + t.color + '">📖 더 깊이</div>' +
-      '<div class="insight-body">전자책 「AI를 업무에 붙이는 기술」<br><strong>' + t.chapter + '</strong>를 참고하세요.</div>' +
-    '</div>' +
-    '<div class="gate" id="email-gate">' +
-      '<h3>📰 결과 저장 + 새 자료 알림 받기</h3>' +
-      '<p>이메일을 남기면 테스트 결과 요약과 전자책 출간 소식을 보내드립니다. 스팸 없음, 언제든 취소 가능.</p>' +
-      '<form class="gate-form" onsubmit="submitEmail(event)">' +
-        '<input type="email" id="email-input" placeholder="your@email.com" required>' +
-        '<input type="text" id="name-input" placeholder="이름 또는 직군 (선택)">' +
-        '<button type="submit" id="email-btn">결과 저장하고 알림 받기</button>' +
-      '</form>' +
-      '<div class="gate-skip">' +
-        '<a href="#" class="btn-ghost btn" onclick="skipEmail();return false;">괜찮습니다, 이메일 안 남길게요</a>' +
-      '</div>' +
-    '</div>' +
-    '<div class="share-row">' +
-      '<button class="btn-ghost btn" onclick="copyLink()">링크 복사</button>' +
-      '<button class="btn-ghost btn" onclick="location.reload()">다시 하기</button>' +
-    '</div>';
-
-  setTimeout(function() {
-    document.querySelectorAll('.score-fill').forEach(function(el) {
-      el.style.width = el.dataset.target + '%';
-    });
-  }, 200);
-}
-
-async function submitEmail(e) {
-  e.preventDefault();
-  var email = document.getElementById('email-input').value.trim();
-  var name = document.getElementById('name-input').value.trim();
-  if (!email || email.indexOf('@') === -1) return;
-
-  var btn = document.getElementById('email-btn');
-  btn.disabled = true;
-  btn.textContent = '저장 중...';
-
-  var typeEntry = Object.entries(TYPES).find(function(pair) { return pair[1].condition(scores); });
-  var typeName = typeEntry ? typeEntry[1].name : '미분류';
-  var minAxis = Object.keys(scores).sort(function(a,b) { return scores[a] - scores[b]; })[0];
-
-  var payload = {
-    email: email,
-    name: name,
-    source: 'ai-readiness-test',
-    scores: scores,
-    weakest: minAxis,
-    type: typeName,
-    consent: true,
-  };
-
-  try {
-    var resp = await fetch('https://aiee.app/webhook/ai-lead', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload),
-    });
-    if (resp.ok) {
-      btn.textContent = '✓ 완료! 결과를 보내드렸습니다.';
-      setTimeout(function() { document.getElementById('email-gate').classList.add('hidden'); }, 1500);
-      return;
-    }
-  } catch (err) {}
-
-  var subject = encodeURIComponent('[AI 준비도 테스트] 결과 저장');
-  var body = encodeURIComponent('이메일: ' + email + '\n이름/직군: ' + name + '\n유형: ' + typeName + '\n점수: T' + scores.T + ' P' + scores.P + ' V' + scores.V + ' S' + scores.S + '\n가장 낮은 축: ' + minAxis);
-  window.location.href = 'mailto:aieeiee030303@gmail.com?subject=' + subject + '&body=' + body;
-  btn.textContent = '✓ 메일로 전송 중...';
-  setTimeout(function() { document.getElementById('email-gate').classList.add('hidden'); }, 2000);
-}
-
-function skipEmail() {
-  document.getElementById('email-gate').classList.add('hidden');
-}
-
-function copyLink() {
-  navigator.clipboard.writeText(window.location.href).then(function() {
-    alert('링크가 복사되었습니다.');
-  });
-}
-
-function show(id) {
-  ['screen-start', 'screen-question', 'screen-result'].forEach(function(s) {
-    document.getElementById(s).classList.add('hidden');
-  });
-  document.getElementById(id).classList.remove('hidden');
-}
+var MAX={T:8,P:18,V:14,S:12};
+var MIN={T:-2,P:-4,V:-5,S:-2};
+var cur=0,ans=[],sc={T:0,P:0,V:0,S:0};
+function startTest(){cur=0;ans=[];sc={T:0,P:0,V:0,S:0};show("s-q");render()}
+function render(){
+var q=Q[cur],tot=Q.length,pct=Math.round(cur/tot*100);
+g("pt").textContent=(cur+1)+" / "+tot;
+g("pp").textContent=pct+"%";
+g("pf").style.width=pct+"%";
+g("qn").textContent="QUESTION "+String(cur+1).padStart(2,"0");
+g("qt").textContent=q.text;
+g("qs").innerHTML=q.scene||"";
+g("qs").style.display=q.scene?"block":"none";
+var c=g("qc");c.innerHTML="";
+q.c.forEach(function(o,i){var d=document.createElement("div");d.className="choice";
+d.innerHTML='<span class="mk"></span><span>'+o.t+"</span>";
+d.onclick=function(){pick(i,d)};c.appendChild(d)})}
+function pick(i,el){
+document.querySelectorAll(".choice").forEach(function(c){c.classList.remove("sel")});
+el.classList.add("sel");ans[cur]=i;
+setTimeout(function(){cur++;if(cur<Q.length)render();else calc()},300)}
+function calc(){
+sc={T:0,P:0,V:0,S:0};
+ans.forEach(function(a,qi){var w=Q[qi].c[a].w;for(var k in w)sc[k]+=w[k]});
+var type;
+if(sc.T>=2&&sc.P>=2&&sc.V>=2&&sc.S>=2)type="system";
+else{
+var negs={};["T","P","V","S"].forEach(function(a){if(sc[a]<0)negs[a]=sc[a]});
+var keys=Object.keys(negs);
+if(keys.length>0){
+keys.sort(function(a,b){return negs[a]-negs[b]});
+var worst=keys[0];
+if(worst==="V")type="velocity";
+else if(worst==="S")type="craft";
+else if(worst==="P")type="overconfidence";
+else type="potential"}
+else{var lo=["T","P","V","S"].sort(function(a,b){return sc[a]-sc[b]})[0];
+if(lo==="T")type="potential";else if(lo==="V")type="velocity";else if(lo==="S")type="craft";else type="overconfidence"}}
+renderResult(type)}
+function renderResult(tk){
+var t=TYPES[tk];show("s-r");
+var an={T:"도구",P:"프로세스",V:"검수",S:"확산"};
+var sb="";
+["T","P","V","S"].forEach(function(a){
+var pct=Math.max(0,Math.round((sc[a]-MIN[a])/(MAX[a]-MIN[a])*100));
+var cls=sc[a]<0?"sval neg":"sval";
+sb+='<div class="srow" data-axis="'+a+'"><span class="slabel">'+an[a]+'</span><div class="strack"><div class="sfill" data-t="'+pct+'"></div></div><span class="'+cls+'">'+(sc[a]>=0?"+":"")+sc[a]+"</span></div>"});
+g("rc").innerHTML='<span class="rbadge" style="background:'+t.color+'22;color:'+t.color+';border:1px solid '+t.color+'55">YOUR TYPE</span><div class="rtitle">'+t.name+'</div><p class="rtag">'+t.tag+'</p><div class="score-box">'+sb+'</div><div class="icard"><div class="ilabel">⚠️ 가장 위험한 함정</div><div class="ibody">'+t.risk+'</div></div><div class="icard act"><div class="ilabel">→ 이번 주 할 일</div><div class="ibody">'+t.act+'</div></div><div class="icard book"><div class="ilabel">📖 더 깊이</div><div class="ibody">전자책 「AI를 업무에 붙이는 기술」<br><strong>'+t.ch+'</strong>를 참고하세요.</div></div><div class="gate" id="eg"><h3>📰 결과 저장 + 새 자료 알림 받기</h3><p>이메일을 남기면 테스트 결과 요약과 전자책 출간 소식을 보내드립니다. 스팸 없음, 언제든 취소 가능.</p><form class="gform" onsubmit="submitEmail(event)"><input type="email" id="ei" placeholder="your@email.com" required><input type="text" id="ni" placeholder="이름 또는 직군 (선택)"><button type="submit" id="eb">결과 저장하고 알림 받기</button></form><div class="gskip"><a href="#" class="btn btn-sm btn-ghost" onclick="skipE();return false;">괜찮습니다, 이메일 안 남길게요</a></div></div><div class="share-row"><button class="btn btn-sm btn-ghost" onclick="copyLink()">링크 복사</button><button class="btn btn-sm btn-ghost" onclick="location.reload()">다시 하기</button></div>';
+setTimeout(function(){document.querySelectorAll(".sfill").forEach(function(e){e.style.width=e.dataset.t+"%"})},200)}
+async function submitEmail(e){e.preventDefault();var em=g("ei").value.trim(),nm=g("ni").value.trim();if(!em||em.indexOf("@")===-1)return;var b=g("eb");b.disabled=true;b.textContent="저장 중...";
+var te=Object.entries(TYPES).find(function(p){return p[1].condition?false:false});
+var tn=TYPES.overconfidence.name;
+for(var k in TYPES){if(classifyType(sc)===k){tn=TYPES[k].name;break}}
+var ma=["T","P","V","S"].sort(function(a,b){return sc[a]-sc[b]})[0];
+var pl={email:em,name:nm,source:"ai-readiness-v3",scores:sc,weakest:ma,type:tn,consent:true};
+try{var r=await fetch("https://aiee.app/webhook/ai-lead",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(pl)});
+if(r.ok){b.textContent="✓ 완료! 결과를 보내드렸습니다.";setTimeout(function(){g("eg").classList.add("hidden")},1500);return}}catch(er){}
+var s=encodeURIComponent("[AI 진단] 결과 저장");var bd=encodeURIComponent("이메일: "+em+"\n이름/직군: "+nm+"\n유형: "+tn+"\n점수: T"+sc.T+" P"+sc.P+" V"+sc.V+" S"+sc.S+"\n가장 낮은 축: "+ma);
+window.location.href="mailto:aieeiee030303@gmail.com?subject="+s+"&body="+bd;
+b.textContent="✓ 메일로 전송 중...";setTimeout(function(){g("eg").classList.add("hidden")},2000)}
+function classifyType(s){
+if(s.T>=2&&s.P>=2&&s.V>=2&&s.S>=2)return"system";
+var negs={};["T","P","V","S"].forEach(function(a){if(s[a]<0)negs[a]=s[a]});
+var keys=Object.keys(negs);
+if(keys.length>0){keys.sort(function(a,b){return negs[a]-negs[b]});
+var w=keys[0];if(w==="V")return"velocity";else if(w==="S")return"craft";else if(w==="P")return"overconfidence";else return"potential"}
+var lo=["T","P","V","S"].sort(function(a,b){return s[a]-s[b]})[0];
+if(lo==="T")return"potential";else if(lo==="V")return"velocity";else if(lo==="S")return"craft";else return"overconfidence"}
+function skipE(){g("eg").classList.add("hidden")}
+function copyLink(){navigator.clipboard.writeText(window.location.href).then(function(){alert("링크가 복사되었습니다.")})}
+function g(id){return document.getElementById(id)}
+function show(id){["s-start","s-q","s-r"].forEach(function(s){g(s).classList.add("hidden")});g(id).classList.remove("hidden")}
 </script>
 </body>
 </html>
