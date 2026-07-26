@@ -1,138 +1,140 @@
 ---
 title: 함께 일하기
-description: 업무에 AI를 도입하고 싶지만 어디서부터 시작해야 할지 모르겠다면. 강의가 아닌 작동하는 시스템을 구축합니다.
+description: 무료 자료로 먼저 확인하고, 전자책과 온라인 강의로 직접 적용해보세요. 더 깊은 지원은 그다음에 설계합니다.
 cssclass: work
 publish: true
 lang: ko
 tags:
-  - 서비스
-  - AI구축
+  - 전자책
+  - 온라인강의
+  - 멤버십
 ---
 
 <div class="ewa-work" aria-label="함께 일하기">
 
 <section class="ewa-work-hero">
-  <span class="ewa-kicker">WORK WITH ME / AI OPERATIONS</span>
-  <h1>강의가 아닙니다.<br><em>작동하는 시스템</em>을 구축합니다.</h1>
-  <p>AI 강의를 받았는데 업무가 바뀌지 않았다면, ChatGPT를 써봤는데 "뭔가 더 잘할 수 있을 것 같은데"라면. 문제는 지식이 아니라 시스템의 부재입니다.</p>
+  <span class="ewa-kicker">일하는 AI / WORK WITH ME</span>
+  <h1>처음부터 컨설팅을<br><em>팔지 않습니다.</em></h1>
+  <p>먼저 무료 자료로 업무를 점검하고, 전자책과 짧은 강의로 직접 적용해보세요. 그다음에도 팀의 흐름을 함께 설계할 필요가 있을 때만 멤버십과 컨설팅으로 넘어갑니다.</p>
   <div class="ewa-work-actions">
-    <a class="ewa-primary-action" href="#ewa-diagnostic">무료 진단 신청하기 <span aria-hidden="true">→</span></a>
-    <a class="ewa-secondary-action" href="#ewa-packages">패키지 보기</a>
+    <a class="ewa-primary-action" href="#ewa-free-guide">무료 점검표 받기 <span aria-hidden="true">→</span></a>
+    <a class="ewa-secondary-action" href="#ewa-products">제품 보기</a>
   </div>
 </section>
 
 <section class="ewa-work-gap" aria-labelledby="ewa-gap-title">
   <div class="ewa-section-heading">
-    <span class="ewa-section-kicker">WHY THIS IS DIFFERENT</span>
-    <h2 id="ewa-gap-title">교육과 구축 사이의 빈 공간</h2>
+    <span class="ewa-section-kicker">WHY THIS ORDER</span>
+    <h2 id="ewa-gap-title">신뢰가 쌓이는 순서대로 갑니다</h2>
+    <p>AI를 한 번 써봤다고 업무를 맡기지는 않습니다. 작은 결과물을 먼저 확인하고, 다음 단계로 올라갈 수 있게 만들었습니다.</p>
   </div>
   <div class="ewa-gap-grid">
     <div class="ewa-gap-card ewa-gap-card--problem">
-      <span class="ewa-gap-label">기존 방식</span>
-      <h3>강의·교육</h3>
-      <p>"AI 좋다"고 말하지만 업무는 그대로. 지식은 전달되지만 시스템은 만들어지지 않는다.</p>
+      <span class="ewa-gap-label">먼저 확인</span>
+      <h3>무료 자료</h3>
+      <p>반복 업무 하나를 골라 입력·출력·검수 지점을 직접 적어봅니다.</p>
       <ul>
-        <li>1회성 교육 후 방치</li>
-        <li>성과 측정 불가</li>
-        <li>다음 달 수입 0원</li>
+        <li>AI 업무 점검표 PDF</li>
+        <li>실무 글 925편 이상</li>
+        <li>일하는 AI 영상 채널</li>
       </ul>
     </div>
-    <div class="ewa-gap-bridge" aria-hidden="true">
-      <span>→</span>
-    </div>
+    <div class="ewa-gap-bridge" aria-hidden="true"><span>→</span></div>
     <div class="ewa-gap-card ewa-gap-card--solution">
-      <span class="ewa-gap-label">이 방식</span>
-      <h3>시스템 구축 + 운영</h3>
-      <p>진단으로 시작해 작동하는 워크플로를 만들고, 월 단위로 운영한다. ROI가 숫자로 보인다.</p>
+      <span class="ewa-gap-label">직접 적용</span>
+      <h3>전자책·온라인 강의</h3>
+      <p>회의록·엑셀·자료 정리처럼 범위가 분명한 업무부터 결과물을 만들어봅니다.</p>
       <ul>
-        <li>업무 흐름 직접 분석</li>
-        <li>구축 → 교육 → 운영</li>
-        <li>월 단위 절감 효과 측정</li>
+        <li>복사해 쓸 수 있는 프롬프트</li>
+        <li>사람이 확인할 검수 기준</li>
+        <li>다음 실행을 위한 기록</li>
       </ul>
     </div>
   </div>
 </section>
 
-<section class="ewa-work-packages" id="ewa-packages" aria-labelledby="ewa-packages-title">
+<section class="ewa-work-free" id="ewa-free-guide" aria-labelledby="ewa-free-title">
+  <div class="ewa-free-inner">
+    <div>
+      <span class="ewa-section-kicker">FREE GUIDE</span>
+      <h2 id="ewa-free-title">AI 업무 점검표</h2>
+      <p>도구를 고르기 전에 반복 업무 하나를 해부하는 4쪽짜리 PDF입니다. 입력 자료, AI에 맡길 구간, 사람이 승인할 지점, 다음 실행 기록을 한 장씩 정리합니다.</p>
+    </div>
+    <div class="ewa-free-actions">
+      <a class="ewa-primary-action" href="/assets/ai-work-checklist.pdf" download>PDF 무료 받기 <span aria-hidden="true">↓</span></a>
+      <a class="ewa-secondary-action" href="mailto:aieeiee030303@gmail.com?subject=[AI 업무 자료] 구독 신청&body=받고 싶은 자료:%20AI 업무 점검표%0A이메일:%20">새 자료 알림 신청</a>
+    </div>
+  </div>
+</section>
+
+<section class="ewa-work-packages" id="ewa-products" aria-labelledby="ewa-products-title">
   <div class="ewa-section-heading">
-    <span class="ewa-section-kicker">PRODUCTIZED SERVICES</span>
-    <h2 id="ewa-packages-title">3가지 구축 패키지</h2>
-    <p>"맞춤형 컨설팅"이라는 이름으로 비싸게 파는 것을, 명확한 패키지로 제공합니다.</p>
+    <span class="ewa-section-kicker">PRODUCT LADDER</span>
+    <h2 id="ewa-products-title">작은 제품부터 시작합니다</h2>
+    <p>각 제품은 다음 단계로 올라가기 전에 실제로 써볼 수 있는 크기로 만듭니다. 가격은 베타 판매 때 확정하고, 초기 구매자의 사용 결과를 반영해 조정합니다.</p>
   </div>
   <div class="ewa-package-grid">
 
     <article class="ewa-package-card ewa-package-card--blue">
       <header>
-        <span class="ewa-package-num">A</span>
-        <h3>콘텐츠 생산 라인</h3>
-        <p class="ewa-package-target">마케팅 대행사, 미디어 스타트업, 콘텐츠 중심 기업</p>
+        <span class="ewa-package-num">01</span>
+        <h3>전자책</h3>
+        <p class="ewa-package-target">혼자 업무 하나부터 바꾸고 싶은 사람</p>
       </header>
       <div class="ewa-package-body">
-        <p class="ewa-package-what">블로그·뉴스레터·SNS 콘텐츠를 반자동으로 생산하는 워크플로를 구축합니다. n8n 자동화 + 프롬프트 라이브러리 + 품질 검수 프로세스까지.</p>
-        <div class="ewa-package-roi">
-          <span class="ewa-roi-label">기대 효과</span>
-          <strong>제작 시간 60–70% 단축</strong>
-        </div>
+        <p class="ewa-package-what"><strong>「AI를 업무에 붙이는 기술」</strong>. 회의록·엑셀·인포그래픽·NotebookLM을 사례로 업무를 해체하고, 프롬프트를 붙이고, 결과를 검수하는 과정을 설명합니다.</p>
         <ul class="ewa-package-includes">
-          <li>n8n 워크플로 구축</li>
-          <li>프롬프트 라이브러리 (브랜드 톤 맞춤)</li>
-          <li>품질 검수 체크리스트</li>
-          <li>팀 교육 1회 + 운영 매뉴얼</li>
+          <li>실무 프레임워크</li>
+          <li>업무별 프롬프트</li>
+          <li>검수 체크리스트</li>
+          <li>7일 적용표</li>
         </ul>
       </div>
       <footer class="ewa-package-price">
-        <div><span>구축</span><strong>300–500만 원</strong><small>2–3주 / 50% 선급</small></div>
-        <div><span>월 운영</span><strong>100–150만 원</strong><small>유지보수 + 최적화</small></div>
+        <div><span>베타 가격</span><strong>2만 원대</strong><small>출간 전 신청자 우선 안내</small></div>
+        <div><span>형태</span><strong>PDF</strong><small>업데이트 1회 포함</small></div>
       </footer>
     </article>
 
     <article class="ewa-package-card ewa-package-card--green">
       <header>
-        <span class="ewa-package-num">B</span>
-        <h3>고객 응대 자동화</h3>
-        <p class="ewa-package-target">이커머스, 교육기관, 서비스업 (반복 문의 많은 업종)</p>
+        <span class="ewa-package-num">02</span>
+        <h3>온라인 단과</h3>
+        <p class="ewa-package-target">화면을 따라 직접 결과물을 만들고 싶은 사람</p>
       </header>
       <div class="ewa-package-body">
-        <p class="ewa-package-what">지식베이스 구축 + 1차 AI 응답 시스템 + 인간 검수 워크플로. 반복 질문을 AI가 처리하고, 복잡한 문의만 사람에게 전달합니다.</p>
-        <div class="ewa-package-roi">
-          <span class="ewa-roi-label">기대 효과</span>
-          <strong>CS 인건비 월 150–250만 원 절감</strong>
-        </div>
+        <p class="ewa-package-what">전자책의 한 주제를 골라 실제 입력부터 검수까지 따라갑니다. 먼저 회의록·보고서 과정으로 시작하고, 수강생 피드백을 바탕으로 다음 과정을 엽니다.</p>
         <ul class="ewa-package-includes">
-          <li>지식베이스 구축 (기존 FAQ 학습)</li>
-          <li>1차 응답 봇 + 에스컬레이션 룰</li>
-          <li>응답 품질 모니터링 대시보드</li>
-          <li>팀 교육 1회 + 운영 매뉴얼</li>
+          <li>60~90분 녹화 수업</li>
+          <li>실습용 비식별 자료</li>
+          <li>프롬프트·검수표</li>
+          <li>완료 결과물 예시</li>
         </ul>
       </div>
       <footer class="ewa-package-price">
-        <div><span>구축</span><strong>250–400만 원</strong><small>2–3주 / 50% 선급</small></div>
-        <div><span>월 운영</span><strong>80–120만 원</strong><small>유지보수 + 최적화</small></div>
+        <div><span>베타 가격</span><strong>4만 원대</strong><small>첫 수강생 피드백 반영</small></div>
+        <div><span>형태</span><strong>단과</strong><small>질문 수집 후 보강</small></div>
       </footer>
     </article>
 
     <article class="ewa-package-card ewa-package-card--rose">
       <header>
-        <span class="ewa-package-num">C</span>
-        <h3>문서·보고서 자동화</h3>
-        <p class="ewa-package-target">컨설팅펌, 회계법인, 정기 보고서가 많은 기업</p>
+        <span class="ewa-package-num">03</span>
+        <h3>멤버십 대기자</h3>
+        <p class="ewa-package-target">매주 적용하고 함께 검토하고 싶은 사람</p>
       </header>
       <div class="ewa-package-body">
-        <p class="ewa-package-what">회의록·정기 보고서·데이터 분석 리포트를 자동 생성하는 파이프라인을 구축합니다. 매주 반복되는 문서 작업을 시스템으로 대체합니다.</p>
-        <div class="ewa-package-roi">
-          <span class="ewa-roi-label">기대 효과</span>
-          <strong>주당 10–15시간 절감</strong>
-        </div>
+        <p class="ewa-package-what">주간 업무 사례와 적용 템플릿, 월 1회 라이브 Q&A를 준비합니다. 먼저 전자책과 강의를 사용한 사람의 질문을 기준으로 범위를 정합니다.</p>
         <ul class="ewa-package-includes">
-          <li>문서 템플릿 + AI 생성 파이프라인</li>
-          <li>데이터 분석 자동화 (엑셀/CSV 연동)</li>
-          <li>회의록 → 액션 아이템 추출</li>
-          <li>팀 교육 1회 + 운영 매뉴얼</li>
+          <li>주간 실무 사례</li>
+          <li>재사용 템플릿</li>
+          <li>월 1회 적용 검토</li>
+          <li>초기 멤버 의견 반영</li>
         </ul>
       </div>
       <footer class="ewa-package-price">
-        <div><span>구축</span><strong>250–400만 원</strong><small>2–3주 / 50% 선급</small></div>
-        <div><span>월 운영</span><strong>80–120만 원</strong><small>유지보수 + 최적화</small></div>
+        <div><span>예정</span><strong>월 2~4만 원</strong><small>정식 출시 전 대기자 모집</small></div>
+        <div><span>상태</span><strong>준비 중</strong><small>범위는 인터뷰 후 확정</small></div>
       </footer>
     </article>
 
@@ -141,70 +143,42 @@ tags:
 
 <section class="ewa-work-process" aria-labelledby="ewa-process-title">
   <div class="ewa-section-heading">
-    <span class="ewa-section-kicker">HOW IT WORKS</span>
-    <h2 id="ewa-process-title">진단에서 운영까지</h2>
+    <span class="ewa-section-kicker">WHEN CONSULTING MAKES SENSE</span>
+    <h2 id="ewa-process-title">컨설팅은 마지막 단계입니다</h2>
   </div>
   <div class="ewa-process-flow">
     <div class="ewa-process-step">
       <span class="ewa-step-num">01</span>
-      <h3>무료 진단</h3>
-      <p>1시간 인터뷰로 현재 업무 흐름을 분석하고 AI 적용 지점 3–5개를 도출합니다. 진단 리포트는 가져가셔도 됩니다.</p>
-      <small>소요: 3–5시간 (미팅 + 분석)</small>
+      <h3>직접 적용</h3>
+      <p>전자책이나 강의로 한 가지 반복 업무를 직접 바꿔봅니다.</p>
     </div>
     <div class="ewa-process-arrow" aria-hidden="true">→</div>
     <div class="ewa-process-step">
       <span class="ewa-step-num">02</span>
-      <h3>시스템 구축</h3>
-      <p>진단 결과를 바탕으로 워크플로를 설계하고 구축합니다. 작동하는 시스템 + 팀 교육 + 운영 매뉴얼을 인도합니다.</p>
-      <small>소요: 2–3주 / 착수금 50% 선급</small>
+      <h3>질문이 남음</h3>
+      <p>팀의 승인 기준, 자료 흐름, 반복 오류처럼 혼자 해결하기 어려운 지점을 확인합니다.</p>
     </div>
     <div class="ewa-process-arrow" aria-hidden="true">→</div>
     <div class="ewa-process-step">
       <span class="ewa-step-num">03</span>
-      <h3>월 운영</h3>
-      <p>구축된 시스템을 유지보수하고 매월 최적화 리포트를 제공합니다. 프롬프트 업데이트·오류 대응·효과 측정까지.</p>
-      <small>월 8–15시간 투입</small>
+      <h3>함께 설계</h3>
+      <p>그때 업무 범위와 결과물을 정해 컨설팅 또는 워크숍을 제안합니다.</p>
     </div>
   </div>
 </section>
 
-<section class="ewa-work-diagnostic" id="ewa-diagnostic" aria-labelledby="ewa-diagnostic-title">
+<section class="ewa-work-diagnostic" id="ewa-contact" aria-labelledby="ewa-contact-title">
   <div class="ewa-diagnostic-inner">
-    <span class="ewa-section-kicker">FREE DIAGNOSTIC / LIMITED</span>
-    <h2 id="ewa-diagnostic-title">무료 진단 신청</h2>
-    <p>내 업무에 AI가 어디에 효과적인지, 1시간 미팅으로 구체적 절감 효과를 계산해 드립니다. 진단 리포트는 귀사에서 그대로 활용하셔도 됩니다.</p>
+    <span class="ewa-section-kicker">EARLY ACCESS</span>
+    <h2 id="ewa-contact-title">전자책·강의 소식을 먼저 받기</h2>
+    <p>출간 전 베타 가격, 무료 자료 업데이트, 온라인 단과 모집 소식을 이메일로 안내합니다. 아직 완성되지 않은 멤버십과 컨설팅을 먼저 판매하지는 않습니다.</p>
     <div class="ewa-diagnostic-actions">
-      <a class="ewa-primary-action ewa-primary-action--large" href="mailto:aieeiee030303@gmail.com?subject=[AI 진단 신청] 회사명&body=회사명:%0A담당자명:%0A주요 업무:%0A현재 AI 사용 여부:%0A궁금한 점:">진단 신청하기 <span aria-hidden="true">→</span></a>
-      <a class="ewa-secondary-action" href="mailto:aieeiee030303@gmail.com?subject=[AI 진단 신청] 회사명&body=회사명:%0A담당자명:%0A주요 업무:%0A현재 AI 사용 여부:%0A궁금한 점:">이메일로 문의하기</a>
+      <a class="ewa-primary-action ewa-primary-action--large" href="mailto:aieeiee030303@gmail.com?subject=[일하는 AI] 얼리 액세스 신청&body=이메일:%0A관심 있는 주제:%0A현재 바꾸고 싶은 업무:">이메일로 신청하기 <span aria-hidden="true">→</span></a>
+      <a class="ewa-secondary-action" href="/assets/ai-work-checklist.pdf" download>점검표 먼저 받기</a>
     </div>
     <div class="ewa-diagnostic-note">
-      <small>※ 진단은 무료입니다. 구축 계약으로 이어지지 않아도 리포트는 가져가셔도 됩니다. 진단 내용을 바탕으로 영업 강요는 하지 않습니다.</small>
+      <small>메일 수집 자동화는 n8n 연결을 준비 중입니다. 그 전까지는 위 신청 메일로만 받습니다.</small>
     </div>
-  </div>
-</section>
-
-<section class="ewa-work-faq" aria-labelledby="ewa-faq-title">
-  <div class="ewa-section-heading">
-    <span class="ewa-section-kicker">FAQ</span>
-    <h2 id="ewa-faq-title">자주 묻는 질문</h2>
-  </div>
-  <div class="ewa-faq-list">
-    <details class="ewa-faq-item">
-      <summary>우리 회사는 AI를 전혀 안 쓰고 있는데 가능한가요?</summary>
-      <p>오히려 그런 곳이 가장 효과가 큽니다. 기존에 아무것도 없는 상태에서 시작하면, 기존 도구와 충돌 없이 깨끗하게 시스템을 구축할 수 있습니다.</p>
-    </details>
-    <details class="ewa-faq-item">
-      <summary>구축에 필요한 도구 비용은 별도인가요?</summary>
-      <p>n8n(오픈소스)은 자체 호스팅 시 무료, 클라우드는 월 $20–50입니다. ChatGPT/Claude API 비용은 사용량에 따라 월 5–20만 원 수준입니다. 모든 도구 비용은 진단 시 투명하게 공개합니다.</p>
-    </details>
-    <details class="ewa-faq-item">
-      <summary>구축 후 고장 나면 어떡하나요?</summary>
-      <p>월 운영 계약을 하면 유지보수가 포함됩니다. 별도 계약 없이도 구축 후 2주간 무상 보증 기간이 있습니다. 시스템 소스코드와 매뉴얼을 모두 전달하므로, 내부에서 유지보수하실 수도 있습니다.</p>
-    </details>
-    <details class="ewa-faq-item">
-      <summary>소규모 기업도 가능한가요?</summary>
-      <p>10인 이상 기업을 권장합니다. 그 이하면 구축 비용 대비 절감 효과가 작을 수 있습니다. 다만 반복 업무가 집중되어 있다면 5인 이상도 가능하니 진단을 통해 판단해 드립니다.</p>
-    </details>
   </div>
 </section>
 
