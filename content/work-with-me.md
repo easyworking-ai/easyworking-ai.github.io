@@ -17,7 +17,7 @@ tags:
   <h1>처음부터 컨설팅을<br><em>팔지 않습니다.</em></h1>
   <p>먼저 무료 자료로 업무를 점검하고, 전자책과 짧은 강의로 직접 적용해보세요. 그다음에도 팀의 흐름을 함께 설계할 필요가 있을 때만 멤버십과 컨설팅으로 넘어갑니다.</p>
   <div class="ewa-work-actions">
-    <a class="ewa-primary-action" href="#ewa-free-guide">무료 점검표 받기 <span aria-hidden="true">→</span></a>
+    <a class="ewa-primary-action" href="/static/ai-test/">무료 진단 테스트 하기 <span aria-hidden="true">→</span></a>
     <a class="ewa-secondary-action" href="#ewa-products">제품 보기</a>
   </div>
 </section>
