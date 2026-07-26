@@ -18,40 +18,94 @@ const SiteHeader: QuartzComponent = ({ allFiles }: QuartzComponentProps) => {
         file.frontmatter?.title,
       )
     })
-    .map((file) => ({ title: itemTitle(file), slug: `/${file.slug}`, description: String(file.frontmatter?.description ?? "") }))
+    .map((file) => ({
+      title: itemTitle(file),
+      slug: `/${file.slug}`,
+      description: String(file.frontmatter?.description ?? ""),
+    }))
 
   return (
     <div class="ewa-site-header" data-ewa-header>
       <a class="ewa-brand" href="/" aria-label="일하는 AI 홈">
-        <span class="ewa-brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
-        <span><strong>일하는 AI</strong><small>FIELD NOTES / 2026</small></span>
+        <span class="ewa-brand-mark" aria-hidden="true">
+          <i></i>
+          <i></i>
+          <i></i>
+        </span>
+        <span>
+          <strong>일하는 AI</strong>
+          <small>FIELD NOTES / 2026</small>
+        </span>
       </a>
       <nav class="ewa-main-nav" aria-label="주요 메뉴">
         <details class="ewa-nav-menu">
-          <summary>Explore <span aria-hidden="true">+</span></summary>
+          <summary>
+            Explore <span aria-hidden="true">+</span>
+          </summary>
           <div class="ewa-nav-panel">
-            <a href="/wiki/concepts/agent-runtime-reliability"><b>개념</b><small>작동 원리와 실행 구조</small></a>
-            <a href="/tags/ai-agent"><b>연구</b><small>근거와 출처를 따라가기</small></a>
-            <a href="/tags/agent-operations"><b>운영</b><small>현업에서 재현하는 방법</small></a>
-            <a href="/tags/ai-infrastructure"><b>도구</b><small>작업 환경과 기술 선택</small></a>
+            <a href="/wiki/concepts/agent-runtime-reliability">
+              <b>개념</b>
+              <small>작동 원리와 실행 구조</small>
+            </a>
+            <a href="/tags/ai-agent">
+              <b>연구</b>
+              <small>근거와 출처를 따라가기</small>
+            </a>
+            <a href="/tags/agent-operations">
+              <b>운영</b>
+              <small>현업에서 재현하는 방법</small>
+            </a>
+            <a href="/tags/ai-infrastructure">
+              <b>도구</b>
+              <small>작업 환경과 기술 선택</small>
+            </a>
           </div>
         </details>
         <a href="/wiki/concepts/agent-runtime-reliability">첫 번째 글</a>
         <a href="#ewa-content-map">사이트 지도</a>
+        <a href="/work-with-me" class="ewa-nav-work">
+          함께 일하기
+        </a>
       </nav>
       <div class="ewa-header-actions">
         <div class="ewa-search" data-ewa-search>
-          <button type="button" class="ewa-icon-button" data-ewa-search-trigger aria-label="검색 열기">⌕<span>Search</span></button>
+          <button
+            type="button"
+            class="ewa-icon-button"
+            data-ewa-search-trigger
+            aria-label="검색 열기"
+          >
+            ⌕<span>Search</span>
+          </button>
           <div class="ewa-search-panel" data-ewa-search-panel hidden>
-            <div class="ewa-search-head"><span>SEARCH THE FIELD NOTES</span><button type="button" data-ewa-search-close aria-label="검색 닫기">Esc</button></div>
-            <input type="search" data-ewa-search-input placeholder="찾고 싶은 주제를 입력하세요" autocomplete="off" />
+            <div class="ewa-search-head">
+              <span>SEARCH THE FIELD NOTES</span>
+              <button type="button" data-ewa-search-close aria-label="검색 닫기">
+                Esc
+              </button>
+            </div>
+            <input
+              type="search"
+              data-ewa-search-input
+              placeholder="찾고 싶은 주제를 입력하세요"
+              autocomplete="off"
+            />
             <div class="ewa-search-results" data-ewa-search-results>
-              {searchItems.map((item) => <a href={item.slug} data-search-text={`${item.title} ${item.description}`}><strong>{item.title}</strong><small>{item.description}</small></a>)}
+              {searchItems.map((item) => (
+                <a href={item.slug} data-search-text={`${item.title} ${item.description}`}>
+                  <strong>{item.title}</strong>
+                  <small>{item.description}</small>
+                </a>
+              ))}
             </div>
           </div>
         </div>
-        <button type="button" class="ewa-theme-button" data-ewa-theme aria-label="다크 모드 전환"><span aria-hidden="true">◐</span></button>
-        <a class="ewa-header-cta" href="/wiki/concepts/agent-runtime-reliability">Start reading <span aria-hidden="true">↗</span></a>
+        <button type="button" class="ewa-theme-button" data-ewa-theme aria-label="다크 모드 전환">
+          <span aria-hidden="true">◐</span>
+        </button>
+        <a class="ewa-header-cta" href="/work-with-me">
+          함께 일하기 <span aria-hidden="true">↗</span>
+        </a>
       </div>
     </div>
   )

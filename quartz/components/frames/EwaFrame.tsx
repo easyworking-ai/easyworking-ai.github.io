@@ -4,12 +4,14 @@ import SiteFooterConstructor from "../SiteFooter"
 import ArticleChromeConstructor from "../ArticleChrome"
 import ArticleTocConstructor from "../ArticleToc"
 import AudioPlayerConstructor from "../AudioPlayer"
+import WorkCtaConstructor from "../WorkCta"
 
 const SiteHeader = SiteHeaderConstructor()
 const SiteFooter = SiteFooterConstructor()
 const ArticleChrome = ArticleChromeConstructor()
 const ArticleToc = ArticleTocConstructor()
 const AudioPlayer = AudioPlayerConstructor()
+const WorkCta = WorkCtaConstructor()
 
 export const EwaFrame: PageFrame = {
   name: "ewa",
@@ -22,6 +24,7 @@ export const EwaFrame: PageFrame = {
           <AudioPlayer {...componentData} />
           <ArticleToc {...componentData} />
           <Content {...componentData} />
+          <WorkCta {...componentData} />
         </main>
         <SiteFooter {...componentData} />
         <script src="/static/ewa-runtime.js" defer></script>

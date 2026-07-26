@@ -40,6 +40,7 @@ tags:
         <a class="ewa-map-node ewa-map-node--rose" href="/wiki/concepts/agent-runtime-reliability"><b>03</b><span>비교</span><small>선택 기준과 트레이드오프</small></a>
         <a class="ewa-map-node ewa-map-node--amber" href="/wiki/concepts/agent-runtime-reliability"><b>04</b><span>교육</span><small>현업에서 재현하는 방법</small></a>
         <a class="ewa-map-node ewa-map-node--violet" href="/wiki/concepts/agent-runtime-reliability"><b>05</b><span>실행</span><small>도구와 작업 환경</small></a>
+        <a class="ewa-map-node ewa-map-node--work" href="/work-with-me"><b>06</b><span>함께 일하기</span><small>AI 시스템 구축</small></a>
       </div>
     </div>
   </section>
