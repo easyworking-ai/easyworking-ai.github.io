@@ -16,8 +16,8 @@ tags:
 <div class="ewa-hero-orbit ewa-hero-orbit--two" aria-hidden="true"></div>
 <div class="ewa-hero-copy">
 <span class="ewa-kicker">EPISODE 01 · 라디오 · 8분</span>
-<h1>AI에게 일을 시켰는데<br><em>왜 내가 더 바빠졌을까?</em></h1>
-<p>회의록 요약으로 IRO와 LOOP가 묻습니다. "핵심만 요약해줘" — 왜 이 말이 문제인지.</p>
+<h1>이번 주, AI에서<br><em>가장 뜨거운 이슈 하나</em></h1>
+<p>한 주간 쏟아진 AI 뉴스 중 IRO와 LOOP가 단 하나를 골라 전달합니다. 왜 핫한지, 직장인에게 뭘 바꾸는지.</p>
 <div class="ewa-hero-meta">
 <span>🎙️ IRO × LOOP</span>
 <span>한국어 · English · 日本語</span>
