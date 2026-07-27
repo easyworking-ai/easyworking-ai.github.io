@@ -21,7 +21,6 @@ tags:
       <p>회의록 정리, 이메일 작성, 자료 요약 — 매주 하나의 업무 과제를 잡고 라디오·게임·가이드로 풉니다. 듣고, 비교하고, 복사해서 쓰면 됩니다.</p>
       <div class="ewa-hero-actions">
         <a class="ewa-primary-action" href="/this-week">이번 주 보기 <span aria-hidden="true">→</span></a>
-        <a class="ewa-secondary-action" href="/static/showdown/">AI 타격전 플레이 <span aria-hidden="true">↗</span></a>
       </div>
     </div>
     <div class="ewa-hero-signal" aria-label="현재 공개 상태">
@@ -73,47 +72,18 @@ tags:
   <section class="ewa-games-section" aria-labelledby="ewa-games-title">
     <div class="ewa-section-heading ewa-section-heading--compact">
       <div>
-        <span class="ewa-section-kicker">PLAY / 가지고 놀기</span>
-        <h2 id="ewa-games-title">직접 비교하면 빨리 배운다</h2>
+        <span class="ewa-section-kicker">MORE / 더 하기</span>
+        <h2 id="ewa-games-title">AI 눈치게임</h2>
       </div>
-      <p>강의를 또 보는 것보다, 두 AI의 답을 직접 비교하고 판단하는 게 더 빠르게 익숙해집니다.</p>
+      <p>AI가 진실을 말하는 걸까, 거짓을 말하는 걸까? 칩을 걸고 판단해보세요. 5분이면 한 판이 끝납니다.</p>
     </div>
     <div class="ewa-games-grid">
-      <a class="ewa-game-card" href="/static/showdown/">
-        <span class="ewa-game-badge">3분</span>
-        <div class="ewa-game-emoji" aria-hidden="true">⚔️</div>
-        <h3>AI 타격전</h3>
-        <p>같은 질문, 두 AI의 블라인드 대결. 더 나은 답을 고르면 모델이 공개됩니다.</p>
-      </a>
       <a class="ewa-game-card" href="/static/bluff/">
         <span class="ewa-game-badge">5분</span>
         <div class="ewa-game-emoji" aria-hidden="true">🎲</div>
-        <h3>AI 눈치게임</h3>
-        <p>AI가 진실을 말하는 걸까, 거짓을 말하는 걸까? 칩을 걸고 판단해보세요.</p>
+        <h3>AI 눈치게임 시작하기</h3>
+        <p>5라운드 동안 AI 발언의 진실과 거짓을 맞추고 칩을 딸 수 있는지 보세요.</p>
       </a>
-    </div>
-  </section>
-
-  <section class="ewa-latest-section" aria-labelledby="ewa-latest-title">
-    <div class="ewa-section-heading ewa-section-heading--compact">
-      <div>
-        <span class="ewa-section-kicker">FIELD NOTES</span>
-        <h2 id="ewa-latest-title">가이드</h2>
-      </div>
-      <a class="ewa-section-link" href="/guides">전체 가이드 <span aria-hidden="true">→</span></a>
-    </div>
-    <div class="ewa-note-grid">
-      <article class="ewa-note-card ewa-note-card--0">
-        <a class="ewa-note-media" href="/wiki/concepts/agent-runtime-reliability" aria-label="AI 에이전트 런타임 신뢰성 읽기">
-          <span>01</span><i aria-hidden="true"></i>
-        </a>
-        <div class="ewa-note-body">
-          <div class="ewa-note-meta"><time>2026년 7월</time><span>ai-agent</span></div>
-          <h3><a href="/wiki/concepts/agent-runtime-reliability">AI 에이전트는 왜 자꾸 깨질까?</a></h3>
-          <p>벤치마크 점수가 높아도 업무가 멈추는 이유와 실무에서 확인할 다섯 가지 신뢰성 기준.</p>
-          <a class="ewa-note-more" href="/wiki/concepts/agent-runtime-reliability">읽기 <span aria-hidden="true">↗</span></a>
-        </div>
-      </article>
     </div>
   </section>
 
