@@ -16,8 +16,8 @@ tags:
 <div class="ewa-hero-orbit ewa-hero-orbit--two" aria-hidden="true"></div>
 <div class="ewa-hero-copy">
 <span class="ewa-kicker">EPISODE 01 · 라디오 · 8분</span>
-<h1>AI에게 일을 시켜는데<br><em>왜 내가 더 바빠졌을까?</em></h1>
-<p>회의록 요약을 둘러싼 흔한 실수를 IRO와 LOOP가 분해합니다. "핵심만 요약해줘"가 왜 문제가 되는지, 어떤 지시가 실제로 일을 줄여주는지. 같은 메모, 두 개의 지시, 결과의 차이를 직접 비교합니다.</p>
+<h1>AI에게 일을 시켰는데<br><em>왜 내가 더 바빠졌을까?</em></h1>
+<p>회의록 요약으로 IRO와 LOOP가 묻습니다. "핵심만 요약해줘" — 왜 이 말이 문제인지.</p>
 <div class="ewa-hero-meta">
 <span>🎙️ IRO × LOOP</span>
 <span>한국어 · English · 日本語</span>
