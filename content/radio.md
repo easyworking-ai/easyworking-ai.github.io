@@ -7,6 +7,9 @@ lang: ko
 tags:
   - radio
   - podcast
+audio: /static/radio/episode-01-ko.mp3
+audioTitle: "EP01 · AI에게 일을 시켰는데 왜 내가 더 바빠졌을까?"
+audioProvider: "IRO × LOOP / 한국어"
 ---
 
 <div class="ewa-radio" aria-label="IRO와 LOOP의 주간 AI 라디오">
