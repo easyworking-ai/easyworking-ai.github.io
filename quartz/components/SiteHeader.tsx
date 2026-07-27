@@ -4,8 +4,8 @@ const NAV_ITEMS = [
   { href: "/this-week", ko: "이번 주", en: "This Week", ja: "今週" },
   { href: "/radio", ko: "라디오", en: "Radio", ja: "ラジオ" },
   { href: "/guides", ko: "가이드", en: "Guides", ja: "ガイド" },
-  { href: "/prompts/meeting-summary", ko: "프롬프트", en: "Prompts", ja: "プロンプト" },
-  { href: "/agents/chatbot-vs-agent", ko: "에이전트", en: "Agents", ja: "エージェント" },
+  { href: "/prompts", ko: "프롬프트", en: "Prompts", ja: "プロンプト" },
+  { href: "/agents", ko: "에이전트", en: "Agents", ja: "エージェント" },
   { href: "/static/showdown/", ko: "게임", en: "Games", ja: "ゲーム" },
   { href: "/static/ai-test/", ko: "진단", en: "Diagnosis", ja: "診断" },
 ]
