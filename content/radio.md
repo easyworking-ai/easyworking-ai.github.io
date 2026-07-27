@@ -1,6 +1,6 @@
 ---
-title: 라디오 · 주간 AI 토크
-description: 두 진행자가 주간 주목받는 AI 이슈를 깊이 있고 재밌게 분석하는 토크 쇼. 매주 새 에피소드.
+title: 라디오 · IRO × LOOP의 오늘의 타격전
+description: IRO와 LOOP가 주간 AI 이슈를 생활 장면과 업무 기준으로 부딪쳐 보는 토크 쇼. 듣고 웃고, 월요일에 바로 시험합니다.
 cssclass: radio
 publish: true
 lang: ko
@@ -9,12 +9,12 @@ tags:
   - podcast
 ---
 
-<div class="ewa-radio" aria-label="주간 AI 라디오">
+<div class="ewa-radio" aria-label="IRO와 LOOP의 주간 AI 라디오">
 
   <section class="ewa-radio-hero">
-    <span class="ewa-kicker">RADIO / 주간 AI 토크</span>
-    <h1>두 진행자가 푸는<br><em>이번 주 AI 이슈</em></h1>
-    <p>주목받는 AI 내용을 다양한 각도에서 분석하고 내러티브를 전달합니다. 깊이 있으면서도 재미있게. 세 언어로 동시 제작됩니다.</p>
+    <span class="ewa-kicker">RADIO / IRO × LOOP</span>
+    <h1>이번 주 AI를<br><em>둘이서 붙여봅니다</em></h1>
+    <p>IRO는 생활 장면에서 질문을 만들고, LOOP는 과장을 잘라냅니다. 한 가지 이슈를 부딪쳐 보고, 월요일에 해볼 작은 실험까지 남깁니다.</p>
     <div class="ewa-radio-lang-tabs">
       <span class="is-active">🇰🇷 한국어</span>
       <a href="/en/radio">🇺🇸 English</a>
@@ -30,13 +30,13 @@ tags:
         </div>
       </div>
       <div class="ewa-radio-info">
-        <span class="ewa-radio-ep">Episode 01 · 2026년 7월 4주차</span>
-        <h2>"AI 도구가 너무 많다고?"</h2>
-        <p>이번 주 AI 도구 릴리스 현황을 정리하고, 직장인이 주목할 것과 무시해도 될 것을 나눕니다. GPT, Claude, Gemini 외에도 주목할 만한 도구들을 챙겼습니다.</p>
+        <span class="ewa-radio-ep">Episode 01 · 파일럿</span>
+        <h2>"AI에게 일을 시켰는데 왜 내가 더 바빠졌을까?"</h2>
+        <p>회의록 요약을 둘러싼 흔한 오해를 IRO의 생활 감각과 LOOP의 검수 기준으로 부딪쳐 봅니다. 같은 메모, 두 개의 지시, 그리고 월요일에 바로 해볼 10분 실험.</p>
         <div class="ewa-radio-meta">
-          <span>⏱ 약 15분</span>
-          <span>🎙️ 두 진행자 토크</span>
-          <span>📅 2026-07-22</span>
+          <span>⏱ 약 8분</span>
+          <span>🎙️ IRO × LOOP</span>
+          <span>🌏 KO · EN · JA</span>
         </div>
       </div>
     </div>
@@ -50,17 +50,17 @@ tags:
       </div>
     </div>
     <div class="ewa-hosts-grid">
-      <div class="ewa-host-card">
-        <div class="ewa-host-avatar" aria-hidden="true">🧑‍💼</div>
-        <h3>진행자 A</h3>
-        <p>AI 실무 적용을 연구하는 진행자. 기술보다 "그래서 당장 뭘 하면 되나?"에 집중합니다.</p>
-        <span class="ewa-host-voice">Voice: ws</span>
+      <div class="ewa-host-card ewa-host-card--iro">
+        <div class="ewa-host-avatar" aria-hidden="true">IRO</div>
+        <h3>IRO</h3>
+        <p>최근 데뷔한 인디 팝 아티스트. 기술을 사람들의 생활 장면과 감정으로 번역하고, “그래서 월요일이 어떻게 달라지죠?”를 묻습니다.</p>
+        <span class="ewa-host-voice">Voice bible: IRO / warm, curious, clear</span>
       </div>
-      <div class="ewa-host-card">
-        <div class="ewa-host-avatar" aria-hidden="true">👩‍💼</div>
-        <h3>진행자 B</h3>
-        <p>트렌드 분석과 내러티브 구성을 맡습니다. 딱딱한 뉴스를 이야기로 풀어내는 역할.</p>
-        <span class="ewa-host-voice">Voice: TBA</span>
+      <div class="ewa-host-card ewa-host-card--loop">
+        <div class="ewa-host-avatar" aria-hidden="true">LOOP</div>
+        <h3>LOOP</h3>
+        <p>입력·산출물·검수 기준으로 업무를 다시 조립하는 시스템 편집자. AI의 성공담에서 빠진 조건을 찾아내고 10분짜리 실험으로 줄입니다.</p>
+        <span class="ewa-host-voice">Voice bible: LOOP / dry, precise, playful</span>
       </div>
     </div>
   </section>
