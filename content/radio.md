@@ -7,8 +7,8 @@ lang: ko
 tags:
   - radio
   - podcast
-audio: /static/radio/episode-01-ko.mp3
-audioTitle: "EP01 · AI에게 일을 시켰는데 왜 내가 더 바빠졌을까?"
+audio: /static/radio/episode-02-ko.mp3
+audioTitle: "EP02 · 이번 주 가장 뜨거운 AI: Claude Opus 5"
 audioProvider: "IRO × LOOP / 한국어"
 ---
 
@@ -27,15 +27,15 @@ audioProvider: "IRO × LOOP / 한국어"
 <div class="ewa-radio-now">
 <div class="ewa-radio-cover">
 <div class="ewa-radio-cover-art" aria-hidden="true">
-<span>EP 01</span>
+<span>EP 02</span>
 </div>
 </div>
 <div class="ewa-radio-info">
-<span class="ewa-radio-ep">Episode 01 · 파일럿</span>
-<h2>"AI에게 일을 시켰는데 왜 내가 더 바빠졌을까?"</h2>
-<p>새로운 주간 포맷에 앞서 공개한 파일럿입니다. 회의록 요약을 둘러싼 흔한 오해를 IRO의 생활 감각과 LOOP의 검수 기준으로 부딪쳐 봅니다.</p>
+<span class="ewa-radio-ep">Episode 02 · 이번 주 트렌드</span>
+<h2>"이번 주 가장 뜨거운 AI: Claude Opus 5"</h2>
+<p>이번 주 가장 많이 주목받은 AI 뉴스 하나를 골랐습니다. 모델이 좋아질수록 무엇을 맡기고 어디서 확인해야 하는지, 직장인 업무 기준으로 짚습니다.</p>
 <div class="ewa-radio-meta">
-<span>⏱ 약 8분</span>
+<span>⏱ 약 2분 30초</span>
 <span>🎙️ IRO × LOOP</span>
 <span>🌏 KO · EN · JA</span>
 </div>
@@ -73,10 +73,10 @@ audioProvider: "IRO × LOOP / 한국어"
 </div>
 <div class="ewa-radio-archive-list">
 <div class="ewa-radio-archive-item">
-<span class="ewa-radio-archive-num">EP 00</span>
+<span class="ewa-radio-archive-num">EP 01</span>
 <div>
-<h4> 파일럿: "이번 주 AI 트렌드"</h4>
-<span>7월 3주차 · 준비 중</span>
+<h4>파일럿: "AI에게 일을 시켰는데 왜 내가 더 바빠졌을까?"</h4>
+<span>7월 4주차 · 한국어 · English · 日本語</span>
 </div>
 </div>
 </div>

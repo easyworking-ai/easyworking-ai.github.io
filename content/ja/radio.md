@@ -7,8 +7,8 @@ lang: ja
 tags:
   - radio
   - podcast
-audio: /static/radio/episode-01-ja.mp3
-audioTitle: "EP01 · AIに仕事を頼んだのに、なぜ自分がもっと忙しくなったのか"
+audio: /static/radio/episode-02-ja.mp3
+audioTitle: "EP02 · 今週最もホットなAI：Claude Opus 5"
 audioProvider: "IRO × LOOP / 日本語"
 ---
 
@@ -27,15 +27,15 @@ audioProvider: "IRO × LOOP / 日本語"
 <div class="ewa-radio-now">
 <div class="ewa-radio-cover">
 <div class="ewa-radio-cover-art" aria-hidden="true">
-<span>EP 01</span>
+<span>EP 02</span>
 </div>
 </div>
 <div class="ewa-radio-info">
-<span class="ewa-radio-ep">Episode 01 · パイロット</span>
-<h2>"AIに仕事を頼んだのに、なぜ自分がもっと忙しくなったのか"</h2>
-<p>新しい週刊フォーマットに先立って公開したパイロットです。AIによる議事録要約のよくある誤解を、IROの感覚とLOOPの検証基準で紐解きます。</p>
+<span class="ewa-radio-ep">Episode 02 · 今週のトレンド</span>
+<h2>"今週最もホットなAI：Claude Opus 5"</h2>
+<p>今週最も注目を集めたAIニュースを一つ選びました。モデルが進化するほど、何を任せ、どこで人が確認するべきか。会社員の仕事を基準に紐解きます。</p>
 <div class="ewa-radio-meta">
-<span>⏱ 約8分</span>
+<span>⏱ 約2分30秒</span>
 <span>🎙️ IRO × LOOP</span>
 <span>🌏 KO · EN · JA</span>
 </div>
@@ -73,10 +73,10 @@ audioProvider: "IRO × LOOP / 日本語"
 </div>
 <div class="ewa-radio-archive-list">
 <div class="ewa-radio-archive-item">
-<span class="ewa-radio-archive-num">EP 00</span>
+<span class="ewa-radio-archive-num">EP 01</span>
 <div>
-<h4>パイロット: "今週のAIトレンド"</h4>
-<span>7月第3週 ・ 準備中</span>
+<h4>パイロット：「AIに仕事を頼んだのに、なぜ自分がもっと忙しくなったのか」</h4>
+<span>7月第4週 · 한국어 · English · 日本語</span>
 </div>
 </div>
 </div>

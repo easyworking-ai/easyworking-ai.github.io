@@ -7,8 +7,8 @@ lang: en
 tags:
   - radio
   - podcast
-audio: /static/radio/episode-01-en.mp3
-audioTitle: "EP01 · I Asked AI to Do the Work. Why Am I Busier?"
+audio: /static/radio/episode-02-en.mp3
+audioTitle: "EP02 · This Week's Hottest AI: Claude Opus 5"
 audioProvider: "IRO × LOOP / English"
 ---
 
@@ -27,15 +27,15 @@ audioProvider: "IRO × LOOP / English"
 <div class="ewa-radio-now">
 <div class="ewa-radio-cover">
 <div class="ewa-radio-cover-art" aria-hidden="true">
-<span>EP 01</span>
+<span>EP 02</span>
 </div>
 </div>
 <div class="ewa-radio-info">
-<span class="ewa-radio-ep">Episode 01 · Pilot</span>
-<h2>"I Asked AI to Do the Work. Why Am I Busier?"</h2>
-<p>This is the pilot released before the new weekly format. IRO and LOOP collide over the common mistakes behind AI meeting-note summaries.</p>
+<span class="ewa-radio-ep">Episode 02 · Weekly Trend</span>
+<h2>"This Week's Hottest AI: Claude Opus 5"</h2>
+<p>We picked the AI story that drew the most attention this week. As models get better, what should you delegate — and where should a human still verify?</p>
 <div class="ewa-radio-meta">
-<span>⏱ ~8 min</span>
+<span>⏱ ~2 min 00 sec</span>
 <span>🎙️ IRO × LOOP</span>
 <span>🌏 KO · EN · JA</span>
 </div>
@@ -73,10 +73,10 @@ audioProvider: "IRO × LOOP / English"
 </div>
 <div class="ewa-radio-archive-list">
 <div class="ewa-radio-archive-item">
-<span class="ewa-radio-archive-num">EP 00</span>
+<span class="ewa-radio-archive-num">EP 01</span>
 <div>
-<h4>Pilot: "This Week's AI Trend"</h4>
-<span>July Week 3 · Coming soon</span>
+<h4>Pilot: "I Asked AI to Do the Work. Why Am I Busier?"</h4>
+<span>Week 4 of July · 한국어 · English · 日本語</span>
 </div>
 </div>
 </div>
