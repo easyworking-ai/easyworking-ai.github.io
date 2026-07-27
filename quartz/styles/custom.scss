@@ -2155,6 +2155,91 @@ body {
   color: var(--ewa-accent);
 }
 
+// ─── Read Section (홈페이지 읽기 섹션) ─────────────────────
+.ewa-read-section {
+  margin: clamp(2rem, 6vw, 4rem) 0;
+  padding-top: clamp(2rem, 5vw, 3rem);
+  border-top: 1px solid var(--ewa-border);
+}
+
+.ewa-read-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: clamp(1.5rem, 4vw, 2.5rem);
+  margin-top: 2rem;
+}
+
+.ewa-read-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.ewa-read-column-title {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--ewa-accent);
+  margin: 0 0 0.5rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--ewa-accent);
+  display: inline-block;
+  align-self: flex-start;
+}
+
+.ewa-read-card {
+  display: block;
+  padding: 1.25rem;
+  border: 1px solid var(--ewa-border);
+  border-radius: var(--ewa-radius-md, 12px);
+  background: var(--ewa-bg-card);
+  text-decoration: none;
+  color: var(--ewa-text);
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.ewa-read-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--ewa-accent);
+}
+
+.ewa-read-card-cat {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--ewa-text-dim);
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+}
+
+.ewa-read-card h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 0.4rem 0;
+  line-height: 1.4;
+}
+
+.ewa-read-card p {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--ewa-text-muted);
+  margin: 0;
+}
+
+.ewa-read-more {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--ewa-accent);
+  text-decoration: none;
+  align-self: flex-start;
+}
+
+.ewa-read-more:hover {
+  text-decoration: underline;
+}
+
 // ─── New Map Nodes ────────────────────────────────────────
 .ewa-map-nodes--new {
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
