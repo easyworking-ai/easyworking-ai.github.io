@@ -9,9 +9,7 @@ tags:
   - 온라인강의
   - 멤버십
 ---
-
 <div class="ewa-work" aria-label="함께 일하기">
-
 <section class="ewa-work-hero">
   <span class="ewa-kicker">WORK WITH ME / 함께 일하기</span>
   <h1>작은 것부터<br><em>시작합니다</em></h1>
@@ -21,7 +19,6 @@ tags:
     <a class="ewa-secondary-action" href="#ewa-products">제품 보기</a>
   </div>
 </section>
-
 <section class="ewa-work-gap" aria-labelledby="ewa-gap-title">
   <div class="ewa-section-heading">
     <span class="ewa-section-kicker">THE ORDER</span>
@@ -52,7 +49,6 @@ tags:
     </div>
   </div>
 </section>
-
 <section class="ewa-work-free" id="ewa-free-guide" aria-labelledby="ewa-free-title">
   <div class="ewa-free-inner">
     <div>
@@ -66,7 +62,6 @@ tags:
     </div>
   </div>
 </section>
-
 <section class="ewa-work-packages" id="ewa-products" aria-labelledby="ewa-products-title">
   <div class="ewa-section-heading">
     <span class="ewa-section-kicker">PRODUCT LADDER</span>
@@ -74,7 +69,6 @@ tags:
     <p>각 제품은 다음 단계로 넘어가기 전에 직접 써볼 수 있는 크기로 만듭니다. 가격은 베타 판매 때 확정하고, 초기 구매자의 사용 결과를 반영해 조정합니다.</p>
   </div>
   <div class="ewa-package-grid">
-
     <article class="ewa-package-card ewa-package-card--blue">
       <header>
         <span class="ewa-package-num">01</span>
@@ -95,7 +89,6 @@ tags:
         <div><span>형태</span><strong>PDF</strong><small>업데이트 1회 포함</small></div>
       </footer>
     </article>
-
     <article class="ewa-package-card ewa-package-card--green">
       <header>
         <span class="ewa-package-num">02</span>
@@ -116,7 +109,6 @@ tags:
         <div><span>형태</span><strong>단과</strong><small>질문 수집 후 보강</small></div>
       </footer>
     </article>
-
     <article class="ewa-package-card ewa-package-card--rose">
       <header>
         <span class="ewa-package-num">03</span>
@@ -137,10 +129,8 @@ tags:
         <div><span>상태</span><strong>준비 중</strong><small>범위는 인터뷰 후 확정</small></div>
       </footer>
     </article>
-
   </div>
 </section>
-
 <section class="ewa-work-process" aria-labelledby="ewa-process-title">
   <div class="ewa-section-heading">
     <span class="ewa-section-kicker">WHEN TO TALK</span>
@@ -166,7 +156,6 @@ tags:
     </div>
   </div>
 </section>
-
 <section class="ewa-work-diagnostic" id="ewa-contact" aria-labelledby="ewa-contact-title">
   <div class="ewa-diagnostic-inner">
     <span class="ewa-section-kicker">EARLY ACCESS</span>
@@ -181,5 +170,4 @@ tags:
     </div>
   </div>
 </section>
-
 </div>
