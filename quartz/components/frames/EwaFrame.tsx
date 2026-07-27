@@ -27,6 +27,7 @@ export const EwaFrame: PageFrame = {
           <WorkCta {...componentData} />
         </main>
         <SiteFooter {...componentData} />
+        <script src="/static/ewa-i18n.js" defer></script>
         <script src="/static/ewa-runtime.js" defer></script>
       </>
     )
