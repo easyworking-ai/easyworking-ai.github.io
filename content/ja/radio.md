@@ -8,7 +8,7 @@ tags:
   - radio
   - podcast
 audio: /static/radio/episode-01-ja.mp3
-audioTitle: "EP01 · 今週最もホットなAIニュース"
+audioTitle: "EP01 · AIに仕事を頼んだのに、なぜ自分がもっと忙しくなったのか"
 audioProvider: "IRO × LOOP / 日本語"
 ---
 
@@ -32,8 +32,8 @@ audioProvider: "IRO × LOOP / 日本語"
 </div>
 <div class="ewa-radio-info">
 <span class="ewa-radio-ep">Episode 01 · パイロット</span>
-<h2>"今週最もホットなAIニュース"</h2>
-<p>今週最も話題になったAIニュースを、IROの感覚とLOOPの基準で紐解きます。見出しの先にある、会社員にとって本当に意味のある変化とは何か、来週すぐ使える視点まで。</p>
+<h2>"AIに仕事を頼んだのに、なぜ自分がもっと忙しくなったのか"</h2>
+<p>新しい週刊フォーマットに先立って公開したパイロットです。AIによる議事録要約のよくある誤解を、IROの感覚とLOOPの検証基準で紐解きます。</p>
 <div class="ewa-radio-meta">
 <span>⏱ 約8分</span>
 <span>🎙️ IRO × LOOP</span>

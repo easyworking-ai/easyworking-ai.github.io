@@ -8,7 +8,7 @@ tags:
   - radio
   - podcast
 audio: /static/radio/episode-01-en.mp3
-audioTitle: "EP01 · This Week's Hottest AI Story"
+audioTitle: "EP01 · I Asked AI to Do the Work. Why Am I Busier?"
 audioProvider: "IRO × LOOP / English"
 ---
 
@@ -32,8 +32,8 @@ audioProvider: "IRO × LOOP / English"
 </div>
 <div class="ewa-radio-info">
 <span class="ewa-radio-ep">Episode 01 · Pilot</span>
-<h2>"This Week's Hottest AI Story"</h2>
-<p>The most-talked-about AI story of the week, unpacked by IRO's instinct and LOOP's standards. Beyond the headlines — what actually changes for office workers, and a perspective you can use next week.</p>
+<h2>"I Asked AI to Do the Work. Why Am I Busier?"</h2>
+<p>This is the pilot released before the new weekly format. IRO and LOOP collide over the common mistakes behind AI meeting-note summaries.</p>
 <div class="ewa-radio-meta">
 <span>⏱ ~8 min</span>
 <span>🎙️ IRO × LOOP</span>

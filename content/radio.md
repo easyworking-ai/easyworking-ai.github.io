@@ -8,7 +8,7 @@ tags:
   - radio
   - podcast
 audio: /static/radio/episode-01-ko.mp3
-audioTitle: "EP01 · 이번 주 가장 뜨거운 AI 이슈"
+audioTitle: "EP01 · AI에게 일을 시켰는데 왜 내가 더 바빠졌을까?"
 audioProvider: "IRO × LOOP / 한국어"
 ---
 
@@ -32,8 +32,8 @@ audioProvider: "IRO × LOOP / 한국어"
 </div>
 <div class="ewa-radio-info">
 <span class="ewa-radio-ep">Episode 01 · 파일럿</span>
-<h2>"이번 주 가장 뜨거운 AI 이슈"</h2>
-<p>한 주간 가장 많이 언급된 AI 이슈를 IRO의 감각과 LOOP의 기준으로 풉니다. 뉴스 헤드라인 너머에서 직장인에게 실제로 의미 있는 변화가 무엇인지, 다음 주에 바로 써먹을 수 있는 관점까지.</p>
+<h2>"AI에게 일을 시켰는데 왜 내가 더 바빠졌을까?"</h2>
+<p>새로운 주간 포맷에 앞서 공개한 파일럿입니다. 회의록 요약을 둘러싼 흔한 오해를 IRO의 생활 감각과 LOOP의 검수 기준으로 부딪쳐 봅니다.</p>
 <div class="ewa-radio-meta">
 <span>⏱ 약 8분</span>
 <span>🎙️ IRO × LOOP</span>
