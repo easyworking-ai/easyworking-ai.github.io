@@ -315,7 +315,7 @@ body {
   transform: translateY(-50%);
   display: flex;
   justify-content: space-around;
-  font-size: 0.65rem;
+  font-size: 0.72rem;
   letter-spacing: 0.15em;
   color: var(--ewa-text-dim);
   opacity: 0.4;
@@ -337,7 +337,7 @@ body {
 
   span {
     display: block;
-    font-size: 0.65rem;
+    font-size: 0.72rem;
     letter-spacing: 0.15em;
     color: var(--ewa-accent);
     margin-bottom: 0.25rem;
@@ -468,7 +468,7 @@ body {
     height: 160px;
     background: var(--ewa-bg-subtle);
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 900;
     color: var(--ewa-text-dim);
     position: relative;
@@ -587,7 +587,7 @@ body {
   border-radius: var(--ewa-radius-lg);
 
   > span {
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: 900;
     color: var(--ewa-accent);
     opacity: 0.4;
@@ -687,7 +687,7 @@ body {
 }
 .ewa-brand small {
   color: var(--ewa-text-dim);
-  font-size: 0.48rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.14em;
 }
@@ -775,7 +775,7 @@ body {
 }
 .ewa-nav-panel small {
   color: var(--ewa-text-muted);
-  font-size: 0.62rem;
+  font-size: 0.72rem;
   line-height: 1.4;
 }
 .ewa-header-actions {
@@ -796,7 +796,7 @@ body {
 }
 .ewa-icon-button span {
   margin-left: 0.25rem;
-  font-size: 0.6rem;
+  font-size: 0.72rem;
   letter-spacing: 0.08em;
 }
 .ewa-theme-button {
@@ -809,7 +809,7 @@ body {
   border: 1px solid var(--ewa-text-muted);
   border-radius: 100px;
   color: var(--ewa-text);
-  font-size: 0.63rem;
+  font-size: 0.72rem;
   font-weight: 700;
   text-decoration: none;
 }
@@ -835,7 +835,7 @@ body {
   justify-content: space-between;
   margin-bottom: 0.65rem;
   color: var(--ewa-text-dim);
-  font-size: 0.55rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.12em;
 }
@@ -882,7 +882,7 @@ body {
 .ewa-search-results small {
   overflow: hidden;
   color: var(--ewa-text-muted);
-  font-size: 0.62rem;
+  font-size: 0.72rem;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
@@ -902,7 +902,7 @@ body {
   gap: 0.6rem;
   margin-bottom: 2rem;
   color: var(--ewa-text-dim);
-  font-size: 0.62rem;
+  font-size: 0.72rem;
 }
 .ewa-article-breadcrumb a {
   color: var(--ewa-text-muted);
@@ -910,7 +910,7 @@ body {
 }
 .ewa-article-kicker {
   color: var(--ewa-text-muted);
-  font-size: 0.58rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.13em;
 }
@@ -945,7 +945,7 @@ body {
   align-items: center;
   margin-top: 1.5rem;
   color: var(--ewa-text-dim);
-  font-size: 0.62rem;
+  font-size: 0.72rem;
 }
 .ewa-article-meta span::before {
   content: "·";
@@ -1034,7 +1034,7 @@ body {
   display: block;
   margin-bottom: 0.7rem;
   color: var(--ewa-text-dim);
-  font-size: 0.55rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.13em;
 }
@@ -1043,7 +1043,7 @@ body {
   padding: 0.3rem 0 0.3rem 0.7rem;
   border-left: 1px solid var(--ewa-border);
   color: var(--ewa-text-dim);
-  font-size: 0.62rem;
+  font-size: 0.72rem;
   line-height: 1.45;
   text-decoration: none;
 }
@@ -1054,11 +1054,11 @@ body {
 }
 .ewa-toc-item--h3 {
   padding-left: 1.2rem;
-  font-size: 0.58rem;
+  font-size: 0.72rem;
 }
 .ewa-toc-empty {
   color: var(--ewa-text-dim);
-  font-size: 0.62rem;
+  font-size: 0.72rem;
 }
 
 .ewa-audio-player {
@@ -1084,7 +1084,7 @@ body {
 }
 .ewa-audio-heading small {
   color: var(--ewa-text-dim);
-  font-size: 0.58rem;
+  font-size: 0.72rem;
 }
 .ewa-audio-player audio {
   width: 100%;
@@ -1105,7 +1105,7 @@ body {
   color: var(--ewa-text-muted);
   background: transparent;
   font: inherit;
-  font-size: 0.6rem;
+  font-size: 0.72rem;
   text-decoration: none;
 }
 .ewa-audio-controls button {
@@ -1159,7 +1159,7 @@ body {
   border-top: 1px solid var(--ewa-border);
   color: var(--ewa-text-muted);
   font-family: var(--ewa-font);
-  font-size: 0.68rem;
+  font-size: 0.72rem;
 }
 .ewa-footer-brand {
   display: flex;
@@ -1179,7 +1179,7 @@ body {
 .ewa-site-footer > small {
   grid-column: 1 / -1;
   color: var(--ewa-text-dim);
-  font-size: 0.56rem;
+  font-size: 0.72rem;
 }
 
 @media (max-width: 900px) {
@@ -2546,7 +2546,7 @@ body {
   }
 
   .ewa-lang-switcher button {
-    font-size: 0.65rem;
+    font-size: 0.72rem;
     padding: 0.25rem 0.4rem;
   }
 }

@@ -1,6 +1,6 @@
 ---
-title: 함께 일하기
-description: 무료 자료로 먼저 확인하고, 전자책과 온라인 강의로 직접 적용해보세요. 더 깊은 지원은 그다음에 설계합니다.
+title: 함께 일하기 · 전자책, 강의, 컨설팅
+description: 무료 AI 업무 점검표로 시작해서, 전자책과 온라인 강의로 직접 적용해보세요. 팀 전용 설계가 필요할 때 컨설팅을 제안합니다.
 cssclass: work
 publish: true
 lang: ko
@@ -13,20 +13,20 @@ tags:
 <div class="ewa-work" aria-label="함께 일하기">
 
 <section class="ewa-work-hero">
-  <span class="ewa-kicker">일하는 AI / WORK WITH ME</span>
-  <h1>처음부터 컨설팅을<br><em>팔지 않습니다.</em></h1>
-  <p>먼저 무료 자료로 업무를 점검하고, 전자책과 짧은 강의로 직접 적용해보세요. 그다음에도 팀의 흐름을 함께 설계할 필요가 있을 때만 멤버십과 컨설팅으로 넘어갑니다.</p>
+  <span class="ewa-kicker">WORK WITH ME / 함께 일하기</span>
+  <h1>작은 것부터<br><em>시작합니다</em></h1>
+  <p>무료 점검표로 반복 업무 하나를 해부하고, 전자책과 강의로 직접 적용해보세요. 그다음에도 팀 설계가 필요할 때 컨설팅으로 이어집니다.</p>
   <div class="ewa-work-actions">
-    <a class="ewa-primary-action" href="/static/ai-test/">무료 진단 테스트 하기 <span aria-hidden="true">→</span></a>
+    <a class="ewa-primary-action" href="/static/ai-test/">무료 진단 테스트 <span aria-hidden="true">→</span></a>
     <a class="ewa-secondary-action" href="#ewa-products">제품 보기</a>
   </div>
 </section>
 
 <section class="ewa-work-gap" aria-labelledby="ewa-gap-title">
   <div class="ewa-section-heading">
-    <span class="ewa-section-kicker">WHY THIS ORDER</span>
-    <h2 id="ewa-gap-title">신뢰가 쌓이는 순서대로 갑니다</h2>
-    <p>AI를 한 번 써봤다고 업무를 맡기지는 않습니다. 작은 결과물을 먼저 확인하고, 다음 단계로 올라갈 수 있게 만들었습니다.</p>
+    <span class="ewa-section-kicker">THE ORDER</span>
+    <h2 id="ewa-gap-title">무료 → 전자책 → 강의 → 컨설팅</h2>
+    <p>한 단계씩 직접 써보고 다음으로 넘어갑니다. 각 단계에서 실제 결과물이 나와야 다음으로 갑니다.</p>
   </div>
   <div class="ewa-gap-grid">
     <div class="ewa-gap-card ewa-gap-card--problem">
@@ -57,8 +57,8 @@ tags:
   <div class="ewa-free-inner">
     <div>
       <span class="ewa-section-kicker">FREE GUIDE</span>
-      <h2 id="ewa-free-title">AI 업무 점검표</h2>
-      <p>도구를 고르기 전에 반복 업무 하나를 해부하는 4쪽짜리 PDF입니다. 입력 자료, AI에 맡길 구간, 사람이 승인할 지점, 다음 실행 기록을 한 장씩 정리합니다.</p>
+      <h2 id="ewa-free-title">AI 업무 점검표 PDF</h2>
+      <p>도구를 고르기 전에 반복 업무 하나를 해부하는 4쪽 가이드. 입력 자료, AI에 맡길 구간, 사람이 승인할 지점, 다음 실행 기록을 한 장에 정리합니다.</p>
     </div>
     <div class="ewa-free-actions">
       <a class="ewa-primary-action" href="/assets/ai-work-checklist.pdf" download>PDF 무료 받기 <span aria-hidden="true">↓</span></a>
@@ -70,8 +70,8 @@ tags:
 <section class="ewa-work-packages" id="ewa-products" aria-labelledby="ewa-products-title">
   <div class="ewa-section-heading">
     <span class="ewa-section-kicker">PRODUCT LADDER</span>
-    <h2 id="ewa-products-title">작은 제품부터 시작합니다</h2>
-    <p>각 제품은 다음 단계로 올라가기 전에 실제로 써볼 수 있는 크기로 만듭니다. 가격은 베타 판매 때 확정하고, 초기 구매자의 사용 결과를 반영해 조정합니다.</p>
+    <h2 id="ewa-products-title">전자책 · 강의 · 멤버십</h2>
+    <p>각 제품은 다음 단계로 넘어가기 전에 직접 써볼 수 있는 크기로 만듭니다. 가격은 베타 판매 때 확정하고, 초기 구매자의 사용 결과를 반영해 조정합니다.</p>
   </div>
   <div class="ewa-package-grid">
 
@@ -143,8 +143,8 @@ tags:
 
 <section class="ewa-work-process" aria-labelledby="ewa-process-title">
   <div class="ewa-section-heading">
-    <span class="ewa-section-kicker">WHEN CONSULTING MAKES SENSE</span>
-    <h2 id="ewa-process-title">컨설팅은 마지막 단계입니다</h2>
+    <span class="ewa-section-kicker">WHEN TO TALK</span>
+    <h2 id="ewa-process-title">컨설팅은 마지막입니다</h2>
   </div>
   <div class="ewa-process-flow">
     <div class="ewa-process-step">

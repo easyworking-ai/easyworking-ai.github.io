@@ -2,7 +2,7 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 
 const NAV_ITEMS = [
   { href: "/this-week", ko: "이번 주", en: "This Week", ja: "今週" },
-  { href: "/showdown", ko: "타격전", en: "Showdown", ja: "対決" },
+  { href: "/static/showdown/", ko: "타격전", en: "Showdown", ja: "対決" },
   { href: "/radio", ko: "라디오", en: "Radio", ja: "ラジオ" },
   { href: "/guides", ko: "가이드", en: "Guides", ja: "ガイド" },
   { href: "/work-with-me", ko: "함께 일하기", en: "Work With Me", ja: "一緒に働く" },
@@ -84,9 +84,15 @@ const SiteHeader: QuartzComponent = ({ allFiles }: QuartzComponentProps) => {
           </div>
         </div>
         <div class="ewa-lang-switcher" data-ewa-lang-switcher>
-          <button type="button" data-lang="ko" class="is-active" aria-label="한국어">KO</button>
-          <button type="button" data-lang="en" aria-label="English">EN</button>
-          <button type="button" data-lang="ja" aria-label="日本語">JA</button>
+          <button type="button" data-lang="ko" class="is-active" aria-label="한국어">
+            KO
+          </button>
+          <button type="button" data-lang="en" aria-label="English">
+            EN
+          </button>
+          <button type="button" data-lang="ja" aria-label="日本語">
+            JA
+          </button>
         </div>
         <button type="button" class="ewa-theme-button" data-ewa-theme aria-label="다크 모드 전환">
           <span aria-hidden="true">◐</span>
