@@ -39,7 +39,7 @@ audioProvider: "IRO × LOOP / 日本語"
   <section class="ewa-radio-hosts">
     <div class="ewa-section-heading ewa-section-heading--compact"><div><span class="ewa-section-kicker">HOSTS</span><h2>IROとLOOP</h2></div></div>
     <div class="ewa-hosts-grid">
-      <div class="ewa-host-card ewa-host-card--iro"><div class="ewa-host-avatar" aria-hidden="true">IRO</div><h3>IRO</h3><p>日常の仕事を少し変わった角度から見るインディーミュージシャン。みんなが見落とした違和感を拾います。</p><span class="ewa-host-voice">Voice: playful, strange, curious</span></div>
+      <div class="ewa-host-card ewa-host-card--iro"><div class="ewa-host-avatar" aria-hidden="true">IRO</div><h3>IRO</h3><p>日常の仕事を少し変わった角度から見るインディーミュージシャン。落ち着いていたかと思えば、突然いたずらっぽくなる。みんなが見落とした違和感を拾います。</p><span class="ewa-host-voice">Voice: playful, strange, curious</span></div>
       <div class="ewa-host-card ewa-host-card--loop"><div class="ewa-host-avatar" aria-hidden="true">LOOP</div><h3>LOOP</h3><p>AIの成功談を入力・出力・確認基準・実験に分解する業務システム編集者です。</p><span class="ewa-host-voice">Voice: dry, precise, playful</span></div>
     </div>
   </section>

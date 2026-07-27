@@ -56,8 +56,8 @@ audioProvider: "IRO × LOOP / 한국어"
       <div class="ewa-host-card ewa-host-card--iro">
         <div class="ewa-host-avatar" aria-hidden="true">IRO</div>
         <h3>IRO</h3>
-        <p>최근 데뷔한 인디 팝 아티스트. 기술을 사람들의 생활 장면과 감정으로 번역하고, “그래서 월요일이 어떻게 달라지죠?”를 묻습니다.</p>
-        <span class="ewa-host-voice">Voice bible: IRO / warm, curious, clear</span>
+        <p>매력적으로 어긋난 인디 팝 아티스트. 낮고 차분하다가 갑자기 밝고 도발적으로 바뀌며, 남들이 놓친 이상한 지점을 먼저 발견합니다.</p>
+        <span class="ewa-host-voice">Voice bible: IRO / playful, strange, curious</span>
       </div>
       <div class="ewa-host-card ewa-host-card--loop">
         <div class="ewa-host-avatar" aria-hidden="true">LOOP</div>

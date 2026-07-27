@@ -39,7 +39,7 @@ audioProvider: "IRO × LOOP / English"
   <section class="ewa-radio-hosts">
     <div class="ewa-section-heading ewa-section-heading--compact"><div><span class="ewa-section-kicker">HOSTS</span><h2>Meet IRO and LOOP</h2></div></div>
     <div class="ewa-hosts-grid">
-      <div class="ewa-host-card ewa-host-card--iro"><div class="ewa-host-avatar" aria-hidden="true">IRO</div><h3>IRO</h3><p>An indie musician with a charmingly off-kilter view of ordinary work. She notices the thing everyone else skipped.</p><span class="ewa-host-voice">Voice: playful, strange, curious</span></div>
+      <div class="ewa-host-card ewa-host-card--iro"><div class="ewa-host-avatar" aria-hidden="true">IRO</div><h3>IRO</h3><p>An indie musician with a charmingly off-kilter view of ordinary work. Calm one moment, suddenly teasing the next — she notices the strange thing everyone else skipped.</p><span class="ewa-host-voice">Voice: playful, strange, curious</span></div>
       <div class="ewa-host-card ewa-host-card--loop"><div class="ewa-host-avatar" aria-hidden="true">LOOP</div><h3>LOOP</h3><p>An operations editor who turns AI success stories into inputs, outputs, review rules, and tests.</p><span class="ewa-host-voice">Voice: dry, precise, playful</span></div>
     </div>
   </section>
