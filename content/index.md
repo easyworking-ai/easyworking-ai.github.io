@@ -72,17 +72,22 @@ tags:
   <section class="ewa-games-section" aria-labelledby="ewa-games-title">
     <div class="ewa-section-heading ewa-section-heading--compact">
       <div>
-        <span class="ewa-section-kicker">MORE / 더 하기</span>
-        <h2 id="ewa-games-title">AI 눈치게임</h2>
+        <span class="ewa-section-kicker">TRY / 해보기</span>
+        <h2 id="ewa-games-title">놀면서, 진단하면서</h2>
       </div>
-      <p>AI가 진실을 말하는 걸까, 거짓을 말하는 걸까? 칩을 걸고 판단해보세요. 5분이면 한 판이 끝납니다.</p>
     </div>
     <div class="ewa-games-grid">
+      <a class="ewa-game-card" href="/static/ai-test/">
+        <span class="ewa-game-badge">3분</span>
+        <div class="ewa-game-emoji" aria-hidden="true">📋</div>
+        <h3>AI 업무 진단 테스트</h3>
+        <p>내 업무에서 AI가 어디까지 도움이 될 수 있는지 12문항으로 진단받습니다.</p>
+      </a>
       <a class="ewa-game-card" href="/static/bluff/">
         <span class="ewa-game-badge">5분</span>
         <div class="ewa-game-emoji" aria-hidden="true">🎲</div>
-        <h3>AI 눈치게임 시작하기</h3>
-        <p>5라운드 동안 AI 발언의 진실과 거짓을 맞추고 칩을 딸 수 있는지 보세요.</p>
+        <h3>AI 눈치게임</h3>
+        <p>AI가 진실을 말하는 걸까, 거짓을 말하는 걸까? 칩을 걸고 판단해보세요.</p>
       </a>
     </div>
   </section>

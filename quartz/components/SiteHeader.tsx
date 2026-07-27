@@ -5,6 +5,7 @@ const NAV_ITEMS = [
   { href: "/radio", ko: "라디오", en: "Radio", ja: "ラジオ" },
   { href: "/static/showdown/", ko: "게임", en: "Games", ja: "ゲーム" },
   { href: "/guides", ko: "가이드", en: "Guides", ja: "ガイド" },
+  { href: "/static/ai-test/", ko: "진단", en: "Diagnosis", ja: "診断" },
   { href: "/work-with-me", ko: "함께 일하기", en: "Work With Me", ja: "一緒に働く" },
 ]
 
