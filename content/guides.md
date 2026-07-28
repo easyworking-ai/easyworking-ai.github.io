@@ -106,4 +106,26 @@ tags:
 </a>
 </div>
 </section>
+<section class="ewa-guides-list">
+<div class="ewa-section-heading">
+<div>
+<span class="ewa-section-kicker">MODEL DESIGN / 모델 구조</span>
+<h2>LLM 구조 읽기</h2>
+</div>
+</div>
+<div class="ewa-guide-grid">
+<a class="ewa-guide-card" href="/wiki/concepts/gpt2-to-kimik3-architecture-evolution">
+<div class="ewa-guide-card-header">
+<span class="ewa-guide-card-num">01</span>
+<span class="ewa-guide-card-cat">아키텍처</span>
+</div>
+<h3>GPT-2에서 KimiK3까지 — LLM 구조가 진화한 방식</h3>
+<p>KV Cache의 한계에서 출발해 Linear Attention, DeltaNet, KDA, MoE, AttnRes로 이어지는 7년의 변화를 코드와 그림으로 따라갑니다.</p>
+<div class="ewa-guide-card-meta">
+<span>📖 15분</span>
+<span>🏷️ llm · architecture · attention</span>
+</div>
+</a>
+</div>
+</section>
 </div>
