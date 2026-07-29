@@ -35,7 +35,7 @@ audioProvider: "Iro × Loop / English"
 <h2>"This Week's Hottest AI: Claude Opus 5"</h2>
 <p>We picked the AI story that drew the most attention this week. As models get better, what should you delegate — and where should a human still verify?</p>
 <div class="ewa-radio-meta">
-<span>⏱ ~2 min 30 sec</span>
+<span>⏱ ~2 min</span>
 <span>🎙️ Iro × Loop</span>
 <span>🌏 KO · EN · JA</span>
 </div>

@@ -35,7 +35,7 @@ audioProvider: "イロ × ループ / 日本語"
 <h2>"今週最もホットなAI：Claude Opus 5"</h2>
 <p>今週最も注目を集めたAIニュースを一つ選びました。モデルが進化するほど、何を任せ、どこで人が確認するべきか。会社員の仕事を基準に紐解きます。</p>
 <div class="ewa-radio-meta">
-<span>⏱ 約2分30秒</span>
+<span>⏱ 約2分</span>
 <span>🎙️ イロ × ループ</span>
 <span>🌏 KO · EN · JA</span>
 </div>
