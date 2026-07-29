@@ -105,6 +105,15 @@ tags:
 </a>
 <a class="ewa-read-more" href="/agents">에이전트 전체 보기 →</a>
 </div>
+<div class="ewa-read-column">
+<h3 class="ewa-read-column-title">모델 심층</h3>
+<a class="ewa-read-card" href="/wiki/concepts/gpt2-to-kimik3-architecture-evolution">
+<span class="ewa-read-card-cat">구조 · 15분</span>
+<h4>GPT-2에서 KimiK3까지 — LLM 구조가 진화한 방식</h4>
+<p>최신 언어모델은 더 많이 기억하지 않고 더 효율적으로 잊는다. Linear Attention, DeltaNet, KDA, MoE로 이어지는 7년의 변화를 코드와 그림으로 따라갑니다.</p>
+</a>
+<a class="ewa-read-more" href="/guides">가이드 전체 보기 →</a>
+</div>
 </div>
 </section>
 </div>
