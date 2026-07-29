@@ -35,7 +35,7 @@ audioProvider: "IRO × LOOP / 한국어"
 <h2>"이번 주 가장 뜨거운 AI: Claude Opus 5"</h2>
 <p>이번 주 가장 많이 주목받은 AI 뉴스 하나를 골랐습니다. 모델이 좋아질수록 무엇을 맡기고 어디서 확인해야 하는지, 직장인 업무 기준으로 짚습니다.</p>
 <div class="ewa-radio-meta">
-<span>⏱ 약 2분 30초</span>
+<span>⏱ 약 4분 30초</span>
 <span>🎙️ IRO × LOOP</span>
 <span>🌏 KO · EN · JA</span>
 </div>

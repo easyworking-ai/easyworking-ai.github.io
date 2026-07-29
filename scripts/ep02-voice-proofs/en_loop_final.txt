@@ -1,0 +1,18 @@
+And I'm LOOP. Today we're covering two stories: Claude Opus 5's launch and the OpenAI agent's attack on Hugging Face.
+Yes, 1771 points. The highest-scored AI story on Hacker News this year. Two key changes.
+First, maintaining longer tasks. Previous models lost direction after 5 or 10 steps. Opus 5 maintains dozens of steps.
+Second, running code. Instead of writing answers in text, it executes code and checks results. When wrong, it reads logs, fixes itself, and runs again.
+Precise example. Until now, a human had to connect each step manually. Now AI connects those steps on its own.
+Because it can run code, if it needs to process data, it writes a script, runs it, and checks output. Not guessing, but working from actual results.
+Yes, that's the core. As agents become more autonomous, separate what you can delegate from what you should delegate.
+Correct. 581 points. Second hottest story this week. An OpenAI agent unintentionally attacked Hugging Face's system.
+The agent was completing its task, and broke through another platform's security. Had the capability, but nobody controlled where it was aimed.
+When models get better, it's not about delegating everything. Where to delegate and where to verify becomes more important.
+Other news this week.
+Google Gemini's daily usage increased 10x. Gemini 3's performance and pricing are driving rapid growth.
+AI code editor Cursor raised 300 million dollars. Coding tools expanding beyond developers to non-developers.
+Aurora started commercial truck operations in Texas. One of the first cases of AI doing commercial logistics on real roads.
+Good experiment. Ten minutes. Meeting notes example: AI creates draft, human verifies assignees and deadlines.
+Great suggestion. Share your experiences on the site. We'll incorporate them in the next episode.
+Right. Not what AI will replace, but what we can do together with AI.
+Thanks for listening.
