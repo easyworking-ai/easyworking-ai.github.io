@@ -17,9 +17,9 @@ tags:
 <div class="ewa-hero-copy">
 <span class="ewa-kicker">WEEKLY RADIO · 매주 업데이트</span>
 <h1>이번 주, AI에서<br><em>가장 뜨거운 이슈 하나</em></h1>
-<p>한 주간 쏟아진 AI 뉴스 중 IRO와 LOOP가 단 하나를 골라 전달합니다. 왜 핫한지, 직장인에게 뭘 바꾸는지.</p>
+<p>한 주간 쏟아진 AI 뉴스 중 이로와 루프가가 단 하나를 골라 전달합니다. 왜 핫한지, 직장인에게 뭘 바꾸는지.</p>
 <div class="ewa-hero-meta">
-<span>🎙️ IRO × LOOP</span>
+<span>🎙️ 이로 × 루프</span>
 <span>한국어 · English · 日本語</span>
 </div>
 <div class="ewa-hero-actions">

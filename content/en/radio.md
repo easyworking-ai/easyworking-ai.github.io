@@ -1,6 +1,6 @@
 ---
-title: Radio · IRO × LOOP's Weekly AI Trend
-description: Every week, IRO and LOOP pick the single hottest AI story and break it down — why it's hot, what it changes for office workers, and one small experiment for Monday.
+title: Radio · Iro × Loop's Weekly AI Trend
+description: Every week, Iro and Loop pick the single hottest AI story and break it down — why it's hot, what it changes for office workers, and one small experiment for Monday.
 cssclass: radio
 publish: true
 lang: en
@@ -9,14 +9,14 @@ tags:
   - podcast
 audio: /static/radio/episode-02-en.mp3
 audioTitle: "EP02 · This Week's Hottest AI: Claude Opus 5"
-audioProvider: "IRO × LOOP / English"
+audioProvider: "Iro × Loop / English"
 ---
 
-<div class="ewa-radio" aria-label="IRO and LOOP weekly AI trend radio">
+<div class="ewa-radio" aria-label="Iro and Loop weekly AI trend radio">
 <section class="ewa-radio-hero">
-<span class="ewa-kicker">RADIO / IRO × LOOP</span>
+<span class="ewa-kicker">RADIO / Iro × Loop</span>
 <h1>Every week,<br><em>one AI trend that matters</em></h1>
-<p>Out of the week's flood of AI news, IRO and LOOP pick the one story that burned hottest. Why it's hot, what it changes for your work, and one small experiment for Monday.</p>
+<p>Out of the week's flood of AI news, Iro and Loop pick the one story that burned hottest. Why it's hot, what it changes for your work, and one small experiment for Monday.</p>
 <div class="ewa-radio-lang-tabs">
 <a href="/radio">🇰🇷 한국어</a>
 <span class="is-active">🇺🇸 English</span>
@@ -35,8 +35,8 @@ audioProvider: "IRO × LOOP / English"
 <h2>"This Week's Hottest AI: Claude Opus 5"</h2>
 <p>We picked the AI story that drew the most attention this week. As models get better, what should you delegate — and where should a human still verify?</p>
 <div class="ewa-radio-meta">
-<span>⏱ ~5 min</span>
-<span>🎙️ IRO × LOOP</span>
+<span>⏱ ~2 min 30 sec</span>
+<span>🎙️ Iro × Loop</span>
 <span>🌏 KO · EN · JA</span>
 </div>
 </div>
@@ -51,16 +51,16 @@ audioProvider: "IRO × LOOP / English"
 </div>
 <div class="ewa-hosts-grid">
 <div class="ewa-host-card ewa-host-card--iro">
-<div class="ewa-host-avatar" aria-hidden="true">IRO</div>
-<h3>IRO</h3>
+<div class="ewa-host-avatar" aria-hidden="true">Iro</div>
+<h3>Iro</h3>
 <p>Charmingly off-kilter indie pop artist. Low and calm, then suddenly bright and provocative. Finds the strange details others miss.</p>
-<span class="ewa-host-voice">Voice bible: IRO / playful, strange, curious</span>
+<span class="ewa-host-voice">Voice bible: Iro / playful, strange, curious</span>
 </div>
 <div class="ewa-host-card ewa-host-card--loop">
-<div class="ewa-host-avatar" aria-hidden="true">LOOP</div>
-<h3>LOOP</h3>
+<div class="ewa-host-avatar" aria-hidden="true">Loop</div>
+<h3>Loop</h3>
 <p>Systems editor who reassembles work by input, output, and review criteria. Finds the missing conditions in AI success stories and reduces them to 10-minute experiments.</p>
-<span class="ewa-host-voice">Voice bible: LOOP / dry, precise, playful</span>
+<span class="ewa-host-voice">Voice bible: Loop / dry, precise, playful</span>
 </div>
 </div>
 </section>

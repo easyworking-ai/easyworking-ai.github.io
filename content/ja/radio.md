@@ -1,6 +1,6 @@
 ---
-title: ラジオ · IRO × LOOPの週刊AIトレンド
-description: 毎週、IROとLOOPが最もホットだったAIニュースを一つ選んで伝えます。なぜ熱いのか、会社員に何を変えるのか、月曜日にすぐ試せる小さな実験まで。
+title: ラジオ · イロ × ループの週刊AIトレンド
+description: 毎週、イロとループが最もホットだったAIニュースを一つ選んで伝えます。なぜ熱いのか、会社員に何を変えるのか、月曜日にすぐ試せる小さな実験まで。
 cssclass: radio
 publish: true
 lang: ja
@@ -9,14 +9,14 @@ tags:
   - podcast
 audio: /static/radio/episode-02-ja.mp3
 audioTitle: "EP02 · 今週最もホットなAI：Claude Opus 5"
-audioProvider: "IRO × LOOP / 日本語"
+audioProvider: "イロ × ループ / 日本語"
 ---
 
-<div class="ewa-radio" aria-label="IROとLOOPの週刊AIトレンドラジオ">
+<div class="ewa-radio" aria-label="イロとループの週刊AIトレンドラジオ">
 <section class="ewa-radio-hero">
-<span class="ewa-kicker">RADIO / IRO × LOOP</span>
+<span class="ewa-kicker">RADIO / イロ × ループ</span>
 <h1>毎週、新しい<br><em>AIトレンドを届けます</em></h1>
-<p>一週間のAIニュースの中で最もホットだった一つを、IROとLOOPが伝えます。なぜ熱いのか、会社員に何を変えるのか、月曜日にすぐ試せる小さな実験まで。</p>
+<p>一週間のAIニュースの中で最もホットだった一つを、イロとループが伝えます。なぜ熱いのか、会社員に何を変えるのか、月曜日にすぐ試せる小さな実験まで。</p>
 <div class="ewa-radio-lang-tabs">
 <a href="/radio">🇰🇷 한국어</a>
 <a href="/en/radio">🇺🇸 English</a>
@@ -35,8 +35,8 @@ audioProvider: "IRO × LOOP / 日本語"
 <h2>"今週最もホットなAI：Claude Opus 5"</h2>
 <p>今週最も注目を集めたAIニュースを一つ選びました。モデルが進化するほど、何を任せ、どこで人が確認するべきか。会社員の仕事を基準に紐解きます。</p>
 <div class="ewa-radio-meta">
-<span>⏱ 約6分</span>
-<span>🎙️ IRO × LOOP</span>
+<span>⏱ 約2分30秒</span>
+<span>🎙️ イロ × ループ</span>
 <span>🌏 KO · EN · JA</span>
 </div>
 </div>
@@ -51,16 +51,16 @@ audioProvider: "IRO × LOOP / 日本語"
 </div>
 <div class="ewa-hosts-grid">
 <div class="ewa-host-card ewa-host-card--iro">
-<div class="ewa-host-avatar" aria-hidden="true">IRO</div>
-<h3>IRO</h3>
+<div class="ewa-host-avatar" aria-hidden="true">イロ</div>
+<h3>イロ</h3>
 <p>魅力的にズレたインディーポップアーティスト。低く落ち着いていて、突然明るく挑発的になる。他の人が見逃す奇妙なポイントを先に発見する。</p>
-<span class="ewa-host-voice">Voice bible: IRO / playful, strange, curious</span>
+<span class="ewa-host-voice">Voice bible: イロ / playful, strange, curious</span>
 </div>
 <div class="ewa-host-card ewa-host-card--loop">
-<div class="ewa-host-avatar" aria-hidden="true">LOOP</div>
-<h3>LOOP</h3>
+<div class="ewa-host-avatar" aria-hidden="true">ループ</div>
+<h3>ループ</h3>
 <p>入力・成果物・検証基準で仕事を組み直すシステム編集者。AIの成功談から抜け落ちた条件を見つけ出し、10分の実験に縮める。</p>
-<span class="ewa-host-voice">Voice bible: LOOP / dry, precise, playful</span>
+<span class="ewa-host-voice">Voice bible: ループ / dry, precise, playful</span>
 </div>
 </div>
 </section>
