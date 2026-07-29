@@ -655,18 +655,26 @@ body {
 
 // ─── EWA frame: navigation, reading chrome, audio ──────────
 .ewa-site-header {
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 50;
+  left: 0;
+  right: 0;
+  z-index: 1000;
   display: flex;
   align-items: center;
   gap: 2rem;
   min-height: 68px;
   padding: 0 clamp(1rem, 4vw, 3rem);
   border-bottom: 1px solid var(--ewa-border);
-  background: rgba(13, 15, 20, 0.88);
-  backdrop-filter: blur(18px);
+  background: rgba(13, 15, 20, 0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   font-family: var(--ewa-font);
+}
+
+// 헤더 높이만큼 본문 하단으로 밀기
+.ewa-frame {
+  padding-top: 68px;
 }
 
 .ewa-brand {
@@ -2676,8 +2684,34 @@ body {
   color: var(--ewa-text-dim);
 }
 
+// ─── Code block readability (다크 테마 대비 개선) ───────────
+.ewa-frame pre {
+  background: #1a1d24 !important;
+  border-color: #2a2d34 !important;
+}
+.ewa-frame pre code {
+  color: #e4e5eb !important;
+}
+// shiki github-dark 토큰이 너무 어두운 색을 덮어쓰는 문제 수정
+.ewa-frame [saved-theme="dark"] code[data-theme*=" "] span {
+  color: #c9d1d9 !important;
+}
+.ewa-frame [saved-theme="dark"] code[data-theme*=" "] {
+  color: #c9d1d9 !important;
+  background-color: transparent !important;
+}
+// 인라인 코드도 가독성 개선
+.ewa-frame :not(pre) > code {
+  color: #f0a500 !important;
+  background: rgba(240, 165, 0, 0.12) !important;
+}
+
 // ─── Mobile ───────────────────────────────────────────────
 @media (max-width: 768px) {
+  .ewa-frame {
+    padding-top: 68px;
+  }
+
   .ewa-radio-now {
     flex-direction: column;
     text-align: center;
