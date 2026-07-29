@@ -910,7 +910,7 @@ body {
   min-height: 70vh;
 }
 .ewa-article-chrome {
-  max-width: 960px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: clamp(3rem, 8vw, 6rem) clamp(1rem, 4vw, 3rem) 2.5rem;
   font-family: var(--ewa-font);
@@ -975,7 +975,7 @@ body {
   text-decoration: none;
 }
 .ewa-frame > article {
-  width: min(960px, calc(100% - 2rem));
+  width: min(1100px, calc(100% - 2rem));
   margin: 0 auto;
   padding: 0 0 6rem;
 }
