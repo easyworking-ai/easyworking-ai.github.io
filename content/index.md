@@ -30,9 +30,10 @@ tags:
 <section class="ewa-games-section" aria-labelledby="ewa-games-title">
 <div class="ewa-section-heading">
 <div>
-<span class="ewa-section-kicker">TRY / 해보기</span>
+<span class="ewa-section-kicker">TRY / 체험하기</span>
 <h2 id="ewa-games-title">직접 해보는 AI 체험</h2>
 </div>
+<a class="ewa-section-more" href="/play">전체 보기 →</a>
 </div>
 <div class="ewa-games-grid">
 <div class="ewa-game-card">
@@ -61,58 +62,44 @@ tags:
 <section class="ewa-read-section" aria-labelledby="ewa-read-title">
 <div class="ewa-section-heading">
 <div>
-<span class="ewa-section-kicker">READ / 읽기</span>
+<span class="ewa-section-kicker">GUIDES / 가이드</span>
 <h2 id="ewa-read-title">복사해서 쓰는 실전 가이드</h2>
 </div>
-<p>회의록·이메일·엑셀 프롬프트부터 에이전트 도입까지. 각 글에 검수 체크리스트가 포함되어 있습니다.</p>
+<p>회의록·이메일·엑셀 프롬프트부터 에이전트 개념까지. 각 글에 검수 체크리스트가 포함되어 있습니다.</p>
 </div>
 <div class="ewa-read-grid">
 <div class="ewa-read-column">
-<h3 class="ewa-read-column-title">프롬프트 모음</h3>
-<a class="ewa-read-card" href="/prompts/meeting-summary">
+<h3 class="ewa-read-column-title">바로사용</h3>
+<a class="ewa-read-card" href="/guides/meeting-summary">
 <span class="ewa-read-card-cat">회의록 · 5분</span>
 <h4>회의록을 3분 만에 정리하는 프롬프트</h4>
 <p>"핵심만 요약해줘"가 실패하는 이유. 결정·담당자·마감일을 구조적으로 추출하는 프롬프트와 검수 체크리스트.</p>
 </a>
-<a class="ewa-read-card" href="/prompts/email-that-gets-replies">
+<a class="ewa-read-card" href="/guides/email-that-gets-replies">
 <span class="ewa-read-card-cat">이메일 · 5분</span>
 <h4>"정중하게"가 아니라 답장을 받는 이메일 프롬프트</h4>
 <p>수신자가 3초 안에 뭘 해야 하는지 아는 이메일을 만드는 구조화 프롬프트와 자주 틀리는 부분.</p>
 </a>
-<a class="ewa-read-card" href="/prompts/excel-safe-analysis">
+<a class="ewa-read-card" href="/guides/excel-safe-analysis">
 <span class="ewa-read-card-cat">엑셀 · 6분</span>
 <h4>엑셀 데이터를 AI에게 안전하게 분석시키는 법</h4>
 <p>개인정보 비식별화, 분석 범위 지정, 결과 검증까지 3단계 실무 절차.</p>
 </a>
-<a class="ewa-read-more" href="/prompts">프롬프트 전체 보기 →</a>
+<a class="ewa-read-more" href="/guides">가이드 전체 보기 →</a>
 </div>
 <div class="ewa-read-column">
-<h3 class="ewa-read-column-title">에이전트 실무</h3>
-<a class="ewa-read-card" href="/agents/chatbot-vs-agent">
-<span class="ewa-read-card-cat">도입 · 6분</span>
-<h4>AI 에이전트와 챗봇의 차이 — 그래서 뭘 쓸 것인가</h4>
+<h3 class="ewa-read-column-title">학습하기</h3>
+<a class="ewa-read-card" href="/learn/chatbot-vs-agent">
+<span class="ewa-read-card-cat">개념 · 6분</span>
+<h4>AI 에이전트와 챗봇의 차이</h4>
 <p>에이전트가 "더 똑똑한 챗봇"이 아니라는 것. 언제 에이전트를 쓰고 언제 챗봇을 쓸 것인가.</p>
 </a>
-<a class="ewa-read-card" href="/agents/agent-runtime-reliability-practical">
+<a class="ewa-read-card" href="/learn/agent-runtime-reliability">
 <span class="ewa-read-card-cat">신뢰성 · 7분</span>
-<h4>에이전트가 자꾸 깨지는 진짜 이유 — 런타임 신뢰성 5가지</h4>
+<h4>에이전트가 자꾸 깨지는 진짜 이유</h4>
 <p>지연 예산, 도구 호출 비용, 권한 경계, 상태 복구, 실행 환경. 실무에서 확인할 5가지 기준.</p>
 </a>
-<a class="ewa-read-card" href="/wiki/concepts/agent-runtime-reliability">
-<span class="ewa-read-card-cat">심층 · 12분</span>
-<h4>AI 에이전트 런타임 신뢰성 심층 분석</h4>
-<p>벤치마크 점수와 무관하게 에이전트가 멈추는 구조적 원인의 기술적 분석.</p>
-</a>
-<a class="ewa-read-more" href="/agents">에이전트 전체 보기 →</a>
-</div>
-<div class="ewa-read-column">
-<h3 class="ewa-read-column-title">모델 심층</h3>
-<a class="ewa-read-card" href="/wiki/concepts/gpt2-to-kimik3-architecture-evolution">
-<span class="ewa-read-card-cat">구조 · 15분</span>
-<h4>GPT-2에서 KimiK3까지 — LLM 구조가 진화한 방식</h4>
-<p>최신 언어모델은 더 많이 기억하지 않고 더 효율적으로 잊는다. Linear Attention, DeltaNet, KDA, MoE로 이어지는 7년의 변화를 코드와 그림으로 따라갑니다.</p>
-</a>
-<a class="ewa-read-more" href="/guides">가이드 전체 보기 →</a>
+<a class="ewa-read-more" href="/learn">학습 전체 보기 →</a>
 </div>
 </div>
 </section>

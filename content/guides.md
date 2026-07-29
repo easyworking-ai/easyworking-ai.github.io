@@ -1,6 +1,6 @@
 ---
 title: 가이드 · 복사해서 쓰는 AI 실전 매뉴얼
-description: 회의록, 이메일, 엑셀, 에이전트 — 업무별로 당장 쓸 수 있는 프롬프트와 실무 활용법. 각 글에 복사 가능한 프롬프트와 검수 체크리스트가 포함되어 있습니다.
+description: 회의록, 이메일, 엑셀 — 업무별로 당장 쓸 수 있는 프롬프트와 실무 활용법. 각 글에 복사 가능한 프롬프트와 검수 체크리스트가 포함되어 있습니다.
 cssclass: guides
 publish: true
 lang: ko
@@ -12,17 +12,18 @@ tags:
 <section class="ewa-guides-hero">
 <span class="ewa-kicker">GUIDES / 실전 가이드</span>
 <h1>복사해서 쓰면 되는<br><em>AI 실행 매뉴얼</em></h1>
-<p>회의록 정리, 이메일 작성, 엑셀 분석, 에이전트 도입. 각 글에 프롬프트 전문과 검수 체크리스트가 포함되어 있습니다.</p>
+<p>회의록 정리, 이메일 작성, 엑셀 분석. 각 글에 프롬프트 전문과 검수 체크리스트가 포함되어 있습니다.</p>
 </section>
 <section class="ewa-guides-list">
 <div class="ewa-section-heading">
 <div>
-<span class="ewa-section-kicker">PROMPTS / 프롬프트 모음</span>
+<span class="ewa-section-kicker">PROMPTS / 바로사용</span>
 <h2>업무별 프롬프트</h2>
 </div>
+<a class="ewa-section-more" href="/learn">개념 학습 →</a>
 </div>
 <div class="ewa-guide-grid">
-<a class="ewa-guide-card" href="/prompts/meeting-summary">
+<a class="ewa-guide-card" href="/guides/meeting-summary">
 <div class="ewa-guide-card-header">
 <span class="ewa-guide-card-num">01</span>
 <span class="ewa-guide-card-cat">회의록</span>
@@ -34,7 +35,7 @@ tags:
 <span>🏷️ 회의록 · 프롬프트</span>
 </div>
 </a>
-<a class="ewa-guide-card" href="/prompts/email-that-gets-replies">
+<a class="ewa-guide-card" href="/guides/email-that-gets-replies">
 <div class="ewa-guide-card-header">
 <span class="ewa-guide-card-num">02</span>
 <span class="ewa-guide-card-cat">이메일</span>
@@ -46,7 +47,7 @@ tags:
 <span>🏷️ 이메일 · 프롬프트</span>
 </div>
 </a>
-<a class="ewa-guide-card" href="/prompts/excel-safe-analysis">
+<a class="ewa-guide-card" href="/guides/excel-safe-analysis">
 <div class="ewa-guide-card-header">
 <span class="ewa-guide-card-num">03</span>
 <span class="ewa-guide-card-cat">엑셀</span>
@@ -56,74 +57,6 @@ tags:
 <div class="ewa-guide-card-meta">
 <span>📖 6분</span>
 <span>🏷️ 엑셀 · 데이터 · 보안</span>
-</div>
-</a>
-</div>
-</section>
-<section class="ewa-guides-list">
-<div class="ewa-section-heading">
-<div>
-<span class="ewa-section-kicker">AGENTS / 에이전트 실무</span>
-<h2>AI 에이전트 실전 활용법</h2>
-</div>
-</div>
-<div class="ewa-guide-grid">
-<a class="ewa-guide-card" href="/agents/chatbot-vs-agent">
-<div class="ewa-guide-card-header">
-<span class="ewa-guide-card-num">01</span>
-<span class="ewa-guide-card-cat">도입</span>
-</div>
-<h3>AI 에이전트와 챗봇의 차이 — 그래서 뭘 쓸 것인가</h3>
-<p>에이전트가 "더 똑똑한 챗봇"이 아니라는 것. 언제 에이전트를 쓰고 언제 챗봇을 쓸 것인가.</p>
-<div class="ewa-guide-card-meta">
-<span>📖 6분</span>
-<span>🏷️ ai-agent · 도입</span>
-</div>
-</a>
-<a class="ewa-guide-card" href="/agents/agent-runtime-reliability-practical">
-<div class="ewa-guide-card-header">
-<span class="ewa-guide-card-num">02</span>
-<span class="ewa-guide-card-cat">신뢰성</span>
-</div>
-<h3>에이전트가 자꾸 깨지는 진짜 이유 — 런타임 신뢰성 5가지</h3>
-<p>지연 예산, 도구 호출 비용, 권한 경계, 상태 복구, 실행 환경. 실무에서 확인할 5가지 기준.</p>
-<div class="ewa-guide-card-meta">
-<span>📖 7분</span>
-<span>🏷️ ai-agent · 신뢰성</span>
-</div>
-</a>
-<a class="ewa-guide-card" href="/wiki/concepts/agent-runtime-reliability">
-<div class="ewa-guide-card-header">
-<span class="ewa-guide-card-num">03</span>
-<span class="ewa-guide-card-cat">심층</span>
-</div>
-<h3>AI 에이전트 런타임 신뢰성 심층 분석</h3>
-<p>벤치마크 점수와 무관하게 에이전트가 멈추는 구조적 원인의 기술적 분석.</p>
-<div class="ewa-guide-card-meta">
-<span>📖 12분</span>
-<span>🏷️ ai-agent · 심층</span>
-</div>
-</a>
-</div>
-</section>
-<section class="ewa-guides-list">
-<div class="ewa-section-heading">
-<div>
-<span class="ewa-section-kicker">MODEL DESIGN / 모델 구조</span>
-<h2>LLM 구조 읽기</h2>
-</div>
-</div>
-<div class="ewa-guide-grid">
-<a class="ewa-guide-card" href="/wiki/concepts/gpt2-to-kimik3-architecture-evolution">
-<div class="ewa-guide-card-header">
-<span class="ewa-guide-card-num">01</span>
-<span class="ewa-guide-card-cat">아키텍처</span>
-</div>
-<h3>GPT-2에서 KimiK3까지 — LLM 구조가 진화한 방식</h3>
-<p>KV Cache의 한계에서 출발해 Linear Attention, DeltaNet, KDA, MoE, AttnRes로 이어지는 7년의 변화를 코드와 그림으로 따라갑니다.</p>
-<div class="ewa-guide-card-meta">
-<span>📖 15분</span>
-<span>🏷️ llm · architecture · attention</span>
 </div>
 </a>
 </div>

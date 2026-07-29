@@ -4,10 +4,8 @@ const NAV_ITEMS = [
   { href: "/this-week", ko: "이번 주", en: "This Week", ja: "今週" },
   { href: "/radio", ko: "라디오", en: "Radio", ja: "ラジオ" },
   { href: "/guides", ko: "가이드", en: "Guides", ja: "ガイド" },
-  { href: "/prompts", ko: "프롬프트", en: "Prompts", ja: "プロンプト" },
-  { href: "/agents", ko: "에이전트", en: "Agents", ja: "エージェント" },
-  { href: "/static/showdown/", ko: "게임", en: "Games", ja: "ゲーム" },
-  { href: "/static/ai-test/", ko: "진단", en: "Diagnosis", ja: "診断" },
+  { href: "/learn", ko: "학습하기", en: "Learn", ja: "学ぶ" },
+  { href: "/play", ko: "체험하기", en: "Play", ja: "体験" },
 ]
 
 const SiteHeader: QuartzComponent = ({ allFiles }: QuartzComponentProps) => {
