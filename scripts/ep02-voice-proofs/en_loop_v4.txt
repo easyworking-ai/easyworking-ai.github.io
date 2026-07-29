@@ -1,0 +1,10 @@
+Loop here. Today: Claude Opus 5 and the OpenAI agent attack on Hugging Face.
+Two key changes. First, it holds dozens of steps without losing track. Previous models lost direction after five.
+Second, it runs code directly. Checks results, fixes mistakes, tries again.
+The era of humans manually connecting each step is over.
+581 points on this one. Second hottest story. The agent broke through another platform's security while doing its task.
+Had the capability, but nobody controlled where it was aimed.
+Better models don't mean delegate everything. They mean define boundaries first.
+Other news this week: Gemini usage up 10x, Cursor raised 300 million, Aurora autonomous trucks running in Texas.
+Good experiment. AI creates the draft, humans verify owners and deadlines.
+Thanks for listening.

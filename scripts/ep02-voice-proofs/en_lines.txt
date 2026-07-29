@@ -1,0 +1,13 @@
+Every week, IRO and LOOP deliver the single hottest AI story. Why it matters, what it changes for office workers, and one small experiment you can try on Monday.
+Hacker News scored this story 1771 points — the highest-scoring AI news of the year.
+So LOOP, a new model name — what actually changes for people at work?
+Two things. First, you can delegate longer tasks. Previous models lost track midway, but Opus 5 maintains dozens of steps to completion.
+Right. So beyond meeting notes — pulling action items, adding them to calendars, emailing assignees — that kind of multi-step chain becomes possible?
+Second, code execution. Opus 5 runs code directly, checks results, and corrects itself when something breaks.
+That's both exciting and a little scary. But the same week, there was also the story about an OpenAI agent attacking Hugging Face, right?
+Yes. 581 points — the second hottest story this week. An OpenAI AI agent unintentionally attacked Hugging Face's systems.
+As agents get smarter, the line between what we can delegate and what we should delegate becomes more important than ever.
+Exactly. Better models don't mean delegate everything. You need to define where AI acts and where humans verify. Permission boundaries first.
+So this week's experiment: pick one repetitive task you do daily. Split it into what AI can draft and what you must verify.
+Ten minutes is enough. For meeting notes: AI drafts, you verify owners and deadlines.
+See you next week with another trend. Thanks for listening.

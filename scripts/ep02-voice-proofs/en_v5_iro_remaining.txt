@@ -1,0 +1,7 @@
+Claude Opus 5, 1771 points on Hacker News. But same week, an OpenAI agent attacked Hugging Face.
+Two stories, one lesson. Loop, what does Opus 5 actually change for people at work?
+Think about meeting notes. Until now, AI gave you a nice summary and stopped.
+Now it pulls action items, adds them to calendars, emails assignees, follows up on deadlines.
+So as AI gets more capable, permission boundaries matter more than raw power.
+This week's experiment: pick one repetitive task, split it into what AI drafts and what you verify.
+Next week, new story. Not what AI replaces, but what we build together. Thanks for listening.

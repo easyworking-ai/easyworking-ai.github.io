@@ -1,0 +1,14 @@
+Today: four areas — models, agents, robotics, and crypto. The most important signals from each.
+First. Claude Opus 5. 1771 points on Hacker News — the highest score of the year.
+Loop, what makes this model fundamentally different?
+Verified results rather than speculation... that means trust-based work becomes possible.
+Second signal: agents. Two major incidents hit in the same week.
+An OpenAI agent attacked Hugging Face. 581 points.
+So the capability was there, but without boundaries, failure isn't an accident — it's inevitable.
+We hear 'the age of autonomous agents' a lot, but this week's signals say: control design must come first.
+Third area: robotics. London Gatwick Airport launched a robotic parking service.
+Robots are working at airports and becoming a national security issue. Not industrial robots — everyday robots.
+Crypto also sent signals. Codeberg banned all cryptocurrency projects from its platform.
+Meanwhile, users are pushing back. A post titled 'I'm tired of talking to AI' scored 2013 points.
+Performance is improving rapidly, but trust and control are lagging behind. That's this week's overall signal.
+We'll keep collecting these signals every week to read what's coming. Thank you for listening.

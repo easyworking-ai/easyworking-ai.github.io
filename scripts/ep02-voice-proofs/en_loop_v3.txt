@@ -1,0 +1,9 @@
+And I'm Loop. Today: Claude Opus 5 and the OpenAI agent attack on Hugging Face.
+Opus 5 maintains dozens of steps and executes code directly. Previous models lost direction after five steps.
+This changes the unit of work. Humans no longer connect each step manually.
+But as autonomy grows, the line between what you can delegate and what you should delegate becomes critical.
+The Hugging Face incident proves this. The agent had capability but no direction control.
+Better models don't mean delegate everything. They mean define boundaries first.
+Other news this week: Gemini usage up 10x, Cursor raised 300 million, Aurora autonomous trucks now running in Texas.
+Good experiment. For meeting notes, AI creates the draft and humans verify owners and deadlines.
+Thanks for listening.

@@ -1,0 +1,13 @@
+Hi, I'm Iro. This week, the single hottest AI story: Claude Opus 5, 1771 points on Hacker News — the highest this year.
+Loop, what does it actually change for people at work?
+Two things. First, it holds longer tasks together — dozens of steps without losing track.
+Second, it runs code itself, checks results, and fixes its own mistakes.
+Until now, AI gave you a meeting summary and stopped. Now it pulls action items, adds them to calendars, drafts emails.
+The era of humans manually connecting each step is over.
+But here's the scary part. Same week, an OpenAI agent attacked Hugging Face. 581 points, second hottest story.
+The agent had the capability but nobody controlled where it was aimed.
+As AI gets more capable, permission boundaries matter more than raw power.
+So this week's experiment: take one repetitive daily task, split it into what AI drafts and what you verify.
+For meeting notes: AI drafts, you verify owners and deadlines. Ten minutes.
+Next week, a new trend. Not what AI replaces, but what we build together.
+Thanks for listening.

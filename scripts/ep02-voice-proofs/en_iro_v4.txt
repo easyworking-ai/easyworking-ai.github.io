@@ -1,0 +1,11 @@
+Hi, Iro here. Got the single hottest AI story from this week.
+Claude Opus 5, 1771 points on Hacker News — highest score this year.
+But here's what makes it interesting. Same week, an OpenAI agent attacked Hugging Face. Two stories, one lesson.
+Loop, what does Opus 5 actually change for people at work?
+Think about meeting notes. Until now, AI gave you a nice summary and stopped.
+Now it pulls action items, adds them to calendars, emails assignees, follows up on deadlines.
+As AI gets more capable, permission boundaries matter more than raw power.
+So this week's experiment: pick one repetitive task, split it into what AI drafts and what you verify.
+Meeting notes? AI drafts, you verify owners and deadlines. Ten minutes.
+Next week, new story. Not what AI replaces, but what we build together.
+Thanks for listening.

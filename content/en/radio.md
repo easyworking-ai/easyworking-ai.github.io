@@ -33,7 +33,7 @@ audioProvider: "Iro × Loop / English"
 <div class="ewa-radio-info">
 <span class="ewa-radio-ep">Episode 02 · Weekly Trend</span>
 <h2>"This Week's AI Future Forecast"</h2>
-<p>We read this week's signals to forecast what's coming. Models, agents, robotics, and crypto. As models get better, what should you delegate — and where should a human still verify?</p>
+<p>We read this week's developments to forecast what's coming. Models, agents, robotics, and crypto. As models get better, what should you delegate — and where should a human still verify?</p>
 <div class="ewa-radio-meta">
 <span>⏱ ~3-4 min</span>
 <span>🎙️ Iro × Loop</span>
