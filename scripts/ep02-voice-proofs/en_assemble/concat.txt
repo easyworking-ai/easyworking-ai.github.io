@@ -1,4 +1,0 @@
-file '/Users/macbook/easyworking-ai.github.io/scripts/ep02-voice-proofs/intro_sting.wav'
-file '/Users/macbook/easyworking-ai.github.io/scripts/ep02-voice-proofs/en_assemble/sil_mid.wav'
-file '/Users/macbook/easyworking-ai.github.io/scripts/ep02-voice-proofs/en_assemble/sil_long.wav'
-file '/Users/macbook/easyworking-ai.github.io/scripts/ep02-voice-proofs/outro_sting.wav'

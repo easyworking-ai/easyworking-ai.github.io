@@ -1,0 +1,17 @@
+.DS_Store
+.gitignore
+node_modules
+public
+prof
+tsconfig.tsbuildinfo
+.obsidian
+.quartz-cache
+private/
+.replit
+replit.nix
+.quartz/
+quartz/cli/tui/dist/
+scripts/ep02-voice-proofs/*.wav
+scripts/ep02-voice-proofs/*/*.wav
+scripts/ep02-voice-proofs/*/*.mp3
+scripts/ep02-voice-proofs/__pycache__/
