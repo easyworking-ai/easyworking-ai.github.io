@@ -8,7 +8,7 @@ tags:
   - radio
   - podcast
 audio: /static/radio/episode-02-en.mp3
-audioTitle: "EP02 · This Week's Hottest AI: Claude Opus 5"
+audioTitle: "EP02 · This Week's AI Future Forecast"
 audioProvider: "Iro × Loop / English"
 ---
 
@@ -32,10 +32,10 @@ audioProvider: "Iro × Loop / English"
 </div>
 <div class="ewa-radio-info">
 <span class="ewa-radio-ep">Episode 02 · Weekly Trend</span>
-<h2>"This Week's Hottest AI: Claude Opus 5"</h2>
-<p>We picked the AI story that drew the most attention this week. As models get better, what should you delegate — and where should a human still verify?</p>
+<h2>"This Week's AI Future Forecast"</h2>
+<p>We read this week's signals to forecast what's coming. Models, agents, robotics, and crypto. As models get better, what should you delegate — and where should a human still verify?</p>
 <div class="ewa-radio-meta">
-<span>⏱ ~2 min</span>
+<span>⏱ ~3-4 min</span>
 <span>🎙️ Iro × Loop</span>
 <span>🌏 KO · EN · JA</span>
 </div>

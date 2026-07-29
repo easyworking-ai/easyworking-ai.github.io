@@ -8,7 +8,7 @@ tags:
   - radio
   - podcast
 audio: /static/radio/episode-02-ko.mp3
-audioTitle: "EP02 · 이번 주 가장 뜨거운 AI: Claude Opus 5"
+audioTitle: "EP02 · 이번 주 AI 미래예보: 모델·에이전트·로봇·크립토"
 audioProvider: "이로 × 루프 / 한국어"
 ---
 
@@ -32,10 +32,10 @@ audioProvider: "이로 × 루프 / 한국어"
 </div>
 <div class="ewa-radio-info">
 <span class="ewa-radio-ep">Episode 02 · 이번 주 트렌드</span>
-<h2>"이번 주 가장 뜨거운 AI: Claude Opus 5"</h2>
-<p>이번 주 가장 많이 주목받은 AI 뉴스 하나를 골랐습니다. 모델이 좋아질수록 무엇을 맡기고 어디서 확인해야 하는지, 직장인 업무 기준으로 짚습니다.</p>
+<h2>"이번 주 AI 미래예보: 모델·에이전트·로봇·크립토"</h2>
+<p>이번 주 움직임으로 다가올 변화를 읽습니다. 모델, 에이전트, 로봇, 크립토 네 영역의 신호를 모았습니다. 모델이 좋아질수록 무엇을 맡기고 어디서 확인해야 하는지, 직장인 업무 기준으로 짚습니다.</p>
 <div class="ewa-radio-meta">
-<span>⏱ 약 2분</span>
+<span>⏱ 약 4분</span>
 <span>🎙️ 이로 × 루프</span>
 <span>🌏 KO · EN · JA</span>
 </div>

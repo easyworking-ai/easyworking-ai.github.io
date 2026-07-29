@@ -8,7 +8,7 @@ tags:
   - radio
   - podcast
 audio: /static/radio/episode-02-ja.mp3
-audioTitle: "EP02 · 今週最もホットなAI：Claude Opus 5"
+audioTitle: "EP02 · 今週のAI未来予報"
 audioProvider: "イロ × ループ / 日本語"
 ---
 
@@ -32,10 +32,10 @@ audioProvider: "イロ × ループ / 日本語"
 </div>
 <div class="ewa-radio-info">
 <span class="ewa-radio-ep">Episode 02 · 今週のトレンド</span>
-<h2>"今週最もホットなAI：Claude Opus 5"</h2>
-<p>今週最も注目を集めたAIニュースを一つ選びました。モデルが進化するほど、何を任せ、どこで人が確認するべきか。会社員の仕事を基準に紐解きます。</p>
+<h2>"今週のAI未来予報"</h2>
+<p>今週の動きから来る変化を読み解きます。モデル、エージェント、ロボット、暗号資産のシグナルを集めました。モデルが進化するほど、何を任せ、どこで人が確認するべきか。会社員の仕事を基準に紐解きます。</p>
 <div class="ewa-radio-meta">
-<span>⏱ 約2分</span>
+<span>⏱ 約4分</span>
 <span>🎙️ イロ × ループ</span>
 <span>🌏 KO · EN · JA</span>
 </div>
