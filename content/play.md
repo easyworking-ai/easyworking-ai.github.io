@@ -24,7 +24,7 @@ tags:
 <span class="ewa-game-stats">5분 · 블라인드 투표</span>
 </a>
 <a class="ewa-game-card" href="/static/bluff/">
-<span classewa-game-badge">NEW</span>
+<span class="ewa-game-badge">NEW</span>
 <span class="ewa-game-emoji">🎭</span>
 <h3>AI 눈치게임</h3>
 <p>AI 답변과 사람 답변을 구분하세요. 생각보다 어렵습니다. AI가 어디서 틀리고 어디서 속이는지 체감합니다.</p>
