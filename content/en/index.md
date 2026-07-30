@@ -34,14 +34,12 @@ tags:
 <div class="ewa-games-grid">
 <a class="ewa-game-card" href="/static/showdown/">
 <span class="ewa-game-badge">3 min</span>
-<div class="ewa-game-emoji" aria-hidden="true">⚔️</div>
 <h3>AI Showdown</h3>
 <p>Two AIs answer the same question. Pick the better answer blind, then the models are revealed. This week's topic: meeting summaries.</p>
 <span class="ewa-game-stats">Blind vote</span>
 </a>
 <a class="ewa-game-card" href="/static/ai-test/">
 <span class="ewa-game-badge">3 min</span>
-<div class="ewa-game-emoji" aria-hidden="true">📋</div>
 <h3>AI Work Readiness Test</h3>
 <p>Find out how far AI can help with your work through 12 questions. Get a 4-axis score covering verification habits, prompt design, and tool overconfidence.</p>
 <span class="ewa-game-stats">12 questions · 4-axis score</span>

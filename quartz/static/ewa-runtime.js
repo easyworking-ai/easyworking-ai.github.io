@@ -24,13 +24,23 @@
     document.addEventListener('click', (event) => { if (search && !search.contains(event.target)) setSearch(false) })
     header.querySelector('[data-ewa-theme]')?.addEventListener('click', () => {
       const root = document.documentElement
-      const next = root.dataset.theme === 'dark' ? 'light' : 'dark'
+      const current = root.getAttribute('saved-theme') || (root.dataset.theme || 'dark')
+      const next = current === 'dark' ? 'light' : 'dark'
+      root.setAttribute('saved-theme', next)
       root.dataset.theme = next
       try { localStorage.setItem('ewa-theme', next) } catch (_) {}
     })
     try {
       const saved = localStorage.getItem('ewa-theme')
-      if (saved) document.documentElement.dataset.theme = saved
+      if (saved) {
+        document.documentElement.setAttribute('saved-theme', saved)
+        document.documentElement.dataset.theme = saved
+      } else {
+        const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches
+        const initial = prefersLight ? 'light' : 'dark'
+        document.documentElement.setAttribute('saved-theme', initial)
+        document.documentElement.dataset.theme = initial
+      }
     } catch (_) {}
   }
 

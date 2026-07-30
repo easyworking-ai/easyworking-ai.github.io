@@ -34,15 +34,13 @@ tags:
 <div class="ewa-games-grid">
 <a class="ewa-game-card" href="/static/showdown/">
 <span class="ewa-game-badge">3분</span>
-<div class="ewa-game-emoji" aria-hidden="true">⚔️</div>
-<h3>AI 타격전</h3>
+<h3>⚔️ AI 타격전</h3>
 <p>같은 질문에 두 AI가 답합니다. 블라인드로 더 나은 답을 고르면 모델이 공개됩니다. 이번 주 주제는 회의록 요약.</p>
 <span class="ewa-game-stats">블라인드 투표</span>
 </a>
 <a class="ewa-game-card" href="/static/ai-test/">
 <span class="ewa-game-badge">3분</span>
-<div class="ewa-game-emoji" aria-hidden="true">📋</div>
-<h3>AI 업무 진단 테스트</h3>
+<h3>📋 AI 업무 진단 테스트</h3>
 <p>내 업무에서 AI가 어디까지 도움이 될 수 있는지 12문항으로 진단받습니다. 검증 습관, 프롬프트 설계, 도구 과신 중 어디가 약한지 4축 점수로 나옵니다.</p>
 <span class="ewa-game-stats">12문항 · 4축 점수</span>
 </a>
