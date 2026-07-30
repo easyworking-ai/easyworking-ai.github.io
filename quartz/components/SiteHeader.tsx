@@ -50,6 +50,16 @@ const SiteHeader: QuartzComponent = ({ allFiles }: QuartzComponentProps) => {
           </a>
         ))}
       </nav>
+      <button type="button" class="ewa-menu-toggle" data-ewa-menu-toggle aria-label="메뉴 열기">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="ewa-mobile-nav" data-ewa-mobile-nav hidden>
+        {NAV_ITEMS.map((item) => (
+          <a href={item.href} class="ewa-mobile-nav-link">{item.ko}</a>
+        ))}
+      </div>
       <div class="ewa-header-actions">
         <div class="ewa-search" data-ewa-search>
           <button

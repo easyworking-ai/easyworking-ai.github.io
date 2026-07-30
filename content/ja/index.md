@@ -22,6 +22,9 @@
 22|<span>🎙️ イロ × ループ</span>
 23|<span>한국어 · English · 日本語</span>
 24|</div>
+<div class="ewa-hero-actions">
+<a class="ewa-primary-action" href="/ja/radio">聴く <span aria-hidden="true">→</span></a>
+</div>
 25|</div>
 26|</section>
 27|<section class="ewa-games-section" aria-labelledby="ewa-games-title">

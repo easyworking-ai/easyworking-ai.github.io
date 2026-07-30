@@ -22,6 +22,9 @@ tags:
 <span>🎙️ 이로 × 루프</span>
 <span>한국어 · English · 日本語</span>
 </div>
+<div class="ewa-hero-actions">
+<a class="ewa-primary-action" href="/radio">듣기 <span aria-hidden="true">→</span></a>
+</div>
 </div>
 </section>
 <section class="ewa-games-section" aria-labelledby="ewa-games-title">

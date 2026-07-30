@@ -44,6 +44,30 @@
     } catch (_) {}
   }
 
+  const bootMobileNav = () => {
+    const toggle = document.querySelector('[data-ewa-menu-toggle]')
+    const nav = document.querySelector('[data-ewa-mobile-nav]')
+    if (!toggle || !nav || toggle.dataset.ready === 'true') return
+    toggle.dataset.ready = 'true'
+    toggle.addEventListener('click', () => {
+      const isOpen = !nav.hidden
+      nav.hidden = isOpen
+      toggle.classList.toggle('is-open', !isOpen)
+    })
+    nav.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        nav.hidden = true
+        toggle.classList.remove('is-open')
+      })
+    })
+    document.addEventListener('click', (e) => {
+      if (!toggle.contains(e.target) && !nav.contains(e.target)) {
+        nav.hidden = true
+        toggle.classList.remove('is-open')
+      }
+    })
+  }
+
   const bootToc = () => {
     document.querySelectorAll('[data-ewa-toc]').forEach((toc) => {
       if (toc.dataset.runtimeReady === 'true') return
@@ -108,7 +132,7 @@
     })
   }
 
-  const boot = () => { bootHeader(); bootToc(); bootAudio() }
+  const boot = () => { bootHeader(); bootMobileNav(); bootToc(); bootAudio() }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot)
   else boot()
   document.addEventListener('nav', boot)
