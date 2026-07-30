@@ -59,6 +59,18 @@ tags:
 <span>🏷️ 엑셀 · 데이터 · 보안</span>
 </div>
 </a>
+<a class="ewa-guide-card" href="/guides/report-draft-checklist">
+<div class="ewa-guide-card-header">
+<span class="ewa-guide-card-num">04</span>
+<span class="ewa-guide-card-cat">보고서</span>
+</div>
+<h3>보고서 초안을 AI에게 맡길 때 점검할 7가지</h3>
+<p>"보고서 써줘"가 실패하는 이유와 구조·데이터·검증을 갖춘 프롬프트.</p>
+<div class="ewa-guide-card-meta">
+<span>📖 7분</span>
+<span>🏷️ 보고서 · 프롬프트</span>
+</div>
+</a>
 </div>
 </section>
 </div>
