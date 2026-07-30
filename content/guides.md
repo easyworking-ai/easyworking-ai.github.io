@@ -20,7 +20,6 @@ tags:
 <span class="ewa-section-kicker">PROMPTS / 바로사용</span>
 <h2>업무별 프롬프트</h2>
 </div>
-<a class="ewa-section-more" href="/learn">개념 학습 →</a>
 </div>
 <div class="ewa-guide-grid">
 <a class="ewa-guide-card" href="/guides/meeting-summary">
