@@ -1044,8 +1044,8 @@ body {
 .ewa-article-toc {
   position: fixed;
   top: 155px;
-  left: max(1rem, calc(50% - 650px));
-  width: 150px;
+  left: max(0.5rem, calc(50% - 740px));
+  width: 140px;
   font-family: var(--ewa-font);
 }
 .ewa-toc-label {
@@ -1200,7 +1200,7 @@ body {
   font-size: 0.72rem;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1480px) {
   .ewa-article-toc {
     display: none;
   }
