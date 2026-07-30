@@ -1,84 +1,60 @@
 ---
 title: ラジオ · イロ × ループの週刊AIトレンド
-description: 毎週、イロとループが最もホットだったAIニュースを一つ選んで伝えます。なぜ熱いのか、会社員に何を変えるのか、月曜日にすぐ試せる小さな実験まで。
+description: 毎週、イロとループが最もホットだったAIニュースを一つ選んで伝えます。
 cssclass: radio
 publish: true
 lang: ja
 tags:
   - radio
   - podcast
-audio: /static/radio/episode-02-ja.mp3
-audioTitle: "EP02 · 今週のAI未来予報"
-audioProvider: "イロ × ループ / 日本語"
 ---
-
 <div class="ewa-radio" aria-label="イロとループの週刊AIトレンドラジオ">
 <section class="ewa-radio-hero">
 <span class="ewa-kicker">RADIO / イロ × ループ</span>
 <h1>毎週、新しい<br><em>AIトレンドを届けます</em></h1>
-<p>一週間のAIニュースの中で最もホットだった一つを、イロとループが伝えます。なぜ熱いのか、会社員に何を変えるのか、月曜日にすぐ試せる小さな実験まで。</p>
+<p>一週間のAIニュースの中で最もホットだった一つを、イロとループが伝えます。</p>
 <div class="ewa-radio-lang-tabs">
 <a href="/radio">🇰🇷 한국어</a>
 <a href="/en/radio">🇺🇸 English</a>
 <span class="is-active">🇯🇵 日本語</span>
 </div>
 </section>
-<section class="ewa-radio-episode">
-<div class="ewa-radio-now">
+<section class="ewa-radio-player" id="radio-player">
 <div class="ewa-radio-cover">
-<div class="ewa-radio-cover-art" aria-hidden="true">
-<span>EP 02</span>
+<div class="ewa-radio-cover-art" id="ep-cover">
+<span id="ep-num">EP 01</span>
 </div>
 </div>
 <div class="ewa-radio-info">
-<span class="ewa-radio-ep">Episode 02 · 今週のトレンド</span>
-<h2>"今週のAI未来予報"</h2>
-<p>今週の動きから来る変化を読み解きます。モデル、エージェント、ロボット、暗号資産の動きを集めました。モデルが進化するほど、何を任せ、どこで人が確認するべきか。会社員の仕事を基準に紐解きます。</p>
+<span class="ewa-radio-ep" id="ep-label">Episode 01 · 最新エピソード</span>
+<h2 id="ep-title">AI未来予報：モデル・エージェント・ロボット・暗号資産</h2>
+<p id="ep-summary">AIの方向性を示す4つの領域。モデルは検証済みの結果をもたらし、エージェントは統制なき自律が事故に。ロボットは日常に入り、暗号資産は規制と研究の両方が動きました。</p>
 <div class="ewa-radio-meta">
-<span>⏱ 約4分</span>
+<span id="ep-date">2026-07-29</span>
+<span id="ep-duration">⏱ 約3分</span>
 <span>🎙️ イロ × ループ</span>
-<span>🌏 KO · EN · JA</span>
 </div>
-</div>
-</div>
-</section>
-<section class="ewa-radio-hosts">
-<div class="ewa-section-heading ewa-section-heading--compact">
-<div>
-<span class="ewa-section-kicker">HOSTS</span>
-<h2>パーソナリティ</h2>
-</div>
-</div>
-<div class="ewa-hosts-grid">
-<div class="ewa-host-card ewa-host-card--iro">
-<div class="ewa-host-avatar" aria-hidden="true">イロ</div>
-<h3>イロ</h3>
-<p>魅力的にズレたインディーポップアーティスト。低く落ち着いていて、突然明るく挑発的になる。他の人が見逃す奇妙なポイントを先に発見する。</p>
-<span class="ewa-host-voice">Voice bible: イロ / playful, strange, curious</span>
-</div>
-<div class="ewa-host-card ewa-host-card--loop">
-<div class="ewa-host-avatar" aria-hidden="true">ループ</div>
-<h3>ループ</h3>
-<p>入力・成果物・検証基準で仕事を組み直すシステム編集者。AIの成功談から抜け落ちた条件を見つけ出し、10分の実験に縮める。</p>
-<span class="ewa-host-voice">Voice bible: ループ / dry, precise, playful</span>
-</div>
+<audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
+<source id="ep-source" src="/static/radio/episode-01-ja.mp3" type="audio/mpeg">
+</audio>
 </div>
 </section>
 <section class="ewa-radio-archive">
 <div class="ewa-section-heading ewa-section-heading--compact">
 <div>
 <span class="ewa-section-kicker">ARCHIVE</span>
-<h2>過去のエピソード</h2>
+<h2>エピソード一覧</h2>
 </div>
 </div>
-<div class="ewa-radio-archive-list">
-<div class="ewa-radio-archive-item">
+<div class="ewa-radio-archive-list" id="ep-list">
+<div class="ewa-radio-archive-item is-active" data-ep="1" data-lang="ja">
 <span class="ewa-radio-archive-num">EP 01</span>
 <div>
-<h4>パイロット：「AIに仕事を頼んだのに、なぜ自分がもっと忙しくなったのか」</h4>
-<span>7月第4週 · 한국어 · English · 日本語</span>
+<h4>AI未来予報：モデル・エージェント・ロボット・暗号資産</h4>
+<span>2026-07-29 · 約3分 · 한국어 · English · 日本語</span>
 </div>
 </div>
 </div>
 </section>
 </div>
+<script src="/static/radio-player.js"></script>

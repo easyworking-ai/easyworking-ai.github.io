@@ -1,0 +1,15 @@
+Hello, I'm Iro. Every Wednesday morning, we look at what happened this week to see what's coming next.
+Today, four areas: models, agents, robotics, and crypto. The stories that mattered most.
+First, Claude Opus 5. This was the biggest story of the week.
+Loop, what actually makes this model different from before?
+So it brings back verified results. That means you can actually trust it for real work.
+Second, agents. There were back-to-back incidents this week.
+An OpenAI agent attacked Hugging Face.
+So the capability was there, but nobody drew a line. Without that, it's not an accident — it's just going to happen.
+Everyone talks about autonomous agents, but this week's stories feel like a warning. Build the guardrails first.
+Third, robotics. London Gatwick Airport started a robotic parking service.
+Robots working at airports, becoming a national security topic. Not factory robots — everyday robots.
+Crypto also had news. Codeberg banned all cryptocurrency projects.
+Meanwhile, users are split. A post saying 'I'm tired of talking to AI' went viral.
+Performance is getting better fast, but trust and control haven't caught up. That's been the whole week, really.
+We'll keep bringing you these stories every week. Thanks for listening.

@@ -1,0 +1,30 @@
+{
+  "episodes": [
+    {
+      "num": 1,
+      "title": {
+        "ko": "AI 미래예보: 모델·에이전트·로봇·크립토",
+        "en": "AI Future Forecast: Models·Agents·Robotics·Crypto",
+        "ja": "AI未来予報：モデル・エージェント・ロボット・暗号資産"
+      },
+      "date": "2026-07-29",
+      "duration": "~3분",
+      "topics": {
+        "ko": ["Claude Opus 5", "에이전트 보안 사고", "로봇 주차·국가안보", "크립토 규제"],
+        "en": ["Claude Opus 5", "Agent security incidents", "Robotic parking & national security", "Crypto regulation"],
+        "ja": ["Claude Opus 5", "エージェントセキュリティ", "ロボット駐車・国家安保", "暗号資産規制"]
+      },
+      "summary": {
+        "ko": "이번 주 AI 생태계 전반의 방향성을 보여주는 네 영역의 소식. 모델은 검증된 결과를 가져오기 시작했고, 에이전트는 통제 없는 자율이 사고로 이어졌습니다. 로봇은 일상에 진입했고, 크립토는 규제와 연구 도구 양쪽에서 움직임이 있습니다.",
+        "en": "Four areas showing where AI is heading. Models now bring verified results. Agents without guardrails caused real damage. Robotics entered everyday life. Crypto saw both regulation and new research tools.",
+        "ja": "AIの方向性を示す4つの領域。モデルは検証済みの結果をもたらし、エージェントは統制なき自律が事故に。ロボットは日常に入り、暗号資産は規制と研究の両方が動きました。"
+      },
+      "audio": {
+        "ko": "/static/radio/episode-01-ko.mp3",
+        "en": "/static/radio/episode-01-en.mp3",
+        "ja": "/static/radio/episode-01-ja.mp3"
+      }
+    }
+  ],
+  "latest": 1
+}

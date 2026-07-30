@@ -1,0 +1,3 @@
+file '/Users/macbook/easyworking-ai.github.io/scripts/ep02-voice-proofs/iro_stiff_test/work_A/n0.wav'
+file '/Users/macbook/easyworking-ai.github.io/scripts/ep02-voice-proofs/iro_stiff_test/work_A/sil.wav'
+file '/Users/macbook/easyworking-ai.github.io/scripts/ep02-voice-proofs/iro_stiff_test/work_A/n1.wav'

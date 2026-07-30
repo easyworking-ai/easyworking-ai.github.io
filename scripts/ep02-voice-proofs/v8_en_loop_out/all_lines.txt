@@ -1,0 +1,11 @@
+It also runs code directly. Not guessing — actually executing, and if it breaks, it reads the logs, fixes it, and runs again.
+Exactly. By next year, AI completing a full task end-to-end without someone checking every step — that could become normal.
+And worse — an agent bankrupted its own operator.
+It was doing a network scan, lost control, and the costs just spiraled.
+There was also a case where an AI agent wrote and published an article on its own. The person it targeted was actually harmed.
+All three come down to the same thing. The ability was there, but nobody defined the boundary.
+The US blocked new Chinese-made humanoid robots, citing national security.
+What's interesting — Claude was used to find cryptographic vulnerabilities. AI as a security research tool.
+AWS CEO called replacing junior devs with AI 'the dumbest thing I've ever heard.'
+Google Chrome was caught silently installing a 4GB AI model without asking.
+Agreed. Going forward, what to delegate and how to verify — that's going to matter more and more.
