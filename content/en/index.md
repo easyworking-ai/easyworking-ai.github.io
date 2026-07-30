@@ -36,13 +36,11 @@ tags:
 </div>
 <div class="ewa-games-grid">
 <a class="ewa-game-card" href="/static/showdown/">
-<span class="ewa-game-badge">3 min</span>
 <h3>⚔️ AI Showdown</h3>
 <p>Two AIs answer the same question. Pick the better answer blind, then the models are revealed. This week's topic: meeting summaries.</p>
 <span class="ewa-game-stats">Blind vote</span>
 </a>
 <a class="ewa-game-card" href="/static/ai-test/">
-<span class="ewa-game-badge">3 min</span>
 <h3>📋 AI Work Readiness Test</h3>
 <p>Find out how far AI can help with your work through 12 questions. Get a 4-axis score covering verification habits, prompt design, and tool overconfidence.</p>
 <span class="ewa-game-stats">12 questions · 4-axis score</span>
@@ -60,12 +58,12 @@ tags:
 <div class="ewa-read-column">
 <h3 class="ewa-read-column-title">Ready to use</h3>
 <a class="ewa-read-card" href="/en/guides/meeting-summary">
-<span class="ewa-read-card-cat">Meeting notes · 5 min</span>
+<span class="ewa-read-card-cat">Meeting notes</span>
 <h4>Prompt: summarize a meeting in 3 minutes</h4>
 <p>Why "just summarize the key points" fails. A structured prompt that extracts decisions, owners, and deadlines — plus a review checklist.</p>
 </a>
 <a class="ewa-read-card" href="/en/guides/report-draft-checklist">
-<span class="ewa-read-card-cat">Reports · 7 min</span>
+<span class="ewa-read-card-cat">Reports</span>
 <h4>7 things to check when letting AI draft your report</h4>
 <p>Why "write a report for me" fails, and a prompt with proper structure, data, and verification. 7 checkpoints before you send.</p>
 </a>
@@ -73,12 +71,12 @@ tags:
 <div class="ewa-read-column">
 <h3 class="ewa-read-column-title">Learn</h3>
 <a class="ewa-read-card" href="/en/learn/chatbot-vs-agent">
-<span class="ewa-read-card-cat">Concept · 6 min</span>
+<span class="ewa-read-card-cat">Concept</span>
 <h4>The difference between AI agents and chatbots</h4>
 <p>Why an agent isn't just a "smarter chatbot." When to use an agent, and when a chatbot is enough.</p>
 </a>
 <a class="ewa-read-card" href="/en/learn/rag-explained">
-<span class="ewa-read-card-cat">Concept · 6 min</span>
+<span class="ewa-read-card-cat">Concept</span>
 <h4>What is RAG and why should professionals care?</h4>
 <p>When AI pretends to know your company policies, RAG fixes that. What retrieval-augmented generation solves — and where it breaks.</p>
 </a>

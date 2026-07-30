@@ -51,7 +51,7 @@ tags:
 <span class="ewa-radio-archive-num">EP 01</span>
 <div>
 <h4>AI Future Forecast: Models·Agents·Robotics·Crypto</h4>
-<span>2026-07-29 · ~3 min · 한국어 · English · 日本語</span>
+<span>2026-07-29 · ~한국어 · English · 日本語</span>
 </div>
 </div>
 </div>

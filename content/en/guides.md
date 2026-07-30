@@ -30,7 +30,6 @@ tags:
 <h3>Prompt: summarize a meeting in 3 minutes</h3>
 <p>Why "just summarize the key points" fails. A structured prompt that extracts decisions, owners, and deadlines.</p>
 <div class="ewa-guide-card-meta">
-<span>📖 5 min</span>
 <span>🏷️ Meeting notes · Prompt</span>
 </div>
 </a>
@@ -42,7 +41,6 @@ tags:
 <h3>Email prompts that get replies — not just "polite" ones</h3>
 <p>A structured prompt for crafting emails where the recipient knows exactly what to do within 3 seconds.</p>
 <div class="ewa-guide-card-meta">
-<span>📖 5 min</span>
 <span>🏷️ Email · Prompt</span>
 </div>
 </a>
@@ -54,7 +52,6 @@ tags:
 <h3>How to safely let AI analyze your spreadsheet data</h3>
 <p>A 3-step practical workflow: de-identify personal data, define analysis scope, and verify results.</p>
 <div class="ewa-guide-card-meta">
-<span>📖 6 min</span>
 <span>🏷️ Spreadsheets · Data · Security</span>
 </div>
 </a>
@@ -66,7 +63,6 @@ tags:
 <h3>7 things to check when letting AI draft your report</h3>
 <p>Why "write a report for me" fails, and a prompt with proper structure, data, and verification.</p>
 <div class="ewa-guide-card-meta">
-<span>📖 7 min</span>
 <span>🏷️ Reports · Prompt</span>
 </div>
 </a>

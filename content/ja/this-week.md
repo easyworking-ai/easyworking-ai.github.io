@@ -19,7 +19,7 @@
 19|<a class="ewa-tw-card ewa-tw-card--radio" href="/ja/radio">
 20|<div class="ewa-tw-card-header">
 21|<span class="ewa-tw-card-num">01</span>
-22|<span class="ewa-tw-card-label">ラジオ · 8分</span>
+22|<span class="ewa-tw-card-label">ラジオ</span>
 23|</div>
 24|<h3>🎙️ AIに仕事を任せたのに、なぜ私が忙しくなったのか？</h3>
 25|<p>イロとループが議事録要約プロンプトのよくある失敗を分解します。「要点だけまとめて」がなぜ問題になるのか、そしてどんな指示が実際に仕事を減らすのか。</p>
@@ -30,7 +30,7 @@
 31|<a class="ewa-tw-card ewa-tw-card--showdown" href="/static/showdown/">
 32|<div class="ewa-tw-card-header">
 33|<span class="ewa-tw-card-num">02</span>
-34|<span class="ewa-tw-card-label">ゲーム · 3分</span>
+34|<span class="ewa-tw-card-label">ゲーム</span>
 35|</div>
 36|<h3>⚔️ 議事録の要約、どのAIがいいか？</h3>
 37|<p>同じ会議メモを2つのAIに渡して要約させました。ブラインドで見てより良い回答を選ぶとモデルが公開されます。</p>
@@ -41,7 +41,7 @@
 43|<a class="ewa-tw-card ewa-tw-card--guide" href="/ja/guides">
 44|<div class="ewa-tw-card-header">
 45|<span class="ewa-tw-card-num">03</span>
-46|<span class="ewa-tw-card-label">ガイド · 7分</span>
+46|<span class="ewa-tw-card-label">ガイド</span>
 47|</div>
 48|<h3>📘 AIエージェントはなぜよく壊れるのか？</h3>
 49|<p>ベンチマークスコアが高くても業務が止まる理由と、実務で確認すべき5つの信頼性基準。</p>

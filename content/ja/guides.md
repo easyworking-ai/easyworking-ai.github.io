@@ -30,7 +30,6 @@ tags:
 <h3>議事録を3分で整理するプロンプト</h3>
 <p>「要点だけまとめて」が失敗する理由と、決定・担当者・期限を構造的に抽出するプロンプト。</p>
 <div class="ewa-guide-card-meta">
-<span>📖 5分</span>
 <span>🏷️ 議事録 · プロンプト</span>
 </div>
 </a>
@@ -42,7 +41,6 @@ tags:
 <h3>「丁寧に」ではなく返信が来るメールプロンプト</h3>
 <p>受信者が3秒以内に何をすべきかわかるメールを作る構造化プロンプト。</p>
 <div class="ewa-guide-card-meta">
-<span>📖 5分</span>
 <span>🏷️ メール · プロンプト</span>
 </div>
 </a>
@@ -54,7 +52,6 @@ tags:
 <h3>ExcelデータをAIに安全に分析させる方法</h3>
 <p>個人情報の非識別化、分析範囲の指定、結果の検証まで3段階の実務手順。</p>
 <div class="ewa-guide-card-meta">
-<span>📖 6分</span>
 <span>🏷️ Excel · データ · セキュリティ</span>
 </div>
 </a>
@@ -66,7 +63,6 @@ tags:
 <h3>レポートの下書きをAIに任せる時の7つの確認事項</h3>
 <p>「レポート書いて」が失敗する理由と、構造・データ・検証を備えたプロンプト。</p>
 <div class="ewa-guide-card-meta">
-<span>📖 7分</span>
 <span>🏷️ レポート · プロンプト</span>
 </div>
 </a>

@@ -20,18 +20,18 @@ tags:
 <span class="ewa-game-badge">인기</span>
 <h3>🥊 AI 타격전</h3>
 <p>같은 질문을 두 AI에게 던지고, 답변을 블라인드로 비교합니다. 어느 쪽이 더 도움이 되는지 직접 투표하세요.</p>
-<span class="ewa-game-stats">5분 · 블라인드 투표</span>
+<span class="ewa-game-stats">블라인드 투표</span>
 </a>
 <a class="ewa-game-card" href="/static/bluff/">
 <span class="ewa-game-badge">NEW</span>
 <h3>🎭 AI 눈치게임</h3>
 <p>AI 답변과 사람 답변을 구분하세요. 생각보다 어렵습니다. AI가 어디서 틀리고 어디서 속이는지 체감합니다.</p>
-<span class="ewa-game-stats">3분 · 진실/거짓</span>
+<span class="ewa-game-stats">진실/거짓</span>
 </a>
 <a class="ewa-game-card" href="/static/ai-test/">
 <h3>📊 업무 진단 테스트</h3>
 <p>내 일 중 어디를 AI에게 맡길 수 있는지 12문항으로 진단합니다. 결과는 구체적인 실험 제안으로 끝납니다.</p>
-<span class="ewa-game-stats">7분 · 12문항</span>
+<span class="ewa-game-stats">12문항</span>
 </a>
 </div>
 </div>

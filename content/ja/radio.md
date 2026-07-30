@@ -51,7 +51,7 @@ tags:
 <span class="ewa-radio-archive-num">EP 01</span>
 <div>
 <h4>AI未来予報：モデル・エージェント・ロボット・暗号資産</h4>
-<span>2026-07-29 · 約3分 · 한국어 · English · 日本語</span>
+<span>2026-07-29 · 約한국어 · English · 日本語</span>
 </div>
 </div>
 </div>
