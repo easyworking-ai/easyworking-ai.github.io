@@ -34,7 +34,7 @@
 34|<div class="ewa-games-grid">
 35|<a class="ewa-game-card" href="/static/showdown/">
 36|<span class="ewa-game-badge">3分</span>
-37|38|<h3>AI対決</h3>
+37|38|<h3>⚔️ AI対決</h3>
 39|<p>同じ質問に2つのAIが回答します。ブラインドでより良い回答を選ぶとモデルが公開されます。今週のテーマは議事録の要約。</p>
 40|<span class="ewa-game-stats">ブラインド投票</span>
 41|</a>

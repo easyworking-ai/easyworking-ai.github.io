@@ -37,7 +37,6 @@
 38|<div class="ewa-tw-card-meta">
 39|<span>Vote results revealed instantly</span>
 40|</div>
-41|<span class="ewa-tw-card-action">Try it →</span>
 42|</a>
 43|<a class="ewa-tw-card ewa-tw-card--guide" href="/en/guides">
 44|<div class="ewa-tw-card-header">
