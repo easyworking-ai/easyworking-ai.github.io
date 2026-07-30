@@ -23,48 +23,20 @@ tags:
 </div>
 <div class="ewa-guide-grid">
 <a class="ewa-guide-card" href="/en/guides/meeting-summary">
-<div class="ewa-guide-card-header">
-<span class="ewa-guide-card-num">01</span>
-<span class="ewa-guide-card-cat">Meeting notes</span>
-</div>
 <h3>Prompt: summarize a meeting in 3 minutes</h3>
 <p>Why "just summarize the key points" fails. A structured prompt that extracts decisions, owners, and deadlines.</p>
-<div class="ewa-guide-card-meta">
-<span>🏷️ Meeting notes · Prompt</span>
-</div>
 </a>
 <a class="ewa-guide-card" href="/en/guides/email-that-gets-replies">
-<div class="ewa-guide-card-header">
-<span class="ewa-guide-card-num">02</span>
-<span class="ewa-guide-card-cat">Email</span>
-</div>
 <h3>Email prompts that get replies — not just "polite" ones</h3>
 <p>A structured prompt for crafting emails where the recipient knows exactly what to do within 3 seconds.</p>
-<div class="ewa-guide-card-meta">
-<span>🏷️ Email · Prompt</span>
-</div>
 </a>
 <a class="ewa-guide-card" href="/en/guides/excel-safe-analysis">
-<div class="ewa-guide-card-header">
-<span class="ewa-guide-card-num">03</span>
-<span class="ewa-guide-card-cat">Spreadsheets</span>
-</div>
 <h3>How to safely let AI analyze your spreadsheet data</h3>
 <p>A 3-step practical workflow: de-identify personal data, define analysis scope, and verify results.</p>
-<div class="ewa-guide-card-meta">
-<span>🏷️ Spreadsheets · Data · Security</span>
-</div>
 </a>
 <a class="ewa-guide-card" href="/en/guides/report-draft-checklist">
-<div class="ewa-guide-card-header">
-<span class="ewa-guide-card-num">04</span>
-<span class="ewa-guide-card-cat">Reports</span>
-</div>
 <h3>7 things to check when letting AI draft your report</h3>
 <p>Why "write a report for me" fails, and a prompt with proper structure, data, and verification.</p>
-<div class="ewa-guide-card-meta">
-<span>🏷️ Reports · Prompt</span>
-</div>
 </a>
 </div>
 </section>

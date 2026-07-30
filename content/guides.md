@@ -23,48 +23,20 @@ tags:
 </div>
 <div class="ewa-guide-grid">
 <a class="ewa-guide-card" href="/guides/meeting-summary">
-<div class="ewa-guide-card-header">
-<span class="ewa-guide-card-num">01</span>
-<span class="ewa-guide-card-cat">회의록</span>
-</div>
 <h3>회의록을 3분 만에 정리하는 프롬프트</h3>
 <p>"핵심만 요약해줘"가 실패하는 이유와 결정·담당자·마감일을 구조적으로 추출하는 프롬프트.</p>
-<div class="ewa-guide-card-meta">
-<span>🏷️ 회의록 · 프롬프트</span>
-</div>
 </a>
 <a class="ewa-guide-card" href="/guides/email-that-gets-replies">
-<div class="ewa-guide-card-header">
-<span class="ewa-guide-card-num">02</span>
-<span class="ewa-guide-card-cat">이메일</span>
-</div>
 <h3>"정중하게"가 아니라 답장을 받는 이메일 프롬프트</h3>
 <p>수신자가 3초 안에 뭘 해야 하는지 아는 이메일을 만드는 구조화 프롬프트.</p>
-<div class="ewa-guide-card-meta">
-<span>🏷️ 이메일 · 프롬프트</span>
-</div>
 </a>
 <a class="ewa-guide-card" href="/guides/excel-safe-analysis">
-<div class="ewa-guide-card-header">
-<span class="ewa-guide-card-num">03</span>
-<span class="ewa-guide-card-cat">엑셀</span>
-</div>
 <h3>엑셀 데이터를 AI에게 안전하게 분석시키는 법</h3>
 <p>개인정보 비식별화, 분석 범위 지정, 결과 검증까지 3단계 실무 절차.</p>
-<div class="ewa-guide-card-meta">
-<span>🏷️ 엑셀 · 데이터 · 보안</span>
-</div>
 </a>
 <a class="ewa-guide-card" href="/guides/report-draft-checklist">
-<div class="ewa-guide-card-header">
-<span class="ewa-guide-card-num">04</span>
-<span class="ewa-guide-card-cat">보고서</span>
-</div>
 <h3>보고서 초안을 AI에게 맡길 때 점검할 7가지</h3>
 <p>"보고서 써줘"가 실패하는 이유와 구조·데이터·검증을 갖춘 프롬프트.</p>
-<div class="ewa-guide-card-meta">
-<span>🏷️ 보고서 · 프롬프트</span>
-</div>
 </a>
 </div>
 </section>

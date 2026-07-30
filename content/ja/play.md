@@ -17,22 +17,17 @@
 17|<div class="ewa-games-section">
 18|<div class="ewa-games-grid">
 19|<a class="ewa-game-card" href="/static/showdown/">
-20|<span class="ewa-game-badge">人気</span>
-21|22|<h3>AI対決</h3>
+20|21|22|<h3>AI対決</h3>
 23|<p>同じ質問を2つのAIに投げかけ、回答をブラインドで比較します。どちらがより役に立つか直接投票してください。</p>
-24|<span class="ewa-game-stats">ブラインド投票</span>
-25|</a>
+24|25|</a>
 26|<a class="ewa-game-card" href="/static/bluff/">
-27|<span class="ewa-game-badge">NEW</span>
-28|29|<h3>AIハッタリゲーム</h3>
+27|28|29|<h3>AIハッタリゲーム</h3>
 30|<p>AIの回答と人の回答を見分けてください。思ったより難しいです。AIがどこで間違え、どこで誤魔化すか体感します。</p>
-31|<span class="ewa-game-stats">真実/嘘</span>
-32|</a>
+31|32|</a>
 33|<a class="ewa-game-card" href="/static/ai-test/">
 34|35|<h3>業務診断テスト</h3>
 36|<p>自分の仕事のどこをAIに任せられるか12問で診断します。結果は具体的な実験提案で締めくくられます。</p>
-37|<span class="ewa-game-stats">12問</span>
-38|</a>
+37|38|</a>
 39|</div>
 40|</div>
 41|

@@ -17,21 +17,16 @@ tags:
 <div class="ewa-games-section">
 <div class="ewa-games-grid">
 <a class="ewa-game-card" href="/static/showdown/">
-<span class="ewa-game-badge">Popular</span>
 <h3>🥊 AI Showdown</h3>
 <p>Throw the same question at two AIs and compare their answers blind. Vote for the one that's actually more helpful.</p>
-<span class="ewa-game-stats">Blind vote</span>
 </a>
 <a class="ewa-game-card" href="/static/bluff/">
-<span class="ewa-game-badge">NEW</span>
 <h3>🎭 AI Bluff Game</h3>
 <p>Tell apart AI answers from human answers. It's harder than you think. Feel where AI gets things wrong and where it bluffs.</p>
-<span class="ewa-game-stats">True or false</span>
 </a>
 <a class="ewa-game-card" href="/static/ai-test/">
 <h3>📊 Work Readiness Test</h3>
 <p>Diagnose which parts of your work you can delegate to AI through 12 questions. Results end with specific experiment suggestions.</p>
-<span class="ewa-game-stats">12 questions</span>
 </a>
 </div>
 </div>

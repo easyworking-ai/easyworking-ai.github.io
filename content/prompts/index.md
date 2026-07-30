@@ -18,22 +18,16 @@ tags:
 <section class="ewa-guides-list">
 <div class="ewa-guide-grid">
 <a class="ewa-guide-card" href="/prompts/meeting-summary">
-<div class="ewa-guide-card-header"><span class="ewa-guide-card-num">01</span><span class="ewa-guide-card-cat">회의록</span></div>
 <h3>회의록을 3분 만에 정리하는 프롬프트</h3>
 <p>결정·담당자·마감일을 빠뜨리지 않고 뽑아내는 회의록 정리법.</p>
-<div class="ewa-guide-card-meta"><span>📖 5분</span><span>검수표 포함</span></div>
 </a>
 <a class="ewa-guide-card" href="/prompts/email-that-gets-replies">
-<div class="ewa-guide-card-header"><span class="ewa-guide-card-num">02</span><span class="ewa-guide-card-cat">이메일</span></div>
 <h3>"정중하게"가 아니라 답장을 받는 이메일 프롬프트</h3>
 <p>수신자가 3초 안에 해야 할 일을 파악하는 이메일 구조.</p>
-<div class="ewa-guide-card-meta"><span>📖 5분</span><span>검수표 포함</span></div>
 </a>
 <a class="ewa-guide-card" href="/prompts/excel-safe-analysis">
-<div class="ewa-guide-card-header"><span class="ewa-guide-card-num">03</span><span class="ewa-guide-card-cat">엑셀</span></div>
 <h3>엑셀 데이터를 AI에게 안전하게 분석시키는 법</h3>
 <p>개인정보를 지우고, 범위를 정하고, 결과를 검증하는 3단계.</p>
-<div class="ewa-guide-card-meta"><span>📖 6분</span><span>보안 주의 포함</span></div>
 </a>
 </div>
 </section>

@@ -38,13 +38,11 @@
 35|<a class="ewa-game-card" href="/static/showdown/">
 36|37|38|<h3>⚔️ AI対決</h3>
 39|<p>同じ質問に2つのAIが回答します。ブラインドでより良い回答を選ぶとモデルが公開されます。今週のテーマは議事録の要約。</p>
-40|<span class="ewa-game-stats">ブラインド投票</span>
-41|</a>
+40|41|</a>
 42|<a class="ewa-game-card" href="/static/ai-test/">
 43|44|45|<h3>📋 AI業務診断テスト</h3>
 46|<p>自分の業務でAIがどこまで役に立てるのか、12問で診断します。検証習慣、プロンプト設計、ツールの過信のうち、どこが弱いのかが4軸のスコアでわかります。</p>
-47|<span class="ewa-game-stats">12問 · 4軸スコア</span>
-48|</a>
+47|48|</a>
 49|</div>
 50|</section>
 51|<section class="ewa-read-section" aria-labelledby="ewa-read-title">
@@ -58,26 +56,22 @@
 59|<div class="ewa-read-column">
 60|<h3 class="ewa-read-column-title">すぐ使える</h3>
 61|<a class="ewa-read-card" href="/ja/guides/meeting-summary">
-62|<span class="ewa-read-card-cat">議事録</span>
-63|<h4>議事録を3分で整理するプロンプト</h4>
+62|63|<h4>議事録を3分で整理するプロンプト</h4>
 64|<p>「要点だけまとめて」が失敗する理由。決定・担当者・期限を構造的に抽出するプロンプトと検証チェックリスト。</p>
 65|</a>
 66|<a class="ewa-read-card" href="/ja/guides/report-draft-checklist">
-67|<span class="ewa-read-card-cat">レポート</span>
-68|<h4>レポートの下書きをAIに任せる時の7つの確認事項</h4>
+67|68|<h4>レポートの下書きをAIに任せる時の7つの確認事項</h4>
 69|<p>「レポート書いて」が失敗する理由と、構造・データ・検証を備えたプロンプト。送信前の7つのチェック項目。</p>
 70|</a>
 71|</div>
 72|<div class="ewa-read-column">
 73|<h3 class="ewa-read-column-title">学ぶ</h3>
 74|<a class="ewa-read-card" href="/ja/learn/chatbot-vs-agent">
-75|<span class="ewa-read-card-cat">概念</span>
-76|<h4>AIエージェントとチャットボットの違い</h4>
+75|76|<h4>AIエージェントとチャットボットの違い</h4>
 77|<p>エージェントは「賢いチャットボット」ではない。いつエージェントを使い、いつチャットボットを使うべきか。</p>
 78|</a>
 79|<a class="ewa-read-card" href="/ja/learn/rag-explained">
-80|<span class="ewa-read-card-cat">概念</span>
-81|<h4>RAGって何？働く人が知るべき理由</h4>
+80|81|<h4>RAGって何？働く人が知るべき理由</h4>
 82|<p>AIが社内規程を知らないのに知ったかぶりする時、RAGがどう解決するのか。検索拡張生成が解決することと壊れるポイント。</p>
 83|</a>
 84|</div>
