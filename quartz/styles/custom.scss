@@ -2,10 +2,44 @@
 @use "sass:math";
 
 // ─── Hide Quartz heading anchor links completely ───────────
-// Quartz auto-inserts <a role="anchor"> in every heading.
-// On mobile, :hover sticks and they appear as empty buttons.
 a[role="anchor"] {
   display: none !important;
+}
+
+// ─── Div-based heading replacements (avoid Quartz anchor injection) ──
+.ewa-hero-title {
+  font-size: clamp(2rem, 5.5vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 1.5rem;
+  color: var(--ewa-text);
+  em {
+    font-style: normal;
+    color: var(--ewa-accent);
+  }
+}
+.ewa-section-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.ewa-game-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.ewa-read-column-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--ewa-text);
+}
+.ewa-read-card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+  color: var(--ewa-text);
+  line-height: 1.4;
 }
 
 // ─── EWA Design Tokens ────────────────────────────────────
