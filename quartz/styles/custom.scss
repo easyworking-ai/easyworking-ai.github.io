@@ -1,6 +1,13 @@
 @use "./variables.scss" as *;
 @use "sass:math";
 
+// ─── Hide Quartz heading anchor links completely ───────────
+// Quartz auto-inserts <a role="anchor"> in every heading.
+// On mobile, :hover sticks and they appear as empty buttons.
+a[role="anchor"] {
+  display: none !important;
+}
+
 // ─── EWA Design Tokens ────────────────────────────────────
 :root,
 [saved-theme="dark"] {
