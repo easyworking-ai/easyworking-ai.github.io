@@ -43,7 +43,7 @@ tags:
 <section class="ewa-read-section">
 <div class="ewa-section-heading">
 <span class="ewa-section-kicker">読んで使う</span>
-<div class="ewa-section-title" role="heading" aria-level="2">今日の仕事に持ち帰る</div>
+<div class="ewa-section-title" role="heading" aria-level="2">プロンプトのコツ</div>
 <p>すぐ使うプロンプトと、その背景にある考え方を分けて整理しています。</p>
 </div>
 <div class="ewa-read-grid">

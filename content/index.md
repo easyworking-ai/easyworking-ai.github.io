@@ -43,7 +43,7 @@ tags:
 <section class="ewa-read-section">
 <div class="ewa-section-heading">
 <span class="ewa-section-kicker">읽고 적용</span>
-<div class="ewa-section-title" role="heading" aria-level="2">오늘 업무에 가져갈 것</div>
+<div class="ewa-section-title" role="heading" aria-level="2">프롬프트 꿀팁</div>
 <p>실행할 프롬프트와 판단에 필요한 개념을 나눠 정리했습니다.</p>
 </div>
 <div class="ewa-read-grid">

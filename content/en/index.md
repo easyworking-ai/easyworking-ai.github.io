@@ -43,7 +43,7 @@ tags:
 <section class="ewa-read-section">
 <div class="ewa-section-heading">
 <span class="ewa-section-kicker">Read and apply</span>
-<div class="ewa-section-title" role="heading" aria-level="2">Take something to work today</div>
+<div class="ewa-section-title" role="heading" aria-level="2">Prompt tips</div>
 <p>Practical prompts and the concepts behind them, kept separate.</p>
 </div>
 <div class="ewa-read-grid">
