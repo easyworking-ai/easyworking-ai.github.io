@@ -11,13 +11,9 @@ tags:
 <div class="ewa-home" aria-label="일하는 AI 홈">
 <section class="ewa-hero">
 <div class="ewa-hero-copy">
-<span class="ewa-kicker">일하는 AI · 매주 업데이트</span>
-<div class="ewa-hero-title" role="heading" aria-level="1">AI 소식은 듣고,<br><em>일은 바꾸세요.</em></div>
-<p>이로와 루프가 이번 주 이슈를 하나 골라 설명합니다. 이어서 두 AI의 답을 직접 비교하고, 바로 복사해 쓸 프롬프트와 개념을 읽어보세요.</p>
-<div class="ewa-hero-meta">
-<span>이로 × 루프</span>
-<span>한국어 · English · 日本語</span>
-</div>
+<span class="ewa-kicker">AI 캐치업 · 매주 업데이트</span>
+<div class="ewa-hero-title" role="heading" aria-level="1">이번 주 AI 소식,<br><em>여기서 캐치업.</em></div>
+<p>매주 알아둘 만한 AI 소식을 골라 짧게 정리합니다. 라디오로 듣고, 필요한 내용은 더 읽어보세요.</p>
 <div class="ewa-hero-actions">
 <a class="ewa-primary-action" href="/radio.html">이번 주 라디오 듣기 <span aria-hidden="true">→</span></a>
 </div>

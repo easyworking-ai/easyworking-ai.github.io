@@ -11,13 +11,9 @@ tags:
 <div class="ewa-home" aria-label="働くAI ホーム">
 <section class="ewa-hero">
 <div class="ewa-hero-copy">
-<span class="ewa-kicker">働くAI · 毎週更新</span>
-<div class="ewa-hero-title" role="heading" aria-level="1">AIの話題を聴いて、<br><em>仕事で使う。</em></div>
-<p>イロとループが今週の話題をひとつ選び、仕事への影響を説明します。その後、2つのAIの回答を比べ、すぐ使えるプロンプトと考え方を読めます。</p>
-<div class="ewa-hero-meta">
-<span>イロ × ループ</span>
-<span>한국어 · English · 日本語</span>
-</div>
+<span class="ewa-kicker">AIキャッチアップ · 毎週更新</span>
+<div class="ewa-hero-title" role="heading" aria-level="1">今週のAIニュースを、<br><em>ここでキャッチアップ。</em></div>
+<p>毎週、知っておきたいAIニュースを短く整理します。ラジオで聴いて、実用的なプロンプトと解説を読めます。</p>
 <div class="ewa-hero-actions">
 <a class="ewa-primary-action" href="/ja/radio.html">今週のラジオを聴く <span aria-hidden="true">→</span></a>
 </div>
