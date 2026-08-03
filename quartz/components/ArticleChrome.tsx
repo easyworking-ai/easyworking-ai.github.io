@@ -1,8 +1,10 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 const ArticleChrome: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
-  if (fileData.slug === "index" || !fileData.frontmatter?.title) return null
   const frontmatter = fileData.frontmatter
+  const cssclass = String(frontmatter?.cssclass ?? "")
+  const isHubPage = /(?:^|\s)(?:home|this-week|guides|learn-hub|play-hub)(?:\s|$)/.test(cssclass)
+  if (fileData.slug === "index" || !frontmatter?.title || isHubPage) return null
   const title = String(frontmatter.title)
   const description = String(frontmatter.description ?? "실행 조건과 참고 근거를 확인한 현장 기록")
   const section = String(frontmatter.section ?? "FIELD NOTE")
