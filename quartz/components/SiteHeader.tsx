@@ -26,7 +26,7 @@ const SiteHeader: QuartzComponent = ({ allFiles }: QuartzComponentProps) => {
     })
     .map((file) => ({
       title: String(file.frontmatter?.title ?? file.slug),
-      slug: `/${file.slug}`,
+      slug: `/${file.slug}.html`,
       description: String(file.frontmatter?.description ?? ""),
     }))
 
