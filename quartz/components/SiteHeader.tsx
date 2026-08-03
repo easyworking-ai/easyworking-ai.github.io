@@ -1,11 +1,11 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 const NAV_ITEMS = [
-  { href: "/this-week", ko: "이번 주", en: "This Week", ja: "今週" },
-  { href: "/radio", ko: "라디오", en: "Radio", ja: "ラジオ" },
-  { href: "/guides", ko: "가이드", en: "Guides", ja: "ガイド" },
-  { href: "/learn", ko: "학습하기", en: "Learn", ja: "学ぶ" },
-  { href: "/play", ko: "체험하기", en: "Play", ja: "体験" },
+  { href: "/this-week.html", ko: "이번 주", en: "This Week", ja: "今週" },
+  { href: "/radio.html", ko: "라디오", en: "Radio", ja: "ラジオ" },
+  { href: "/guides.html", ko: "가이드", en: "Guides", ja: "ガイド" },
+  { href: "/learn.html", ko: "학습하기", en: "Learn", ja: "学ぶ" },
+  { href: "/play.html", ko: "체험하기", en: "Play", ja: "体験" },
 ]
 
 const SiteHeader: QuartzComponent = ({ allFiles }: QuartzComponentProps) => {

@@ -1,6 +1,6 @@
 ---
-title: Working AI · Practical AI Guides, Radio, Games
-description: A practical AI site for professionals. Catch weekly trends via radio, compare AI models through blind voting, and get ready-to-use prompt guides.
+title: Working AI | AI you can use at work
+description: Hear one AI story from the week, compare two models on the same task, and pick up prompts and concepts you can use at work.
 cssclass: home
 publish: true
 lang: en
@@ -8,71 +8,62 @@ tags:
   - WorkingAI
   - ai-agent
 ---
-
 <div class="ewa-home" aria-label="Working AI home">
 <section class="ewa-hero">
-<div class="ewa-hero-grid" aria-hidden="true"></div>
-<div class="ewa-hero-orbit ewa-hero-orbit--one" aria-hidden="true"></div>
-<div class="ewa-hero-orbit ewa-hero-orbit--two" aria-hidden="true"></div>
 <div class="ewa-hero-copy">
-<span class="ewa-kicker">WEEKLY RADIO · Updated every week</span>
-<div class="ewa-hero-title">This week,<br><em>one hottest AI story</em></div>
-<p>From the flood of AI news each week, Iro and Loop pick just one and deliver it. Why it's hot, and what it changes for professionals.</p>
+<span class="ewa-kicker">Working AI · Updated weekly</span>
+<div class="ewa-hero-title" role="heading" aria-level="1">Stop watching AI.<br><em>Put it to work.</em></div>
+<p>Iro and Loop pick one story from the week and explain why it matters at work. Then compare two AI answers, and read prompts and concepts you can use right away.</p>
 <div class="ewa-hero-meta">
-<span>🎙️ Iro × Loop</span>
+<span>Iro × Loop</span>
 <span>한국어 · English · 日本語</span>
-</div>
-<div class="ewa-hero-actions">
-<a class="ewa-primary-action" href="/en/radio">Listen <span aria-hidden="true">→</span></a>
 </div>
 </div>
 </section>
 <section class="ewa-games-section">
 <div class="ewa-section-heading">
-<div>
-<span class="ewa-section-kicker">TRY / Try it out</span>
-<div class="ewa-section-title">Hands-on AI experiences</div>
-</div>
+<span class="ewa-section-kicker">Compare for yourself</span>
+<div class="ewa-section-title" role="heading" aria-level="2">Practice judging the answers</div>
+<p>Ask the same question and see where the results differ.</p>
 </div>
 <div class="ewa-games-grid">
 <a class="ewa-game-card" href="/static/showdown/">
-<div class="ewa-game-title">⚔️ AI Showdown</div>
-<p>Two AIs answer the same question. Pick the better answer blind, then the models are revealed. This week's topic: meeting summaries.</p>
+<div class="ewa-game-title">AI Showdown</div>
+<p>Two AIs answer the same question. Choose the more useful answer before the models are revealed.</p>
 </a>
 <a class="ewa-game-card" href="/static/ai-test/">
-<div class="ewa-game-title">📋 AI Work Readiness Test</div>
-<p>Find out how far AI can help with your work through 12 questions. Get a 4-axis score covering verification habits, prompt design, and tool overconfidence.</p>
+<div class="ewa-game-title">AI Work Check</div>
+<p>Use 12 questions to check how you handle input, verification, and AI tools at work. Results cover four areas.</p>
 </a>
 </div>
 </section>
 <section class="ewa-read-section">
 <div class="ewa-section-heading">
-<div>
-<span class="ewa-section-kicker">READ / Guides · Learning</span>
-<div class="ewa-section-title">Read and use: practical AI</div>
-</div>
+<span class="ewa-section-kicker">Read and apply</span>
+<div class="ewa-section-title" role="heading" aria-level="2">Take something to work today</div>
+<p>Practical prompts and the concepts behind them, kept separate.</p>
 </div>
 <div class="ewa-read-grid">
 <div class="ewa-read-column">
-<div class="ewa-read-column-title">Ready to use</div>
-<a class="ewa-read-card" href="/en/guides/meeting-summary">
-<div class="ewa-read-card-title">Prompt: summarize a meeting in 3 minutes</div>
-<p>Why "just summarize the key points" fails. A structured prompt that extracts decisions, owners, and deadlines — plus a review checklist.</p>
+<div class="ewa-read-column-title" role="heading" aria-level="3">Use now</div>
+<a class="ewa-read-card" href="/en/guides/meeting-summary.html">
+<div class="ewa-read-card-title">Pull decisions, owners, and deadlines from a meeting</div>
+<p>A prompt that specifies the fields and format instead of asking for a vague summary.</p>
 </a>
-<a class="ewa-read-card" href="/en/guides/report-draft-checklist">
-<div class="ewa-read-card-title">7 things to check when letting AI draft your report</div>
-<p>Why "write a report for me" fails, and a prompt with proper structure, data, and verification. 7 checkpoints before you send.</p>
+<a class="ewa-read-card" href="/en/guides/report-draft-checklist.html">
+<div class="ewa-read-card-title">Seven checks before sending an AI-drafted report</div>
+<p>What to check for structure, evidence, and verification before the draft leaves your desk.</p>
 </a>
 </div>
 <div class="ewa-read-column">
-<div class="ewa-read-column-title">Learn</div>
-<a class="ewa-read-card" href="/en/learn/chatbot-vs-agent">
-<div class="ewa-read-card-title">The difference between AI agents and chatbots</div>
-<p>Why an agent isn't just a "smarter chatbot." When to use an agent, and when a chatbot is enough.</p>
+<div class="ewa-read-column-title" role="heading" aria-level="3">Understand</div>
+<a class="ewa-read-card" href="/en/learn/chatbot-vs-agent.html">
+<div class="ewa-read-card-title">Chatbots and agents: what changes at work?</div>
+<p>Separate the two by task scope and the points where a person must approve the result.</p>
 </a>
-<a class="ewa-read-card" href="/en/learn/rag-explained">
-<div class="ewa-read-card-title">What is RAG and why should professionals care?</div>
-<p>When AI pretends to know your company policies, RAG fixes that. What retrieval-augmented generation solves — and where it breaks.</p>
+<a class="ewa-read-card" href="/en/learn/rag-explained.html">
+<div class="ewa-read-card-title">How RAG handles company documents</div>
+<p>How retrieval adds evidence, and where the answer can still go wrong.</p>
 </a>
 </div>
 </div>

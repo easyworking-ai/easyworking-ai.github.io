@@ -2902,3 +2902,239 @@ body {
 .ewa-mobile-nav-link:hover {
   color: var(--ewa-accent);
 }
+
+// ─── Homepage refinement: quieter hierarchy, clearer actions ──
+.ewa-home {
+  max-width: 1180px;
+  padding: 0 clamp(1.25rem, 5vw, 4rem);
+}
+
+.ewa-home .ewa-hero {
+  min-height: 0;
+  padding: clamp(5rem, 12vw, 9rem) 0 clamp(4rem, 9vw, 7rem);
+  background: radial-gradient(circle at 86% 18%, var(--ewa-accent-glow), transparent 26rem);
+}
+
+.ewa-home .ewa-hero-copy {
+  max-width: 780px;
+}
+
+.ewa-home .ewa-kicker,
+.ewa-home .ewa-section-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+  color: var(--ewa-accent);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.ewa-home .ewa-kicker::before,
+.ewa-home .ewa-section-kicker::before {
+  width: 1.6rem;
+  height: 2px;
+  background: currentColor;
+  content: "";
+}
+
+.ewa-home .ewa-hero-title {
+  max-width: 800px;
+  margin: 0 0 1.5rem;
+  font-size: clamp(2.75rem, 7vw, 5.6rem);
+  font-weight: 800;
+  letter-spacing: -0.065em;
+  line-height: 1.02;
+}
+
+.ewa-home .ewa-hero-copy > p {
+  max-width: 620px;
+  margin: 0 0 1.5rem;
+  font-size: clamp(1rem, 2vw, 1.15rem);
+  line-height: 1.75;
+}
+
+.ewa-home .ewa-hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  margin-bottom: 2rem;
+  color: var(--ewa-text-dim);
+  font-size: 0.78rem;
+}
+
+.ewa-home .ewa-hero-meta span + span {
+  padding-left: 1.25rem;
+  border-left: 0;
+}
+
+.ewa-home .ewa-primary-action {
+  padding: 0.8rem 1rem;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  box-shadow: none;
+}
+
+.ewa-home .ewa-games-section,
+.ewa-home .ewa-read-section {
+  margin: 0;
+  padding: clamp(3.5rem, 8vw, 6rem) 0;
+}
+
+.ewa-home .ewa-read-section {
+  border-top: 0;
+}
+
+.ewa-home .ewa-section-heading {
+  max-width: 620px;
+  margin-bottom: 1.75rem;
+}
+
+.ewa-home .ewa-section-heading .ewa-section-kicker {
+  margin-bottom: 0.8rem;
+  color: var(--ewa-text-dim);
+}
+
+.ewa-home .ewa-section-title {
+  margin: 0;
+  font-size: clamp(1.65rem, 3.5vw, 2.4rem);
+  font-weight: 750;
+  letter-spacing: -0.045em;
+  line-height: 1.15;
+}
+
+.ewa-home .ewa-section-heading > p {
+  max-width: 520px;
+  margin: 0.7rem 0 0;
+  color: var(--ewa-text-muted);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.ewa-home .ewa-games-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 0;
+}
+
+.ewa-home .ewa-game-card {
+  min-height: 0;
+  padding: clamp(1.35rem, 3vw, 2rem);
+  border: 0;
+  border-radius: 14px;
+  background: var(--ewa-bg-subtle);
+  box-shadow: none;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.ewa-home .ewa-game-card:hover {
+  transform: translateY(-3px);
+  border: 0;
+  background: var(--ewa-bg-card);
+  box-shadow: none;
+}
+
+.ewa-home .ewa-game-title {
+  margin-bottom: 0.65rem;
+  font-size: 1.12rem;
+  font-weight: 750;
+  letter-spacing: -0.025em;
+}
+
+.ewa-home .ewa-game-card p {
+  max-width: 32rem;
+  font-size: 0.88rem;
+  line-height: 1.65;
+}
+
+.ewa-home .ewa-read-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(2rem, 6vw, 5rem);
+  margin-top: 0;
+}
+
+.ewa-home .ewa-read-column {
+  gap: 0.5rem;
+}
+
+.ewa-home .ewa-read-column-title {
+  align-self: flex-start;
+  margin: 0 0 0.6rem;
+  padding: 0;
+  border: 0;
+  color: var(--ewa-text);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.ewa-home .ewa-read-card {
+  padding: 1rem;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.ewa-home .ewa-read-card:hover {
+  transform: translateX(3px);
+  border: 0;
+  background: var(--ewa-bg-subtle);
+}
+
+.ewa-home .ewa-read-card-title {
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.ewa-home .ewa-read-card p {
+  font-size: 0.84rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 700px) {
+  .ewa-home {
+    padding: 0 1rem;
+  }
+
+  .ewa-home .ewa-hero {
+    padding: 4.5rem 0 3.5rem;
+    background: radial-gradient(circle at 90% 10%, var(--ewa-accent-glow), transparent 15rem);
+  }
+
+  .ewa-home .ewa-hero-title {
+    font-size: clamp(2.65rem, 13vw, 4rem);
+    letter-spacing: -0.075em;
+  }
+
+  .ewa-home .ewa-hero-copy > p {
+    font-size: 0.96rem;
+  }
+
+  .ewa-home .ewa-hero-meta {
+    gap: 0.5rem 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .ewa-home .ewa-hero-meta span + span {
+    padding-left: 0.9rem;
+  }
+
+  .ewa-home .ewa-games-section,
+  .ewa-home .ewa-read-section {
+    padding: 3.5rem 0;
+  }
+
+  .ewa-home .ewa-games-grid,
+  .ewa-home .ewa-read-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ewa-home .ewa-read-grid {
+    gap: 2.25rem;
+  }
+}

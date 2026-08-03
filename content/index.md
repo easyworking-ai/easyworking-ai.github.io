@@ -1,6 +1,6 @@
 ---
-title: 일하는 AI · 실전 AI 가이드, 라디오, 게임
-description: 직장인을 위한 AI 실전 사이트. 매주 라디오로 트렌드를 듣고, 블라인드 투표로 AI를 비교하고, 당장 쓸 수 있는 프롬프트 가이드를 받습니다.
+title: 일하는 AI | 실무에 바로 쓰는 AI
+description: 이번 주 AI 이슈를 듣고, 같은 질문을 두 AI에 던져보고, 업무에 바로 쓰는 프롬프트와 개념을 익히는 실전형 AI 사이트.
 cssclass: home
 publish: true
 lang: ko
@@ -8,71 +8,62 @@ tags:
   - 일하는AI
   - ai-agent
 ---
-
 <div class="ewa-home" aria-label="일하는 AI 홈">
 <section class="ewa-hero">
-<div class="ewa-hero-grid" aria-hidden="true"></div>
-<div class="ewa-hero-orbit ewa-hero-orbit--one" aria-hidden="true"></div>
-<div class="ewa-hero-orbit ewa-hero-orbit--two" aria-hidden="true"></div>
 <div class="ewa-hero-copy">
-<span class="ewa-kicker">WEEKLY RADIO · 매주 업데이트</span>
-<div class="ewa-hero-title">이번 주, AI에서<br><em>가장 뜨거운 이슈 하나</em></div>
-<p>한 주간 쏟아진 AI 뉴스 중 이로와 루프가가 단 하나를 골라 전달합니다. 왜 핫한지, 직장인에게 뭘 바꾸는지.</p>
+<span class="ewa-kicker">일하는 AI · 매주 업데이트</span>
+<div class="ewa-hero-title" role="heading" aria-level="1">AI를 구경하지 말고,<br><em>업무에 써보세요.</em></div>
+<p>이로와 루프가 이번 주 이슈를 하나 골라 설명합니다. 이어서 두 AI의 답을 직접 비교하고, 바로 복사해 쓸 프롬프트와 개념을 읽어보세요.</p>
 <div class="ewa-hero-meta">
-<span>🎙️ 이로 × 루프</span>
+<span>이로 × 루프</span>
 <span>한국어 · English · 日本語</span>
-</div>
-<div class="ewa-hero-actions">
-<a class="ewa-primary-action" href="/radio">듣기 <span aria-hidden="true">→</span></a>
 </div>
 </div>
 </section>
 <section class="ewa-games-section">
 <div class="ewa-section-heading">
-<div>
-<span class="ewa-section-kicker">TRY / 체험하기</span>
-<div class="ewa-section-title">직접 해보는 AI 체험</div>
-</div>
+<span class="ewa-section-kicker">직접 비교</span>
+<div class="ewa-section-title" role="heading" aria-level="2">답을 읽고, 판단하는 연습</div>
+<p>같은 질문을 던지고, 결과의 차이를 확인합니다.</p>
 </div>
 <div class="ewa-games-grid">
 <a class="ewa-game-card" href="/static/showdown/">
-<div class="ewa-game-title">⚔️ AI 타격전</div>
-<p>같은 질문에 두 AI가 답합니다. 블라인드로 더 나은 답을 고르면 모델이 공개됩니다. 이번 주 주제는 회의록 요약.</p>
+<div class="ewa-game-title">AI 타격전</div>
+<p>같은 질문에 두 AI가 답합니다. 어느 쪽이 더 쓸 만한지 먼저 고른 뒤 모델을 확인하세요.</p>
 </a>
 <a class="ewa-game-card" href="/static/ai-test/">
-<div class="ewa-game-title">📋 AI 업무 진단 테스트</div>
-<p>내 업무에서 AI가 어디까지 도움이 될 수 있는지 12문항으로 진단받습니다. 검증 습관, 프롬프트 설계, 도구 과신 중 어디가 약한지 4축 점수로 나옵니다.</p>
+<div class="ewa-game-title">AI 업무 진단</div>
+<p>12개 질문으로 업무의 입력·검증·도구 사용 습관을 점검합니다. 결과는 4개 축으로 보여줍니다.</p>
 </a>
 </div>
 </section>
 <section class="ewa-read-section">
 <div class="ewa-section-heading">
-<div>
-<span class="ewa-section-kicker">READ / 가이드 · 학습</span>
-<div class="ewa-section-title">읽고 바로 쓰는 AI 실전</div>
-</div>
+<span class="ewa-section-kicker">읽고 적용</span>
+<div class="ewa-section-title" role="heading" aria-level="2">오늘 업무에 가져갈 것</div>
+<p>실행할 프롬프트와 판단에 필요한 개념을 나눠 정리했습니다.</p>
 </div>
 <div class="ewa-read-grid">
 <div class="ewa-read-column">
-<div class="ewa-read-column-title">바로사용</div>
-<a class="ewa-read-card" href="/guides/meeting-summary">
-<div class="ewa-read-card-title">회의록을 3분 만에 정리하는 프롬프트</div>
-<p>"핵심만 요약해줘"가 실패하는 이유. 결정·담당자·마감일을 구조적으로 추출하는 프롬프트와 검수 체크리스트.</p>
+<div class="ewa-read-column-title" role="heading" aria-level="3">바로 적용</div>
+<a class="ewa-read-card" href="/guides/meeting-summary.html">
+<div class="ewa-read-card-title">회의록에서 결정·담당자·기한 뽑기</div>
+<p>“요약해줘” 대신 필요한 항목과 형식을 지정하는 프롬프트.</p>
 </a>
-<a class="ewa-read-card" href="/guides/report-draft-checklist">
-<div class="ewa-read-card-title">보고서 초안을 AI에게 맡길 때 점검할 7가지</div>
-<p>"보고서 써줘"가 실패하는 이유와 구조·데이터·검증을 갖춘 프롬프트. 발신 전 7가지 점검 항목.</p>
+<a class="ewa-read-card" href="/guides/report-draft-checklist.html">
+<div class="ewa-read-card-title">보고서 초안, 보내기 전 7가지 점검</div>
+<p>구조·근거·검증을 빠뜨리지 않도록 발신 전에 확인할 항목.</p>
 </a>
 </div>
 <div class="ewa-read-column">
-<div class="ewa-read-column-title">학습하기</div>
-<a class="ewa-read-card" href="/learn/chatbot-vs-agent">
-<div class="ewa-read-card-title">AI 에이전트와 챗봇의 차이</div>
-<p>에이전트가 "더 똑똑한 챗봇"이 아니라는 것. 언제 에이전트를 쓰고 언제 챗봇을 쓸 것인가.</p>
+<div class="ewa-read-column-title" role="heading" aria-level="3">개념 이해</div>
+<a class="ewa-read-card" href="/learn/chatbot-vs-agent.html">
+<div class="ewa-read-card-title">챗봇과 에이전트, 업무는 어떻게 다른가</div>
+<p>두 도구의 차이를 작업 범위와 사람의 승인 지점으로 구분합니다.</p>
 </a>
-<a class="ewa-read-card" href="/learn/rag-explained">
-<div class="ewa-read-card-title">RAG가 뭔데 직장인이 알아야 하나</div>
-<p>AI가 사내 규정을 모르면서 아는 척할 때, RAG가 어떻게 해결하는지. 검색 증강 생성이 풀어주는 것과 깨지는 지점.</p>
+<a class="ewa-read-card" href="/learn/rag-explained.html">
+<div class="ewa-read-card-title">RAG는 사내 문서를 어떻게 다루는가</div>
+<p>검색으로 근거를 붙이는 방식과, 여전히 틀릴 수 있는 지점을 설명합니다.</p>
 </a>
 </div>
 </div>

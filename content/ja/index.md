@@ -1,81 +1,71 @@
-1|---
-2|title: 働くAI · AI実戦ガイド、ラジオ、ゲーム
-3|description: 働く人のためのAI実戦サイト。毎週ラジオでトレンドを聴き、ブラインド投票でAIを比較し、今すぐ使えるプロンプトガイドを届けます。
-4|cssclass: home
-5|publish: true
-6|lang: ja
-7|tags:
-8|  - 働くAI
-9|  - ai-agent
-10|---
-11|
-12|<div class="ewa-home" aria-label="働くAI ホーム">
-13|<section class="ewa-hero">
-14|<div class="ewa-hero-grid" aria-hidden="true"></div>
-15|<div class="ewa-hero-orbit ewa-hero-orbit--one" aria-hidden="true"></div>
-16|<div class="ewa-hero-orbit ewa-hero-orbit--two" aria-hidden="true"></div>
-17|<div class="ewa-hero-copy">
-18|<span class="ewa-kicker">WEEKLY RADIO · 毎週更新</span>
-19|<div class="ewa-hero-title">今週、AIで<br><em>最もホットな話題をひとつ</em></div>
-20|<p>1週間にわたって届いたAIニュースの中から、イロとループがたったひとつを選んでお届けします。なぜ注目されているのか、働く人に何が変わるのか。</p>
-21|<div class="ewa-hero-meta">
-22|<span>🎙️ イロ × ループ</span>
-23|<span>한국어 · English · 日本語</span>
-24|</div>
-<div class="ewa-hero-actions">
-<a class="ewa-primary-action" href="/ja/radio">聴く <span aria-hidden="true">→</span></a>
+---
+title: 働くAI | 仕事で使えるAI
+description: 今週のAIニュースをひとつ聴き、同じ課題に対する2つのAIの回答を比べ、仕事ですぐ使えるプロンプトと考え方を学べます。
+cssclass: home
+publish: true
+lang: ja
+tags:
+  - 働くAI
+  - ai-agent
+---
+<div class="ewa-home" aria-label="働くAI ホーム">
+<section class="ewa-hero">
+<div class="ewa-hero-copy">
+<span class="ewa-kicker">働くAI · 毎週更新</span>
+<div class="ewa-hero-title" role="heading" aria-level="1">AIを眺めるだけでなく、<br><em>仕事で使う。</em></div>
+<p>イロとループが今週の話題をひとつ選び、仕事への影響を説明します。その後、2つのAIの回答を比べ、すぐ使えるプロンプトと考え方を読めます。</p>
+<div class="ewa-hero-meta">
+<span>イロ × ループ</span>
+<span>한국어 · English · 日本語</span>
 </div>
-25|</div>
-26|</section>
-27|<section class="ewa-games-section">
-28|<div class="ewa-section-heading">
-29|<div>
-30|<span class="ewa-section-kicker">TRY / 体験する</span>
-31|<div class="ewa-section-title">自分で試せるAI体験</div>
-32|</div>
-33|</div>
-34|<div class="ewa-games-grid">
-35|<a class="ewa-game-card" href="/static/showdown/">
-36|37|38|<div class="ewa-game-title">⚔️ AI対決</div>
-39|<p>同じ質問に2つのAIが回答します。ブラインドでより良い回答を選ぶとモデルが公開されます。今週のテーマは議事録の要約。</p>
-40|41|</a>
-42|<a class="ewa-game-card" href="/static/ai-test/">
-43|44|45|<div class="ewa-game-title">📋 AI業務診断テスト</div>
-46|<p>自分の業務でAIがどこまで役に立てるのか、12問で診断します。検証習慣、プロンプト設計、ツールの過信のうち、どこが弱いのかが4軸のスコアでわかります。</p>
-47|48|</a>
-49|</div>
-50|</section>
-51|<section class="ewa-read-section">
-52|<div class="ewa-section-heading">
-53|<div>
-54|<span class="ewa-section-kicker">READ / ガイド · 学習</span>
-55|<div class="ewa-section-title">読んですぐ使えるAI実戦</div>
-56|</div>
-57|</div>
-58|<div class="ewa-read-grid">
-59|<div class="ewa-read-column">
-60|<div class="ewa-read-column-title">すぐ使える</div>
-61|<a class="ewa-read-card" href="/ja/guides/meeting-summary">
-62|63|<div class="ewa-read-card-title">議事録を3分で整理するプロンプト</div>
-64|<p>「要点だけまとめて」が失敗する理由。決定・担当者・期限を構造的に抽出するプロンプトと検証チェックリスト。</p>
-65|</a>
-66|<a class="ewa-read-card" href="/ja/guides/report-draft-checklist">
-67|68|<div class="ewa-read-card-title">レポートの下書きをAIに任せる時の7つの確認事項</div>
-69|<p>「レポート書いて」が失敗する理由と、構造・データ・検証を備えたプロンプト。送信前の7つのチェック項目。</p>
-70|</a>
-71|</div>
-72|<div class="ewa-read-column">
-73|<div class="ewa-read-column-title">学ぶ</div>
-74|<a class="ewa-read-card" href="/ja/learn/chatbot-vs-agent">
-75|76|<div class="ewa-read-card-title">AIエージェントとチャットボットの違い</div>
-77|<p>エージェントは「賢いチャットボット」ではない。いつエージェントを使い、いつチャットボットを使うべきか。</p>
-78|</a>
-79|<a class="ewa-read-card" href="/ja/learn/rag-explained">
-80|81|<div class="ewa-read-card-title">RAGって何？働く人が知るべき理由</div>
-82|<p>AIが社内規程を知らないのに知ったかぶりする時、RAGがどう解決するのか。検索拡張生成が解決することと壊れるポイント。</p>
-83|</a>
-84|</div>
-85|</div>
-86|</section>
-87|</div>
-88|
+</div>
+</section>
+<section class="ewa-games-section">
+<div class="ewa-section-heading">
+<span class="ewa-section-kicker">自分で比べる</span>
+<div class="ewa-section-title" role="heading" aria-level="2">回答を見て、判断する練習</div>
+<p>同じ質問を投げて、結果の違いを確かめます。</p>
+</div>
+<div class="ewa-games-grid">
+<a class="ewa-game-card" href="/static/showdown/">
+<div class="ewa-game-title">AI対決</div>
+<p>同じ質問に2つのAIが答えます。どちらが使いやすいかを先に選び、あとでモデルを確認します。</p>
+</a>
+<a class="ewa-game-card" href="/static/ai-test/">
+<div class="ewa-game-title">AI業務チェック</div>
+<p>12問で、入力・検証・AIツールの使い方を確認します。結果は4つの軸で表示されます。</p>
+</a>
+</div>
+</section>
+<section class="ewa-read-section">
+<div class="ewa-section-heading">
+<span class="ewa-section-kicker">読んで使う</span>
+<div class="ewa-section-title" role="heading" aria-level="2">今日の仕事に持ち帰る</div>
+<p>すぐ使うプロンプトと、その背景にある考え方を分けて整理しています。</p>
+</div>
+<div class="ewa-read-grid">
+<div class="ewa-read-column">
+<div class="ewa-read-column-title" role="heading" aria-level="3">すぐ使う</div>
+<a class="ewa-read-card" href="/ja/guides/meeting-summary.html">
+<div class="ewa-read-card-title">議事録から決定事項・担当者・期限を抜き出す</div>
+<p>曖昧な要約依頼ではなく、必要な項目と形式を指定するプロンプト。</p>
+</a>
+<a class="ewa-read-card" href="/ja/guides/report-draft-checklist.html">
+<div class="ewa-read-card-title">AIで作ったレポートを送る前の7つの確認</div>
+<p>構成・根拠・検証に抜けがないか、送信前に確認する項目。</p>
+</a>
+</div>
+<div class="ewa-read-column">
+<div class="ewa-read-column-title" role="heading" aria-level="3">理解する</div>
+<a class="ewa-read-card" href="/ja/learn/chatbot-vs-agent.html">
+<div class="ewa-read-card-title">チャットボットとエージェントは仕事でどう違うか</div>
+<p>作業範囲と、人が承認するポイントで2つの違いを整理します。</p>
+</a>
+<a class="ewa-read-card" href="/ja/learn/rag-explained.html">
+<div class="ewa-read-card-title">RAGは社内文書をどう扱うのか</div>
+<p>検索で根拠を加える仕組みと、それでも間違う可能性がある場所を説明します。</p>
+</a>
+</div>
+</div>
+</section>
+</div>
