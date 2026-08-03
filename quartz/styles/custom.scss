@@ -3096,6 +3096,13 @@ body {
   line-height: 1.6;
 }
 
+// Hub content stays centered inside the article frame.
+.ewa-guides-list,
+.ewa-tw-content {
+  width: min(980px, 100%);
+  margin-inline: auto;
+}
+
 @media (max-width: 700px) {
   .ewa-home {
     padding: 0 1rem;
