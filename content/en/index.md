@@ -12,11 +12,14 @@ tags:
 <section class="ewa-hero">
 <div class="ewa-hero-copy">
 <span class="ewa-kicker">Working AI · Updated weekly</span>
-<div class="ewa-hero-title" role="heading" aria-level="1">Stop watching AI.<br><em>Put it to work.</em></div>
+<div class="ewa-hero-title" role="heading" aria-level="1">Hear what’s new in AI.<br><em>Put it to work.</em></div>
 <p>Iro and Loop pick one story from the week and explain why it matters at work. Then compare two AI answers, and read prompts and concepts you can use right away.</p>
 <div class="ewa-hero-meta">
 <span>Iro × Loop</span>
 <span>한국어 · English · 日本語</span>
+</div>
+<div class="ewa-hero-actions">
+<a class="ewa-primary-action" href="/en/radio.html">Listen to this week’s radio <span aria-hidden="true">→</span></a>
 </div>
 </div>
 </section>
