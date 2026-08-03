@@ -42,6 +42,32 @@ a[role="anchor"] {
   line-height: 1.4;
 }
 
+// Hub pages use divs instead of headings so Quartz cannot inject anchor links.
+.ewa-page-hero {
+  text-align: center;
+  padding: clamp(2rem, 8vw, 4rem) 0;
+}
+.ewa-page-hero .ewa-hero-title {
+  font-size: clamp(1.6rem, 5vw, 2.8rem);
+  line-height: 1.2;
+  margin: 0.5rem 0 1rem;
+}
+.ewa-page-hero .ewa-hero-title em {
+  color: var(--ewa-accent);
+  font-style: normal;
+}
+.ewa-tw-card-title,
+.ewa-guide-card-title,
+.ewa-game-card-title {
+  margin: 0;
+}
+.ewa-tw-archive-item-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0;
+  flex-grow: 1;
+}
+
 // ─── EWA Design Tokens ────────────────────────────────────
 :root,
 [saved-theme="dark"] {
@@ -2207,7 +2233,8 @@ body {
   line-height: 1;
 }
 
-.ewa-game-card h3 {
+.ewa-game-card h3,
+.ewa-game-card-title {
   font-size: 1.4rem;
   font-weight: 700;
   margin: 0;
@@ -2293,7 +2320,8 @@ body {
   text-transform: uppercase;
 }
 
-.ewa-read-card h4 {
+.ewa-read-card h4,
+.ewa-read-card-title {
   font-size: 1rem;
   font-weight: 700;
   margin: 0 0 0.4rem 0;
@@ -2342,14 +2370,16 @@ body {
   padding: clamp(3rem, 10vw, 6rem) 0 clamp(2rem, 6vw, 3rem);
 }
 
-.ewa-tw-hero h1 {
+.ewa-tw-hero h1,
+.ewa-tw-hero .ewa-hero-title {
   font-size: clamp(1.8rem, 5vw, 3rem);
   font-weight: 800;
   line-height: 1.2;
   margin: 0.5rem 0 1rem;
 }
 
-.ewa-tw-hero h1 em {
+.ewa-tw-hero h1 em,
+.ewa-tw-hero .ewa-hero-title em {
   color: var(--ewa-accent);
   font-style: normal;
 }
@@ -2407,7 +2437,8 @@ body {
   color: var(--ewa-accent);
 }
 
-.ewa-tw-card h3 {
+.ewa-tw-card h3,
+.ewa-tw-card-title {
   font-size: 1.15rem;
   font-weight: 700;
   margin: 0;
@@ -2458,7 +2489,8 @@ body {
   white-space: nowrap;
 }
 
-.ewa-tw-archive-item h4 {
+.ewa-tw-archive-item h4,
+.ewa-tw-archive-item-title {
   font-size: 0.95rem;
   font-weight: 600;
   margin: 0;
@@ -2667,14 +2699,16 @@ body {
   padding: clamp(2rem, 8vw, 4rem) 0;
 }
 
-.ewa-guides-hero h1 {
+.ewa-guides-hero h1,
+.ewa-guides-hero .ewa-hero-title {
   font-size: clamp(1.6rem, 5vw, 2.8rem);
   font-weight: 800;
   line-height: 1.2;
   margin: 0.5rem 0 1rem;
 }
 
-.ewa-guides-hero h1 em {
+.ewa-guides-hero h1 em,
+.ewa-guides-hero .ewa-hero-title em {
   color: var(--ewa-green);
   font-style: normal;
 }
@@ -2736,7 +2770,8 @@ body {
   color: var(--ewa-green);
 }
 
-.ewa-guide-card h3 {
+.ewa-guide-card h3,
+.ewa-guide-card-title {
   font-size: 1.1rem;
   font-weight: 700;
   margin: 0;

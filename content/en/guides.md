@@ -11,31 +11,31 @@ tags:
 <div class="ewa-guides" aria-label="Practical guides">
 <section class="ewa-guides-hero">
 <span class="ewa-kicker">GUIDES / Practical guides</span>
-<h1>Copy, paste,<br><em>done — AI execution manual</em></h1>
+<div class="ewa-hero-title">Copy, paste,<br><em>done — AI execution manual</em></div>
 <p>Meeting notes, email writing, spreadsheet analysis. Each article includes a ready-to-use prompt and a review checklist.</p>
 </section>
 <section class="ewa-guides-list">
 <div class="ewa-section-heading">
 <div>
 <span class="ewa-section-kicker">PROMPTS / Ready to use</span>
-<h2>Prompts by task</h2>
+<div class="ewa-section-title">Prompts by task</div>
 </div>
 </div>
 <div class="ewa-guide-grid">
 <a class="ewa-guide-card" href="/en/guides/meeting-summary">
-<h3>Prompt: summarize a meeting in 3 minutes</h3>
+<div class="ewa-guide-card-title">Prompt: summarize a meeting in 3 minutes</div>
 <p>Why "just summarize the key points" fails. A structured prompt that extracts decisions, owners, and deadlines.</p>
 </a>
 <a class="ewa-guide-card" href="/en/guides/email-that-gets-replies">
-<h3>Email prompts that get replies — not just "polite" ones</h3>
+<div class="ewa-guide-card-title">Email prompts that get replies — not just "polite" ones</div>
 <p>A structured prompt for crafting emails where the recipient knows exactly what to do within 3 seconds.</p>
 </a>
 <a class="ewa-guide-card" href="/en/guides/excel-safe-analysis">
-<h3>How to safely let AI analyze your spreadsheet data</h3>
+<div class="ewa-guide-card-title">How to safely let AI analyze your spreadsheet data</div>
 <p>A 3-step practical workflow: de-identify personal data, define analysis scope, and verify results.</p>
 </a>
 <a class="ewa-guide-card" href="/en/guides/report-draft-checklist">
-<h3>7 things to check when letting AI draft your report</h3>
+<div class="ewa-guide-card-title">7 things to check when letting AI draft your report</div>
 <p>Why "write a report for me" fails, and a prompt with proper structure, data, and verification.</p>
 </a>
 </div>

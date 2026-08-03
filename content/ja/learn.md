@@ -10,22 +10,22 @@ tags:
 
 <div class="ewa-page-hero">
 <span class="ewa-kicker">LEARN · 学ぶ</span>
-<h1>AIを理解すれば、<br><em>もっと任せられる</em></h1>
+<div class="ewa-hero-title">AIを理解すれば、<br><em>もっと任せられる</em></div>
 <p>概念を知れば、どこまで任せられるかがわかります。働く人が必ず知るべきAI概念を整理しました。</p>
 </div>
 
 <div class="ewa-read-section">
 <div class="ewa-read-grid">
 <a class="ewa-read-card" href="/ja/learn/chatbot-vs-agent">
-<h3>AIエージェントとチャットボットの違い</h3>
+<div class="ewa-read-card-title">AIエージェントとチャットボットの違い</div>
 <p>「AIが答える」と「AIが仕事を終わらせる」は違います。どこからがエージェントで、どこまでがチャットボットなのかを区別します。</p>
 </a>
 <a class="ewa-read-card" href="/ja/learn/agent-runtime-reliability">
-<h3>エージェントがよく壊れる本当の理由</h3>
+<div class="ewa-read-card-title">エージェントがよく壊れる本当の理由</div>
 <p>モデルが賢くなってもエージェントは依然として失敗します。ランタイム、ツール呼び出し、コンテキストウィンドウで失敗が発生するポイントを押さえます。</p>
 </a>
 <a class="ewa-read-card" href="/ja/learn/rag-explained">
-<h3>RAGって何？働く人が知るべき理由</h3>
+<div class="ewa-read-card-title">RAGって何？働く人が知るべき理由</div>
 <p>AIが社内規程を知らないのに知ったかぶりする時、RAGがどう解決するのか。検索拡張生成が解決することと壊れるポイント。</p>
 </a>
 </div>
