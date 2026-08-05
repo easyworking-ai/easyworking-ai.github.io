@@ -19,6 +19,34 @@
         "en": "Four areas showing where AI is heading. Models now bring verified results. Agents without guardrails caused real damage. Robotics entered everyday life. Crypto saw both regulation and new research tools.",
         "ja": "AIの方向性を示す4つの領域。モデルは検証済みの結果をもたらし、エージェントは統制なき自律が事故に。ロボットは日常に入り、暗号資産は規制と研究の両方が動きました。"
       },
+      "openSourceLinks": [
+        {
+          "name": {
+            "ko": "Hugging Face",
+            "en": "Hugging Face",
+            "ja": "Hugging Face"
+          },
+          "url": "https://huggingface.co",
+          "description": {
+            "ko": "AI 모델과 데이터셋을 공유하고 직접 사용할 수 있는 오픈소스 AI 플랫폼입니다.",
+            "en": "An open AI platform where people share and use models and datasets.",
+            "ja": "AIモデルやデータセットを共有し、利用できるオープンなAIプラットフォームです。"
+          }
+        },
+        {
+          "name": {
+            "ko": "Codeberg",
+            "en": "Codeberg",
+            "ja": "Codeberg"
+          },
+          "url": "https://codeberg.org",
+          "description": {
+            "ko": "오픈소스 프로젝트를 위한 비영리 코드 호스팅 플랫폼입니다.",
+            "en": "A nonprofit code-hosting platform for open-source projects.",
+            "ja": "オープンソースプロジェクト向けの非営利コードホスティングサービスです。"
+          }
+        }
+      ],
       "audio": {
         "ko": "/static/radio/episode-01-ko.mp3",
         "en": "/static/radio/episode-01-en.mp3",

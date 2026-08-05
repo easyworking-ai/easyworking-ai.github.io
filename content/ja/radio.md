@@ -37,6 +37,13 @@ tags:
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
 <source id="ep-source" src="/static/radio/episode-01-ja.mp3" type="audio/mpeg">
 </audio>
+<div id="ep-links" class="ewa-radio-links" aria-live="polite">
+<div class="ewa-radio-links-title">番組で紹介したオープンソース・開発プロジェクト</div>
+<ul>
+<li><a href="https://huggingface.co" target="_blank" rel="noopener noreferrer">Hugging Face</a><span>AIモデルやデータセットを共有・利用できるオープンなAIプラットフォーム</span></li>
+<li><a href="https://codeberg.org" target="_blank" rel="noopener noreferrer">Codeberg</a><span>オープンソース向けの非営利コードホスティングサービス</span></li>
+</ul>
+</div>
 </div>
 </section>
 <section class="ewa-radio-archive">

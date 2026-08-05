@@ -37,6 +37,13 @@ tags:
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
 <source id="ep-source" src="/static/radio/episode-01-ko.mp3" type="audio/mpeg">
 </audio>
+<div id="ep-links" class="ewa-radio-links" aria-live="polite">
+<div class="ewa-radio-links-title">방송에서 언급한 오픈소스·개발 프로젝트</div>
+<ul>
+<li><a href="https://huggingface.co" target="_blank" rel="noopener noreferrer">Hugging Face</a><span>AI 모델과 데이터셋을 공유하고 사용할 수 있는 오픈소스 AI 플랫폼</span></li>
+<li><a href="https://codeberg.org" target="_blank" rel="noopener noreferrer">Codeberg</a><span>오픈소스 프로젝트를 위한 비영리 코드 호스팅 플랫폼</span></li>
+</ul>
+</div>
 </div>
 </section>
 <section class="ewa-radio-archive">

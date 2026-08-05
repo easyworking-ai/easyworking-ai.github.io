@@ -37,6 +37,13 @@ tags:
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
 <source id="ep-source" src="/static/radio/episode-01-en.mp3" type="audio/mpeg">
 </audio>
+<div id="ep-links" class="ewa-radio-links" aria-live="polite">
+<div class="ewa-radio-links-title">Open-source projects mentioned</div>
+<ul>
+<li><a href="https://huggingface.co" target="_blank" rel="noopener noreferrer">Hugging Face</a><span>An open AI platform for sharing and using models and datasets</span></li>
+<li><a href="https://codeberg.org" target="_blank" rel="noopener noreferrer">Codeberg</a><span>A nonprofit code-hosting platform for open-source projects</span></li>
+</ul>
+</div>
 </div>
 </section>
 <section class="ewa-radio-archive">

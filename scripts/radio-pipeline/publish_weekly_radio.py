@@ -218,6 +218,33 @@ def parse_dialogues(body: str) -> dict[str, list[dict[str, str]]]:
     return result
 
 
+def parse_open_source_links(body: str) -> list[dict[str, Any]]:
+    """Parse the optional JSON block used for links shown under the player."""
+    match = re.search(
+        r"(?ims)^##\s+(?:Open[- ]source links|오픈소스 링크)\s*$\n(.*?)(?=^##\s+|\Z)",
+        body,
+    )
+    if not match:
+        return []
+    block = re.search(r"```json\s*(.*?)```", match.group(1), re.S | re.I)
+    if not block:
+        return []
+    try:
+        value = json.loads(block.group(1).strip())
+    except json.JSONDecodeError as exc:
+        raise PipelineError(f"Open-source links JSON 파싱 실패: {exc}") from exc
+    if not isinstance(value, list):
+        raise PipelineError("Open-source links는 배열이어야 합니다")
+    for index, entry in enumerate(value, start=1):
+        if not isinstance(entry, dict):
+            raise PipelineError(f"Open-source links {index}번 항목이 객체가 아닙니다")
+        if not isinstance(entry.get("url"), str) or not re.match(r"^https?://", entry["url"]):
+            raise PipelineError(f"Open-source links {index}번 URL이 올바르지 않습니다")
+        if not entry.get("name") or not entry.get("description"):
+            raise PipelineError(f"Open-source links {index}번 항목에 name/description이 없습니다")
+    return value
+
+
 def parse_draft(path: Path) -> dict[str, Any]:
     if not path.exists():
         raise PipelineError(f"draft.md가 없습니다: {path}")
@@ -225,6 +252,7 @@ def parse_draft(path: Path) -> dict[str, Any]:
     frontmatter, _, body = extract_frontmatter(text)
     frontmatter["_path"] = str(path)
     frontmatter["_dialogues"] = parse_dialogues(body)
+    frontmatter["_open_source_links"] = parse_open_source_links(body)
     frontmatter["_body"] = body
     return frontmatter
 
@@ -606,6 +634,7 @@ def episode_record(draft: dict[str, Any], episode: int, duration: float) -> dict
         "duration": duration_label(duration),
         "topics": {lang: [] for lang in LANGS},
         "summary": {lang: draft[f"summary_{lang}"] for lang in LANGS},
+        "openSourceLinks": draft.get("_open_source_links", []),
         "audio": {lang: f"/static/radio/episode-{episode:02d}-{lang}.mp3" for lang in LANGS},
     }
 
@@ -632,6 +661,40 @@ def static_item(record: dict[str, Any], lang: str) -> str:
     )
 
 
+def localized_metadata(value: Any, lang: str) -> str:
+    if isinstance(value, str):
+        return value
+    if isinstance(value, dict):
+        return str(value.get(lang) or value.get("ko") or value.get("en") or value.get("ja") or "")
+    return ""
+
+
+def static_links(record: dict[str, Any], lang: str) -> str:
+    labels = {
+        "ko": "방송에서 언급한 오픈소스·개발 프로젝트",
+        "en": "Open-source projects mentioned",
+        "ja": "番組で紹介したオープンソース・開発プロジェクト",
+    }
+    items = []
+    for entry in record.get("openSourceLinks", []):
+        url = html.escape(str(entry.get("url", "")), quote=True)
+        name = html.escape(localized_metadata(entry.get("name"), lang))
+        description = html.escape(localized_metadata(entry.get("description"), lang))
+        if not url or not name:
+            continue
+        items.append(
+            f'<li><a href="{url}" target="_blank" rel="noopener noreferrer">{name}</a>'
+            f"<span>{description}</span></li>"
+        )
+    if not items:
+        return '<div id="ep-links" class="ewa-radio-links" aria-live="polite" hidden></div>'
+    return (
+        '<div id="ep-links" class="ewa-radio-links" aria-live="polite">\n'
+        f'<div class="ewa-radio-links-title">{labels[lang]}</div>\n'
+        "<ul>\n" + "\n".join(items) + "\n</ul>\n</div>"
+    )
+
+
 def update_radio_page(path: Path, lang: str, record: dict[str, Any]) -> str:
     text = path.read_text(encoding="utf-8")
     num = record["num"]
@@ -646,6 +709,7 @@ def update_radio_page(path: Path, lang: str, record: dict[str, Any]) -> str:
         (r'(<p id="ep-summary">).*?(</p>)', rf"\g<1>{summary}\g<2>"),
         (r'(<span id="ep-date">).*?(</span>)', rf"\g<1>{html.escape(str(record['date']))}\g<2>"),
         (rf'(<source id="ep-source" src="/static/radio/)episode-\d+-{lang}(\.mp3")', rf"\g<1>episode-{num:02d}-{lang}\g<2>"),
+        (r'(<div id="ep-links" class="ewa-radio-links"[^>]*>).*?</div>\n(</div>\n</section>)', static_links(record, lang) + r"\n\g<2>"),
     ]
     for pattern, replacement in replacements:
         text, count = re.subn(pattern, replacement, text, count=1, flags=re.S)
