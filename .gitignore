@@ -15,3 +15,5 @@ scripts/ep02-voice-proofs/*.wav
 scripts/ep02-voice-proofs/*/*.wav
 scripts/ep02-voice-proofs/*/*.mp3
 scripts/ep02-voice-proofs/__pycache__/
+scripts/radio-pipeline/radio-ep*/
+scripts/radio-pipeline/__pycache__/
