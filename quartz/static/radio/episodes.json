@@ -10,9 +10,24 @@
       "date": "2026-07-29",
       "duration": "~3분",
       "topics": {
-        "ko": ["Claude Opus 5", "에이전트 보안 사고", "로봇 주차·국가안보", "크립토 규제"],
-        "en": ["Claude Opus 5", "Agent security incidents", "Robotic parking & national security", "Crypto regulation"],
-        "ja": ["Claude Opus 5", "エージェントセキュリティ", "ロボット駐車・国家安保", "暗号資産規制"]
+        "ko": [
+          "Claude Opus 5",
+          "에이전트 보안 사고",
+          "로봇 주차·국가안보",
+          "크립토 규제"
+        ],
+        "en": [
+          "Claude Opus 5",
+          "Agent security incidents",
+          "Robotic parking & national security",
+          "Crypto regulation"
+        ],
+        "ja": [
+          "Claude Opus 5",
+          "エージェントセキュリティ",
+          "ロボット駐車・国家安保",
+          "暗号資産規制"
+        ]
       },
       "summary": {
         "ko": "이번 주 AI 생태계 전반의 방향성을 보여주는 네 영역의 소식. 모델은 검증된 결과를 가져오기 시작했고, 에이전트는 통제 없는 자율이 사고로 이어졌습니다. 로봇은 일상에 진입했고, 크립토는 규제와 연구 도구 양쪽에서 움직임이 있습니다.",
@@ -52,7 +67,86 @@
         "en": "/static/radio/episode-01-en.mp3",
         "ja": "/static/radio/episode-01-ja.mp3"
       }
+    },
+    {
+      "num": 2,
+      "title": {
+        "ko": "이번 주 AI 라디오: 에이전트에게 컴퓨터와 기억을 맡길 때",
+        "en": "This Week in AI: Giving Agents Computers and Memory",
+        "ja": "今週のAIラジオ：エージェントにコンピューターと記憶を渡すとき"
+      },
+      "date": "2026-08-06",
+      "duration": "~5.2분",
+      "topics": {
+        "ko": [],
+        "en": [],
+        "ja": []
+      },
+      "summary": {
+        "ko": "이번 주에는 에이전트가 컴퓨터를 조작하고, 작업 기억을 이어가고, PDF를 입력으로 처리하는 도구가 눈에 띄었습니다. 동시에 Atlassian Rovo를 둘러싼 데이터 접근 보안 분석도 나왔습니다. 무엇을 자동화할 수 있는지보다 어디까지 권한을 열고 어떻게 확인할지가 더 선명해진 한 주였습니다.",
+        "en": "This week, tools for computer use, durable agent work, and PDF processing stood out. A security analysis also raised questions about data access in Atlassian Rovo. The practical question is no longer only what an agent can automate, but where to draw permissions and how to verify the result.",
+        "ja": "今週は、エージェントがコンピューターを操作し、作業の状態を引き継ぎ、PDFを入力として扱うためのツールが目立ちました。Atlassian Rovoのデータアクセスをめぐるセキュリティ分析も公開されています。自動化できることだけでなく、どこまで権限を渡し、どう確認するかが問われる一週間でした。"
+      },
+      "openSourceLinks": [
+        {
+          "name": {
+            "ko": "TencentDB-Agent-Memory",
+            "en": "TencentDB-Agent-Memory",
+            "ja": "TencentDB-Agent-Memory"
+          },
+          "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+          "description": {
+            "ko": "대화·문서·코드에서 재사용할 정보를 모아 에이전트 작업에 연결하는 오픈소스 메모리 프로젝트입니다.",
+            "en": "An open-source memory project that turns reusable information from conversations, documents, and code into agent context.",
+            "ja": "会話・文書・コードから再利用できる情報を集め、エージェントの作業に接続するオープンソースのメモリプロジェクトです。"
+          }
+        },
+        {
+          "name": {
+            "ko": "Cloudflare Computer",
+            "en": "Cloudflare Computer",
+            "ja": "Cloudflare Computer"
+          },
+          "url": "https://github.com/cloudflare/computer",
+          "description": {
+            "ko": "에이전트가 파일과 실행 환경을 다룰 수 있는 작업 공간을 제공하는 Cloudflare의 프리뷰 오픈소스 프로젝트입니다.",
+            "en": "Cloudflare’s preview open-source project for giving agents a durable workspace and execution surface.",
+            "ja": "エージェントに永続的な作業空間と実行環境を提供する、Cloudflareのプレビュー版オープンソースプロジェクトです。"
+          }
+        },
+        {
+          "name": {
+            "ko": "LoopX",
+            "en": "LoopX",
+            "ja": "LoopX"
+          },
+          "url": "https://github.com/huangruiteng/loopx",
+          "description": {
+            "ko": "장기 실행 에이전트 작업의 목표·승인·근거·사용량·인계 상태를 관리하는 로컬 제어판입니다.",
+            "en": "A local control plane for tracking goals, gates, evidence, quota, and handoffs in long-running agent work.",
+            "ja": "長時間のエージェント作業について、目標・承認・根拠・使用量・引き継ぎを管理するローカル制御レイヤーです。"
+          }
+        },
+        {
+          "name": {
+            "ko": "PDF Inspector",
+            "en": "PDF Inspector",
+            "ja": "PDF Inspector"
+          },
+          "url": "https://github.com/firecrawl/pdf-inspector",
+          "description": {
+            "ko": "PDF가 텍스트 문서인지 스캔 이미지인지 분류하고 텍스트를 추출하는 Rust 기반 오픈소스 도구입니다.",
+            "en": "An open-source Rust tool that classifies PDFs and extracts text with layout awareness.",
+            "ja": "PDFを分類し、レイアウトを意識してテキストを抽出するRust製のオープンソースツールです。"
+          }
+        }
+      ],
+      "audio": {
+        "ko": "/static/radio/episode-02-ko.mp3",
+        "en": "/static/radio/episode-02-en.mp3",
+        "ja": "/static/radio/episode-02-ja.mp3"
+      }
     }
   ],
-  "latest": 1
+  "latest": 2
 }

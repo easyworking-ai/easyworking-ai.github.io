@@ -22,26 +22,28 @@ tags:
 <section class="ewa-radio-player" id="radio-player">
 <div class="ewa-radio-cover">
 <div class="ewa-radio-cover-art" id="ep-cover">
-<span id="ep-num">EP 01</span>
+<span id="ep-num">EP 02</span>
 </div>
 </div>
 <div class="ewa-radio-info">
-<span class="ewa-radio-ep" id="ep-label">Episode 01 · Latest</span>
-<h2 id="ep-title">AI Future Forecast: Models·Agents·Robotics·Crypto</h2>
-<p id="ep-summary">Four areas showing where AI is heading. Models now bring verified results. Agents without guardrails caused real damage. Robotics entered everyday life. Crypto saw both regulation and new research tools.</p>
+<span class="ewa-radio-ep" id="ep-label">Episode 2 · Latest</span>
+<h2 id="ep-title">This Week in AI: Giving Agents Computers and Memory</h2>
+<p id="ep-summary">This week, tools for computer use, durable agent work, and PDF processing stood out. A security analysis also raised questions about data access in Atlassian Rovo. The practical question is no longer only what an agent can automate, but where to draw permissions and how to verify the result.</p>
 <div class="ewa-radio-meta">
-<span id="ep-date">2026-07-29</span>
+<span id="ep-date">2026-08-06</span>
 <span id="ep-duration">⏱ ~3 min</span>
 <span>🎙️ Iro × Loop</span>
 </div>
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
-<source id="ep-source" src="/static/radio/episode-01-en.mp3" type="audio/mpeg">
+<source id="ep-source" src="/static/radio/episode-02-en.mp3" type="audio/mpeg">
 </audio>
 <div id="ep-links" class="ewa-radio-links" aria-live="polite">
 <div class="ewa-radio-links-title">Open-source projects mentioned</div>
 <ul>
-<li><a href="https://huggingface.co" target="_blank" rel="noopener noreferrer">Hugging Face</a><span>An open AI platform for sharing and using models and datasets</span></li>
-<li><a href="https://codeberg.org" target="_blank" rel="noopener noreferrer">Codeberg</a><span>A nonprofit code-hosting platform for open-source projects</span></li>
+<li><a href="https://github.com/TencentCloud/TencentDB-Agent-Memory" target="_blank" rel="noopener noreferrer">TencentDB-Agent-Memory</a><span>An open-source memory project that turns reusable information from conversations, documents, and code into agent context.</span></li>
+<li><a href="https://github.com/cloudflare/computer" target="_blank" rel="noopener noreferrer">Cloudflare Computer</a><span>Cloudflare’s preview open-source project for giving agents a durable workspace and execution surface.</span></li>
+<li><a href="https://github.com/huangruiteng/loopx" target="_blank" rel="noopener noreferrer">LoopX</a><span>A local control plane for tracking goals, gates, evidence, quota, and handoffs in long-running agent work.</span></li>
+<li><a href="https://github.com/firecrawl/pdf-inspector" target="_blank" rel="noopener noreferrer">PDF Inspector</a><span>An open-source Rust tool that classifies PDFs and extracts text with layout awareness.</span></li>
 </ul>
 </div>
 </div>
@@ -54,11 +56,11 @@ tags:
 </div>
 </div>
 <div class="ewa-radio-archive-list" id="ep-list">
-<div class="ewa-radio-archive-item is-active" data-ep="1" data-lang="en">
-<span class="ewa-radio-archive-num">EP 01</span>
+<div class="ewa-radio-archive-item is-active" data-ep="2" data-lang="en">
+<span class="ewa-radio-archive-num">EP 02</span>
 <div>
-<h4>AI Future Forecast: Models·Agents·Robotics·Crypto</h4>
-<span>2026-07-29 · ~한국어 · English · 日本語</span>
+<h4>This Week in AI: Giving Agents Computers and Memory</h4>
+<span>2026-08-06 · ~5.2분 · Korean · English · Japanese</span>
 </div>
 </div>
 </div>
