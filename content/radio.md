@@ -52,7 +52,7 @@ tags:
 <span class="ewa-radio-archive-num">EP 03</span>
 <div>
 <h4>이번 주 AI 라디오: 에이전트가 혼자 움직이기 시작했을 때</h4>
-<span>2026-08-10 · ~6.2분 · 한국어 · English · 日本語</span>
+<span>2026-08-10 · ~6.7분 · 한국어 · English · 日本語</span>
 </div>
 </div>
 </div>

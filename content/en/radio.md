@@ -52,7 +52,7 @@ tags:
 <span class="ewa-radio-archive-num">EP 03</span>
 <div>
 <h4>This Week in AI: When Agents Start Acting on Their Own</h4>
-<span>2026-08-10 · ~6.2분 · Korean · English · Japanese</span>
+<span>2026-08-10 · ~6.7분 · Korean · English · Japanese</span>
 </div>
 </div>
 </div>

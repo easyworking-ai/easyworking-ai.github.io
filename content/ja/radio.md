@@ -52,7 +52,7 @@ tags:
 <span class="ewa-radio-archive-num">EP 03</span>
 <div>
 <h4>今週のAIラジオ：エージェントが一人で動き始めるとき</h4>
-<span>2026-08-10 · ~6.2분 · 韓国語 · English · 日本語</span>
+<span>2026-08-10 · ~6.7분 · 韓国語 · English · 日本語</span>
 </div>
 </div>
 </div>
