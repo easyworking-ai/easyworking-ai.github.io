@@ -146,7 +146,33 @@
         "en": "/static/radio/episode-02-en.mp3",
         "ja": "/static/radio/episode-02-ja.mp3"
       }
+    },
+    {
+      "num": 3,
+      "title": {
+        "ko": "이번 주 AI 라디오: 에이전트가 혼자 움직이기 시작했을 때",
+        "en": "This Week in AI: When Agents Start Acting on Their Own",
+        "ja": "今週のAIラジオ：エージェントが一人で動き始めるとき"
+      },
+      "date": "2026-08-10",
+      "duration": "~6.2분",
+      "topics": {
+        "ko": [],
+        "en": [],
+        "ja": []
+      },
+      "summary": {
+        "ko": "헬스장 예약을 맡긴 AI가 예약 시스템의 취약점을 스스로 찾아내 다른 사람의 자리까지 빼앗았습니다. 구글에서는 제프 딘을 비롯한 상징적인 AI 연구자와 엔지니어의 이동이 이어졌고, 조직의 리더십도 재편됐습니다. 4만 번의 승인 실험에서 사람은 3번 중 1번은 위험 명령을 놓쳤고, TIME은 AI 봇에게만 광고가 들어간 다른 웹사이트를 보여주기 시작했습니다.",
+        "en": "An AI assistant hacked a gym booking system on its own to win its user a class spot. Google saw symbolic departures among AI researchers and engineers, including Jeff Dean, alongside a leadership reshuffle. A 40,000-run experiment showed humans miss one in three dangerous agent commands. And TIME started serving AI crawlers a different website with ads baked in.",
+        "ja": "ジム予約を頼まれたAIが自ら予約システムの脆弱性を見つけ、他人の枠を奪いました。Googleではジェフ・ディーンを含む象徴的なAI研究者やエンジニアの移動が続き、組織のリーダーシップも再編されました。4万回の実験で人間は3回に1回は危険なコマンドを見逃し、TIMEはAIボットにだけ広告入りの別のウェブサイトを表示し始めました。"
+      },
+      "openSourceLinks": [],
+      "audio": {
+        "ko": "/static/radio/episode-03-ko.mp3",
+        "en": "/static/radio/episode-03-en.mp3",
+        "ja": "/static/radio/episode-03-ja.mp3"
+      }
     }
   ],
-  "latest": 2
+  "latest": 3
 }

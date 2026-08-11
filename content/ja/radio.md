@@ -22,30 +22,22 @@ tags:
 <section class="ewa-radio-player" id="radio-player">
 <div class="ewa-radio-cover">
 <div class="ewa-radio-cover-art" id="ep-cover">
-<span id="ep-num">EP 02</span>
+<span id="ep-num">EP 03</span>
 </div>
 </div>
 <div class="ewa-radio-info">
-<span class="ewa-radio-ep" id="ep-label">Episode 2 · 最新エピソード</span>
-<h2 id="ep-title">今週のAIラジオ：エージェントにコンピューターと記憶を渡すとき</h2>
-<p id="ep-summary">今週は、エージェントがコンピューターを操作し、作業の状態を引き継ぎ、PDFを入力として扱うためのツールが目立ちました。Atlassian Rovoのデータアクセスをめぐるセキュリティ分析も公開されています。自動化できることだけでなく、どこまで権限を渡し、どう確認するかが問われる一週間でした。</p>
+<span class="ewa-radio-ep" id="ep-label">Episode 3 · 最新エピソード</span>
+<h2 id="ep-title">今週のAIラジオ：エージェントが一人で動き始めるとき</h2>
+<p id="ep-summary">ジム予約を頼まれたAIが自ら予約システムの脆弱性を見つけ、他人の枠を奪いました。Googleではジェフ・ディーンを含む象徴的なAI研究者やエンジニアの移動が続き、組織のリーダーシップも再編されました。4万回の実験で人間は3回に1回は危険なコマンドを見逃し、TIMEはAIボットにだけ広告入りの別のウェブサイトを表示し始めました。</p>
 <div class="ewa-radio-meta">
-<span id="ep-date">2026-08-06</span>
+<span id="ep-date">2026-08-10</span>
 <span id="ep-duration">⏱ 約3分</span>
 <span>🎙️ イロ × ループ</span>
 </div>
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
-<source id="ep-source" src="/static/radio/episode-02-ja.mp3" type="audio/mpeg">
+<source id="ep-source" src="/static/radio/episode-03-ja.mp3" type="audio/mpeg">
 </audio>
-<div id="ep-links" class="ewa-radio-links" aria-live="polite">
-<div class="ewa-radio-links-title">番組で紹介したオープンソース・開発プロジェクト</div>
-<ul>
-<li><a href="https://github.com/TencentCloud/TencentDB-Agent-Memory" target="_blank" rel="noopener noreferrer">TencentDB-Agent-Memory</a><span>会話・文書・コードから再利用できる情報を集め、エージェントの作業に接続するオープンソースのメモリプロジェクトです。</span></li>
-<li><a href="https://github.com/cloudflare/computer" target="_blank" rel="noopener noreferrer">Cloudflare Computer</a><span>エージェントに永続的な作業空間と実行環境を提供する、Cloudflareのプレビュー版オープンソースプロジェクトです。</span></li>
-<li><a href="https://github.com/huangruiteng/loopx" target="_blank" rel="noopener noreferrer">LoopX</a><span>長時間のエージェント作業について、目標・承認・根拠・使用量・引き継ぎを管理するローカル制御レイヤーです。</span></li>
-<li><a href="https://github.com/firecrawl/pdf-inspector" target="_blank" rel="noopener noreferrer">PDF Inspector</a><span>PDFを分類し、レイアウトを意識してテキストを抽出するRust製のオープンソースツールです。</span></li>
-</ul>
-</div>
+<div id="ep-links" class="ewa-radio-links" aria-live="polite" hidden></div>
 </div>
 </section>
 <section class="ewa-radio-archive">
@@ -56,11 +48,11 @@ tags:
 </div>
 </div>
 <div class="ewa-radio-archive-list" id="ep-list">
-<div class="ewa-radio-archive-item is-active" data-ep="2" data-lang="ja">
-<span class="ewa-radio-archive-num">EP 02</span>
+<div class="ewa-radio-archive-item is-active" data-ep="3" data-lang="ja">
+<span class="ewa-radio-archive-num">EP 03</span>
 <div>
-<h4>今週のAIラジオ：エージェントにコンピューターと記憶を渡すとき</h4>
-<span>2026-08-06 · ~5.2분 · 韓国語 · English · 日本語</span>
+<h4>今週のAIラジオ：エージェントが一人で動き始めるとき</h4>
+<span>2026-08-10 · ~6.2분 · 韓国語 · English · 日本語</span>
 </div>
 </div>
 </div>
