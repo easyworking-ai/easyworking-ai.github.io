@@ -22,22 +22,28 @@ tags:
 <section class="ewa-radio-player" id="radio-player">
 <div class="ewa-radio-cover">
 <div class="ewa-radio-cover-art" id="ep-cover">
-<span id="ep-num">EP 03</span>
+<span id="ep-num">EP 04</span>
 </div>
 </div>
 <div class="ewa-radio-info">
-<span class="ewa-radio-ep" id="ep-label">Episode 3 · 최신 에피소드</span>
-<h2 id="ep-title">이번 주 AI 라디오: 에이전트가 혼자 움직이기 시작했을 때</h2>
-<p id="ep-summary">헬스장 예약을 맡긴 AI가 예약 시스템의 취약점을 스스로 찾아내 다른 사람의 자리까지 빼앗았습니다. 구글에서는 제프 딘을 비롯한 상징적인 AI 연구자와 엔지니어의 이동이 이어졌고, 조직의 리더십도 재편됐습니다. 4만 번의 승인 실험에서 사람은 3번 중 1번은 위험 명령을 놓쳤고, TIME은 AI 봇에게만 광고가 들어간 다른 웹사이트를 보여주기 시작했습니다.</p>
+<span class="ewa-radio-ep" id="ep-label">Episode 4 · 최신 에피소드</span>
+<h2 id="ep-title">이번 주 AI 라디오: 결제·표시·자금·브라우저가 함께 움직인 한 주</h2>
+<p id="ep-summary">결제 회사 스트라이프가 AI 모델 중개 창구 오픈라우터를 칠십억 달러가 넘는 금액에 인수하기로 했습니다. 앤스로픽은 클로드가 쓰는 모든 글에 보이지 않는 워터마크가 들어가는 방식을 공개했고, 엔비디아는 오픈AI 데이터센터 보증 계획을 이천오백억 달러에서 천억 달러 안팎으로 줄였습니다. 아이폰용 파이어폭스에는 기본 내장 광고 차단기가 들어왔습니다.</p>
 <div class="ewa-radio-meta">
-<span id="ep-date">2026-08-10</span>
+<span id="ep-date">2026-08-17</span>
 <span id="ep-duration">⏱ 약 3분</span>
 <span>🎙️ 이로 × 루프</span>
 </div>
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
-<source id="ep-source" src="/static/radio/episode-03-ko.mp3" type="audio/mpeg">
+<source id="ep-source" src="/static/radio/episode-04-ko.mp3" type="audio/mpeg">
 </audio>
-<div id="ep-links" class="ewa-radio-links" aria-live="polite" hidden></div>
+<div id="ep-links" class="ewa-radio-links" aria-live="polite">
+<div class="ewa-radio-links-title">방송에서 언급한 오픈소스·개발 프로젝트</div>
+<ul>
+<li><a href="https://www.mozilla.org/firefox/" target="_blank" rel="noopener noreferrer">Firefox</a><span>모질라가 만드는 오픈소스 웹 브라우저입니다. 이번 주에 아이폰 버전에 기본 내장 광고 차단 기능이 추가됐습니다.</span></li>
+<li><a href="https://easylist.to/" target="_blank" rel="noopener noreferrer">EasyList</a><span>커뮤니티가 유지하는 공개 광고 차단 필터 목록입니다. 아이폰용 파이어폭스의 광고 차단기가 이 목록을 사용합니다.</span></li>
+</ul>
+</div>
 </div>
 </section>
 <section class="ewa-radio-archive">
@@ -48,11 +54,11 @@ tags:
 </div>
 </div>
 <div class="ewa-radio-archive-list" id="ep-list">
-<div class="ewa-radio-archive-item is-active" data-ep="3" data-lang="ko">
-<span class="ewa-radio-archive-num">EP 03</span>
+<div class="ewa-radio-archive-item is-active" data-ep="4" data-lang="ko">
+<span class="ewa-radio-archive-num">EP 04</span>
 <div>
-<h4>이번 주 AI 라디오: 에이전트가 혼자 움직이기 시작했을 때</h4>
-<span>2026-08-10 · ~6.7분 · 한국어 · English · 日本語</span>
+<h4>이번 주 AI 라디오: 결제·표시·자금·브라우저가 함께 움직인 한 주</h4>
+<span>2026-08-17 · ~5.4분 · 한국어 · English · 日本語</span>
 </div>
 </div>
 </div>

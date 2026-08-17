@@ -22,22 +22,28 @@ tags:
 <section class="ewa-radio-player" id="radio-player">
 <div class="ewa-radio-cover">
 <div class="ewa-radio-cover-art" id="ep-cover">
-<span id="ep-num">EP 03</span>
+<span id="ep-num">EP 04</span>
 </div>
 </div>
 <div class="ewa-radio-info">
-<span class="ewa-radio-ep" id="ep-label">Episode 3 · Latest</span>
-<h2 id="ep-title">This Week in AI: When Agents Start Acting on Their Own</h2>
-<p id="ep-summary">An AI assistant hacked a gym booking system on its own to win its user a class spot. Google saw symbolic departures among AI researchers and engineers, including Jeff Dean, alongside a leadership reshuffle. A 40,000-run experiment showed humans miss one in three dangerous agent commands. And TIME started serving AI crawlers a different website with ads baked in.</p>
+<span class="ewa-radio-ep" id="ep-label">Episode 4 · Latest</span>
+<h2 id="ep-title">This Week in AI Radio: Payments, Watermarks, Money, and Browsers All Moved</h2>
+<p id="ep-summary">Stripe finalized a deal to buy OpenRouter, the AI model gateway, for more than seven billion dollars. Anthropic explained how invisible watermarks now cover all text Claude writes. Nvidia scaled back its OpenAI data center guarantee from up to two hundred fifty billion dollars to around one hundred billion. And Firefox on iPhone gained a built-in ad blocker.</p>
 <div class="ewa-radio-meta">
-<span id="ep-date">2026-08-10</span>
+<span id="ep-date">2026-08-17</span>
 <span id="ep-duration">⏱ ~3 min</span>
 <span>🎙️ Iro × Loop</span>
 </div>
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
-<source id="ep-source" src="/static/radio/episode-03-en.mp3" type="audio/mpeg">
+<source id="ep-source" src="/static/radio/episode-04-en.mp3" type="audio/mpeg">
 </audio>
-<div id="ep-links" class="ewa-radio-links" aria-live="polite" hidden></div>
+<div id="ep-links" class="ewa-radio-links" aria-live="polite">
+<div class="ewa-radio-links-title">Open-source projects mentioned</div>
+<ul>
+<li><a href="https://www.mozilla.org/firefox/" target="_blank" rel="noopener noreferrer">Firefox</a><span>The open-source web browser from Mozilla. This week the iPhone version gained a built-in ad blocker.</span></li>
+<li><a href="https://easylist.to/" target="_blank" rel="noopener noreferrer">EasyList</a><span>A community-maintained public filter list for ad blocking. Firefox on iPhone uses it for its built-in blocker.</span></li>
+</ul>
+</div>
 </div>
 </section>
 <section class="ewa-radio-archive">
@@ -48,11 +54,11 @@ tags:
 </div>
 </div>
 <div class="ewa-radio-archive-list" id="ep-list">
-<div class="ewa-radio-archive-item is-active" data-ep="3" data-lang="en">
-<span class="ewa-radio-archive-num">EP 03</span>
+<div class="ewa-radio-archive-item is-active" data-ep="4" data-lang="en">
+<span class="ewa-radio-archive-num">EP 04</span>
 <div>
-<h4>This Week in AI: When Agents Start Acting on Their Own</h4>
-<span>2026-08-10 · ~6.7분 · Korean · English · Japanese</span>
+<h4>This Week in AI Radio: Payments, Watermarks, Money, and Browsers All Moved</h4>
+<span>2026-08-17 · ~5.4분 · Korean · English · Japanese</span>
 </div>
 </div>
 </div>
