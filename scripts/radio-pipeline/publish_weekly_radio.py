@@ -430,7 +430,7 @@ def render_with_prompt(lines: list[dict[str, str]], prompt_audio: Path, prompt_t
             "--normalize",
             "--denoise",
         ],
-        timeout=1200,
+        timeout=3600,
     )
     outputs = sorted(output_dir.glob("output_*.wav"))
     if len(outputs) != len(lines):
