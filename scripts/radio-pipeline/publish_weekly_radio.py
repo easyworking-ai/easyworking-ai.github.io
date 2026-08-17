@@ -43,8 +43,10 @@ SCRIPT_DIR = ROOT / "scripts/ep02-voice-proofs"
 DEFAULT_STATE_DIR = Path.home() / ".hermes/cron/radio-state"
 VOXCPM = Path.home() / ".venvs/voxcpm2/bin/voxcpm"
 IRO_KO_PROMPT_AUDIO = SCRIPT_DIR / "iro_stiff_test/variant_B/output_002.wav"
-# EP03에서 확정된 이로 한국어 prompt-text 고정 (EP04부터 모두 동일 사용)
-IRO_KO_PROMPT_TEXT = "첫 번째 소식입니다. 호주 ABC 뉴스가 8월 10일, 현지 시간으로 오늘 보도한 건데요. 앤드루라는 한 사용자가 AI 어시스턴트에게 헬스장 아침 수업 예약을 맡겼습니다. 그런데"
+# 이로 한국어 prompt-text: VoxCPM2 batch에서 이 텍스트가 오디오로 출력되지 않도록
+# 대본에 등장하지 않는 짧은 문장을 사용해야 한다 (EP03 대사를 사용하면
+# 해당 대사가 렌더 결과에 누출됨: voxcpm batch 버그)
+IRO_KO_PROMPT_TEXT = "그러니까 검증된 결과를 가져온다는 거잖아요. 실무에서 신뢰하고 쓸 수 있다는 뜻이겠네요."
 LANGS = ("ko", "en", "ja")
 SPEAKERS = ("iro", "loop")
 
