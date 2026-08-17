@@ -42,11 +42,15 @@ EPISODES_PATH = RADIO_DIR / "episodes.json"
 SCRIPT_DIR = ROOT / "scripts/ep02-voice-proofs"
 DEFAULT_STATE_DIR = Path.home() / ".hermes/cron/radio-state"
 VOXCPM = Path.home() / ".venvs/voxcpm2/bin/voxcpm"
-IRO_KO_PROMPT_AUDIO = SCRIPT_DIR / "iro_stiff_test/variant_B/output_002.wav"
+# 이로 한국어 고정 앵커 (2026-08-17 사용자 승인 D 음색).
+# EP03~04에 쓰던 iro_stiff_test/variant_B 앵커는 어두운 톤(presence -31dB)이라
+# EP04에서 대사 렌더가 전체적으로 둥글게(탁하게) 나온 원인이 되어 교체했다.
+IRO_KO_PROMPT_AUDIO = SCRIPT_DIR / "iro_anchor_v2/output_001.wav"
 # 이로 한국어 prompt-text: VoxCPM2 batch에서 이 텍스트가 오디오로 출력되지 않도록
 # 대본에 등장하지 않는 짧은 문장을 사용해야 한다 (EP03 대사를 사용하면
-# 해당 대사가 렌더 결과에 누출됨: voxcpm batch 버그)
-IRO_KO_PROMPT_TEXT = "그러니까 검증된 결과를 가져온다는 거잖아요. 실무에서 신뢰하고 쓸 수 있다는 뜻이겠네요."
+# 해당 대사가 렌더 결과에 누출됨: voxcpm batch 버그).
+# 아래 문장은 iro_anchor_v2/output_001.wav에 실제로 들어 있는 문장이다.
+IRO_KO_PROMPT_TEXT = "오늘도 소식 하나하나를 같이 짚어 보면 좋겠네요. 그럼 바로 시작해 볼까요?"
 LANGS = ("ko", "en", "ja")
 SPEAKERS = ("iro", "loop")
 
@@ -598,12 +602,24 @@ def render_language(lang: str, lines: list[dict[str, str]], episode: int, work_d
         iro_prompt_text = iro_lines[0]["text"]
     iro_clips = render_with_prompt(iro_lines, iro_prompt_audio, iro_prompt_text, lang_dir / "iro_out")
 
-    loop_prompt_audio = generate_ref(lang, LOOP_CONTROLS[lang], loop_lines[0]["text"], lang_dir / "loop_ref")
-    loop_clips = [loop_prompt_audio]
-    if len(loop_lines) > 1:
-        loop_clips.extend(
-            render_with_prompt(loop_lines[1:], loop_prompt_audio, loop_lines[0]["text"], lang_dir / "loop_out")
-        )
+    loop_prompt_audio: Path | None = None
+    loop_prompt_text = ""
+    if lang == "ko":
+        # 루프 한국어도 이로처럼 고정 앵커를 쓴다 (EP02 승인 음색).
+        # 매주 generate_ref로 새로 만들면 어두운 목소리가 무작위로 뽑혀
+        # EP04에서 "탁하다"는 불만이 재발했다.
+        loop_prompt_audio = SCRIPT_DIR / "loop_anchor_v2/output_001.wav"
+        loop_prompt_text = (SCRIPT_DIR / "loop_anchor_v2/prompt_text.txt").read_text(encoding="utf-8").strip()
+    loop_clips: list[Path] = []
+    if loop_prompt_audio is not None:
+        loop_clips = render_with_prompt(loop_lines, loop_prompt_audio, loop_prompt_text, lang_dir / "loop_out")
+    else:
+        loop_prompt_audio = generate_ref(lang, LOOP_CONTROLS[lang], loop_lines[0]["text"], lang_dir / "loop_ref")
+        loop_clips = [loop_prompt_audio]
+        if len(loop_lines) > 1:
+            loop_clips.extend(
+                render_with_prompt(loop_lines[1:], loop_prompt_audio, loop_lines[0]["text"], lang_dir / "loop_out")
+            )
 
     segments: list[tuple[Path, str, str]] = []
     iro_index = 0
