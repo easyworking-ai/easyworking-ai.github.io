@@ -58,7 +58,7 @@ tags:
 <span class="ewa-radio-archive-num">EP 04</span>
 <div>
 <h4>이번 주 AI 라디오: 결제·표시·자금·브라우저가 함께 움직인 한 주</h4>
-<span>2026-08-17 · ~5.4분 · 한국어 · English · 日本語</span>
+<span>2026-08-17 · ~6.8분 · 한국어 · English · 日本語</span>
 </div>
 </div>
 </div>
