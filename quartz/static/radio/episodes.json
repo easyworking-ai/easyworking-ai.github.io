@@ -172,60 +172,7 @@
         "en": "/static/radio/episode-03-en.mp3",
         "ja": "/static/radio/episode-03-ja.mp3"
       }
-    },
-    {
-      "num": 4,
-      "title": {
-        "ko": "이번 주 AI 라디오: 결제·표시·자금·브라우저가 함께 움직인 한 주",
-        "en": "This Week in AI Radio: Payments, Watermarks, Money, and Browsers All Moved",
-        "ja": "今週のAIラジオ：決済・透かし・資金・ブラウザが一緒に動いた一週間"
-      },
-      "date": "2026-08-17",
-      "duration": "~5.4분",
-      "topics": {
-        "ko": [],
-        "en": [],
-        "ja": []
-      },
-      "summary": {
-        "ko": "결제 회사 스트라이프가 AI 모델 중개 창구 오픈라우터를 칠십억 달러가 넘는 금액에 인수하기로 했습니다. 앤스로픽은 클로드가 쓰는 모든 글에 보이지 않는 워터마크가 들어가는 방식을 공개했고, 엔비디아는 오픈AI 데이터센터 보증 계획을 이천오백억 달러에서 천억 달러 안팎으로 줄였습니다. 아이폰용 파이어폭스에는 기본 내장 광고 차단기가 들어왔습니다.",
-        "en": "Stripe finalized a deal to buy OpenRouter, the AI model gateway, for more than seven billion dollars. Anthropic explained how invisible watermarks now cover all text Claude writes. Nvidia scaled back its OpenAI data center guarantee from up to two hundred fifty billion dollars to around one hundred billion. And Firefox on iPhone gained a built-in ad blocker.",
-        "ja": "決済企業Stripeが、AIモデルの窓口であるOpenRouterを70億ドル超えで買収することで最終合意しました。Anthropicは、Claudeが書くすべての文章に目に見えないウォーターマークが入る仕組みを公開しました。NVIDIAはOpenAIのデータセンター保証を2500億ドルから1000億ドル前後に縮小し、iPhoneのFirefoxには内蔵の広告ブロッカーが搭載されました。"
-      },
-      "openSourceLinks": [
-        {
-          "name": {
-            "ko": "Firefox",
-            "en": "Firefox",
-            "ja": "Firefox"
-          },
-          "url": "https://www.mozilla.org/firefox/",
-          "description": {
-            "ko": "모질라가 만드는 오픈소스 웹 브라우저입니다. 이번 주에 아이폰 버전에 기본 내장 광고 차단 기능이 추가됐습니다.",
-            "en": "The open-source web browser from Mozilla. This week the iPhone version gained a built-in ad blocker.",
-            "ja": "Mozillaが開発するオープンソースのウェブブラウザーです。今週、iPhone版に内蔵の広告ブロック機能が追加されました。"
-          }
-        },
-        {
-          "name": {
-            "ko": "EasyList",
-            "en": "EasyList",
-            "ja": "EasyList"
-          },
-          "url": "https://easylist.to/",
-          "description": {
-            "ko": "커뮤니티가 유지하는 공개 광고 차단 필터 목록입니다. 아이폰용 파이어폭스의 광고 차단기가 이 목록을 사용합니다.",
-            "en": "A community-maintained public filter list for ad blocking. Firefox on iPhone uses it for its built-in blocker.",
-            "ja": "コミュニティが維持する公開の広告ブロック用フィルターリストです。iPhone版Firefoxの広告ブロッカーがこれを使用しています。"
-          }
-        }
-      ],
-      "audio": {
-        "ko": "/static/radio/episode-04-ko.mp3",
-        "en": "/static/radio/episode-04-en.mp3",
-        "ja": "/static/radio/episode-04-ja.mp3"
-      }
     }
   ],
-  "latest": 4
+  "latest": 3
 }
