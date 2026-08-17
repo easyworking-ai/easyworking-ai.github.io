@@ -58,7 +58,7 @@ tags:
 <span class="ewa-radio-archive-num">EP 04</span>
 <div>
 <h4>This Week in AI Radio: Payments, Watermarks, Money, and Browsers All Moved</h4>
-<span>2026-08-17 · ~6.8분 · Korean · English · Japanese</span>
+<span>2026-08-17 · ~5.3분 · Korean · English · Japanese</span>
 </div>
 </div>
 </div>

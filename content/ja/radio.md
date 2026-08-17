@@ -58,7 +58,7 @@ tags:
 <span class="ewa-radio-archive-num">EP 04</span>
 <div>
 <h4>今週のAIラジオ：決済・透かし・資金・ブラウザが一緒に動いた一週間</h4>
-<span>2026-08-17 · ~6.8분 · 韓国語 · English · 日本語</span>
+<span>2026-08-17 · ~5.3분 · 韓国語 · English · 日本語</span>
 </div>
 </div>
 </div>
