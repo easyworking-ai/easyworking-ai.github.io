@@ -17,3 +17,7 @@ scripts/ep02-voice-proofs/*/*.mp3
 scripts/ep02-voice-proofs/__pycache__/
 scripts/radio-pipeline/radio-ep*/
 scripts/radio-pipeline/__pycache__/
+
+# 고정 음성 앵커는 영구 자산 — 무시 규칙에서 제외
+!scripts/ep02-voice-proofs/iro_anchor_v2/output_001.wav
+!scripts/ep02-voice-proofs/loop_anchor_v2/output_001.wav
