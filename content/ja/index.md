@@ -1,3 +1,14 @@
+---
+title: 働くAI | 仕事で使えるAI
+description: 今週のAIニュースをひとつ聴き、同じ課題に対する2つのAIの回答を比べ、仕事ですぐ使えるプロンプトと考え方を学べます。
+cssclass: home
+publish: true
+lang: ja
+tags:
+  - 働くAI
+  - ai-agent
+---
+
 <div class="ewa-home" aria-label="働くAI ホーム">
 <section class="ewa-hero">
 <div class="ewa-hero-copy">

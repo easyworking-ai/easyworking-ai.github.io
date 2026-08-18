@@ -1,3 +1,14 @@
+---
+title: 일하는 AI | 실무에 바로 쓰는 AI
+description: 이번 주 AI 이슈를 듣고, 같은 질문을 두 AI에 던져보고, 업무에 바로 쓰는 프롬프트와 개념을 익히는 실전형 AI 사이트.
+cssclass: home
+publish: true
+lang: ko
+tags:
+  - 일하는AI
+  - ai-agent
+---
+
 <div class="ewa-home" aria-label="일하는 AI 홈">
 <section class="ewa-hero">
 <div class="ewa-hero-copy">

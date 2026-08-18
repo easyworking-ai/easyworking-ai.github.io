@@ -1,3 +1,14 @@
+---
+title: Working AI | AI you can use at work
+description: Hear one AI story from the week, compare two models on the same task, and pick up prompts and concepts you can use at work.
+cssclass: home
+publish: true
+lang: en
+tags:
+  - WorkingAI
+  - ai-agent
+---
+
 <div class="ewa-home" aria-label="Working AI home">
 <section class="ewa-hero">
 <div class="ewa-hero-copy">
