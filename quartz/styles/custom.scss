@@ -3045,12 +3045,14 @@ body {
 .ewa-home .ewa-hero-art {
   flex: 0 0 auto;
   width: min(42%, 520px);
+  height: auto;
   border-radius: 16px;
 }
 
 .ewa-home .ewa-section-art {
   display: block;
   width: min(30%, 260px);
+  height: auto;
   margin: 2.5rem auto 0;
   border-radius: 14px;
 }
@@ -3252,10 +3254,12 @@ body {
 
   .ewa-home .ewa-hero-art {
     width: 100%;
+    height: auto;
   }
 
   .ewa-home .ewa-section-art {
     width: min(60%, 240px);
+    height: auto;
     margin-top: 1.75rem;
   }
 
@@ -3301,6 +3305,7 @@ body {
 .ewa-hub-art {
   display: block;
   width: min(240px, 64%);
+  height: auto;
   margin: clamp(1.5rem, 4vw, 2.25rem) auto 0;
   border-radius: 14px;
 }

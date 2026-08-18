@@ -8,7 +8,7 @@
 <a class="ewa-primary-action" href="/ja/radio.html">今週のラジオを聴く <span aria-hidden="true">→</span></a>
 </div>
 </div>
-<img class="ewa-hero-art" src="/static/img/home-hero.jpg" alt="舞い飛ぶ紙の山から必要な一枚だけを選んで読む人のイラスト" width="1536" height="1024" loading="eager">
+<img class="ewa-hero-art" src="/static/img/home-hero.jpg" alt="舞い飛ぶ紙の山から必要な一枚だけを選んで読む人のイラスト" width="1600" height="1600" loading="eager">
 </section>
 <section class="ewa-games-section">
 <div class="ewa-section-heading">
@@ -26,7 +26,7 @@
 <p>12問で、入力・検証・AIツールの使い方を確認します。結果は4つの軸で表示されます。</p>
 </a>
 </div>
-<img class="ewa-section-art" src="/static/img/home-compare.jpg" alt="2つのロボットがそれぞれの回答を出し、人がどちらを信じるか考えているイラスト" width="1024" height="1024" loading="lazy">
+<img class="ewa-section-art" src="/static/img/home-compare.jpg" alt="2つのロボットがそれぞれの回答を出し、人がどちらを信じるか考えているイラスト" width="900" height="900" loading="lazy">
 </section>
 <section class="ewa-read-section">
 <div class="ewa-section-heading">
@@ -58,6 +58,6 @@
 </a>
 </div>
 </div>
-<img class="ewa-section-art" src="/static/img/home-handoff.jpg" alt="人がロボットに書式を渡し、ロボットが整理された文書を返すイラスト" width="1024" height="1024" loading="lazy">
+<img class="ewa-section-art" src="/static/img/home-handoff.jpg" alt="人がロボットに書式を渡し、ロボットが整理された文書を返すイラスト" width="900" height="900" loading="lazy">
 </section>
 </div>

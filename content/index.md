@@ -8,7 +8,7 @@
 <a class="ewa-primary-action" href="/radio.html">이번 주 라디오 듣기 <span aria-hidden="true">→</span></a>
 </div>
 </div>
-<img class="ewa-hero-art" src="/static/img/home-hero.jpg" alt="수많은 종이가 흩날리는 가운데 책상에 앉아 필요한 장만 골라 읽는 사람의 삽화" width="1536" height="1024" loading="eager">
+<img class="ewa-hero-art" src="/static/img/home-hero.jpg" alt="수많은 종이가 흩날리는 가운데 책상에 앉아 필요한 장만 골라 읽는 사람의 삽화" width="1600" height="1600" loading="eager">
 </section>
 <section class="ewa-games-section">
 <div class="ewa-section-heading">
@@ -26,7 +26,7 @@
 <p>12개 질문으로 업무의 입력·검증·도구 사용 습관을 점검합니다. 결과는 4개 축으로 보여줍니다.</p>
 </a>
 </div>
-<img class="ewa-section-art" src="/static/img/home-compare.jpg" alt="두 로봇이 각자 답을 내밀고 그 앞에서 사람이 판단을 고민하는 삽화" width="1024" height="1024" loading="lazy">
+<img class="ewa-section-art" src="/static/img/home-compare.jpg" alt="두 로봇이 각자 답을 내밀고 그 앞에서 사람이 판단을 고민하는 삽화" width="900" height="900" loading="lazy">
 </section>
 <section class="ewa-read-section">
 <div class="ewa-section-heading">
@@ -58,6 +58,6 @@
 </a>
 </div>
 </div>
-<img class="ewa-section-art" src="/static/img/home-handoff.jpg" alt="사람이 로봇에게 서식을 넘기고 로봇이 정리된 문서를 돌려주는 삽화" width="1024" height="1024" loading="lazy">
+<img class="ewa-section-art" src="/static/img/home-handoff.jpg" alt="사람이 로봇에게 서식을 넘기고 로봇이 정리된 문서를 돌려주는 삽화" width="900" height="900" loading="lazy">
 </section>
 </div>

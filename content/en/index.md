@@ -8,7 +8,7 @@
 <a class="ewa-primary-action" href="/en/radio.html">Listen to this week’s radio <span aria-hidden="true">→</span></a>
 </div>
 </div>
-<img class="ewa-hero-art" src="/static/img/home-hero.jpg" alt="Illustration of a person at a desk calmly picking the useful sheets out of a swirl of flying papers" width="1536" height="1024" loading="eager">
+<img class="ewa-hero-art" src="/static/img/home-hero.jpg" alt="Illustration of a person at a desk calmly picking the useful sheets out of a swirl of flying papers" width="1600" height="1600" loading="eager">
 </section>
 <section class="ewa-games-section">
 <div class="ewa-section-heading">
@@ -26,7 +26,7 @@
 <p>Use 12 questions to check how you handle input, verification, and AI tools at work. Results cover four areas.</p>
 </a>
 </div>
-<img class="ewa-section-art" src="/static/img/home-compare.jpg" alt="Illustration of two robots holding up their answers while a person decides which one to trust" width="1024" height="1024" loading="lazy">
+<img class="ewa-section-art" src="/static/img/home-compare.jpg" alt="Illustration of two robots holding up their answers while a person decides which one to trust" width="900" height="900" loading="lazy">
 </section>
 <section class="ewa-read-section">
 <div class="ewa-section-heading">
@@ -58,6 +58,6 @@
 </a>
 </div>
 </div>
-<img class="ewa-section-art" src="/static/img/home-handoff.jpg" alt="Illustration of a person handing a form to a robot and receiving a tidy document in return" width="1024" height="1024" loading="lazy">
+<img class="ewa-section-art" src="/static/img/home-handoff.jpg" alt="Illustration of a person handing a form to a robot and receiving a tidy document in return" width="900" height="900" loading="lazy">
 </section>
 </div>
