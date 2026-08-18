@@ -13,6 +13,8 @@ tags:
   - adoption
 ---
 
+<img class="ewa-article-art" src="/static/img/art-chatbot-vs-agent.jpg" alt="Illustration comparing a passive chatbot in a box with a tool-carrying agent crossing paper stepping stones" width="900" height="600" loading="lazy">
+
 ## "How Is This Different From a Chatbot?"
 
 This is the first question you hear when discussing agent adoption. It's the right question. If you don't understand the difference, there's no reason to adopt.

@@ -13,6 +13,8 @@ tags:
   - practical
 ---
 
+<img class="ewa-article-art" src="/static/img/art-agent-reliability.jpg" alt="Illustration of a robot pausing on a tipped stepping stone while a worker watches ready to intervene" width="900" height="720" loading="lazy">
+
 ## "Can't I Just Switch to a Smarter Model?"
 
 When an agent causes problems in production, the first thing most teams do is switch the model. From GPT-4o to Claude, from Claude to Gemini. They refine prompts, lower temperature to 0, add few-shot examples. Eight out of ten of these attempts fail. Because the root cause isn't the model's intelligence — it's the **execution architecture**.

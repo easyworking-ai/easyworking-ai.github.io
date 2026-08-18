@@ -13,6 +13,8 @@ tags:
   - 도입
 ---
 
+<img class="ewa-article-art" src="/static/img/art-chatbot-vs-agent.jpg" alt="박스에 앉은 챗봇과 도구를 든 채 종이 디딤돌을 건너는 에이전트를 비교하는 삽화" width="900" height="600" loading="lazy">
+
 ## "챗봇이랑 뭐가 다른데?"
 
 에이전트 도입을 논의할 때 가장 먼저 듣는 질문이다. 맞는 질문이다. 차이를 모르면 도입의 이유도 없다.

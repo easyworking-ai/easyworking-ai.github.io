@@ -13,6 +13,8 @@ tags:
   - practical
 ---
 
+<img class="ewa-article-art" src="/static/img/art-meeting-summary.jpg" alt="Illustration of a robot holding up a clean summary sheet with check marks amid a pile of messy meeting notes" width="900" height="720" loading="lazy">
+
 ## Why "Just Summarize the Key Points" Fails
 
 It's the most commonly used prompt. And the most commonly failing one.

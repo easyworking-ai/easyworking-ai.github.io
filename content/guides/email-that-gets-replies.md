@@ -13,6 +13,8 @@ tags:
   - 실무
 ---
 
+<img class="ewa-article-art" src="/static/img/art-email-replies.jpg" alt="세 구역으로 나뉜 이메일 초안을 쓰고 로봇이 옆에서 승인하는 삽화" width="900" height="900" loading="lazy">
+
 ## "정중하게 써줘"의 문제
 
 AI에게 이메일 초안을 쓰라고 할 때 가장 많이 하는 말은 "정중하게 써줘"다. 결과는 예측 가능하다. "안녕하십니까, 귀하의 요청에 감사드리며"로 시작하는, 읽기도 전에 지루해지는 메일이 온다.

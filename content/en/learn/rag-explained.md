@@ -13,6 +13,8 @@ tags:
   - practical
 ---
 
+<img class="ewa-article-art" src="/static/img/art-rag-explained.jpg" alt="Illustration of a robot pulling glowing folders from an archive to assemble an answer" width="900" height="600" loading="lazy">
+
 ## "Can You Answer Questions About Our Company Policies?"
 
 You ask AI about the company's leave policy. "Do I need to apply 3 days in advance to use annual leave?" AI answers. "Generally, it's recommended to apply 3–5 days in advance for annual leave." Sounds right. But this answer isn't our company policy — it's a common practice floating around the internet.

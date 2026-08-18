@@ -13,6 +13,8 @@ tags:
   - 導入
 ---
 
+<img class="ewa-article-art" src="/static/img/art-chatbot-vs-agent.jpg" alt="箱に座るチャットボットと、道具を持って紙の足場を渡るエージェントを比べるイラスト" width="900" height="600" loading="lazy">
+
 ## 「チャットボットと何が違うの？」
 
 エージェント導入を議論する時、最も先に聞かれる質問だ。正しい質問だ。違いを知らなければ導入の理由もない。

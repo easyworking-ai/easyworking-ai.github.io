@@ -14,6 +14,8 @@ tags:
   - 보안
 ---
 
+<img class="ewa-article-art" src="/static/img/art-excel-safe.jpg" alt="스프레드시트가 로봇을 거쳐 개인정보가 가려진 상태로 나오는 삽화" width="900" height="845" loading="lazy">
+
 ## 통째로 올리면 안 되는 이유
 
 매월 하는 매출 보고서, 분기별 인력 현황표, 고객 문의 로그. 이런 엑셀 파일을 AI에게 분석해달라고 올리는 경우가 많다. 편리하다. 하지만 두 가지 문제가 있다.

@@ -14,6 +14,8 @@ tags:
   - セキュリティ
 ---
 
+<img class="ewa-article-art" src="/static/img/art-excel-safe.jpg" alt="表計算シートがロボットを通り、マスクされた状態で出てくるイラスト" width="900" height="845" loading="lazy">
+
 ## 丸ごとアップロードしてはいけない理由
 
 毎月の売上報告書、四半期別の人員状況表、顧客問い合わせログ。こうしたExcelファイルをAIに分析してほしいとアップロードするケースが多い。便利だ。しかし2つの問題がある。

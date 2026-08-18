@@ -13,6 +13,8 @@ tags:
   - 실무
 ---
 
+<img class="ewa-article-art" src="/static/img/art-competitor-analysis.jpg" alt="경쟁사 카드가 붙은 보드 앞에서 한 장을 짚어가며 평가하는 삽화" width="900" height="900" loading="lazy">
+
 ## "경쟁사 분석해줘"가 실패하는 이유
 
 기획 회의나 제안서 작성 전에 경쟁사 분석이 필요할 때가 있다. AI에게 "A사, B사, C사 분석해줘"라고 입력한다. AI는 그럴듯한 비교표를 돌려준다. 요금제, 기능, 시장 위치까지 깔끔하게 정리돼 있다. 문제는 그 표를 들고 회의에 들어갔을 때 시작된다.

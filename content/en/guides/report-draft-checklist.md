@@ -13,6 +13,8 @@ tags:
   - practical
 ---
 
+<img class="ewa-article-art" src="/static/img/art-report-checklist.jpg" alt="Illustration of a worker scrutinizing an AI-drafted report under a lamp while the robot waits" width="874" height="900" loading="lazy">
+
 ## What "Write a Report" Produces
 
 You need to write a monthly sales report. You open the Excel file — the data is there, but you don't know where to start. You ask AI. "Write this month's sales report." AI returns a report in 3 seconds. Every paragraph is numbered, there are subheadings, even a "Conclusion" section. You read it. It looks professional.

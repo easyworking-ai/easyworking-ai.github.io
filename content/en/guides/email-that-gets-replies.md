@@ -13,6 +13,8 @@ tags:
   - practical
 ---
 
+<img class="ewa-article-art" src="/static/img/art-email-replies.jpg" alt="Illustration of a worker drafting an email in three marked sections while a robot nods in approval" width="900" height="900" loading="lazy">
+
 ## The Problem With "Write Politely"
 
 When asking AI to draft an email, the most common instruction is "write politely." The result is predictable: an email starting with "Dear Sir/Madam, thank you for your inquiry" that loses the reader before they've even started.

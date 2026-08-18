@@ -13,6 +13,8 @@ tags:
   - 실무
 ---
 
+<img class="ewa-article-art" src="/static/img/art-meeting-summary.jpg" alt="회의록 노트 더미 속에서 로봇이 결정·담당자·마감일이 정리된 요약지를 내미는 삽화" width="900" height="720" loading="lazy">
+
 ## "핵심만 요약해줘"가 실패하는 이유
 
 가장 많이 쓰는 프롬프트다. 그리고 가장 많이 실패하는 프롬프트이기도 하다.

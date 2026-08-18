@@ -3310,6 +3310,14 @@ body {
   border-radius: 14px;
 }
 
+.ewa-article-art {
+  display: block;
+  width: min(560px, 100%);
+  height: auto;
+  margin: 0 auto 2.5rem;
+  border-radius: 14px;
+}
+
 // Keep mobile navigation overrides after the base hamburger rules.
 @media (max-width: 768px) {
   .ewa-menu-toggle {

@@ -14,6 +14,8 @@ tags:
   - security
 ---
 
+<img class="ewa-article-art" src="/static/img/art-excel-safe.jpg" alt="Illustration of spreadsheet sheets passing through a robot and coming out redacted" width="900" height="845" loading="lazy">
+
 ## Why You Shouldn't Upload the Entire File
 
 Monthly sales reports, quarterly headcount tables, customer inquiry logs. People often upload these Excel files to AI for analysis. It's convenient. But there are two problems.

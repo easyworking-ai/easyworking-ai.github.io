@@ -13,6 +13,8 @@ tags:
   - 実務
 ---
 
+<img class="ewa-article-art" src="/static/img/art-agent-reliability.jpg" alt="傾いた足場で立ち止まるロボットと、介入に備える人のイラスト" width="900" height="720" loading="lazy">
+
 ## 「賢いモデルに変えればいいですよね？」
 
 エージェントが実務で問題を起こすと、最も先にすることはモデルを変えることだ。GPT-4oからClaudeへ、ClaudeからGeminiへ。プロンプトを磨き、温度を0に下げ、few-shot例を追加する。こうした試みの8割は失敗する。なぜなら問題の原因がモデルの知能ではなく**実行構造**にあるからだ。

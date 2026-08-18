@@ -13,6 +13,8 @@ tags:
   - 실무
 ---
 
+<img class="ewa-article-art" src="/static/img/art-agent-reliability.jpg" alt="종이 디딤돌 중 하나가 기울자 로봇이 멈춰 계산하고 사람이 벨 앞에 대기하는 삽화" width="900" height="720" loading="lazy">
+
 ## "더 똑똑한 모델로 바꾸면 되겠죠?"
 
 에이전트가 실무에서 문제를 일으키면, 가장 먼저 하는 일은 모델을 바꾸는 것이다. GPT-4o에서 Claude로, Claude에서 Gemini로. 프롬프트를 다듬고, 온도를 0으로 내리고, few-shot 예시를 추가한다. 이런 시도의 8할은 실패한다. 왜냐하면 문제의 원인이 모델의 지능이 아니라 **실행 구조**에 있기 때문이다.

@@ -13,6 +13,8 @@ tags:
   - 実務
 ---
 
+<img class="ewa-article-art" src="/static/img/art-meeting-summary.jpg" alt="乱雑な会議メモの中から、ロボットがチェック付きの要約シートを差し出すイラスト" width="900" height="720" loading="lazy">
+
 ## 「要点だけまとめて」が失敗する理由
 
 最もよく使われるプロンプトだ。そして最もよく失敗するプロンプトでもある。

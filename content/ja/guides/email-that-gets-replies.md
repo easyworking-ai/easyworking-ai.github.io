@@ -13,6 +13,8 @@ tags:
   - 実務
 ---
 
+<img class="ewa-article-art" src="/static/img/art-email-replies.jpg" alt="3つの区画に分けたメール文面を書き、ロボットが隣でうなずくイラスト" width="900" height="900" loading="lazy">
+
 ## 「丁寧に書いて」の問題
 
 AIにメールの下書きを書かせる時、最もよく言うのは「丁寧に書いて」だ。結果は予測できる。「拝啓、お問い合わせありがとうございます」で始まる、読む前から退屈なメールが来る。
