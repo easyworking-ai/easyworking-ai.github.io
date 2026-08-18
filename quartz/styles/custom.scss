@@ -3036,6 +3036,25 @@ body {
   max-width: 780px;
 }
 
+.ewa-home .ewa-hero {
+  display: flex;
+  align-items: center;
+  gap: clamp(2rem, 5vw, 4.5rem);
+}
+
+.ewa-home .ewa-hero-art {
+  flex: 0 0 auto;
+  width: min(42%, 520px);
+  border-radius: 16px;
+}
+
+.ewa-home .ewa-section-art {
+  display: block;
+  width: min(30%, 260px);
+  margin: 2.5rem auto 0;
+  border-radius: 14px;
+}
+
 .ewa-home .ewa-kicker,
 .ewa-home .ewa-section-kicker {
   display: inline-flex;
@@ -3223,6 +3242,21 @@ body {
 @media (max-width: 700px) {
   .ewa-home {
     padding: 0 1rem;
+  }
+
+  .ewa-home .ewa-hero {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 1.75rem;
+  }
+
+  .ewa-home .ewa-hero-art {
+    width: 100%;
+  }
+
+  .ewa-home .ewa-section-art {
+    width: min(60%, 240px);
+    margin-top: 1.75rem;
   }
 
   .ewa-home .ewa-hero {

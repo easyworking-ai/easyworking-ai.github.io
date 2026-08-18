@@ -1,29 +1,20 @@
----
-title: 働くAI | 仕事で使えるAI
-description: 今週のAIニュースをひとつ聴き、同じ課題に対する2つのAIの回答を比べ、仕事ですぐ使えるプロンプトと考え方を学べます。
-cssclass: home
-publish: true
-lang: ja
-tags:
-  - 働くAI
-  - ai-agent
----
 <div class="ewa-home" aria-label="働くAI ホーム">
 <section class="ewa-hero">
 <div class="ewa-hero-copy">
 <span class="ewa-kicker">AIキャッチアップ · 毎週更新</span>
 <div class="ewa-hero-title" role="heading" aria-level="1">今週のAIニュースを、<br><em>ここでキャッチアップ。</em></div>
-<p>毎週、知っておきたいAIニュースを短く整理します。ラジオで聴いて、実用的なプロンプトと解説を読めます。</p>
+<p>AIのニュースは毎日あふれています。全部は読めないので、仕事の役に立つ話だけを選んで、短いラジオ1本にまとめます。通勤の途中で聴いて、その週にすぐ使えるプロンプトも持ち帰ってください。</p>
 <div class="ewa-hero-actions">
 <a class="ewa-primary-action" href="/ja/radio.html">今週のラジオを聴く <span aria-hidden="true">→</span></a>
 </div>
 </div>
+<img class="ewa-hero-art" src="/static/img/home-hero.jpg" alt="舞い飛ぶ紙の山から必要な一枚だけを選んで読む人のイラスト" width="1536" height="1024" loading="eager">
 </section>
 <section class="ewa-games-section">
 <div class="ewa-section-heading">
 <span class="ewa-section-kicker">自分で比べる</span>
 <div class="ewa-section-title" role="heading" aria-level="2">回答を見て、判断する練習</div>
-<p>同じ質問を投げて、結果の違いを確かめます。</p>
+<p>AIの回答をそのまま信じて危うく大変な目に遭いかけた経験は、誰にでも一度はあります。そのとき必要なのは新しい道具ではなく、判断する目です。同じ質問を2つのAIに投げて、どちらの回答を持って帰るか自分で決めてみてください。</p>
 </div>
 <div class="ewa-games-grid">
 <a class="ewa-game-card" href="/static/showdown/">
@@ -35,12 +26,13 @@ tags:
 <p>12問で、入力・検証・AIツールの使い方を確認します。結果は4つの軸で表示されます。</p>
 </a>
 </div>
+<img class="ewa-section-art" src="/static/img/home-compare.jpg" alt="2つのロボットがそれぞれの回答を出し、人がどちらを信じるか考えているイラスト" width="1024" height="1024" loading="lazy">
 </section>
 <section class="ewa-read-section">
 <div class="ewa-section-heading">
 <span class="ewa-section-kicker">読んで使う</span>
 <div class="ewa-section-title" role="heading" aria-level="2">プロンプトのコツ</div>
-<p>すぐ使うプロンプトと、その背景にある考え方を分けて整理しています。</p>
+<p>「とにかく要約して」で議事録がきれいにまとまったなら、それは運が良かっただけです。うまくいくプロンプトには形があり、結果を検証する習慣が必要です。そのままコピーして使えるプロンプトと、その背景にある考え方を分けて整理しました。</p>
 </div>
 <div class="ewa-read-grid">
 <div class="ewa-read-column">
@@ -66,5 +58,6 @@ tags:
 </a>
 </div>
 </div>
+<img class="ewa-section-art" src="/static/img/home-handoff.jpg" alt="人がロボットに書式を渡し、ロボットが整理された文書を返すイラスト" width="1024" height="1024" loading="lazy">
 </section>
 </div>

@@ -1,29 +1,20 @@
----
-title: Working AI | AI you can use at work
-description: Hear one AI story from the week, compare two models on the same task, and pick up prompts and concepts you can use at work.
-cssclass: home
-publish: true
-lang: en
-tags:
-  - WorkingAI
-  - ai-agent
----
 <div class="ewa-home" aria-label="Working AI home">
 <section class="ewa-hero">
 <div class="ewa-hero-copy">
 <span class="ewa-kicker">AI catch-up · Updated weekly</span>
 <div class="ewa-hero-title" role="heading" aria-level="1">This week in AI.<br><em>Catch up here.</em></div>
-<p>A short weekly catch-up on the AI news worth knowing. Listen to the radio episode, then go deeper with practical prompts and explainers.</p>
+<p>AI news piles up every day. You can't read it all, so we pick the stories that actually matter for your work and wrap them into one short radio episode. Listen on your commute, then grab a prompt you can use that same week.</p>
 <div class="ewa-hero-actions">
 <a class="ewa-primary-action" href="/en/radio.html">Listen to this week’s radio <span aria-hidden="true">→</span></a>
 </div>
 </div>
+<img class="ewa-hero-art" src="/static/img/home-hero.jpg" alt="Illustration of a person at a desk calmly picking the useful sheets out of a swirl of flying papers" width="1536" height="1024" loading="eager">
 </section>
 <section class="ewa-games-section">
 <div class="ewa-section-heading">
 <span class="ewa-section-kicker">Compare for yourself</span>
 <div class="ewa-section-title" role="heading" aria-level="2">Practice judging the answers</div>
-<p>Ask the same question and see where the results differ.</p>
+<p>Everyone has a story about trusting an AI answer and nearly paying for it. What you need then isn't another tool, it's a trained eye. Throw the same question at two AIs and decide for yourself which answer you'd take to work.</p>
 </div>
 <div class="ewa-games-grid">
 <a class="ewa-game-card" href="/static/showdown/">
@@ -35,12 +26,13 @@ tags:
 <p>Use 12 questions to check how you handle input, verification, and AI tools at work. Results cover four areas.</p>
 </a>
 </div>
+<img class="ewa-section-art" src="/static/img/home-compare.jpg" alt="Illustration of two robots holding up their answers while a person decides which one to trust" width="1024" height="1024" loading="lazy">
 </section>
 <section class="ewa-read-section">
 <div class="ewa-section-heading">
 <span class="ewa-section-kicker">Read and apply</span>
 <div class="ewa-section-title" role="heading" aria-level="2">Prompt tips</div>
-<p>Practical prompts and the concepts behind them, kept separate.</p>
+<p>If "just summarize this" cleaned up your meeting notes, you got lucky. Prompts that work have a shape, and results need a review habit. Here are copy-paste prompts on one side, and the concepts behind them on the other.</p>
 </div>
 <div class="ewa-read-grid">
 <div class="ewa-read-column">
@@ -66,5 +58,6 @@ tags:
 </a>
 </div>
 </div>
+<img class="ewa-section-art" src="/static/img/home-handoff.jpg" alt="Illustration of a person handing a form to a robot and receiving a tidy document in return" width="1024" height="1024" loading="lazy">
 </section>
 </div>
