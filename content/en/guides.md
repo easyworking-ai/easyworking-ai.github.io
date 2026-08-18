@@ -39,6 +39,10 @@ tags:
 <div class="ewa-guide-card-title">7 things to check when letting AI draft your report</div>
 <p>Why "write a report for me" fails, and a prompt with proper structure, data, and verification.</p>
 </a>
+<a class="ewa-guide-card" href="/en/guides/competitor-analysis-prompt">
+<div class="ewa-guide-card-title">A prompt that finishes competitor analysis in 30 minutes</div>
+<p>You search, AI structures. How to design conditions that filter out fabricated data.</p>
+</a>
 </div>
 </section>
 </div>

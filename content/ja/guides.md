@@ -39,6 +39,10 @@ tags:
 <div class="ewa-guide-card-title">レポートの下書きをAIに任せる時の7つの確認事項</div>
 <p>「レポート書いて」が失敗する理由と、構造・データ・検証を備えたプロンプト。</p>
 </a>
+<a class="ewa-guide-card" href="/ja/guides/competitor-analysis-prompt">
+<div class="ewa-guide-card-title">競合分析を30分で終わらせるプロンプト</div>
+<p>検索は人が、構造化はAIが。でっち上げ情報を除外する条件の設計法。</p>
+</a>
 </div>
 </section>
 </div>
