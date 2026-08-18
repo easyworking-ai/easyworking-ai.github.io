@@ -4,7 +4,9 @@ configuration:
   pageTitleSuffix: ""
   enableSPA: false
   enablePopovers: false
-  analytics: null
+  analytics:
+    provider: goatcounter
+    websiteId: twbly
   locale: ko-KR
   baseUrl: easyworking-ai.github.io
   ignorePatterns:
