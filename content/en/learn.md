@@ -11,7 +11,8 @@ tags:
 <div class="ewa-page-hero">
 <span class="ewa-kicker">LEARN / Learn</span>
 <div class="ewa-hero-title">Understand AI,<br><em>delegate more</em></div>
-<p>You need to know the concepts before you can decide what to delegate. Here are the AI concepts every professional should understand.</p>
+<p>You can't judge how far to delegate what you don't understand. Agents, runtimes, RAG — just the concepts professionals actually need.</p>
+<img class="ewa-hub-art" src="/static/img/learn-hero.jpg" alt="An illustration of inspecting the gears inside a robot's head through a magnifying glass" width="800" height="800" loading="lazy">
 </div>
 
 <div class="ewa-read-section">

@@ -3297,6 +3297,14 @@ body {
   }
 }
 
+// Hub hero illustrations: centered, capped width below the hero copy.
+.ewa-hub-art {
+  display: block;
+  width: min(240px, 64%);
+  margin: clamp(1.5rem, 4vw, 2.25rem) auto 0;
+  border-radius: 14px;
+}
+
 // Keep mobile navigation overrides after the base hamburger rules.
 @media (max-width: 768px) {
   .ewa-menu-toggle {

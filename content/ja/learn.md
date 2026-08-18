@@ -11,7 +11,8 @@ tags:
 <div class="ewa-page-hero">
 <span class="ewa-kicker">LEARN · 学ぶ</span>
 <div class="ewa-hero-title">AIを理解すれば、<br><em>もっと任せられる</em></div>
-<p>概念を知れば、どこまで任せられるかがわかります。働く人が必ず知るべきAI概念を整理しました。</p>
+<p>概念を知らなければ、どこまで任せられるかもわかりません。エージェント、ランタイム、RAG — 働く人が本当に必要な概念だけを整理しました。</p>
+<img class="ewa-hub-art" src="/static/img/learn-hero.jpg" alt="虫眼鏡でロボットの頭の中の歯車をのぞき込むイラスト" width="800" height="800" loading="lazy">
 </div>
 
 <div class="ewa-read-section">

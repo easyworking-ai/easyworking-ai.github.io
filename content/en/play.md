@@ -11,7 +11,8 @@ tags:
 <div class="ewa-page-hero">
 <span class="ewa-kicker">PLAY / Try it out</span>
 <div class="ewa-hero-title">Trying it once<br><em>is faster than reading about it</em></div>
-<p>Compare AIs through blind voting, discover their limits with the bluff game, and find out where AI fits in your work with the diagnostic test.</p>
+<p>Pit two AIs against each other with blind voting, feel where AI gets confidently wrong in the bluff game, and find out which parts of your work you can hand over.</p>
+<img class="ewa-hub-art" src="/static/img/play-hero.jpg" alt="An illustration of a referee with a flag between two robots on a ring" width="800" height="800" loading="lazy">
 </div>
 
 <div class="ewa-games-section">

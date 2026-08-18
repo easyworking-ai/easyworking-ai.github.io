@@ -11,7 +11,8 @@ tags:
 <div class="ewa-page-hero">
 <span class="ewa-kicker">LEARN · 학습하기</span>
 <div class="ewa-hero-title">AI를 이해하면,<br><em>더 많이 맡길 수 있다</em></div>
-<p>개념을 알아야 어디까지 맡길 수 있는지 압니다. 직장인이 꼭 알아야 할 AI 개념을 정리했습니다.</p>
+<p>개념을 모르면 어디까지 맡길 수 있는지도 알 수 없습니다. 에이전트, 런타임, RAG — 직장인이 꼭 알아야 할 개념만 골라 정리했습니다.</p>
+<img class="ewa-hub-art" src="/static/img/learn-hero.jpg" alt="돋보기로 로봇의 머릿속 톱니바퀴를 들여다보는 삽화" width="800" height="800" loading="lazy">
 </div>
 
 <div class="ewa-read-section">

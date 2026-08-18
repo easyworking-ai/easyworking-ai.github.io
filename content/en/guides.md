@@ -12,7 +12,8 @@ tags:
 <section class="ewa-guides-hero">
 <span class="ewa-kicker">GUIDES / Practical guides</span>
 <div class="ewa-hero-title">Copy, paste,<br><em>done — AI execution manual</em></div>
-<p>Meeting notes, email writing, spreadsheet analysis. Each article includes a ready-to-use prompt and a review checklist.</p>
+<p>Take a proven prompt out of the drawer and put it to work. Meeting notes, email, spreadsheets — each article ships with the full prompt and a checklist for reviewing the result.</p>
+<img class="ewa-hub-art" src="/static/img/guides-hero.jpg" alt="An illustration of pulling a prompt card from a catalog drawer and slotting it into a laptop" width="800" height="800" loading="lazy">
 </section>
 <section class="ewa-guides-list">
 <div class="ewa-section-heading">

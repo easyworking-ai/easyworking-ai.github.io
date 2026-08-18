@@ -11,7 +11,8 @@ tags:
 <div class="ewa-page-hero">
 <span class="ewa-kicker">PLAY · 체험하기</span>
 <div class="ewa-hero-title">읽는 것보다<br><em>한 번 해보는 게 빠르다</em></div>
-<p>블라인드 투표로 AI를 비교하고, 눈치 게임으로 한계를 찾고, 진단 테스트로 내 업무에 AI를 어디 쓸 수 있는지 확인합니다.</p>
+<p>블라인드 투표로 AI끼리 붙여보고, 눈치 게임으로 AI가 어디서 뻔뻔해지는지 체감하고, 진단 테스트로 내 일에서 어디를 맡길 수 있는지 확인합니다.</p>
+<img class="ewa-hub-art" src="/static/img/play-hero.jpg" alt="링 위의 두 로봇 사이에 심판이 서서 깃발을 드는 삽화" width="800" height="800" loading="lazy">
 </div>
 
 <div class="ewa-games-section">

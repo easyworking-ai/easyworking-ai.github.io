@@ -12,7 +12,8 @@ tags:
 <section class="ewa-guides-hero">
 <span class="ewa-kicker">GUIDES / 実戦ガイド</span>
 <div class="ewa-hero-title">コピペするだけでいい<br><em>AI実行マニュアル</em></div>
-<p>議事録の整理、メールの作成、Excelの分析。各記事にプロンプト全文と検証チェックリストが含まれています。</p>
+<p>検証済みのプロンプトを引き出しから出して使う感覚でどうぞ。議事録・メール・Excel — 各記事にプロンプト全文と結果を検証するチェックリストが入っています。</p>
+<img class="ewa-hub-art" src="/static/img/guides-hero.jpg" alt="カード棚からプロンプトカードを取り出してノートパソコンに差し込むイラスト" width="800" height="800" loading="lazy">
 </section>
 <section class="ewa-guides-list">
 <div class="ewa-section-heading">

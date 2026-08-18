@@ -11,7 +11,8 @@ tags:
 <div class="ewa-page-hero">
 <span class="ewa-kicker">PLAY · 体験する</span>
 <div class="ewa-hero-title">読むより<br><em>一度やってみる方が早い</em></div>
-<p>ブラインド投票でAIを比較し、ハッタリゲームで限界を見つけ、診断テストで自分の業務にAIをどこで使えるか確認します。</p>
+<p>ブラインド投票でAI同士を対決させ、ハッタリゲームでAIがどこで堂々と間違えるか体感し、診断テストで自分の仕事のどこを任せられるか確かめます。</p>
+<img class="ewa-hub-art" src="/static/img/play-hero.jpg" alt="リング上の2体のロボットの間に審判が旗を持って立つイラスト" width="800" height="800" loading="lazy">
 </div>
 
 <div class="ewa-games-section">

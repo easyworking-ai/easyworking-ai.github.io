@@ -12,7 +12,8 @@ tags:
 <section class="ewa-guides-hero">
 <span class="ewa-kicker">GUIDES / 실전 가이드</span>
 <div class="ewa-hero-title">복사해서 쓰면 되는<br><em>AI 실행 매뉴얼</em></div>
-<p>회의록 정리, 이메일 작성, 엑셀 분석. 각 글에 프롬프트 전문과 검수 체크리스트가 포함되어 있습니다.</p>
+<p>검증된 프롬프트를 서랍에서 꺼내 쓰듯 가져가세요. 회의록 정리, 이메일 작성, 엑셀 분석 — 각 글에 프롬프트 전문과 결과 검수 체크리스트가 들어 있습니다.</p>
+<img class="ewa-hub-art" src="/static/img/guides-hero.jpg" alt="카탈로그 서랍에서 프롬프트 카드를 꺼내 노트북에 넣으면 완성된 보고서가 나오는 삽화" width="800" height="800" loading="lazy">
 </section>
 <section class="ewa-guides-list">
 <div class="ewa-section-heading">
