@@ -38,6 +38,10 @@ tags:
 <div class="ewa-guide-card-title">보고서 초안을 AI에게 맡길 때 점검할 7가지</div>
 <p>"보고서 써줘"가 실패하는 이유와 구조·데이터·검증을 갖춘 프롬프트.</p>
 </a>
+<a class="ewa-guide-card" href="/guides/competitor-analysis-prompt">
+<div class="ewa-guide-card-title">경쟁사 분석을 30분 만에 끝내는 프롬프트</div>
+<p>검색은 사람이, 구조화는 AI가. 지어낸 정보를 걸러내는 조건 설계법.</p>
+</a>
 </div>
 </section>
 </div>
