@@ -17,6 +17,10 @@ tags:
 
 <div class="ewa-read-section">
 <div class="ewa-read-grid">
+<a class="ewa-read-card" href="/en/learn/context-window">
+<div class="ewa-read-card-title">Why AI forgets what you just said</div>
+<p>As conversations grow, early instructions get ignored and long documents get skimmed in the middle. How the context window works, and what to do about it.</p>
+</a>
 <a class="ewa-read-card" href="/en/learn/chatbot-vs-agent">
 <div class="ewa-read-card-title">The difference between AI agents and chatbots</div>
 <p>"AI answers" and "AI finishes the job" are different things. Where agents begin and chatbots end.</p>

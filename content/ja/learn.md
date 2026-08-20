@@ -17,6 +17,10 @@ tags:
 
 <div class="ewa-read-section">
 <div class="ewa-read-grid">
+<a class="ewa-read-card" href="/ja/learn/context-window">
+<div class="ewa-read-card-title">AIが聞いたばかりのことを忘れる理由</div>
+<p>会話が長くなると最初の指示が無視され、長い文書は中盤を飛ばし読みされる。コンテキストウィンドウの仕組みと症状別の対処法。</p>
+</a>
 <a class="ewa-read-card" href="/ja/learn/chatbot-vs-agent">
 <div class="ewa-read-card-title">AIエージェントとチャットボットの違い</div>
 <p>「AIが答える」と「AIが仕事を終わらせる」は違います。どこからがエージェントで、どこまでがチャットボットなのかを区別します。</p>

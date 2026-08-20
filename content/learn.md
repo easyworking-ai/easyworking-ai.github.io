@@ -17,6 +17,10 @@ tags:
 
 <div class="ewa-read-section">
 <div class="ewa-read-grid">
+<a class="ewa-read-card" href="/learn/context-window">
+<div class="ewa-read-card-title">AI가 방금 들은 걸 까먹는 이유</div>
+<p>대화가 길어지면 초반 지시가 무시되고, 긴 문서는 중간을 건너뛴다. 컨텍스트 윈도우의 작동 원리와 증상별 대처법.</p>
+</a>
 <a class="ewa-read-card" href="/learn/chatbot-vs-agent">
 <div class="ewa-read-card-title">AI 에이전트와 챗봇의 차이</div>
 <p>"AI가 대답한다"와 "AI가 일을 끝낸다"는 다릅니다. 어디서부터 에이전트인지, 어디까지가 챗봇인지 구분합니다.</p>

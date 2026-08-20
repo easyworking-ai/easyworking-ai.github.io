@@ -34,7 +34,7 @@
 | 주차 | 날짜 | 상태 | 파일명 | 제목 | 핵심 메시지 |
 |---|---|---|---|---|---|
 | 1 | 08-07 | ✅ published 07-30 | `rag-explained.md` | RAG가 뭔데 직장인이 알아야 하나 | 검색 증강 생성 — 왜 최신 정보가 안 나오는가 |
-| 2 | 08-14 | ⬜ pending | `context-window.md` | 컨텍스트 윈도우: AI가 "까먹는" 이유 | 대화가 길어지면 왜 품질이 떨어지나 |
+| 2 | 08-14 | ✅ published 08-20 | `context-window.md` | 컨텍스트 윈도우: AI가 "까먹는" 이유 | 대화가 길어지면 왜 품질이 떨어지나 |
 | 3 | 08-21 | ⬜ pending | `finetuning-vs-prompt.md` | 파인튜닝 vs 프롬프트 — 뭘 해야 하나 | 대부분 프롬프트로 충분한 이유 |
 | 4 | 08-28 | ⬜ pending | `multimodal-in-practice.md` | 멀티모달이 실무에서 의미하는 것 | 이미지·음성 입력이 바꾸는 업무 방식 |
 | 5 | 09-04 | ⬜ pending | `hallucination-mechanics.md` | AI 모델이 "거짓말"을 하는 구조 | 환각의 원리와 실무 대응 |
