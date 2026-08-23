@@ -3,6 +3,8 @@ title: "AI 에이전트와 챗봇의 차이 — 그래서 뭘 쓸 것인가"
 description: "에이전트는 '더 똑똑한 챗봇'이 아니다. 스스로 도구를 고르고, 여러 단계를 실행하고, 실패하면 다른 방법을 시도한다. 이 차이를 아는 것이 도입의 출발점이다."
 created: 2026-07-27
 updated: 2026-07-27
+aliases:
+  - agents/chatbot-vs-agent
 cssclass: blog-post
 publish: true
 lang: ko

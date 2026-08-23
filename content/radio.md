@@ -31,13 +31,20 @@ tags:
 <p id="ep-summary">결제 회사 스트라이프가 AI 모델 중개 창구 오픈라우터를 칠십억 달러가 넘는 금액에 인수하기로 했습니다. 앤스로픽은 클로드가 쓰는 모든 글에 보이지 않는 워터마크가 들어가는 방식을 공개했고, 엔비디아는 오픈AI 데이터센터 보증 계획을 이천오백억 달러에서 천억 달러 안팎으로 줄였습니다. 아이폰용 파이어폭스에는 기본 내장 광고 차단기가 들어왔습니다.</p>
 <div class="ewa-radio-meta">
 <span id="ep-date">2026-08-17</span>
-<span id="ep-duration">⏱ 약 3분</span>
+<span id="ep-duration">⏱ 약 5.3분</span>
 <span>🎙️ 이로 × 루프</span>
 </div>
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
 <source id="ep-source" src="/static/radio/episode-04-ko.mp3" type="audio/mpeg">
 </audio>
 <div id="ep-links" class="ewa-radio-links" aria-live="polite">
+<div class="ewa-radio-links-title">주요 사실 확인 출처</div>
+<ul>
+<li><a href="https://stripe.com/en-sg/newsroom/news/stripe-agrees-to-acquire-openrouter" target="_blank" rel="noopener noreferrer">Stripe 공식 발표 · OpenRouter 인수</a><span>Stripe가 2026년 8월 19일 OpenRouter 인수 합의를 발표한 원문입니다.</span></li>
+<li><a href="https://www.anthropic.com/news/claude-text-watermark" target="_blank" rel="noopener noreferrer">Anthropic 공식 설명 · Claude 텍스트 워터마크</a><span>Claude 텍스트 워터마크의 작동 방식과 적용 배경을 설명합니다.</span></li>
+<li><a href="https://www.reuters.com/business/media-telecom/nvidia-invest-15-billion-sb-energy-under-openai-data-center-deal-2026-08-17/" target="_blank" rel="noopener noreferrer">Reuters · NVIDIA의 OpenAI 데이터센터 보증</a><span>오하이오 데이터센터 임대 보증에 관한 2026년 8월 17일 보도입니다.</span></li>
+<li><a href="https://www.pcmag.com/news/firefox-for-iphone-now-blocks-ads-how-to-use-the-new-ad-blocking-tool" target="_blank" rel="noopener noreferrer">PCMag · Firefox for iOS 광고 차단</a><span>Firefox for iOS의 선택형 광고 차단과 EasyList 사용을 설명합니다.</span></li>
+</ul>
 <div class="ewa-radio-links-title">방송에서 언급한 오픈소스·개발 프로젝트</div>
 <ul>
 <li><a href="https://www.mozilla.org/firefox/" target="_blank" rel="noopener noreferrer">Firefox</a><span>모질라가 만드는 오픈소스 웹 브라우저입니다. 이번 주에 아이폰 버전에 기본 내장 광고 차단 기능이 추가됐습니다.</span></li>

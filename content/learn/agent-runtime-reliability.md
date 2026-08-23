@@ -3,6 +3,8 @@ title: "에이전트가 자꾸 깨지는 진짜 이유 — 런타임 신뢰성 5
 description: "벤치마크 점수가 높아도 에이전트가 업무에서 멈추는 이유. 지연 예산, 도구 호출 비용, 권한 경계, 상태 복구, 실행 환경까지 실무에서 확인해야 할 5가지 기준."
 created: 2026-07-27
 updated: 2026-07-27
+aliases:
+  - agents/agent-runtime-reliability-practical
 cssclass: blog-post
 publish: true
 lang: ko

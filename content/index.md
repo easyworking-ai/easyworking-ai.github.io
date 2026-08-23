@@ -34,7 +34,7 @@ tags:
 </a>
 <a class="ewa-game-card" href="/static/ai-test/">
 <div class="ewa-game-title">AI 업무 진단</div>
-<p>12개 질문으로 업무의 입력·검증·도구 사용 습관을 점검합니다. 결과는 4개 축으로 보여줍니다.</p>
+<p>8개 질문으로 업무의 입력·검증·도구 사용 습관을 점검합니다. 결과는 4개 축으로 보여줍니다.</p>
 </a>
 </div>
 <img class="ewa-section-art" src="/static/img/home-compare.jpg" alt="두 로봇이 각자 답을 내밀고 그 앞에서 사람이 판단을 고민하는 삽화" width="900" height="900" loading="lazy">

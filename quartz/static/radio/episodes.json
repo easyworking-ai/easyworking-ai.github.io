@@ -10,12 +10,7 @@
       "date": "2026-07-29",
       "duration": "~3분",
       "topics": {
-        "ko": [
-          "Claude Opus 5",
-          "에이전트 보안 사고",
-          "로봇 주차·국가안보",
-          "크립토 규제"
-        ],
+        "ko": ["Claude Opus 5", "에이전트 보안 사고", "로봇 주차·국가안보", "크립토 규제"],
         "en": [
           "Claude Opus 5",
           "Agent security incidents",
@@ -181,7 +176,11 @@
         "ja": "今週のAIラジオ：決済・透かし・資金・ブラウザが一緒に動いた一週間"
       },
       "date": "2026-08-17",
-      "duration": "~5.3분",
+      "duration": {
+        "ko": "약 5.3분",
+        "en": "~5.0 min",
+        "ja": "約6.1分"
+      },
       "topics": {
         "ko": [],
         "en": [],
@@ -217,6 +216,60 @@
             "ko": "커뮤니티가 유지하는 공개 광고 차단 필터 목록입니다. 아이폰용 파이어폭스의 광고 차단기가 이 목록을 사용합니다.",
             "en": "A community-maintained public filter list for ad blocking. Firefox on iPhone uses it for its built-in blocker.",
             "ja": "コミュニティが維持する公開の広告ブロック用フィルターリストです。iPhone版Firefoxの広告ブロッカーがこれを使用しています。"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": {
+            "ko": "Stripe 공식 발표 · OpenRouter 인수",
+            "en": "Stripe announcement · OpenRouter acquisition",
+            "ja": "Stripe公式発表 · OpenRouter買収"
+          },
+          "url": "https://stripe.com/en-sg/newsroom/news/stripe-agrees-to-acquire-openrouter",
+          "description": {
+            "ko": "Stripe가 OpenRouter 인수에 합의했다고 발표한 2026년 8월 19일 공식 발표입니다.",
+            "en": "Stripe’s official August 19, 2026 announcement that it agreed to acquire OpenRouter.",
+            "ja": "StripeがOpenRouter買収に合意したと発表した2026年8月19日の公式発表です。"
+          }
+        },
+        {
+          "name": {
+            "ko": "Anthropic 공식 설명 · Claude 텍스트 워터마크",
+            "en": "Anthropic · How Claude’s text watermark works",
+            "ja": "Anthropic公式説明 · Claudeテキスト透かし"
+          },
+          "url": "https://www.anthropic.com/news/claude-text-watermark",
+          "description": {
+            "ko": "Claude 텍스트 워터마크의 작동 방식과 적용 배경을 설명한 공식 글입니다.",
+            "en": "Anthropic’s explanation of how Claude’s text watermark works and why it is being implemented.",
+            "ja": "Claudeのテキスト透かしの仕組みと導入理由を説明する公式記事です。"
+          }
+        },
+        {
+          "name": {
+            "ko": "Reuters · NVIDIA의 OpenAI 데이터센터 보증",
+            "en": "Reuters · NVIDIA’s OpenAI data-center guarantee",
+            "ja": "Reuters · NVIDIAのOpenAIデータセンター保証"
+          },
+          "url": "https://www.reuters.com/business/media-telecom/nvidia-invest-15-billion-sb-energy-under-openai-data-center-deal-2026-08-17/",
+          "description": {
+            "ko": "NVIDIA가 오하이오 데이터센터 임대에 최대 1050억 달러를 보증한다는 2026년 8월 17일 보도입니다.",
+            "en": "Reuters’ August 17, 2026 report on NVIDIA’s guarantee of up to $105 billion for the Ohio data center lease.",
+            "ja": "NVIDIAがオハイオ州データセンターのリースに最大1050億ドルを保証するという2026年8月17日の報道です。"
+          }
+        },
+        {
+          "name": {
+            "ko": "PCMag · Firefox for iOS 광고 차단",
+            "en": "PCMag · Firefox for iOS ad blocker",
+            "ja": "PCMag · Firefox for iOS広告ブロッカー"
+          },
+          "url": "https://www.pcmag.com/news/firefox-for-iphone-now-blocks-ads-how-to-use-the-new-ad-blocking-tool",
+          "description": {
+            "ko": "Firefox for iOS의 선택형 광고 차단 기능과 EasyList 사용을 설명한 2026년 8월 17일 기사입니다.",
+            "en": "PCMag’s August 17, 2026 report on Firefox for iOS’s optional ad blocker and EasyList filter.",
+            "ja": "Firefox for iOSの選択式広告ブロッカーとEasyList利用を説明する2026年8月17日の記事です。"
           }
         }
       ],

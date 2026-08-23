@@ -3,6 +3,8 @@ title: "엑셀 데이터를 AI에게 안전하게 분석시키는 법"
 description: "엑셀 파일을 통째로 AI에게 올리면 안 된다. 개인정보를 지우고, 분석할 범위를 정하고, 결과를 검증하는 세 단계의 실무 절차."
 created: 2026-07-27
 updated: 2026-07-27
+aliases:
+  - prompts/excel-safe-analysis
 cssclass: blog-post
 publish: true
 lang: ko

@@ -3,6 +3,8 @@ title: "회의록을 3분 만에 정리하는 프롬프트"
 description: "\"핵심만 요약해줘\"라고 쓰면 AI는 핵심을 자기 마음대로 고른다. 회의록에서 팀이 실제로 필요한 정보만 남기는 프롬프트와 검수 체크리스트."
 created: 2026-07-27
 updated: 2026-07-27
+aliases:
+  - prompts/meeting-summary
 cssclass: blog-post
 publish: true
 lang: ko

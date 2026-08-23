@@ -17,11 +17,11 @@ tags:
 </section>
 <section class="ewa-guides-list">
 <div class="ewa-guide-grid">
-<a class="ewa-guide-card" href="/agents/chatbot-vs-agent">
+<a class="ewa-guide-card" href="/learn/chatbot-vs-agent.html">
 <h3>AI 에이전트와 챗봇의 차이 — 그래서 뭘 쓸 것인가</h3>
 <p>언제 에이전트를 쓰고, 언제 단순한 챗봇으로 충분한지 업무 사례로 비교합니다.</p>
 </a>
-<a class="ewa-guide-card" href="/agents/agent-runtime-reliability-practical">
+<a class="ewa-guide-card" href="/learn/agent-runtime-reliability.html">
 <h3>에이전트가 자꾸 깨지는 진짜 이유 — 런타임 신뢰성 5가지</h3>
 <p>지연, 도구 호출 비용, 권한, 상태 복구, 실행 환경을 점검하는 실무 기준.</p>
 </a>

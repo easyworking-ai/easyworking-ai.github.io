@@ -3,6 +3,8 @@ title: "\"정중하게\"가 아니라 답장을 받는 이메일 프롬프트"
 description: "AI에게 이메일을 쓰라고 할 때 \"정중하게 써줘\"라고 하면 딱딱한 메일이 나온다. 수신자가 답장하고 싶어지는 이메일을 만드는 프롬프트와 자주 틀리는 부분."
 created: 2026-07-27
 updated: 2026-07-27
+aliases:
+  - prompts/email-that-gets-replies
 cssclass: blog-post
 publish: true
 lang: ko

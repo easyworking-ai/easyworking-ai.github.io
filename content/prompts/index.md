@@ -17,15 +17,15 @@ tags:
 </section>
 <section class="ewa-guides-list">
 <div class="ewa-guide-grid">
-<a class="ewa-guide-card" href="/prompts/meeting-summary">
+<a class="ewa-guide-card" href="/guides/meeting-summary.html">
 <h3>회의록을 3분 만에 정리하는 프롬프트</h3>
 <p>결정·담당자·마감일을 빠뜨리지 않고 뽑아내는 회의록 정리법.</p>
 </a>
-<a class="ewa-guide-card" href="/prompts/email-that-gets-replies">
+<a class="ewa-guide-card" href="/guides/email-that-gets-replies.html">
 <h3>"정중하게"가 아니라 답장을 받는 이메일 프롬프트</h3>
 <p>수신자가 3초 안에 해야 할 일을 파악하는 이메일 구조.</p>
 </a>
-<a class="ewa-guide-card" href="/prompts/excel-safe-analysis">
+<a class="ewa-guide-card" href="/guides/excel-safe-analysis.html">
 <h3>엑셀 데이터를 AI에게 안전하게 분석시키는 법</h3>
 <p>개인정보를 지우고, 범위를 정하고, 결과를 검증하는 3단계.</p>
 </a>

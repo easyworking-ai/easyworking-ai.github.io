@@ -66,7 +66,7 @@
       const title = document.createElement("h4");
       title.textContent = localized(ep.title, lang, "Episode " + ep.num);
       const meta = document.createElement("span");
-      meta.textContent = (ep.date || "") + " · " + (ep.duration || "") + " · 한국어 · English · 日本語";
+      meta.textContent = (ep.date || "") + " · " + localized(ep.duration, lang, "") + " · 한국어 · English · 日本語";
       body.appendChild(title);
       body.appendChild(meta);
       item.appendChild(num);
@@ -84,24 +84,15 @@
     });
   }
 
-  function renderOpenSourceLinks(ep, lang) {
-    if (!linksEl) return;
-    const items = Array.isArray(ep.openSourceLinks) ? ep.openSourceLinks : [];
-    linksEl.innerHTML = "";
-    linksEl.hidden = items.length === 0;
-    if (items.length === 0) return;
+  function appendLinkGroup(container, entries, lang, headingText) {
+    if (!Array.isArray(entries) || entries.length === 0) return;
 
-    const labels = {
-      ko: "방송에서 언급한 오픈소스·개발 프로젝트",
-      en: "Open-source projects mentioned",
-      ja: "番組で紹介したオープンソース・開発プロジェクト",
-    };
     const heading = document.createElement("div");
     heading.className = "ewa-radio-links-title";
-    heading.textContent = labels[lang] || labels.ko;
+    heading.textContent = headingText;
 
     const list = document.createElement("ul");
-    items.forEach(function (entry) {
+    entries.forEach(function (entry) {
       if (!entry || !/^https?:\/\//i.test(entry.url || "")) return;
       const li = document.createElement("li");
       const link = document.createElement("a");
@@ -115,8 +106,29 @@
       if (description.textContent) li.appendChild(description);
       list.appendChild(li);
     });
-    linksEl.appendChild(heading);
-    linksEl.appendChild(list);
+
+    if (list.children.length > 0) {
+      container.appendChild(heading);
+      container.appendChild(list);
+    }
+  }
+
+  function renderLinks(ep, lang) {
+    if (!linksEl) return;
+    const projects = Array.isArray(ep.openSourceLinks) ? ep.openSourceLinks : [];
+    const sources = Array.isArray(ep.sources) ? ep.sources : [];
+    linksEl.innerHTML = "";
+    linksEl.hidden = projects.length === 0 && sources.length === 0;
+    if (linksEl.hidden) return;
+
+    const labels = {
+      ko: { sources: "주요 사실 확인 출처", projects: "방송에서 언급한 오픈소스·개발 프로젝트" },
+      en: { sources: "Sources for the episode", projects: "Open-source projects mentioned" },
+      ja: { sources: "エピソードの主な出典", projects: "番組で紹介したオープンソース・開発プロジェクト" },
+    };
+    const label = labels[lang] || labels.ko;
+    appendLinkGroup(linksEl, sources, lang, label.sources);
+    appendLinkGroup(linksEl, projects, lang, label.projects);
   }
 
   function selectEpisode(ep, lang, latestNum) {
@@ -127,7 +139,7 @@
     if (titleEl) titleEl.textContent = title;
     if (summaryEl) summaryEl.textContent = summary;
     if (dateEl) dateEl.textContent = ep.date || "";
-    if (durationEl) durationEl.textContent = "⏱ " + (ep.duration || "");
+    if (durationEl) durationEl.textContent = "⏱ " + localized(ep.duration, lang, "");
     if (numEl) numEl.textContent = "EP " + String(ep.num).padStart(2, "0");
     if (labelEl) {
       const labels = {
@@ -142,7 +154,7 @@
       source.src = audioUrl;
       audio.load();
     }
-    renderOpenSourceLinks(ep, lang);
+    renderLinks(ep, lang);
 
     document.querySelectorAll(".ewa-radio-archive-item").forEach(function (item) {
       item.classList.toggle("is-active", Number(item.getAttribute("data-ep")) === ep.num);
