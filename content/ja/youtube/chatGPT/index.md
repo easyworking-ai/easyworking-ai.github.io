@@ -12,8 +12,11 @@ tags:
 
 <div class="ewa-guides" aria-label="chatGPT YouTubeコンテンツ">
 <section class="ewa-guides-hero">
+<div class="ewa-youtube-hero-copy">
 <span class="ewa-kicker">YOUTUBE / CHATGPT</span>
 <div class="ewa-hero-title">chatGPTの業務活用<br><em>動画資料</em></div>
 <p>業務に適用した過程と結果を動画で説明するための資料をまとめます。</p>
+</div>
+<img class="ewa-hub-art ewa-youtube-hero-art" src="/static/img/youtube-chatgpt.jpg" alt="人とデスク端末の間で整理された回答カードが行き交うイラスト" width="900" height="900" loading="eager">
 </section>
 </div>

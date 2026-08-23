@@ -26,6 +26,8 @@ sources:
   - https://hermes-agent.nousresearch.com/docs/user-guide/security
 ---
 
+<img class="ewa-article-art" src="/static/img/art-youtube-hermes-installation.jpg" alt="데스크톱 에이전트와 프로필 카드를 연결해 실습하는 삽화" width="1200" height="800" loading="eager">
+
 # 헤르메스 데스크톱과 Bot Mode 설치·실습노트
 
 ## 0. 정리

@@ -3318,6 +3318,56 @@ body {
   border-radius: 14px;
 }
 
+// YouTube archive visuals: give the hub and tool pages a clear visual anchor.
+article.youtube-hub .ewa-guides-hero,
+article.youtube-category .ewa-guides-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 360px);
+  align-items: center;
+  gap: clamp(2rem, 6vw, 5rem);
+  text-align: left;
+  padding: clamp(2rem, 6vw, 4rem) 0;
+}
+
+.ewa-youtube-hero-copy {
+  min-width: 0;
+}
+
+article.youtube-hub .ewa-guides-hero p,
+article.youtube-category .ewa-guides-hero p {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.ewa-youtube-hero-art {
+  display: block;
+  width: min(360px, 100%);
+  height: auto;
+  margin: 0 auto;
+  border-radius: 14px;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.28);
+}
+
+article.youtube-hub .ewa-guide-grid {
+  margin-top: 1.25rem;
+}
+
+article.youtube-hub .ewa-guide-card {
+  gap: 0.85rem;
+  padding: clamp(1rem, 2.5vw, 1.35rem);
+  overflow: hidden;
+}
+
+.ewa-youtube-card-art {
+  display: block;
+  width: 100%;
+  height: clamp(150px, 18vw, 190px);
+  object-fit: cover;
+  object-position: center;
+  margin: 0 0 0.15rem;
+  border-radius: 10px;
+}
+
 // Keep mobile navigation overrides after the base hamburger rules.
 @media (max-width: 768px) {
   .ewa-menu-toggle {
@@ -3346,5 +3396,33 @@ body {
     padding: 0.75rem 0.65rem;
     font-size: 1rem;
     touch-action: manipulation;
+  }
+}
+
+@media (max-width: 700px) {
+  article.youtube-hub .ewa-guides-hero,
+  article.youtube-category .ewa-guides-hero {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    text-align: center;
+  }
+
+  .ewa-youtube-hero-copy {
+    order: 1;
+  }
+
+  .ewa-youtube-hero-art {
+    order: 2;
+    width: min(300px, 78vw);
+  }
+
+  article.youtube-hub .ewa-guides-hero p,
+  article.youtube-category .ewa-guides-hero p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ewa-youtube-card-art {
+    height: 190px;
   }
 }

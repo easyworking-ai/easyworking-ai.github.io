@@ -26,6 +26,8 @@ sources:
   - https://hermes-agent.nousresearch.com/docs/user-guide/security
 ---
 
+<img class="ewa-article-art" src="/static/img/art-youtube-hermes-installation.jpg" alt="Illustration of connecting a desktop agent with profile cards for practice" width="1200" height="800" loading="eager">
+
 # Hermes Desktop and Bot Mode: installation and practice note
 
 ## 0. Overview

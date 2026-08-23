@@ -26,6 +26,8 @@ sources:
   - https://hermes-agent.nousresearch.com/docs/user-guide/security
 ---
 
+<img class="ewa-article-art" src="/static/img/art-youtube-hermes-installation.jpg" alt="デスクトップエージェントとProfileカードをつないで実習するイラスト" width="1200" height="800" loading="eager">
+
 # Hermes DesktopとBot Modeのインストール・実習ノート
 
 ## 0. まとめ

@@ -12,8 +12,11 @@ tags:
 
 <div class="ewa-guides" aria-label="n8n 유튜브 콘텐츠">
 <section class="ewa-guides-hero">
+<div class="ewa-youtube-hero-copy">
 <span class="ewa-kicker">YOUTUBE / N8N</span>
 <div class="ewa-hero-title">n8n 업무 자동화<br><em>유튜브 자료</em></div>
 <p>워크플로 설계, 실행 결과, 검수 기준을 영상 제작에 연결할 수 있도록 정리하는 폴더입니다.</p>
+</div>
+<img class="ewa-hub-art ewa-youtube-hero-art" src="/static/img/youtube-n8n.jpg" alt="문서를 여러 자동화 단계로 통과시키는 삽화" width="900" height="822" loading="eager">
 </section>
 </div>
