@@ -12,11 +12,9 @@ tags:
 
 <div class="ewa-guides" aria-label="claude 유튜브 콘텐츠">
 <section class="ewa-guides-hero">
-<div class="ewa-youtube-hero-copy">
 <span class="ewa-kicker">YOUTUBE / CLAUDE</span>
 <div class="ewa-hero-title">claude 실무 활용<br><em>유튜브 자료</em></div>
 <p>업무에 적용한 장면과 그 결과를 영상으로 설명하기 위한 자료를 이 폴더에 모읍니다.</p>
-</div>
-<img class="ewa-hub-art ewa-youtube-hero-art" src="/static/img/youtube-claude.jpg" alt="사람과 보조자가 문서를 함께 검토하는 삽화" width="900" height="900" loading="eager">
+<img class="ewa-hub-art" src="/static/img/youtube-claude.jpg" alt="사람과 보조자가 문서를 함께 검토하는 삽화" width="900" height="900" loading="lazy">
 </section>
 </div>

@@ -13,17 +13,14 @@ tags:
 
 <div class="ewa-guides" aria-label="Hermes 유튜브 콘텐츠">
 <section class="ewa-guides-hero">
-<div class="ewa-youtube-hero-copy">
 <span class="ewa-kicker">YOUTUBE / HERMES</span>
 <div class="ewa-hero-title">Hermes를 설치하고<br><em>봇으로 실습하기</em></div>
 <p>Desktop 설치부터 기본 채팅, Bot Mode의 Profile, 그룹 채팅과 Routines까지 실제 실행 여부를 구분해 기록합니다.</p>
-</div>
-<img class="ewa-hub-art ewa-youtube-hero-art" src="/static/img/youtube-hermes.jpg" alt="데스크톱 화면과 봇 작업 카드를 연결하는 삽화" width="900" height="720" loading="eager">
+<img class="ewa-hub-art" src="/static/img/youtube-hermes.jpg" alt="데스크톱 화면과 봇 작업 카드를 연결하는 삽화" width="900" height="720" loading="lazy">
 </section>
 <section class="ewa-guides-list">
 <div class="ewa-guide-grid">
 <a class="ewa-guide-card" href="/youtube/Hermes/hermes-desktop-bot-mode-installation-practice">
-<img class="ewa-youtube-card-art" src="/static/img/art-youtube-hermes-installation.jpg" alt="데스크톱 에이전트와 프로필 카드를 연결해 실습하는 삽화" width="1200" height="800" loading="eager">
 <div class="ewa-guide-card-title">헤르메스 데스크톱과 Bot Mode 설치·실습노트</div>
 <p>설치 경로, Provider 설정, 두 개의 Profile, 유튜브 콘텐츠 제작 그룹 채팅과 안전한 Routine 테스트를 한 문서로 정리합니다.</p>
 </a>
