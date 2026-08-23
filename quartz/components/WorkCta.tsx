@@ -1,8 +1,6 @@
-import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { QuartzComponent, QuartzComponentConstructor } from "./types"
 
 // 무료 진단 신청 CTA — 사용 중지
-const WorkCta: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
-  return null
-}
+const WorkCta: QuartzComponent = () => null
 
 export default (() => WorkCta) satisfies QuartzComponentConstructor
