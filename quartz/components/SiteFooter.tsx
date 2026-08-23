@@ -45,6 +45,7 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
   const lang: Lang = (String(fileData.frontmatter?.lang ?? "ko") as Lang) ?? "ko"
   const t = T[lang] ?? T.ko
   const home = lang === "ko" ? "/" : `/${lang}/`
+  const page = (name: string) => (lang === "ko" ? `/${name}.html` : `/${lang}/${name}.html`)
   return (
     <footer class="ewa-site-footer">
       <div class="ewa-footer-brand">
@@ -59,10 +60,10 @@ const SiteFooter: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
       <div class="ewa-footer-links">
         <a href={home}>{t.links.home}</a>
         <a href="/wiki/concepts/agent-runtime-reliability">{t.links.notes}</a>
-        <a href="/privacy-policy.html">{t.links.privacy}</a>
-        <a href="/about.html">{t.links.about}</a>
-        <a href="/contact.html">{t.links.contact}</a>
-        <a href="/terms.html">{t.links.terms}</a>
+        <a href={page("privacy-policy")}>{t.links.privacy}</a>
+        <a href={page("about")}>{t.links.about}</a>
+        <a href={page("contact")}>{t.links.contact}</a>
+        <a href={page("terms")}>{t.links.terms}</a>
         <a href="https://github.com/easyworking-ai/easyworking-ai.github.io">GitHub</a>
       </div>
       <small>© 2026 EasyWorking-AI. Sources are credited on each note.</small>

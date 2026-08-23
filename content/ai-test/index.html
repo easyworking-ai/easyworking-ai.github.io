@@ -414,6 +414,29 @@ body {
 
 .gate-form input:focus { border-color: var(--accent); }
 
+.consent-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+  color: var(--text-dim);
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+
+.consent-row input {
+  width: 1rem;
+  height: 1rem;
+  margin-top: 0.15rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  flex: 0 0 auto;
+}
+
+.consent-row a {
+  color: var(--accent);
+}
+
 .gate-form button {
   font-family: var(--font);
   font-size: 0.95rem;
@@ -721,6 +744,7 @@ function renderResult(typeKey) {
       '<form class="gate-form" onsubmit="submitEmail(event)">' +
         '<input type="email" id="email-input" placeholder="your@email.com" required>' +
         '<input type="text" id="name-input" placeholder="이름 또는 직군 (선택)">' +
+        '<label class="consent-row"><input type="checkbox" id="consent-input" required><span>결과 저장과 새 자료 알림을 위해 개인정보를 처리하는 데 동의합니다. <a href="/privacy-policy.html" target="_blank" rel="noopener">개인정보처리방침</a></span></label>'+
         '<button type="submit" id="email-btn">결과 저장하고 알림 받기</button>' +
       '</form>' +
       '<div class="gate-skip">' +
@@ -743,7 +767,8 @@ async function submitEmail(e) {
   e.preventDefault();
   var email = document.getElementById('email-input').value.trim();
   var name = document.getElementById('name-input').value.trim();
-  if (!email || email.indexOf('@') === -1) return;
+  var consent = document.getElementById('consent-input').checked;
+  if (!email || email.indexOf('@') === -1 || !consent) return;
 
   var btn = document.getElementById('email-btn');
   btn.disabled = true;
@@ -760,7 +785,7 @@ async function submitEmail(e) {
     scores: scores,
     weakest: minAxis,
     type: typeName,
-    consent: true,
+    consent: consent,
   };
 
   try {
