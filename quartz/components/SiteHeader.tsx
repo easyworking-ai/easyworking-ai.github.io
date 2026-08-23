@@ -11,6 +11,7 @@ const BRAND = {
 const NAV_ITEMS: Array<{ key: string; ko: string; en: string; ja: string }> = [
   { key: "this-week.html", ko: "이번 주", en: "This Week", ja: "今週" },
   { key: "radio.html", ko: "라디오", en: "Radio", ja: "ラジオ" },
+  { key: "youtube/", ko: "유튜브", en: "YouTube", ja: "YouTube" },
   { key: "guides.html", ko: "가이드", en: "Guides", ja: "ガイド" },
   { key: "learn.html", ko: "학습하기", en: "Learn", ja: "学ぶ" },
   { key: "play.html", ko: "체험하기", en: "Play", ja: "体験" },
