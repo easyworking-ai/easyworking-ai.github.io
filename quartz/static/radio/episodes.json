@@ -10,7 +10,12 @@
       "date": "2026-07-29",
       "duration": "~3분",
       "topics": {
-        "ko": ["Claude Opus 5", "에이전트 보안 사고", "로봇 주차·국가안보", "크립토 규제"],
+        "ko": [
+          "Claude Opus 5",
+          "에이전트 보안 사고",
+          "로봇 주차·국가안보",
+          "크립토 규제"
+        ],
         "en": [
           "Claude Opus 5",
           "Agent security incidents",
@@ -278,7 +283,33 @@
         "en": "/static/radio/episode-04-en.mp3",
         "ja": "/static/radio/episode-04-ja.mp3"
       }
+    },
+    {
+      "num": 5,
+      "title": {
+        "ko": "이번 주 AI 라디오: 광고·매출·감독·로봇 기록이 함께 움직인 한 주",
+        "en": "This Week in AI Radio: Ads, Revenue, Oversight, and a Robot Sprint Record All Moved Together",
+        "ja": "今週のAIラジオ：広告・売上・監督・ロボットの記録が一緒に動いた一週間"
+      },
+      "date": "2026-08-24",
+      "duration": "~5.1분",
+      "topics": {
+        "ko": [],
+        "en": [],
+        "ja": []
+      },
+      "summary": {
+        "ko": "오픈AI가 챗지피티 광고를 유럽 서른한 개국으로 확대했습니다. 앤스로픽은 연환산 매출이 육백오십억 달러를 넘었다는 보도와, 정작 가장 비싼 최상위 모델은 기업들이 싼 도구로 갈아타며 외면한다는 분석이 같은 주에 나왔습니다. 미국 펜실베이니아 주는 데이터센터에 지역 승인과 전력 비용 부담을 요구하는 행정명령을 발효했고, 베이징 로봇 경기 대회에서는 백 미터를 구 점 삼구 초에 달린 로봇이 우사인 볼트의 기록을 깼습니다.",
+        "en": "OpenAI is expanding ChatGPT ads to thirty-one European countries. Anthropic was reported to have passed sixty-five billion dollars in annualized revenue the same week an FT analysis showed its priciest top-tier model losing corporate users to cheaper tools. Pennsylvania put community approval and grid costs on AI data center developers by executive order. And at a robot games in Beijing, a humanoid ran the hundred meters in nine point three nine seconds, breaking Usain Bolt's record.",
+        "ja": "OpenAIがChatGPTの広告を欧州31か国に拡大します。Anthropicは年換算売上が650億ドルを超えたと報じられた一方、同じ週に最も高価な最上位モデルが企業に敬遠され、安いツールに置き換えられているという分析も公開されました。米ペンシルベニア州のシャピロ知事はデータセンターに地域承認と電力費の負担を求める行政命令を出し、北京のロボット競技会では100メートルを9秒39で走ったロボットがウサイン・ボルトの記録を破りました。"
+      },
+      "openSourceLinks": [],
+      "audio": {
+        "ko": "/static/radio/episode-05-ko.mp3",
+        "en": "/static/radio/episode-05-en.mp3",
+        "ja": "/static/radio/episode-05-ja.mp3"
+      }
     }
   ],
-  "latest": 4
+  "latest": 5
 }
