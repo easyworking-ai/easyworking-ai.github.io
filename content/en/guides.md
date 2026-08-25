@@ -23,6 +23,10 @@ tags:
 </div>
 </div>
 <div class="ewa-guide-grid">
+<a class="ewa-guide-card" href="/en/guides/verify-ai-tables">
+<div class="ewa-guide-card-title">How to keep AI-generated tables out of your report</div>
+<p>A prompt for verifying numbers in AI tables in three steps: trace sources, recalculate, cross-check.</p>
+</a>
 <a class="ewa-guide-card" href="/en/guides/meeting-summary">
 <div class="ewa-guide-card-title">Prompt: summarize a meeting in 3 minutes</div>
 <p>Why "just summarize the key points" fails. A structured prompt that extracts decisions, owners, and deadlines.</p>

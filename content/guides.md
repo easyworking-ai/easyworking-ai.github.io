@@ -23,6 +23,10 @@ tags:
 </div>
 </div>
 <div class="ewa-guide-grid">
+<a class="ewa-guide-card" href="/guides/verify-ai-tables">
+<div class="ewa-guide-card-title">AI가 만든 표를 그대로 보고서에 넣지 않는 법</div>
+<p>출처 추적·재계산·교차확인 3단계로 AI 표의 숫자를 검증하는 프롬프트.</p>
+</a>
 <a class="ewa-guide-card" href="/guides/meeting-summary">
 <div class="ewa-guide-card-title">회의록을 3분 만에 정리하는 프롬프트</div>
 <p>"핵심만 요약해줘"가 실패하는 이유와 결정·담당자·마감일을 구조적으로 추출하는 프롬프트.</p>

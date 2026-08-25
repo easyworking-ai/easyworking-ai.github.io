@@ -23,6 +23,10 @@ tags:
 </div>
 </div>
 <div class="ewa-guide-grid">
+<a class="ewa-guide-card" href="/ja/guides/verify-ai-tables">
+<div class="ewa-guide-card-title">AIが作った表をそのままレポートに入れない方法</div>
+<p>出典の追跡・再計算・突き合わせの3段階で、AIの表の数字を検証するプロンプト。</p>
+</a>
 <a class="ewa-guide-card" href="/ja/guides/meeting-summary">
 <div class="ewa-guide-card-title">議事録を3分で整理するプロンプト</div>
 <p>「要点だけまとめて」が失敗する理由と、決定・担当者・期限を構造的に抽出するプロンプト。</p>
