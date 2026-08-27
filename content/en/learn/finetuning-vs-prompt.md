@@ -27,7 +27,7 @@ Put simply:
 
 **A prompt is the work brief you give every time.** It is like handing a new hire today's meeting-minutes assignment and saying, "This is our company template, and here is an example of a well-written one." The quality of the instructions shapes the result. If you want a report tomorrow, you give them a report brief instead. You can give a different brief every day.
 
-**Fine-tuning is like putting a new hire through in-house training.** You show them hundreds of our company's reports until "this kind of voice and structure" becomes second nature. After training, even a short brief produces something in our style. The time and money spent on that training do not come back.
+**Fine-tuning is like putting a new hire through in-house training.** You show them hundreds of our company's reports until "this kind of voice and structure" becomes second nature. After training, even a short brief produces something in our style. The time and money spent on that training do not come back. Also, the training is tied to a specific task: teaching the report style does not automatically improve meeting minutes. If you need minutes done well, that requires its own training run.
 
 One common misconception is worth clearing up: fine-tuning does not make AI smarter. The model's intelligence stays the same. What changes is its behavior: the format it uses, the writing style it follows, and the patterns it uses to handle a task. If you fine-tune it to memorize the entire company rulebook, you will fail. Adding knowledge such as policies is a job for retrieval, not fine-tuning. If you want the details, read [the RAG explainer](/en/learn/rag-explained) first.
 
@@ -37,7 +37,7 @@ Take the task of standardizing the writing style of internal reports.
 
 **With a prompt:** Choose three reports with a consistent style, paste them into the prompt, and add instructions such as "Follow this format: one-line summary under the title, conclusion first, evidence in a table." If the output is not good enough, swap out the examples or revise the instructions. You can run several iterations in half a day.
 
-**With fine-tuning:** Collect hundreds of reports with a consistent style. If they are not consistent to begin with, you have to clean them up first. Then format the data for training, run the training, and evaluate the results. If the output is poor, fix the data and train again. This becomes a project measured in weeks.
+**With fine-tuning:** Collect hundreds of reports with a consistent style. If they are not consistent to begin with, you have to clean them up first. Then format the data for training, run the training, and evaluate the results. If the output is poor, fix the data and train again. This becomes a project measured in weeks. The step where teams most often get stuck is evaluation. Instead of "it seems a bit better," you need a person and a standard to judge — by placing old and new outputs side by side — which one is closer to the company's bar. Teams that skip this end up arguing about the results internally.
 
 Looking only at the result, prompting is enough for this task. Current models are already good at imitating a style from a few examples.
 
