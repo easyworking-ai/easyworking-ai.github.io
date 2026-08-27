@@ -17,6 +17,10 @@ tags:
 
 <div class="ewa-read-section">
 <div class="ewa-read-grid">
+<a class="ewa-read-card" href="/ja/learn/finetuning-vs-prompt">
+<div class="ewa-read-card-title">ファインチューニングとプロンプト、どちらを選ぶべきか</div>
+<p>「自社データで学習させれば本当の自社AIになる」は半分だけ正しい。実務の問題の大半はプロンプトで解決し、ファインチューニングが必要な場面は別にあります。</p>
+</a>
 <a class="ewa-read-card" href="/ja/learn/context-window">
 <div class="ewa-read-card-title">AIが聞いたばかりのことを忘れる理由</div>
 <p>会話が長くなると最初の指示が無視され、長い文書は中盤を飛ばし読みされる。コンテキストウィンドウの仕組みと症状別の対処法。</p>

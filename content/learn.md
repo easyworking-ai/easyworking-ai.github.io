@@ -17,6 +17,10 @@ tags:
 
 <div class="ewa-read-section">
 <div class="ewa-read-grid">
+<a class="ewa-read-card" href="/learn/finetuning-vs-prompt">
+<div class="ewa-read-card-title">파인튜닝과 프롬프트, 우리는 어느 쪽을 해야 하나</div>
+<p>"우리 데이터로 학습시켜야 진짜 우리 회사 AI가 됩니다"는 절반만 맞다. 실무 문제 대부분은 프롬프트로 끝나고, 파인튜닝이 필요한 지점은 따로 있다.</p>
+</a>
 <a class="ewa-read-card" href="/learn/context-window">
 <div class="ewa-read-card-title">AI가 방금 들은 걸 까먹는 이유</div>
 <p>대화가 길어지면 초반 지시가 무시되고, 긴 문서는 중간을 건너뛴다. 컨텍스트 윈도우의 작동 원리와 증상별 대처법.</p>

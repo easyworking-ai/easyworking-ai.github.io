@@ -17,6 +17,10 @@ tags:
 
 <div class="ewa-read-section">
 <div class="ewa-read-grid">
+<a class="ewa-read-card" href="/en/learn/finetuning-vs-prompt">
+<div class="ewa-read-card-title">Fine-tuning vs. prompting: which one do we need?</div>
+<p>"Fine-tuning is what makes AI truly ours" is only half true. Most practical problems end with better prompts — fine-tuning has its own, narrower place.</p>
+</a>
 <a class="ewa-read-card" href="/en/learn/context-window">
 <div class="ewa-read-card-title">Why AI forgets what you just said</div>
 <p>As conversations grow, early instructions get ignored and long documents get skimmed in the middle. How the context window works, and what to do about it.</p>
