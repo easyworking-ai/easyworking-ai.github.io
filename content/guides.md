@@ -23,6 +23,10 @@ tags:
 </div>
 </div>
 <div class="ewa-guide-grid">
+<a class="ewa-guide-card" href="/guides/translation-prompt">
+<div class="ewa-guide-card-title">영문 이메일 번역이 '번역투'가 되는 이유</div>
+<p>문장이 아니라 의도와 관계를 넘기는 번역 프롬프트. 숫자·날짜 보존과 직역 대비 보고까지.</p>
+</a>
 <a class="ewa-guide-card" href="/guides/verify-ai-tables">
 <div class="ewa-guide-card-title">AI가 만든 표를 그대로 보고서에 넣지 않는 법</div>
 <p>출처 추적·재계산·교차확인 3단계로 AI 표의 숫자를 검증하는 프롬프트.</p>

@@ -23,6 +23,10 @@ tags:
 </div>
 </div>
 <div class="ewa-guide-grid">
+<a class="ewa-guide-card" href="/ja/guides/translation-prompt">
+<div class="ewa-guide-card-title">AI翻訳のメールが「翻訳調」になる理由</div>
+<p>文ではなく意図と関係を渡す翻訳プロンプト。数字・日付の維持と直訳との対比レポートまで。</p>
+</a>
 <a class="ewa-guide-card" href="/ja/guides/verify-ai-tables">
 <div class="ewa-guide-card-title">AIが作った表をそのままレポートに入れない方法</div>
 <p>出典の追跡・再計算・突き合わせの3段階で、AIの表の数字を検証するプロンプト。</p>

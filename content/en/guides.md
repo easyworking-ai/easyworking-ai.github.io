@@ -23,6 +23,10 @@ tags:
 </div>
 </div>
 <div class="ewa-guide-grid">
+<a class="ewa-guide-card" href="/en/guides/translation-prompt">
+<div class="ewa-guide-card-title">Why AI-translated emails sound like translations</div>
+<p>A prompt that hands over intent and relationship, not just sentences — with number preservation and a literal-vs-rewritten report.</p>
+</a>
 <a class="ewa-guide-card" href="/en/guides/verify-ai-tables">
 <div class="ewa-guide-card-title">How to keep AI-generated tables out of your report</div>
 <p>A prompt for verifying numbers in AI tables in three steps: trace sources, recalculate, cross-check.</p>
