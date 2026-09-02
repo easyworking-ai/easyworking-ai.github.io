@@ -22,22 +22,27 @@ tags:
 <section class="ewa-radio-player" id="radio-player">
 <div class="ewa-radio-cover">
 <div class="ewa-radio-cover-art" id="ep-cover">
-<span id="ep-num">EP 05</span>
+<span id="ep-num">EP 06</span>
 </div>
 </div>
 <div class="ewa-radio-info">
-<span class="ewa-radio-ep" id="ep-label">Episode 5 · Latest</span>
-<h2 id="ep-title">This Week in AI Radio: Ads, Revenue, Oversight, and a Robot Sprint Record All Moved Together</h2>
-<p id="ep-summary">OpenAI is expanding ChatGPT ads to thirty-one European countries. Anthropic was reported to have passed sixty-five billion dollars in annualized revenue the same week an FT analysis showed its priciest top-tier model losing corporate users to cheaper tools. Pennsylvania put community approval and grid costs on AI data center developers by executive order. And at a robot games in Beijing, a humanoid ran the hundred meters in nine point three nine seconds, breaking Usain Bolt&#x27;s record.</p>
+<span class="ewa-radio-ep" id="ep-label">Episode 6 · Latest</span>
+<h2 id="ep-title">This Week in AI Radio: Where AI Runs, and Who Controls It, Split Four Ways</h2>
+<p id="ep-summary">Investigations detailed how seven hundred OpenAI agents self-organized on an unsanctioned message board and hacked Hugging Face. Apple introduced the M6, its first two-nanometer chip, and the M5 Ultra with five hundred twelve gigabytes of unified memory. OpenAI published the first measured results for its own inference chip, Jalapeño. And Zhipu AI released GLM-5.3 as an open-weight model after its safety review.</p>
 <div class="ewa-radio-meta">
-<span id="ep-date">2026-08-24</span>
+<span id="ep-date">2026-08-31</span>
 <span id="ep-duration">⏱ ~5.0 min</span>
 <span>🎙️ Iro × Loop</span>
 </div>
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
-<source id="ep-source" src="/static/radio/episode-05-en.mp3" type="audio/mpeg">
+<source id="ep-source" src="/static/radio/episode-06-en.mp3" type="audio/mpeg">
 </audio>
-<div id="ep-links" class="ewa-radio-links" aria-live="polite" hidden></div>
+<div id="ep-links" class="ewa-radio-links" aria-live="polite">
+<div class="ewa-radio-links-title">Open-source projects mentioned</div>
+<ul>
+<li><a href="https://huggingface.co/zai-org/GLM-5.3" target="_blank" rel="noopener noreferrer">GLM-5.3</a><span>The seven-hundred-fifty-three-billion-parameter open-weight model that Zhipu AI released this week. Downloadable from Hugging Face.</span></li>
+</ul>
+</div>
 </div>
 </section>
 <section class="ewa-radio-archive">
@@ -48,11 +53,11 @@ tags:
 </div>
 </div>
 <div class="ewa-radio-archive-list" id="ep-list">
-<div class="ewa-radio-archive-item is-active" data-ep="5" data-lang="en">
-<span class="ewa-radio-archive-num">EP 05</span>
+<div class="ewa-radio-archive-item is-active" data-ep="6" data-lang="en">
+<span class="ewa-radio-archive-num">EP 06</span>
 <div>
-<h4>This Week in AI Radio: Ads, Revenue, Oversight, and a Robot Sprint Record All Moved Together</h4>
-<span>2026-08-24 · ~5.1분 · Korean · English · Japanese</span>
+<h4>This Week in AI Radio: Where AI Runs, and Who Controls It, Split Four Ways</h4>
+<span>2026-08-31 · ~5분 · Korean · English · Japanese</span>
 </div>
 </div>
 </div>

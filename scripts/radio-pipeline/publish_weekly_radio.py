@@ -202,8 +202,11 @@ def parse_dialogues(body: str) -> dict[str, list[dict[str, str]]]:
     section_matches = list(re.finditer(r"(?m)^## Dialogue:\s*(ko|en|ja)\s*$", body))
     for index, section_match in enumerate(section_matches):
         lang = section_match.group(1)
-        end = section_matches[index + 1].start() if index + 1 < len(section_matches) else len(body)
-        section_body = body[section_match.end() : end]
+        section_end = section_matches[index + 1].start() if index + 1 < len(section_matches) else len(body)
+        metadata_heading = re.search(r"(?m)^##\s+(?!Dialogue:)\S.*$", body[section_match.end() :])
+        if metadata_heading:
+            section_end = min(section_end, section_match.end() + metadata_heading.start())
+        section_body = body[section_match.end() : section_end]
         headers = list(
             re.finditer(
                 r"(?m)^###\s+(\d{3})\s+·\s+(iro|loop)\s+·\s+([a-z0-9-]+)\s*$",

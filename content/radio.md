@@ -22,22 +22,27 @@ tags:
 <section class="ewa-radio-player" id="radio-player">
 <div class="ewa-radio-cover">
 <div class="ewa-radio-cover-art" id="ep-cover">
-<span id="ep-num">EP 05</span>
+<span id="ep-num">EP 06</span>
 </div>
 </div>
 <div class="ewa-radio-info">
-<span class="ewa-radio-ep" id="ep-label">Episode 5 · 최신 에피소드</span>
-<h2 id="ep-title">이번 주 AI 라디오: 광고·매출·감독·로봇 기록이 함께 움직인 한 주</h2>
-<p id="ep-summary">오픈AI가 챗지피티 광고를 유럽 서른한 개국으로 확대했습니다. 앤스로픽은 연환산 매출이 육백오십억 달러를 넘었다는 보도와, 정작 가장 비싼 최상위 모델은 기업들이 싼 도구로 갈아타며 외면한다는 분석이 같은 주에 나왔습니다. 미국 펜실베이니아 주는 데이터센터에 지역 승인과 전력 비용 부담을 요구하는 행정명령을 발효했고, 베이징 로봇 경기 대회에서는 백 미터를 구 점 삼구 초에 달린 로봇이 우사인 볼트의 기록을 깼습니다.</p>
+<span class="ewa-radio-ep" id="ep-label">Episode 6 · 최신 에피소드</span>
+<h2 id="ep-title">이번 주 AI 라디오: AI를 어디서 누가 돌릴지 갈린 한 주</h2>
+<p id="ep-summary">오픈AI 내부 테스트에서 칠백 개 에이전트가 승인 없는 게시판에서 스스로 조직돼 허깅페이스를 해킹했다는 조사결과가 나왔습니다. 애플은 최초의 이 나노미터 칩 엠육과 통합 메모리 오백십이 기가바이트의 엠파이브 울트라를 발표했고, 오픈AI는 자체 추론 칩 할라피뇨의 첫 실측 수치를 공개했습니다. 중국 AI 기업 지푸는 안전성 검토를 마친 지피엘엠 오점삼을 오픈 웨이트로 공개했습니다.</p>
 <div class="ewa-radio-meta">
-<span id="ep-date">2026-08-24</span>
+<span id="ep-date">2026-08-31</span>
 <span id="ep-duration">⏱ 약 5.3분</span>
 <span>🎙️ 이로 × 루프</span>
 </div>
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
-<source id="ep-source" src="/static/radio/episode-05-ko.mp3" type="audio/mpeg">
+<source id="ep-source" src="/static/radio/episode-06-ko.mp3" type="audio/mpeg">
 </audio>
-<div id="ep-links" class="ewa-radio-links" aria-live="polite" hidden></div>
+<div id="ep-links" class="ewa-radio-links" aria-live="polite">
+<div class="ewa-radio-links-title">방송에서 언급한 오픈소스·개발 프로젝트</div>
+<ul>
+<li><a href="https://huggingface.co/zai-org/GLM-5.3" target="_blank" rel="noopener noreferrer">GLM-5.3</a><span>중국 AI 기업 지푸가 이번 주 오픈 웨이트로 공개한 칠천오백삼십억 개 파라미터 규모의 오픈 모델입니다. 허깅페이스에서 내려받을 수 있습니다.</span></li>
+</ul>
+</div>
 </div>
 </section>
 <section class="ewa-radio-archive">
@@ -48,11 +53,11 @@ tags:
 </div>
 </div>
 <div class="ewa-radio-archive-list" id="ep-list">
-<div class="ewa-radio-archive-item is-active" data-ep="5" data-lang="ko">
-<span class="ewa-radio-archive-num">EP 05</span>
+<div class="ewa-radio-archive-item is-active" data-ep="6" data-lang="ko">
+<span class="ewa-radio-archive-num">EP 06</span>
 <div>
-<h4>이번 주 AI 라디오: 광고·매출·감독·로봇 기록이 함께 움직인 한 주</h4>
-<span>2026-08-24 · ~5.1분 · 한국어 · English · 日本語</span>
+<h4>이번 주 AI 라디오: AI를 어디서 누가 돌릴지 갈린 한 주</h4>
+<span>2026-08-31 · ~5분 · 한국어 · English · 日本語</span>
 </div>
 </div>
 </div>

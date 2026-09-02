@@ -68,6 +68,36 @@ class RadioPipelineTests(unittest.TestCase):
             self.assertEqual(len(draft["_dialogues"]["ko"]), 20)
             self.assertEqual(draft["_dialogues"]["ko"][0]["speaker"], "iro")
 
+    def test_dialogues_stop_before_metadata_sections(self):
+        body = textwrap.dedent("""
+        ## Dialogue: ko
+        ### 001 · iro · opening
+        한국어 대사입니다.
+
+        ## Dialogue: en
+        ### 001 · iro · opening
+        This is an English line.
+
+        ## Dialogue: ja
+        ### 001 · iro · opening
+        日本語のセリフです。
+
+        ## Open-source links
+        ```json
+        []
+        ```
+
+        ## Sources
+        - [Source A](https://example.com/a)
+        """)
+        parsed = module.parse_dialogues(body)
+        self.assertEqual(parsed["ko"][0]["text"], "한국어 대사입니다.")
+        self.assertEqual(parsed["en"][0]["text"], "This is an English line.")
+        self.assertEqual(parsed["ja"][0]["text"], "日本語のセリフです。")
+        for lang in ("ko", "en", "ja"):
+            self.assertNotIn("Open-source links", parsed[lang][-1]["text"])
+            self.assertNotIn("Sources", parsed[lang][-1]["text"])
+
     def test_forbidden_korean_phrase_is_rejected(self):
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / "draft-ep02.md"
