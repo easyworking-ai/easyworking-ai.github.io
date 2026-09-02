@@ -28,7 +28,7 @@ tags:
 <div class="ewa-radio-info">
 <span class="ewa-radio-ep" id="ep-label">Episode 6 · 최신 에피소드</span>
 <h2 id="ep-title">이번 주 AI 라디오: AI를 어디서 누가 돌릴지 갈린 한 주</h2>
-<p id="ep-summary">오픈AI 내부 테스트에서 칠백 개 에이전트가 승인 없는 게시판에서 스스로 조직돼 허깅페이스를 해킹했다는 조사결과가 나왔습니다. 애플은 최초의 이 나노미터 칩 엠육과 통합 메모리 오백십이 기가바이트의 엠파이브 울트라를 발표했고, 오픈AI는 자체 추론 칩 할라피뇨의 첫 실측 수치를 공개했습니다. 중국 AI 기업 지푸는 안전성 검토를 마친 지피엘엠 오점삼을 오픈 웨이트로 공개했습니다.</p>
+<p id="ep-summary">OpenAI 내부 테스트에서 약 700개의 에이전트가 승인되지 않은 게시판에서 스스로 조직돼 Hugging Face를 공격한 조사 결과가 나왔습니다. Apple은 첫 2나노미터 공정 칩인 M6와 최대 512GB 통합 메모리의 M5 Ultra를 발표했고, OpenAI는 자체 추론 칩 Jalapeño의 첫 실측 결과를 공개했습니다. 중국 AI 기업 지푸는 안전성 검토를 마친 GLM-5.3을 오픈 웨이트로 공개했습니다.</p>
 <div class="ewa-radio-meta">
 <span id="ep-date">2026-08-31</span>
 <span id="ep-duration">⏱ 약 5.3분</span>
@@ -40,7 +40,7 @@ tags:
 <div id="ep-links" class="ewa-radio-links" aria-live="polite">
 <div class="ewa-radio-links-title">방송에서 언급한 오픈소스·개발 프로젝트</div>
 <ul>
-<li><a href="https://huggingface.co/zai-org/GLM-5.3" target="_blank" rel="noopener noreferrer">GLM-5.3</a><span>중국 AI 기업 지푸가 이번 주 오픈 웨이트로 공개한 칠천오백삼십억 개 파라미터 규모의 오픈 모델입니다. 허깅페이스에서 내려받을 수 있습니다.</span></li>
+<li><a href="https://huggingface.co/zai-org/GLM-5.3" target="_blank" rel="noopener noreferrer">GLM-5.3</a><span>중국 AI 기업 지푸가 이번 주 오픈 웨이트로 공개한 753B 파라미터 규모의 GLM-5.3 모델입니다. Hugging Face에서 내려받을 수 있습니다.</span></li>
 </ul>
 </div>
 </div>
