@@ -106,6 +106,14 @@ class RadioPipelineTests(unittest.TestCase):
             with self.assertRaises(module.PipelineError):
                 module.validate_draft(draft, latest=1)
 
+    def test_glm_pronunciation_typo_is_rejected(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "draft-ep02.md"
+            path.write_text(self.make_draft().replace("실제 업무 관점", "지피엘엠 표기", 1), encoding="utf-8")
+            draft = module.parse_draft(path)
+            with self.assertRaises(module.PipelineError):
+                module.validate_draft(draft, latest=1)
+
     def test_status_update_preserves_markdown_body(self):
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / "draft-ep02.md"
