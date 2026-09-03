@@ -40,6 +40,8 @@ Now you upload the file and write, "Pull out what was decided, what was deferred
 
 The difference isn't only speed. The old workflow had you doing two things: listening and judging, and typing. Once typing drops out, your attention goes to judgment.
 
+One more thing to know. Who said what in a recording still needs a human check. Models capture the content well but often get speaker attribution wrong — a line filed under Director A may actually belong to Manager C. If roles and accountability are decided in your minutes, have a person skim the speaker labels at the end.
+
 ### One screenshot of a table
 
 Before, if a report a colleague sent raised a question, you had to find and open the original file, or retype the table into text.
@@ -58,7 +60,7 @@ Field notes scribbled in margins, a contract photocopied and scanned. Getting te
 | Meeting and interview recordings | Listen and take notes manually | Upload, then extract summary and items | Proper nouns — names, product names — get misrecognized |
 | Scanned PDFs, handwriting | Run OCR, then retype | Upload the photo or file as-is | Poor scans lead to misread clause numbers |
 
-One rule covers all of it. A multimodal model's eyes and ears are probabilistic. Just as a person skims a blurry photo, the model can invent a reading for an unclear input. Numbers are the biggest risk: if it misreads one small digit in a table, every calculation downstream is wrong.
+One rule covers all of it. A multimodal model's eyes and ears are probabilistic. Just as a person skims a blurry photo, the model can invent a reading for an unclear input. Numbers are the biggest risk: if it misreads one small digit in a table, every calculation downstream is wrong. Numbers heard in audio are no safer — the moment "ninety percent" is transcribed as "nineteen percent," the conclusion of the report quoting it flips.
 
 ## What to check before you hand things over
 
