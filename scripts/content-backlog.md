@@ -36,7 +36,7 @@
 | 1 | 08-07 | ✅ published 07-30 | `rag-explained.md` | RAG가 뭔데 직장인이 알아야 하나 | 검색 증강 생성 — 왜 최신 정보가 안 나오는가 |
 | 2 | 08-14 | ✅ published 08-20 | `context-window.md` | 컨텍스트 윈도우: AI가 "까먹는" 이유 | 대화가 길어지면 왜 품질이 떨어지나 |
 | 3 | 08-21 | ✅ published 08-27 | `finetuning-vs-prompt.md` | 파인튜닝 vs 프롬프트 — 뭘 해야 하나 | 대부분 프롬프트로 충분한 이유 |
-| 4 | 08-28 | ⬜ pending | `multimodal-in-practice.md` | 멀티모달이 실무에서 의미하는 것 | 이미지·음성 입력이 바꾸는 업무 방식 |
+| 4 | 08-28 | ✅ published 09-03 | `multimodal-in-practice.md` | 멀티모달이 실무에서 의미하는 것 | 이미지·음성 입력이 바꾸는 업무 방식 |
 | 5 | 09-04 | ⬜ pending | `hallucination-mechanics.md` | AI 모델이 "거짓말"을 하는 구조 | 환각의 원리와 실무 대응 |
 | 6 | 09-11 | ⬜ pending | `open-vs-closed-models.md` | 오픈소스 vs 클로즈드 모델 — 선택 기준 | 비용·보안·성능 트레이드오프 |
 | 7 | 09-18 | ⬜ pending | `agent-failure-cases.md` | AI 에이전트 도입 실패 케이스 5가지 | 실제 사례에서 배우는 안티패턴 |

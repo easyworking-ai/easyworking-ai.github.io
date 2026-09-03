@@ -17,6 +17,10 @@ tags:
 
 <div class="ewa-read-section">
 <div class="ewa-read-grid">
+<a class="ewa-read-card" href="/en/learn/multimodal-in-practice">
+<div class="ewa-read-card-title">What multimodal AI actually changes at work</div>
+<p>You can paste that screenshot as-is now. Uploading recordings and scans whole — and the traps, like misread digits, to watch for.</p>
+</a>
 <a class="ewa-read-card" href="/en/learn/finetuning-vs-prompt">
 <div class="ewa-read-card-title">Fine-tuning vs. prompting: which one do we need?</div>
 <p>"Fine-tuning is what makes AI truly ours" is only half true. Most practical problems end with better prompts — fine-tuning has its own, narrower place.</p>

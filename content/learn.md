@@ -17,6 +17,10 @@ tags:
 
 <div class="ewa-read-section">
 <div class="ewa-read-grid">
+<a class="ewa-read-card" href="/learn/multimodal-in-practice">
+<div class="ewa-read-card-title">멀티모달이 실무에서 의미하는 것</div>
+<p>표 사진을 그냥 올려도 되는 시대다. 회의 녹음과 스캔 문서를 통째로 넘기는 업무 방식과, 숫자 오독 같은 함정을 짚는다.</p>
+</a>
 <a class="ewa-read-card" href="/learn/finetuning-vs-prompt">
 <div class="ewa-read-card-title">파인튜닝과 프롬프트, 우리는 어느 쪽을 해야 하나</div>
 <p>"우리 데이터로 학습시켜야 진짜 우리 회사 AI가 됩니다"는 절반만 맞다. 실무 문제 대부분은 프롬프트로 끝나고, 파인튜닝이 필요한 지점은 따로 있다.</p>

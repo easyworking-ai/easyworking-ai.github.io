@@ -17,6 +17,10 @@ tags:
 
 <div class="ewa-read-section">
 <div class="ewa-read-grid">
+<a class="ewa-read-card" href="/ja/learn/multimodal-in-practice">
+<div class="ewa-read-card-title">マルチモーダルが実務で意味するもの</div>
+<p>表のスクリーンショットをそのまま貼れる時代です。録音やスキャン文書を丸ごと渡す働き方と、数字の誤読のような落とし穴を整理します。</p>
+</a>
 <a class="ewa-read-card" href="/ja/learn/finetuning-vs-prompt">
 <div class="ewa-read-card-title">ファインチューニングとプロンプト、どちらを選ぶべきか</div>
 <p>「自社データで学習させれば本当の自社AIになる」は半分だけ正しい。実務の問題の大半はプロンプトで解決し、ファインチューニングが必要な場面は別にあります。</p>
