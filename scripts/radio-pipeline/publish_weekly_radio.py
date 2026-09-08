@@ -100,6 +100,11 @@ FORBIDDEN_KO = (
     "가능하게 된다",
 )
 
+# 일반 주간판은 짧은 뉴스 형식을 유지한다. 장문판은 draft frontmatter에
+# long_form: true를 명시한 경우에만 별도 범위를 적용한다.
+DEFAULT_DIALOGUE_LIMITS = (20, 35)
+LONG_FORM_DIALOGUE_LIMITS = (60, 80)
+
 
 class PipelineError(RuntimeError):
     pass
@@ -303,10 +308,17 @@ def validate_draft(draft: dict[str, Any], latest: int) -> None:
             if not isinstance(draft.get(key), str) or not draft[key].strip():
                 raise PipelineError(f"draft 필드 누락 또는 빈 값: {key}")
     dialogues = draft.get("_dialogues", {})
+    min_dialogues, max_dialogues = (
+        LONG_FORM_DIALOGUE_LIMITS if draft.get("long_form") is True else DEFAULT_DIALOGUE_LIMITS
+    )
     for lang in LANGS:
         lines = dialogues.get(lang, [])
-        if not 20 <= len(lines) <= 35:
-            raise PipelineError(f"{lang} 대사 수가 범위를 벗어났습니다: {len(lines)} (허용 20~35)")
+        if not min_dialogues <= len(lines) <= max_dialogues:
+            mode = "long_form" if draft.get("long_form") is True else "standard"
+            raise PipelineError(
+                f"{lang} 대사 수가 범위를 벗어났습니다: {len(lines)} "
+                f"(허용 {min_dialogues}~{max_dialogues}, mode={mode})"
+            )
         seen_numbers: set[str] = set()
         for line in lines:
             if line["number"] in seen_numbers:
