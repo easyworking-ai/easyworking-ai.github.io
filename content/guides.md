@@ -23,6 +23,10 @@ tags:
 </div>
 </div>
 <div class="ewa-guide-grid">
+<a class="ewa-guide-card" href="/guides/pre-meeting-briefing">
+<div class="ewa-guide-card-title">회의 30분 전, AI에게 브리핑을 받는 법</div>
+<p>배경자료를 넘겨 질문 후보까지 뽑아주는 회의 전 브리핑 프롬프트. 준비된 사람의 차이는 질문의 정확도다.</p>
+</a>
 <a class="ewa-guide-card" href="/guides/translation-prompt">
 <div class="ewa-guide-card-title">영문 이메일 번역이 '번역투'가 되는 이유</div>
 <p>문장이 아니라 의도와 관계를 넘기는 번역 프롬프트. 숫자·날짜 보존과 직역 대비 보고까지.</p>

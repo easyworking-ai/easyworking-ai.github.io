@@ -23,6 +23,10 @@ tags:
 </div>
 </div>
 <div class="ewa-guide-grid">
+<a class="ewa-guide-card" href="/en/guides/pre-meeting-briefing">
+<div class="ewa-guide-card-title">How to get an AI briefing 30 minutes before a meeting</div>
+<p>A pre-meeting briefing prompt that turns background materials into candidate questions. Preparation shows in question precision.</p>
+</a>
 <a class="ewa-guide-card" href="/en/guides/translation-prompt">
 <div class="ewa-guide-card-title">Why AI-translated emails sound like translations</div>
 <p>A prompt that hands over intent and relationship, not just sentences — with number preservation and a literal-vs-rewritten report.</p>

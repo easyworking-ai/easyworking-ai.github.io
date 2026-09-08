@@ -23,6 +23,10 @@ tags:
 </div>
 </div>
 <div class="ewa-guide-grid">
+<a class="ewa-guide-card" href="/ja/guides/pre-meeting-briefing">
+<div class="ewa-guide-card-title">会議の30分前、AIからブリーフィングを受ける方法</div>
+<p>背景資料を渡して質問候補まで引き出す会議前ブリーフィングのプロンプト。準備の差は質問の精度に出る。</p>
+</a>
 <a class="ewa-guide-card" href="/ja/guides/translation-prompt">
 <div class="ewa-guide-card-title">AI翻訳のメールが「翻訳調」になる理由</div>
 <p>文ではなく意図と関係を渡す翻訳プロンプト。数字・日付の維持と直訳との対比レポートまで。</p>

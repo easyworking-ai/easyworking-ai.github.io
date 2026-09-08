@@ -24,7 +24,7 @@
 | 2 | 08-11 | ✅ published 08-18 | `competitor-analysis-prompt.md` | 경쟁사 분석을 30분 만에 끝내는 프롬프트 | 검색→요약→비교표까지 한 번에 구조화 |
 | 3 | 08-18 | ✅ published 08-25 | `verify-ai-tables.md` | AI가 만든 표를 그대로 보고서에 넣지 않는 법 | 숫자 검증 3단계 — 출처 추적·재계산·교차확인 |
 | 4 | 08-25 | ✅ published 09-01 | `translation-prompt.md` | 영문 이메일 번역이 "번역투"가 되는 이유 | 직역이 아니라 의도와 관계를 전달하는 프롬프트 |
-| 5 | 09-01 | ⬜ pending | `pre-meeting-briefing.md` | 회의 전 AI에게 줄 자료 정리법 | 배경지료 → 질문 리스트 자동 생성 |
+| 5 | 09-01 | ✅ published 09-08 | `pre-meeting-briefing.md` | 회의 전 AI에게 줄 자료 정리법 | 배경지료 → 질문 리스트 자동 생성 |
 | 6 | 09-08 | ⬜ pending | `ai-brainstorming.md` | AI에게 브레인스토밍을 시키는 올바른 방법 | "아이디어 내줘" 실패 원인과 제약 기반 발산 |
 | 7 | 09-15 | ⬜ pending | `long-document-qa.md` | 긴 문서를 AI에게 읽히고 질문하는 법 | 문서 분할 + 컨텍스트 윈도우 한계 대응 |
 | 8 | 09-22 | ⬜ pending | `share-ai-output.md` | AI 작업 결과를 팀에 공유하는 형식 | 산출물 → 검증 근거 → 한계 명시 |
