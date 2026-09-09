@@ -349,7 +349,60 @@
         "en": "/static/radio/episode-06-en.mp3",
         "ja": "/static/radio/episode-06-ja.mp3"
       }
+    },
+    {
+      "num": 7,
+      "title": {
+        "ko": "이번 주 AI 라디오: AI가 행동하고, 증명하고, 추적되고, 인증 절차와 만나는 순간",
+        "en": "This Week in AI Radio: When AI Acts, Proves, Gets Tracked, and Meets Certification Review",
+        "ja": "今週のAIラジオ：AIが行動し、証明し、追跡され、認証手続きと向き合うとき"
+      },
+      "date": "2026-09-07",
+      "duration": "~20.5분",
+      "topics": {
+        "ko": [],
+        "en": [],
+        "ja": []
+      },
+      "summary": {
+        "ko": "오픈AI가 새 모델 GPT-6 Astra를 내놓으며 컴퓨터 유즈를 전면에 내세웠고, 같은 회사의 최고 과학자는 최첨단 모델을 완전히 이해하기 어려운 지성으로 설명하며 속도 조절을 요구했습니다. 앤스로픽의 클로드는 페르마의 마지막 정리를 린으로 기계 검증 가능한 형태로 만들었지만, 성패를 가른 것은 모델 하나가 아니라 사람의 설계와 에이전트 협업 구조였습니다. 미국 하원에는 에이전트 목록과 행동 로그를 다루는 표준을 만들도록 하는 법안이 아직 법률이 되지 않은 채 제출됐고, 테슬라의 핸들 없는 사이버캡은 오스틴 투입 다음 날 연방 안전 조사를 받았습니다. 네 사건을 따라가며 AI가 혼자 일하는 능력과 사람이 결과를 확인하는 장치가 어디에서 만나는지 살펴봅니다.",
+        "en": "OpenAI put computer use at the center of GPT-6 Astra, while its own chief scientist described frontier models as an intellect we do not fully understand and called for restraint. Anthropic's Claude turned Fermat's Last Theorem into a machine-checkable Lean proof, but the decisive ingredient was not a model alone: it was human design and an agent collaboration scaffold. A bipartisan bill in the U.S. House, not yet law, would direct NIST to develop standards covering AI-agent inventories and action logs, alongside standards for tracking and evaluating their security and reliability. And Tesla's steering-wheel-free Cybercab faced a federal safety probe the day after entering Austin service. Four stories, one question: where does AI's ability to act meet the records humans need to verify it?",
+        "ja": "OpenAIは新モデルGPT-6 Astraでコンピューター・ユーズを前面に出す一方、同社のチーフサイエンティストは最先端モデルを人間が完全には理解できない知性と説明し、速度を抑える必要を訴えました。AnthropicのClaudeはフェルマーの最終定理をLeanで機械検証できる形にしましたが、成否を分けたのはモデル単体ではなく、人間の設計とエージェント協働の足場でした。まだ法律ではない法案が米下院に提出され、NISTにエージェント一覧と行動ログを含む標準を作らせ、安全性と信頼性を追跡・評価する方向を示しています。テスラのハンドルなしCybercabはオースティン投入の翌日に連邦安全調査を受けました。AIが一人で働く力と、人が結果を確かめる記録がどこで交わるのかを、四つのニュースから考えます。"
+      },
+      "openSourceLinks": [
+        {
+          "name": {
+            "ko": "Lean",
+            "en": "Lean",
+            "ja": "Lean"
+          },
+          "url": "https://lean-lang.org/",
+          "description": {
+            "ko": "수학 증명을 컴퓨터가 검증하도록 작성하는 오픈소스 언어입니다. 클로드의 페르마 마지막 정리 형식화에 사용됐습니다.",
+            "en": "An open-source language for writing mathematical proofs that computers can verify. It was used in Claude's formalization of Fermat's Last Theorem.",
+            "ja": "数学の証明をコンピューターが検証できる形で書くオープンソース言語です。Claudeによるフェルマーの最終定理の形式化に使われました。"
+          }
+        },
+        {
+          "name": {
+            "ko": "Prove2Me",
+            "en": "Prove2Me",
+            "ja": "Prove2Me"
+          },
+          "url": "https://github.com/prove2me/prove2me_workspace",
+          "description": {
+            "ko": "정리와 증명 작업을 그래프로 관리해 여러 에이전트의 수학 형식화를 돕는 오픈 협업 플랫폼입니다.",
+            "en": "An open collaborative platform that manages theorem and proof work as a graph for multi-agent mathematical formalization.",
+            "ja": "定理と証明の作業をグラフで管理し、複数エージェントによる数学の形式化を支援するオープンな協働プラットフォームです。"
+          }
+        }
+      ],
+      "audio": {
+        "ko": "/static/radio/episode-07-ko.mp3",
+        "en": "/static/radio/episode-07-en.mp3",
+        "ja": "/static/radio/episode-07-ja.mp3"
+      }
     }
   ],
-  "latest": 6
+  "latest": 7
 }
