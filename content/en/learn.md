@@ -17,6 +17,10 @@ tags:
 
 <div class="ewa-read-section">
 <div class="ewa-read-grid">
+<a class="ewa-read-card" href="/en/learn/hallucination-mechanics">
+<div class="ewa-read-card-title">How AI models "lie": the mechanics of hallucination</div>
+<p>Manufacturing plausible sources isn't a malfunction — it's how the model works. Why numbers and citations collapse first, and how to filter it in practice.</p>
+</a>
 <a class="ewa-read-card" href="/en/learn/multimodal-in-practice">
 <div class="ewa-read-card-title">What multimodal AI actually changes at work</div>
 <p>You can paste that screenshot as-is now. Uploading recordings and scans whole — and the traps, like misread digits, to watch for.</p>

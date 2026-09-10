@@ -17,6 +17,10 @@ tags:
 
 <div class="ewa-read-section">
 <div class="ewa-read-grid">
+<a class="ewa-read-card" href="/ja/learn/hallucination-mechanics">
+<div class="ewa-read-card-title">AIモデルが「嘘」をつく仕組み</div>
+<p>もっともらしい出典を作り出すのは故障ではなく、本来の動きです。ハルシネーションの原理と、数字・出典が特に崩れやすい理由、実務での除外方法。</p>
+</a>
 <a class="ewa-read-card" href="/ja/learn/multimodal-in-practice">
 <div class="ewa-read-card-title">マルチモーダルが実務で意味するもの</div>
 <p>表のスクリーンショットをそのまま貼れる時代です。録音やスキャン文書を丸ごと渡す働き方と、数字の誤読のような落とし穴を整理します。</p>

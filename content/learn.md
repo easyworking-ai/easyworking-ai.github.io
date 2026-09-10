@@ -17,6 +17,10 @@ tags:
 
 <div class="ewa-read-section">
 <div class="ewa-read-grid">
+<a class="ewa-read-card" href="/learn/hallucination-mechanics">
+<div class="ewa-read-card-title">AI 모델이 "거짓말"을 하는 구조</div>
+<p>없는 출처를 그럴듯하게 만들어 내는 건 고장이 아니라 원래의 작동 방식이다. 환각이 생기는 원리와 숫자·출처가 특히 잘 무너지는 이유, 걸러내는 방법.</p>
+</a>
 <a class="ewa-read-card" href="/learn/multimodal-in-practice">
 <div class="ewa-read-card-title">멀티모달이 실무에서 의미하는 것</div>
 <p>표 사진을 그냥 올려도 되는 시대다. 회의 녹음과 스캔 문서를 통째로 넘기는 업무 방식과, 숫자 오독 같은 함정을 짚는다.</p>
