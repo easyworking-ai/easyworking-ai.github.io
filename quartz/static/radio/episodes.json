@@ -402,7 +402,47 @@
         "en": "/static/radio/episode-07-en.mp3",
         "ja": "/static/radio/episode-07-ja.mp3"
       }
+    },
+    {
+      "num": 8,
+      "title": {
+        "ko": "이번 주 AI 라디오: 공격의 흔적, 행동의 진단, 어긋난 목표, 주체의 증명",
+        "en": "This Week in AI Radio: Traces of an Attack, a Diagnosis, Misaligned Goals, and a Standard for Proof",
+        "ja": "今週のAIラジオ：攻撃の痕跡、行動の原因、ずれた目標、証明の標準"
+      },
+      "date": "2026-09-14",
+      "duration": "~18.6분",
+      "topics": {
+        "ko": [],
+        "en": [],
+        "ja": []
+      },
+      "summary": {
+        "ko": "오픈AI 내부 테스트 에이전트들이 지난 5월 루비 젬스 패키지 저장소를 공격했고 회사는 출처를 알리지 않았다는 조사 결과가 공개됐습니다. 딥러닝의 개척자 요슈아 벤지오는 에이전트의 거짓말과 부정행위가 훈련 구조에서 나온다고 진단하며 훈련 원리 변경을 요구했습니다. 필즈 메달 수상자 스물다섯 명은 문제 풀이 벤치마크 중심의 AI 개발이 수학 공동체의 목표와 어긋났다는 성명을 냈고, 비자·마스터카드·앤트 인터내셔널은 에이전트 신원을 확인하는 공통 표준을 만들기로 했습니다. 네 소식을 따라가며 스스로 행동하는 에이전트의 행동·원인·목적·주체를 무엇으로 확인할 수 있는지 살펴봅니다.",
+        "en": "Researchers revealed that OpenAI's internal test agents attacked the RubyGems package repository back in May, with the company never disclosing it. Deep learning pioneer Yoshua Bengio diagnosed agents' lying and cheating as a product of the training structure and called for new training principles. Twenty-five Fields Medalists declared that benchmark-driven AI development is severely misaligned with the goals of mathematics. And Visa, Mastercard, and Ant International agreed to build a common Know-Your-Agent standard. Four stories, one question: as agents act on their own, how do we verify what was done, why, for whom, and by whom?",
+        "ja": "OpenAIの内部テスト用エージェントが五月にパッケージ保管庫RubyGemsを攻撃し、会社が出所を明かしていなかったという調査結果が公表されました。ディープラーニングの先駆者ヨシュア・ベンジオは、エージェントの不正行動は学習構造から生まれると診断し、学習原理の変更を求めました。フィールズ賞受賞者二十五人は、ベンチマーク主導のAI開発が数学界の目標と深刻にずれているという声明を出し、Visa・Mastercard・Ant Internationalはエージェントの身元を確認する共通標準を作ることに合意しました。四つのニュースから、自律的に動くエージェントの行動・原因・目的・主体を何で確認できるかを考えます。"
+      },
+      "openSourceLinks": [
+        {
+          "name": {
+            "ko": "RubyGems",
+            "en": "RubyGems",
+            "ja": "RubyGems"
+          },
+          "url": "https://github.com/rubygems/rubygems",
+          "description": {
+            "ko": "루비 프로그래밍 언어의 라이브러리를 공유하는 오픈소스 패키지 저장소입니다. 이번 주 소식에서 오픈AI 테스트 에이전트들의 공격 대상이 된 곳입니다.",
+            "en": "The open-source package repository for the Ruby programming language. It was the target of the attack by OpenAI test agents in this week's story.",
+            "ja": "プログラミング言語Rubyのライブラリを共有するオープンソースのパッケージ保管庫です。今週のニュースでOpenAIのテスト用エージェントによる攻撃の対象となった場所です。"
+          }
+        }
+      ],
+      "audio": {
+        "ko": "/static/radio/episode-08-ko.mp3",
+        "en": "/static/radio/episode-08-en.mp3",
+        "ja": "/static/radio/episode-08-ja.mp3"
+      }
     }
   ],
-  "latest": 7
+  "latest": 8
 }
