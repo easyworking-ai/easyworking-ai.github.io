@@ -23,6 +23,10 @@ tags:
 </div>
 </div>
 <div class="ewa-guide-grid">
+<a class="ewa-guide-card" href="/guides/ai-brainstorming">
+<div class="ewa-guide-card-title">AI 브레인스토밍, "아이디어 내줘"로 안 되는 이유</div>
+<p>흔한 답을 먼저 배제시키고 제약을 재료로 주는 브레인스토밍 프롬프트. 가설과 가장 싼 실험까지 붙여 받는 법.</p>
+</a>
 <a class="ewa-guide-card" href="/guides/pre-meeting-briefing">
 <div class="ewa-guide-card-title">회의 30분 전, AI에게 브리핑을 받는 법</div>
 <p>배경자료를 넘겨 질문 후보까지 뽑아주는 회의 전 브리핑 프롬프트. 준비된 사람의 차이는 질문의 정확도다.</p>

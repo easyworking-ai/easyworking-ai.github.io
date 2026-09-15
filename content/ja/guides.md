@@ -23,6 +23,10 @@ tags:
 </div>
 </div>
 <div class="ewa-guide-grid">
+<a class="ewa-guide-card" href="/ja/guides/ai-brainstorming">
+<div class="ewa-guide-card-title">AIブレインストーミングが「アイデアを出して」でうまくいかない理由</div>
+<p>ありきたりな答えを先に除外し、制約を材料として与えるブレインストーミング用プロンプト。仮説と最も安い実験まで付けて受け取る方法。</p>
+</a>
 <a class="ewa-guide-card" href="/ja/guides/pre-meeting-briefing">
 <div class="ewa-guide-card-title">会議の30分前、AIからブリーフィングを受ける方法</div>
 <p>背景資料を渡して質問候補まで引き出す会議前ブリーフィングのプロンプト。準備の差は質問の精度に出る。</p>
