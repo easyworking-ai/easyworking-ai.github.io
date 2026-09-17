@@ -17,6 +17,10 @@ tags:
 
 <div class="ewa-read-section">
 <div class="ewa-read-grid">
+<a class="ewa-read-card" href="/ja/learn/open-vs-closed-models">
+<div class="ewa-read-card-title">オープンソースモデルとクローズドモデル、どちらを選ぶか</div>
+<p>「自社サーバーで動かそう」が成立する条件は別にある。データ持ち出し制限、利用量、運用体制 — コスト・セキュリティ・性能が絡み合う選択基準を整理します。</p>
+</a>
 <a class="ewa-read-card" href="/ja/learn/hallucination-mechanics">
 <div class="ewa-read-card-title">AIモデルが「嘘」をつく仕組み</div>
 <p>もっともらしい出典を作り出すのは故障ではなく、本来の動きです。ハルシネーションの原理と、数字・出典が特に崩れやすい理由、実務での除外方法。</p>

@@ -17,6 +17,10 @@ tags:
 
 <div class="ewa-read-section">
 <div class="ewa-read-grid">
+<a class="ewa-read-card" href="/learn/open-vs-closed-models">
+<div class="ewa-read-card-title">오픈소스 모델과 클로즈드 모델, 우리는 무엇을 골라야 하나</div>
+<p>"우리 서버에 깔아서 쓰자"가 말이 되는 조건이 따로 있다. 데이터 반출 금지, 사용량, 운영 역량 — 비용·보안·성능이 맞물리는 선택 기준을 정리한다.</p>
+</a>
 <a class="ewa-read-card" href="/learn/hallucination-mechanics">
 <div class="ewa-read-card-title">AI 모델이 "거짓말"을 하는 구조</div>
 <p>없는 출처를 그럴듯하게 만들어 내는 건 고장이 아니라 원래의 작동 방식이다. 환각이 생기는 원리와 숫자·출처가 특히 잘 무너지는 이유, 걸러내는 방법.</p>

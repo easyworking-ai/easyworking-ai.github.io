@@ -17,6 +17,10 @@ tags:
 
 <div class="ewa-read-section">
 <div class="ewa-read-grid">
+<a class="ewa-read-card" href="/en/learn/open-vs-closed-models">
+<div class="ewa-read-card-title">Open-source vs. closed models: what should we choose?</div>
+<p>"Let's run it on our own servers" only makes sense under certain conditions. Data restrictions, usage volume, and operating capacity — how cost, security, and performance fit together.</p>
+</a>
 <a class="ewa-read-card" href="/en/learn/hallucination-mechanics">
 <div class="ewa-read-card-title">How AI models "lie": the mechanics of hallucination</div>
 <p>Manufacturing plausible sources isn't a malfunction — it's how the model works. Why numbers and citations collapse first, and how to filter it in practice.</p>
