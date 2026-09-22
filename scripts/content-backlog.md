@@ -26,7 +26,7 @@
 | 4 | 08-25 | ✅ published 09-01 | `translation-prompt.md` | 영문 이메일 번역이 "번역투"가 되는 이유 | 직역이 아니라 의도와 관계를 전달하는 프롬프트 |
 | 5 | 09-01 | ✅ published 09-08 | `pre-meeting-briefing.md` | 회의 전 AI에게 줄 자료 정리법 | 배경지료 → 질문 리스트 자동 생성 |
 | 6 | 09-08 | ✅ published 09-15 | `ai-brainstorming.md` | AI에게 브레인스토밍을 시키는 올바른 방법 | "아이디어 내줘" 실패 원인과 제약 기반 발산 |
-| 7 | 09-15 | ⬜ pending | `long-document-qa.md` | 긴 문서를 AI에게 읽히고 질문하는 법 | 문서 분할 + 컨텍스트 윈도우 한계 대응 |
+| 7 | 09-15 | ✅ published 09-23 | `long-document-qa.md` | 긴 문서를 AI에게 읽히고 질문하는 법 | 문서 분할 + 컨텍스트 윈도우 한계 대응 |
 | 8 | 09-22 | ⬜ pending | `share-ai-output.md` | AI 작업 결과를 팀에 공유하는 형식 | 산출물 → 검증 근거 → 한계 명시 |
 
 ## 개념·트렌드 해설 (목요일 · learn/)

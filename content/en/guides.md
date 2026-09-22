@@ -23,6 +23,10 @@ tags:
 </div>
 </div>
 <div class="ewa-guide-grid">
+<a class="ewa-guide-card" href="/en/guides/long-document-qa">
+<div class="ewa-guide-card-title">How to get AI to read a 100-page document</div>
+<p>A document-QA prompt that builds a map first and rereads only the relevant sections — mandatory verbatim citations filter out invented answers.</p>
+</a>
 <a class="ewa-guide-card" href="/en/guides/ai-brainstorming">
 <div class="ewa-guide-card-title">Why "give me ideas" fails with AI brainstorming</div>
 <p>A brainstorming prompt that excludes the obvious first and treats constraints as material — every idea ships with a hypothesis and a cheap test.</p>

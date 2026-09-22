@@ -23,6 +23,10 @@ tags:
 </div>
 </div>
 <div class="ewa-guide-grid">
+<a class="ewa-guide-card" href="/ja/guides/long-document-qa">
+<div class="ewa-guide-card-title">100ページの文書をAIに読ませる方法</div>
+<p>丸ごと貼り付けず、先に地図を作って関連部分だけを読み直させる文書質問プロンプト。根拠引用でのでっち上げをふるい落とす。</p>
+</a>
 <a class="ewa-guide-card" href="/ja/guides/ai-brainstorming">
 <div class="ewa-guide-card-title">AIブレインストーミングが「アイデアを出して」でうまくいかない理由</div>
 <p>ありきたりな答えを先に除外し、制約を材料として与えるブレインストーミング用プロンプト。仮説と最も安い実験まで付けて受け取る方法。</p>

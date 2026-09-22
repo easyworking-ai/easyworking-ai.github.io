@@ -23,6 +23,10 @@ tags:
 </div>
 </div>
 <div class="ewa-guide-grid">
+<a class="ewa-guide-card" href="/guides/long-document-qa">
+<div class="ewa-guide-card-title">100페이지 문서를 AI에게 읽히는 법</div>
+<p>통째로 붙여넣지 않고 지도를 먼저 만들고 관련 부분만 다시 읽히는 문서 질의 프롬프트. 근거 인용으로 지어낸 답을 걸러낸다.</p>
+</a>
 <a class="ewa-guide-card" href="/guides/ai-brainstorming">
 <div class="ewa-guide-card-title">AI 브레인스토밍, "아이디어 내줘"로 안 되는 이유</div>
 <p>흔한 답을 먼저 배제시키고 제약을 재료로 주는 브레인스토밍 프롬프트. 가설과 가장 싼 실험까지 붙여 받는 법.</p>
