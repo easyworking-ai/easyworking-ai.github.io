@@ -52,6 +52,8 @@ Document (1/4):
 
 After four runs you have a map of the whole document. This is the first point where you actually know which chapter holds what.
 
+A few details decide the outcome. Write "what I want to know" as the same sentence across all four chunks — only then can you pool each chunk's "3 most relevant chapters" and compare them. Ask for start positions as page numbers, so in step 2 you can open the document straight to the excerpt. If one chunk runs unusually long, don't force a four-way split; subdivide that chapter instead. A map littered with half-chapters just makes navigation confusing later.
+
 ### Step 2 — Reread only the relevant part and ask
 
 From the map, pick only the chapters relevant to your question and paste them into a fresh conversation.
@@ -80,6 +82,10 @@ First, **you narrowed what gets read**. Only the chapters tied to the question a
 Second, **citations are mandatory**. Every answer carries the original sentence, so you can verify it against the document later.
 
 Third, **AI is allowed to say it's not there**. Given a question, AI tends to produce an answer. Allowing "not in this part" makes fabrication visibly rarer.
+
+Ask one question at a time. Stack three and AI blurs the boundaries into one blob of an answer. When things that live in different chapters — eligibility and deadlines, say — get mixed inside one answer, you later have to sort out which claim rests on which chapter's evidence before you can verify citations. Rushing is slower.
+
+Starting a fresh conversation serves the same purpose. If the earlier map and summaries are still in context, AI pulls them in as evidence. To keep the excerpt as the only source, clear the conversation first.
 
 ## Review checklist
 
@@ -121,3 +127,5 @@ Excerpt B:
 A human decides where to cut. Documents with clear chapters are easy; a scanned file with no table of contents forces you to judge the split points first. If it's a scanned image PDF, text extraction comes before everything, and poor extraction shakes every step after it.
 
 Citations can be wrong too. AI is capable of producing sentences that read like quotes but don't exist. That's why the first checklist item is searching for the quote. And if the thing you're looking for is defined badly, both the map and the excerpts head the wrong way. You only got faster reading — deciding what to look for stays your job.
+
+The volume limit is real as well. Split a hundred-page document into five chunks and the mapping stage alone is five conversations; excerpt questions add two or three more. Compared with one paste and one answer, that's more hands-on work. In exchange, every answer carries evidence, which cuts the risk of walking into a meeting holding a wrong conclusion. For a ten-page document with a single question, this procedure is overkill — paste it whole and demand citations.
