@@ -17,6 +17,10 @@ tags:
 
 <div class="ewa-read-section">
 <div class="ewa-read-grid">
+<a class="ewa-read-card" href="/learn/agent-failure-cases">
+<div class="ewa-read-card-title">에이전트 도입이 무너지는 다섯 지점</div>
+<p>"알아서 하라고 맡겼는데 왜 다시 손으로 하나요?" 두 달 만에 수작업으로 돌아간 팀들이 반복하는 안티패턴 다섯 가지와 예방책.</p>
+</a>
 <a class="ewa-read-card" href="/learn/open-vs-closed-models">
 <div class="ewa-read-card-title">오픈소스 모델과 클로즈드 모델, 우리는 무엇을 골라야 하나</div>
 <p>"우리 서버에 깔아서 쓰자"가 말이 되는 조건이 따로 있다. 데이터 반출 금지, 사용량, 운영 역량 — 비용·보안·성능이 맞물리는 선택 기준을 정리한다.</p>

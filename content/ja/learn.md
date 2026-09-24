@@ -17,6 +17,10 @@ tags:
 
 <div class="ewa-read-section">
 <div class="ewa-read-grid">
+<a class="ewa-read-card" href="/ja/learn/agent-failure-cases">
+<div class="ewa-read-card-title">エージェント導入が崩れる五つのポイント</div>
+<p>「うまくいっていたのに、なぜやめたの？」 二か月で手作業に戻ったチームが繰り返す五つのアンチパターンと予防策。</p>
+</a>
 <a class="ewa-read-card" href="/ja/learn/open-vs-closed-models">
 <div class="ewa-read-card-title">オープンソースモデルとクローズドモデル、どちらを選ぶか</div>
 <p>「自社サーバーで動かそう」が成立する条件は別にある。データ持ち出し制限、利用量、運用体制 — コスト・セキュリティ・性能が絡み合う選択基準を整理します。</p>

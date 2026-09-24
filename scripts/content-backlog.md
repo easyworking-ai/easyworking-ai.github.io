@@ -39,7 +39,7 @@
 | 4 | 08-28 | ✅ published 09-03 | `multimodal-in-practice.md` | 멀티모달이 실무에서 의미하는 것 | 이미지·음성 입력이 바꾸는 업무 방식 |
 | 5 | 09-04 | ✅ published 09-10 | `hallucination-mechanics.md` | AI 모델이 "거짓말"을 하는 구조 | 환각의 원리와 실무 대응 |
 | 6 | 09-11 | ✅ published 09-17 | `open-vs-closed-models.md` | 오픈소스 vs 클로즈드 모델 — 선택 기준 | 비용·보안·성능 트레이드오프 |
-| 7 | 09-18 | ⬜ pending | `agent-failure-cases.md` | AI 에이전트 도입 실패 케이스 5가지 | 실제 사례에서 배우는 안티패턴 |
+| 7 | 09-18 | ✅ published 09-24 | `agent-failure-cases.md` | AI 에이전트 도입 실패 케이스 5가지 | 실제 사례에서 배우는 안티패턴 |
 | 8 | 09-25 | ⬜ pending | `beyond-benchmarks.md` | AI 도구를 고르는 기준 — 벤치마크 다음 | 실무 성능과 벤치마크 점수의 괴리 |
 
 ---

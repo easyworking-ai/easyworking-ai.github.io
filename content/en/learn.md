@@ -17,6 +17,10 @@ tags:
 
 <div class="ewa-read-section">
 <div class="ewa-read-grid">
+<a class="ewa-read-card" href="/en/learn/agent-failure-cases">
+<div class="ewa-read-card-title">Where agent adoption breaks down</div>
+<p>"It worked well—so why did you stop?" Five anti-patterns repeated by teams that went back to manual work within two months, and how to prevent each one.</p>
+</a>
 <a class="ewa-read-card" href="/en/learn/open-vs-closed-models">
 <div class="ewa-read-card-title">Open-source vs. closed models: what should we choose?</div>
 <p>"Let's run it on our own servers" only makes sense under certain conditions. Data restrictions, usage volume, and operating capacity — how cost, security, and performance fit together.</p>
