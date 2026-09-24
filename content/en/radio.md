@@ -37,7 +37,17 @@ tags:
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
 <source id="ep-source" src="/static/radio/episode-09-en.mp3" type="audio/mpeg">
 </audio>
-<div id="ep-links" class="ewa-radio-links" aria-live="polite" hidden></div>
+<div id="ep-links" class="ewa-radio-links" aria-live="polite">
+<div class="ewa-radio-links-title">Open-source projects mentioned</div>
+<ul>
+<li><a href="https://github.com/QwenLM/Qwen-Image-2.1" target="_blank" rel="noopener noreferrer">Qwen-Image-2.1 (GitHub)</a><span>Alibaba Qwen team&#x27;s open-weight image generation &amp; editing model — code, examples, guides</span></li>
+<li><a href="https://huggingface.co/Qwen/Qwen-Image-2.1" target="_blank" rel="noopener noreferrer">Qwen-Image-2.1 (Hugging Face)</a><span>Weights download — note the non-commercial Qwen Research License terms</span></li>
+<li><a href="https://www.typesafe.ai" target="_blank" rel="noopener noreferrer">TypeSafe AI — Jev</a><span>Official site of Jev, the decision-only System One model — API docs &amp; benchmarks</span></li>
+<li><a href="https://docs.litellm.ai/docs/pass_through/typesafe" target="_blank" rel="noopener noreferrer">LiteLLM — TypeSafe (Jev) integration docs</a><span>How to use Jev through the open-source LiteLLM gateway</span></li>
+<li><a href="https://openai.com/index/model-misalignment-reporting-framework/" target="_blank" rel="noopener noreferrer">OpenAI — Model misalignment reporting framework</a><span>The six cases and the reporting framework, primary source</span></li>
+<li><a href="https://openai.com/index/introducing-gpt-6-sol-and-luna/" target="_blank" rel="noopener noreferrer">OpenAI — Introducing GPT-6 Sol and Luna</a><span>Primary source on the price cuts</span></li>
+</ul>
+</div>
 </div>
 </section>
 <section class="ewa-radio-archive">

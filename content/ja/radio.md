@@ -37,7 +37,17 @@ tags:
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
 <source id="ep-source" src="/static/radio/episode-09-ja.mp3" type="audio/mpeg">
 </audio>
-<div id="ep-links" class="ewa-radio-links" aria-live="polite" hidden></div>
+<div id="ep-links" class="ewa-radio-links" aria-live="polite">
+<div class="ewa-radio-links-title">番組で紹介したオープンソース・開発プロジェクト</div>
+<ul>
+<li><a href="https://github.com/QwenLM/Qwen-Image-2.1" target="_blank" rel="noopener noreferrer">Qwen-Image-2.1 (GitHub)</a><span>アリババQwenチームのオープンウェイト画像生成・編集モデル — コード・例・ガイド</span></li>
+<li><a href="https://huggingface.co/Qwen/Qwen-Image-2.1" target="_blank" rel="noopener noreferrer">Qwen-Image-2.1 (Hugging Face)</a><span>重みのダウンロード — 非商用のQwen Research License条件に注意</span></li>
+<li><a href="https://www.typesafe.ai" target="_blank" rel="noopener noreferrer">TypeSafe AI — Jev</a><span>決定専用System OneモデルJevの公式サイト — API資料・ベンチマーク</span></li>
+<li><a href="https://docs.litellm.ai/docs/pass_through/typesafe" target="_blank" rel="noopener noreferrer">LiteLLM — TypeSafe(Jev)連携ドキュメント</a><span>オープンソースゲートウェイLiteLLMでJevを使う方法</span></li>
+<li><a href="https://openai.com/index/model-misalignment-reporting-framework/" target="_blank" rel="noopener noreferrer">OpenAI — モデル不整合報告フレームワーク</a><span>六つの事例と報告枠組みの一次資料</span></li>
+<li><a href="https://openai.com/index/introducing-gpt-6-sol-and-luna/" target="_blank" rel="noopener noreferrer">OpenAI — GPT-6 Sol・Luna発表</a><span>値下げの一次資料</span></li>
+</ul>
+</div>
 </div>
 </section>
 <section class="ewa-radio-archive">

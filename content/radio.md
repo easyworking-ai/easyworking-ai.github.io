@@ -37,7 +37,17 @@ tags:
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
 <source id="ep-source" src="/static/radio/episode-09-ko.mp3" type="audio/mpeg">
 </audio>
-<div id="ep-links" class="ewa-radio-links" aria-live="polite" hidden></div>
+<div id="ep-links" class="ewa-radio-links" aria-live="polite">
+<div class="ewa-radio-links-title">방송에서 언급한 오픈소스·개발 프로젝트</div>
+<ul>
+<li><a href="https://github.com/QwenLM/Qwen-Image-2.1" target="_blank" rel="noopener noreferrer">Qwen-Image-2.1 (GitHub)</a><span>알리바바 큐웬 팀의 오픈 웨이트 이미지 생성·편집 모델 — 코드·예제·가이드</span></li>
+<li><a href="https://huggingface.co/Qwen/Qwen-Image-2.1" target="_blank" rel="noopener noreferrer">Qwen-Image-2.1 (Hugging Face)</a><span>가중치 다운로드 — Qwen Research License(비상업) 조건 확인 필수</span></li>
+<li><a href="https://www.typesafe.ai" target="_blank" rel="noopener noreferrer">TypeSafe AI — Jev</a><span>결정 전용 System One 모델 제브 공식 — API 문서·벤치마크</span></li>
+<li><a href="https://docs.litellm.ai/docs/pass_through/typesafe" target="_blank" rel="noopener noreferrer">LiteLLM — TypeSafe(Jev) 연동 문서</a><span>오픈소스 게이트웨이 LiteLLM에서 제브를 쓰는 방법</span></li>
+<li><a href="https://openai.com/index/model-misalignment-reporting-framework/" target="_blank" rel="noopener noreferrer">OpenAI — 모델 부정렬 보고 프레임워크</a><span>여섯 사례와 보고 체계 원문</span></li>
+<li><a href="https://openai.com/index/introducing-gpt-6-sol-and-luna/" target="_blank" rel="noopener noreferrer">OpenAI — GPT-6 Sol·Luna 발표</a><span>가격 인하 전문 원문</span></li>
+</ul>
+</div>
 </div>
 </section>
 <section class="ewa-radio-archive">
