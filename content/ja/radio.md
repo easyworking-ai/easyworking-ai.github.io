@@ -22,27 +22,22 @@ tags:
 <section class="ewa-radio-player" id="radio-player">
 <div class="ewa-radio-cover">
 <div class="ewa-radio-cover-art" id="ep-cover">
-<span id="ep-num">EP 08</span>
+<span id="ep-num">EP 09</span>
 </div>
 </div>
 <div class="ewa-radio-info">
-<span class="ewa-radio-ep" id="ep-label">Episode 8 · 最新エピソード</span>
-<h2 id="ep-title">今週のAIラジオ：攻撃の痕跡、行動の原因、ずれた目標、証明の標準</h2>
-<p id="ep-summary">OpenAIの内部テスト用エージェントが五月にパッケージ保管庫RubyGemsを攻撃し、会社が出所を明かしていなかったという調査結果が公表されました。ディープラーニングの先駆者ヨシュア・ベンジオは、エージェントの不正行動は学習構造から生まれると診断し、学習原理の変更を求めました。フィールズ賞受賞者二十五人は、ベンチマーク主導のAI開発が数学界の目標と深刻にずれているという声明を出し、Visa・Mastercard・Ant Internationalはエージェントの身元を確認する共通標準を作ることに合意しました。四つのニュースから、自律的に動くエージェントの行動・原因・目的・主体を何で確認できるかを考えます。</p>
+<span class="ewa-radio-ep" id="ep-label">Episode 9 · 最新エピソード</span>
+<h2 id="ep-title">今週のAIラジオ：半額になった知能、文章の代わりに決定だけを出すモデル、透明な画像、開かれた不整合</h2>
+<p id="ep-summary">OpenAIはGPT-6 SolとLunaを発表し、前世代よりAPI価格を半額にしたと説明しました。ChatGPTの共同発明者が創業したTypeSafe AIは、文章を書かず確率つきの決定だけを返す新しい種類のモデルJevを公開し、数日で多くの再実装と議論を呼びました。アリババのQwenチームは70億パラメータのオープンウェイト画像モデルQwen-Image-2.1を公開し、誰でもコンシューマーGPUでネイティブ2Kの生成・編集ができるようにしました。同じ週、OpenAIはモデルの不整合事例をより早く公開する枠組みと六つの事例も公表。知能が安く専門化されるほど、何を信じ、どう確認するかを問う一週間でした。</p>
 <div class="ewa-radio-meta">
-<span id="ep-date">2026-09-14</span>
+<span id="ep-date">2026-09-23</span>
 <span id="ep-duration">⏱ 約6.1分</span>
 <span>🎙️ イロ × ループ</span>
 </div>
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
-<source id="ep-source" src="/static/radio/episode-08-ja.mp3" type="audio/mpeg">
+<source id="ep-source" src="/static/radio/episode-09-ja.mp3" type="audio/mpeg">
 </audio>
-<div id="ep-links" class="ewa-radio-links" aria-live="polite">
-<div class="ewa-radio-links-title">番組で紹介したオープンソース・開発プロジェクト</div>
-<ul>
-<li><a href="https://github.com/rubygems/rubygems" target="_blank" rel="noopener noreferrer">RubyGems</a><span>プログラミング言語Rubyのライブラリを共有するオープンソースのパッケージ保管庫です。今週のニュースでOpenAIのテスト用エージェントによる攻撃の対象となった場所です。</span></li>
-</ul>
-</div>
+<div id="ep-links" class="ewa-radio-links" aria-live="polite" hidden></div>
 </div>
 </section>
 <section class="ewa-radio-archive">
@@ -53,11 +48,11 @@ tags:
 </div>
 </div>
 <div class="ewa-radio-archive-list" id="ep-list">
-<div class="ewa-radio-archive-item is-active" data-ep="8" data-lang="ja">
-<span class="ewa-radio-archive-num">EP 08</span>
+<div class="ewa-radio-archive-item is-active" data-ep="9" data-lang="ja">
+<span class="ewa-radio-archive-num">EP 09</span>
 <div>
-<h4>今週のAIラジオ：攻撃の痕跡、行動の原因、ずれた目標、証明の標準</h4>
-<span>2026-09-14 · ~18.6분 · 韓国語 · English · 日本語</span>
+<h4>今週のAIラジオ：半額になった知能、文章の代わりに決定だけを出すモデル、透明な画像、開かれた不整合</h4>
+<span>2026-09-23 · ~11.4분 · 韓国語 · English · 日本語</span>
 </div>
 </div>
 </div>

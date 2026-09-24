@@ -442,7 +442,33 @@
         "en": "/static/radio/episode-08-en.mp3",
         "ja": "/static/radio/episode-08-ja.mp3"
       }
+    },
+    {
+      "num": 9,
+      "title": {
+        "ko": "이번 주 AI 라디오: 절반으로 떨어진 가격, 문장 대신 결정만 내리는 모델, 투명해진 이미지, 드러난 부정렬",
+        "en": "This Week in AI Radio: Half-Price Intelligence, a Model That Decides Instead of Writes, Transparent Images, and Disclosed Misalignment",
+        "ja": "今週のAIラジオ：半額になった知能、文章の代わりに決定だけを出すモデル、透明な画像、開かれた不整合"
+      },
+      "date": "2026-09-23",
+      "duration": "~11.4분",
+      "topics": {
+        "ko": [],
+        "en": [],
+        "ja": []
+      },
+      "summary": {
+        "ko": "오픈AI는 GPT-6 솔과 루나를 내놓으며 이전 세대 대비 에이피아이 가격을 절반으로 낮췄다고 발표했습니다. 챗지피티 공동 발명자가 창업한 타입세이프 에이아이는 문장을 쓰지 않고 확률로 된 결정만 돌려주는 새로운 형태의 모델 제브를 공개해 이틀 만에 수많은 복제와 논쟁을 불렀습니다. 알리바바 큐웨팀은 일곱십억 매개변수의 오픈 웨이트 이미지 모델 큐웬 이미지 이점일을 열어 누구나 소비자용 그래픽카드로 이천 해상도 생성과 편집을 할 수 있게 했습니다. 같은 주 오픈AI는 모델의 부정렬 행동을 더 빨리 공개하겠다는 보고 체계와 여섯 건의 사례를 공개했습니다. 지능이 싸지고 전문화될수록, 무엇을 믿고 어떻게 확인할지 묻는 한 주였습니다.",
+        "en": "OpenAI introduced GPT-6 Sol and Luna, saying their API prices are half those of the previous generation. TypeSafe AI, founded by a co-inventor of ChatGPT, released Jev, a new kind of model that returns calibrated decisions instead of writing text, triggering clones and debate within days. Alibaba's Qwen team open-sourced Qwen-Image-2.1, a 7-billion-parameter image model that generates and edits at native 2K with real transparency on consumer GPUs. And OpenAI published a framework for disclosing model-misalignment cases, alongside six examples. As intelligence gets cheaper and more specialized, this week asked what to trust and how to verify it.",
+        "ja": "OpenAIはGPT-6 SolとLunaを発表し、前世代よりAPI価格を半額にしたと説明しました。ChatGPTの共同発明者が創業したTypeSafe AIは、文章を書かず確率つきの決定だけを返す新しい種類のモデルJevを公開し、数日で多くの再実装と議論を呼びました。アリババのQwenチームは70億パラメータのオープンウェイト画像モデルQwen-Image-2.1を公開し、誰でもコンシューマーGPUでネイティブ2Kの生成・編集ができるようにしました。同じ週、OpenAIはモデルの不整合事例をより早く公開する枠組みと六つの事例も公表。知能が安く専門化されるほど、何を信じ、どう確認するかを問う一週間でした。"
+      },
+      "openSourceLinks": [],
+      "audio": {
+        "ko": "/static/radio/episode-09-ko.mp3",
+        "en": "/static/radio/episode-09-en.mp3",
+        "ja": "/static/radio/episode-09-ja.mp3"
+      }
     }
   ],
-  "latest": 8
+  "latest": 9
 }
