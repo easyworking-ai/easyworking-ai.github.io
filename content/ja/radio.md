@@ -40,12 +40,12 @@ tags:
 <div id="ep-links" class="ewa-radio-links" aria-live="polite">
 <div class="ewa-radio-links-title">番組で紹介したオープンソース・開発プロジェクト</div>
 <ul>
-<li><a href="https://github.com/QwenLM/Qwen-Image-2.1" target="_blank" rel="noopener noreferrer">Qwen-Image-2.1 (GitHub)</a><span>アリババQwenチームのオープンウェイト画像生成・編集モデル — コード・例・ガイド</span></li>
-<li><a href="https://huggingface.co/Qwen/Qwen-Image-2.1" target="_blank" rel="noopener noreferrer">Qwen-Image-2.1 (Hugging Face)</a><span>重みのダウンロード — 非商用のQwen Research License条件に注意</span></li>
-<li><a href="https://www.typesafe.ai" target="_blank" rel="noopener noreferrer">TypeSafe AI — Jev</a><span>決定専用System OneモデルJevの公式サイト — API資料・ベンチマーク</span></li>
-<li><a href="https://docs.litellm.ai/docs/pass_through/typesafe" target="_blank" rel="noopener noreferrer">LiteLLM — TypeSafe(Jev)連携ドキュメント</a><span>オープンソースゲートウェイLiteLLMでJevを使う方法</span></li>
+<li><a href="https://github.com/QwenLM/Qwen-Image-2.1" target="_blank" rel="noopener noreferrer">Qwen-Image-2.1 — GitHubリポジトリ</a><span>公式コード・例・アーキテクチャ文書 — 7B単一ストリームDiT(32層)、Qwen3-VL 8Bエンコーダ、64ch RGBA VAE(16倍圧縮)の構造とメモリ最適化ガイド</span></li>
+<li><a href="https://recipes.vllm.ai/Qwen/Qwen-Image-2.1" target="_blank" rel="noopener noreferrer">vLLM Recipes — Qwen-Image-2.1運用ガイド</a><span>テンソル・シーケンス並列、FP8量子化(ピークメモリ41→28GiB)、分散VAEデコード、CPUオフロード — 実運用レシピ</span></li>
+<li><a href="https://flaviocopes.com/jev/" target="_blank" rel="noopener noreferrer">Jev深掘り分析 — Flavio Copes</a><span>なぜ「賢いif文」なのか — Noul/Choice/Scoreの三プリミティブ、並列評価、RLCD較正学習、32Kトークン制約まで開発者視点で解剖</span></li>
+<li><a href="https://a2aprotocol.ai/insights/2026-jev-system-one-model-guide" target="_blank" rel="noopener noreferrer">Jev完全ガイド — カーネマンから実戦まで</a><span>System 1/2の枠組み、決定あたり444倍安い・193倍速いという主張の検証、Cloudflare Workers AI・OpenRouter・LangChainの実戦連携コード</span></li>
+<li><a href="https://www.marktechpost.com/2026/09/21/alibaba-qwen-releases-qwen-image-2-1/" target="_blank" rel="noopener noreferrer">Qwen-Image-2.1技術分析 — MarkTechPost</a><span>20B→7B縮小の意味 — 32層単一ストリームDiT、128x128潜在グリッド、RGBAプロンプトの書き方などアーキテクチャ中心の解説</span></li>
 <li><a href="https://openai.com/index/model-misalignment-reporting-framework/" target="_blank" rel="noopener noreferrer">OpenAI — モデル不整合報告フレームワーク</a><span>六つの事例と報告枠組みの一次資料</span></li>
-<li><a href="https://openai.com/index/introducing-gpt-6-sol-and-luna/" target="_blank" rel="noopener noreferrer">OpenAI — GPT-6 Sol・Luna発表</a><span>値下げの一次資料</span></li>
 </ul>
 </div>
 </div>

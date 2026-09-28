@@ -40,12 +40,12 @@ tags:
 <div id="ep-links" class="ewa-radio-links" aria-live="polite">
 <div class="ewa-radio-links-title">Open-source projects mentioned</div>
 <ul>
-<li><a href="https://github.com/QwenLM/Qwen-Image-2.1" target="_blank" rel="noopener noreferrer">Qwen-Image-2.1 (GitHub)</a><span>Alibaba Qwen team&#x27;s open-weight image generation &amp; editing model — code, examples, guides</span></li>
-<li><a href="https://huggingface.co/Qwen/Qwen-Image-2.1" target="_blank" rel="noopener noreferrer">Qwen-Image-2.1 (Hugging Face)</a><span>Weights download — note the non-commercial Qwen Research License terms</span></li>
-<li><a href="https://www.typesafe.ai" target="_blank" rel="noopener noreferrer">TypeSafe AI — Jev</a><span>Official site of Jev, the decision-only System One model — API docs &amp; benchmarks</span></li>
-<li><a href="https://docs.litellm.ai/docs/pass_through/typesafe" target="_blank" rel="noopener noreferrer">LiteLLM — TypeSafe (Jev) integration docs</a><span>How to use Jev through the open-source LiteLLM gateway</span></li>
+<li><a href="https://github.com/QwenLM/Qwen-Image-2.1" target="_blank" rel="noopener noreferrer">Qwen-Image-2.1 — GitHub repository</a><span>Official code, examples, and architecture docs — 7B single-stream DiT (32 layers), Qwen3-VL 8B encoder, 64-ch RGBA VAE (16x compression), plus memory-optimization guides</span></li>
+<li><a href="https://recipes.vllm.ai/Qwen/Qwen-Image-2.1" target="_blank" rel="noopener noreferrer">vLLM Recipes — Qwen-Image-2.1 ops guide</a><span>Tensor &amp; sequence parallelism, FP8 quantization (peak memory 41 to 28GiB), distributed VAE decoding, CPU offloading — a practical serving recipe</span></li>
+<li><a href="https://flaviocopes.com/jev/" target="_blank" rel="noopener noreferrer">A deep dive into Jev — Flavio Copes</a><span>Why it is a smart if-statement — the Noul/Choice/Score primitives, parallel evaluation, RLCD calibration training, and the 32K-token constraints, dissected for developers</span></li>
+<li><a href="https://a2aprotocol.ai/insights/2026-jev-system-one-model-guide" target="_blank" rel="noopener noreferrer">The complete Jev guide — from Kahneman to production</a><span>System 1/2 framing, the 444x-cheaper/193x-faster claims examined, with working code for Cloudflare Workers AI, OpenRouter, and LangChain</span></li>
+<li><a href="https://www.marktechpost.com/2026/09/21/alibaba-qwen-releases-qwen-image-2-1/" target="_blank" rel="noopener noreferrer">Qwen-Image-2.1 technical breakdown — MarkTechPost</a><span>What the 20B-to-7B cut means — 32-layer single-stream DiT, the 128x128 latent grid, RGBA prompt craft, an architecture-first walkthrough</span></li>
 <li><a href="https://openai.com/index/model-misalignment-reporting-framework/" target="_blank" rel="noopener noreferrer">OpenAI — Model misalignment reporting framework</a><span>The six cases and the reporting framework, primary source</span></li>
-<li><a href="https://openai.com/index/introducing-gpt-6-sol-and-luna/" target="_blank" rel="noopener noreferrer">OpenAI — Introducing GPT-6 Sol and Luna</a><span>Primary source on the price cuts</span></li>
 </ul>
 </div>
 </div>
