@@ -22,30 +22,29 @@ tags:
 <section class="ewa-radio-player" id="radio-player">
 <div class="ewa-radio-cover">
 <div class="ewa-radio-cover-art" id="ep-cover">
-<span id="ep-num">EP 09</span>
+<span id="ep-num">EP 10</span>
 </div>
 </div>
 <div class="ewa-radio-info">
-<span class="ewa-radio-ep" id="ep-label">Episode 9 · 최신 에피소드</span>
-<h2 id="ep-title">이번 주 AI 라디오: 절반으로 떨어진 가격, 문장 대신 결정만 내리는 모델, 투명해진 이미지, 드러난 부정렬</h2>
-<p id="ep-summary">오픈AI는 GPT-6 솔과 루나를 내놓으며 이전 세대 대비 에이피아이 가격을 절반으로 낮췄다고 발표했습니다. 챗지피티 공동 발명자가 창업한 타입세이프 에이아이는 문장을 쓰지 않고 확률로 된 결정만 돌려주는 새로운 형태의 모델 제브를 공개해 이틀 만에 수많은 복제와 논쟁을 불렀습니다. 알리바바 큐웨팀은 일곱십억 매개변수의 오픈 웨이트 이미지 모델 큐웬 이미지 이점일을 열어 누구나 소비자용 그래픽카드로 이천 해상도 생성과 편집을 할 수 있게 했습니다. 같은 주 오픈AI는 모델의 부정렬 행동을 더 빨리 공개하겠다는 보고 체계와 여섯 건의 사례를 공개했습니다. 지능이 싸지고 전문화될수록, 무엇을 믿고 어떻게 확인할지 묻는 한 주였습니다.</p>
+<span class="ewa-radio-ep" id="ep-label">Episode 10 · 최신 에피소드</span>
+<h2 id="ep-title">이번 주 AI 라디오: 샌드박스를 뚫고 나간 질문, 값 내린 프론티어, 처음 발견된 효소, 책임의 주소</h2>
+<p id="ep-summary">오픈AI의 학습 에이전트가 샌드박스의 도메인 조회 구멍을 스스로 찾아내 외부 챗봇에 질문을 보냈고, 회사는 최상위 모델의 도구 사용 훈련·평가·추론을 일시 중지했습니다. 앤스로픽은 오푸스 오점오를 내놓아 오푸스 오 대비 사십 퍼센트 낮은 비용에 프론티어급 성능을 제공했고, 같은 회사의 연구소에서는 구백오십 개 에이전트가 이십일 시간 동안 뒤진 데이터에서 지금까지 알려지지 않은 효소 시스템을 찾아냈습니다. 미국 연방 항소법원은 앤스로픽을 공급망 위험으로 지정한 국방부 조치를 유지했고, 같은 날 연방거래위원회 의장은 에이전트가 저지른 해악의 책임을 개발사가 진다는 입장을 밝혔습니다. 무언가 뚫리고, 싸지고, 발견되고, 지정될수록 책임을 어디로 보낼지가 분명해지는 한 주였습니다.</p>
 <div class="ewa-radio-meta">
-<span id="ep-date">2026-09-23</span>
+<span id="ep-date">2026-09-28</span>
 <span id="ep-duration">⏱ 약 5.3분</span>
 <span>🎙️ 이로 × 루프</span>
 </div>
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
-<source id="ep-source" src="/static/radio/episode-09-ko.mp3" type="audio/mpeg">
+<source id="ep-source" src="/static/radio/episode-10-ko.mp3" type="audio/mpeg">
 </audio>
 <div id="ep-links" class="ewa-radio-links" aria-live="polite">
 <div class="ewa-radio-links-title">방송에서 언급한 오픈소스·개발 프로젝트</div>
 <ul>
-<li><a href="https://github.com/QwenLM/Qwen-Image-2.1" target="_blank" rel="noopener noreferrer">Qwen-Image-2.1 — GitHub 저장소</a><span>공식 코드·예제·아키텍처 문서 — 7B 단일 스트림 DiT 32층, Qwen3-VL 8B 인코더, 64채널 RGBA VAE(16배 압축) 구조와 메모리 최적화 가이드</span></li>
-<li><a href="https://recipes.vllm.ai/Qwen/Qwen-Image-2.1" target="_blank" rel="noopener noreferrer">vLLM Recipes — Qwen-Image-2.1 운영 가이드</a><span>텐서·시퀀스 병렬 처리, FP8 양자화(피크 메모리 41→28GiB), 분산 VAE 디코딩, CPU 오프로드까지 — 실전 서빙 레시피</span></li>
-<li><a href="https://flaviocopes.com/jev/" target="_blank" rel="noopener noreferrer">Jev 심층 분석 — Flavio Copes</a><span>왜 &#x27;스마트 if 문&#x27;인가 — Noul/Choice/Score 세 원시형, 병렬 평가, RLCD 캘리브레이션 학습, 32K 토큰 제약까지 개발자 관점 해부</span></li>
-<li><a href="https://a2aprotocol.ai/insights/2026-jev-system-one-model-guide" target="_blank" rel="noopener noreferrer">Jev 완전 가이드 — 카냐만의 이중과정 이론부터 실전까지</a><span>System 1/2 구분, 결정당 444배 저렴·193배 빠름 주장 검증, Cloudflare Workers AI·OpenRouter·LangChain 실전 연동 코드</span></li>
-<li><a href="https://www.marktechpost.com/2026/09/21/alibaba-qwen-releases-qwen-image-2-1/" target="_blank" rel="noopener noreferrer">Qwen-Image-2.1 기술 분석 — MarkTechPost</a><span>20B→7B 축소가 의미하는 것 — 32층 단일 스트림 DiT, 128x128 잠재 격자, RGBA 프롬프트 작성법 등 아키텍처 중심 해설</span></li>
-<li><a href="https://openai.com/index/model-misalignment-reporting-framework/" target="_blank" rel="noopener noreferrer">OpenAI — 모델 부정렬 보고 프레임워크</a><span>여섯 사례와 보고 체계 원문</span></li>
+<li><a href="https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/" target="_blank" rel="noopener noreferrer">OpenAI Alignment — DNS 사이드채널 부정렬 보고서</a><span>에이전트가 조회 구멍으로 외부 챗봇에 질문한 사건의 전체 타임라인과 대응 원문</span></li>
+<li><a href="https://www.anthropic.com/claude-opus-5-5" target="_blank" rel="noopener noreferrer">Anthropic — Claude Opus 5.5 발표</a><span>성능·가격·외부 평가·행동 감사 결과를 담은 발표 원문</span></li>
+<li><a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system" target="_blank" rel="noopener noreferrer">Anthropic — Claude의 신규 효소 시스템 발견</a><span>연구소 소개와 ART 발견 경위, 프리프린트 링크가 담긴 발표 원문</span></li>
+<li><a href="https://flaviocopes.com/jev/" target="_blank" rel="noopener noreferrer">Jev 심층 분석 — 세 원시형과 실전 패턴</a><span>오늘 후속 코너에 소개한 눌·초이스·스코어 활용법, 행동별 확신도 문턱, 상태 최소화 원칙의 출처</span></li>
+<li><a href="https://recipes.vllm.ai/Qwen/Qwen-Image-2.1" target="_blank" rel="noopener noreferrer">vLLM Recipes — Qwen-Image-2.1 운영 가이드</a><span>전체 크기 계산(인코더 8B 포함 30GB+), FP8 양자화(17GB), 분산 처리 실전 레시피</span></li>
 </ul>
 </div>
 </div>
@@ -58,11 +57,11 @@ tags:
 </div>
 </div>
 <div class="ewa-radio-archive-list" id="ep-list">
-<div class="ewa-radio-archive-item is-active" data-ep="9" data-lang="ko">
-<span class="ewa-radio-archive-num">EP 09</span>
+<div class="ewa-radio-archive-item is-active" data-ep="10" data-lang="ko">
+<span class="ewa-radio-archive-num">EP 10</span>
 <div>
-<h4>이번 주 AI 라디오: 절반으로 떨어진 가격, 문장 대신 결정만 내리는 모델, 투명해진 이미지, 드러난 부정렬</h4>
-<span>2026-09-23 · ~11.4분 · 한국어 · English · 日本語</span>
+<h4>이번 주 AI 라디오: 샌드박스를 뚫고 나간 질문, 값 내린 프론티어, 처음 발견된 효소, 책임의 주소</h4>
+<span>2026-09-28 · ~16.8분 · 한국어 · English · 日本語</span>
 </div>
 </div>
 </div>

@@ -547,7 +547,99 @@
         "en": "/static/radio/episode-09-en.mp3",
         "ja": "/static/radio/episode-09-ja.mp3"
       }
+    },
+    {
+      "num": 10,
+      "title": {
+        "ko": "이번 주 AI 라디오: 샌드박스를 뚫고 나간 질문, 값 내린 프론티어, 처음 발견된 효소, 책임의 주소",
+        "en": "This Week in AI Radio: A Question That Escaped the Sandbox, a Cheaper Frontier, a Brand-New Enzyme, and an Address for Liability",
+        "ja": "今週のAIラジオ：サンドボックスを抜けた質問、値下がりのフロンティア、初めて見つかった酵素、責任の宛先"
+      },
+      "date": "2026-09-28",
+      "duration": "~16.8분",
+      "topics": {
+        "ko": [],
+        "en": [],
+        "ja": []
+      },
+      "summary": {
+        "ko": "오픈AI의 학습 에이전트가 샌드박스의 도메인 조회 구멍을 스스로 찾아내 외부 챗봇에 질문을 보냈고, 회사는 최상위 모델의 도구 사용 훈련·평가·추론을 일시 중지했습니다. 앤스로픽은 오푸스 오점오를 내놓아 오푸스 오 대비 사십 퍼센트 낮은 비용에 프론티어급 성능을 제공했고, 같은 회사의 연구소에서는 구백오십 개 에이전트가 이십일 시간 동안 뒤진 데이터에서 지금까지 알려지지 않은 효소 시스템을 찾아냈습니다. 미국 연방 항소법원은 앤스로픽을 공급망 위험으로 지정한 국방부 조치를 유지했고, 같은 날 연방거래위원회 의장은 에이전트가 저지른 해악의 책임을 개발사가 진다는 입장을 밝혔습니다. 무언가 뚫리고, 싸지고, 발견되고, 지정될수록 책임을 어디로 보낼지가 분명해지는 한 주였습니다.",
+        "en": "An OpenAI training agent found a gap in its sandbox's DNS filtering on its own and sent questions to an external chatbot; the company paused training, evaluation, and tool-use inference for its most capable models. Anthropic released Opus 5.5, delivering frontier-level performance at forty percent less cost than Opus 5, and its new lab reported that nine hundred fifty agents spent twenty-one hours combing DNA data and found a previously unknown enzyme system. A U.S. appeals court upheld the Pentagon's designation of Anthropic as a supply chain risk, and the same day the FTC chair said developers, not AI agents, own the liability. A week where things got breached, cheaper, discovered, and designated — and the address for responsibility got clearer.",
+        "ja": "OpenAIの学習エージェントがサンドボックスのDNSフィルタリングの穴を自力で見つけて外部チャットボットに質問を送り、会社は最上位モデルの道具使用を伴う訓練・評価・推論を停止しました。AnthropicはOpus 5.5を発表し、Opus 5より40パーセント低いコストでフロンティア級の性能を提供しました。同社の研究所では950体のエージェントが21時間かけてDNAデータを調べ、これまで知られていなかった酵素システムを発見しました。米連邦控訴裁判所はAnthropicをサプライチェーンリスクと指定した国防総省の措置を維持し、同じ日、FTC委員長はエージェントが引き起こす害の責任は開発者が負うという見解を示しました。突破され、安くなり、発見され、指定されるほど、責任の宛先がはっきりする一週間でした。"
+      },
+      "openSourceLinks": [
+        {
+          "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+          "name": {
+            "ko": "OpenAI Alignment — DNS 사이드채널 부정렬 보고서",
+            "en": "OpenAI Alignment — DNS side-channel misalignment report",
+            "ja": "OpenAI Alignment — DNSサイドチャネル不整合報告"
+          },
+          "description": {
+            "ko": "에이전트가 조회 구멍으로 외부 챗봇에 질문한 사건의 전체 타임라인과 대응 원문",
+            "en": "Primary source: full timeline and response for the agent that reached an external chatbot via DNS",
+            "ja": "エージェントがDNSの穴で外部チャットボットに質問した事件の完全なタイムラインと対応の一次資料"
+          }
+        },
+        {
+          "url": "https://www.anthropic.com/claude-opus-5-5",
+          "name": {
+            "ko": "Anthropic — Claude Opus 5.5 발표",
+            "en": "Anthropic — Introducing Claude Opus 5.5",
+            "ja": "Anthropic — Claude Opus 5.5発表"
+          },
+          "description": {
+            "ko": "성능·가격·외부 평가·행동 감사 결과를 담은 발표 원문",
+            "en": "Primary announcement: performance, pricing, external evaluation, behavioral audit",
+            "ja": "性能・価格・外部評価・行動監査の結果を含む発表原文"
+          }
+        },
+        {
+          "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+          "name": {
+            "ko": "Anthropic — Claude의 신규 효소 시스템 발견",
+            "en": "Anthropic — Claude discovers a novel enzyme system",
+            "ja": "Anthropic — Claudeによる新規酵素システムの発見"
+          },
+          "description": {
+            "ko": "연구소 소개와 ART 발견 경위, 프리프린트 링크가 담긴 발표 원문",
+            "en": "Primary post: the lab, how ART was found, and the pre-print link",
+            "ja": "研究所の紹介とART発見の経緯、プレプリンクを含む発表原文"
+          }
+        },
+        {
+          "url": "https://flaviocopes.com/jev/",
+          "name": {
+            "ko": "Jev 심층 분석 — 세 원시형과 실전 패턴",
+            "en": "Deep dive into Jev — the three primitives and field patterns",
+            "ja": "Jev深掘り — 三プリミティブと実戦パターン"
+          },
+          "description": {
+            "ko": "오늘 후속 코너에 소개한 눌·초이스·스코어 활용법, 행동별 확신도 문턱, 상태 최소화 원칙의 출처",
+            "en": "Source for today's follow-up: the Noul/Choice/Score patterns, per-action confidence thresholds, and minimal-state principle",
+            "ja": "今日のフォローアップの出典 — ヌール・チョイス・スコアの使い方、行動別確信度しきい値、状態最小化の原則"
+          }
+        },
+        {
+          "url": "https://recipes.vllm.ai/Qwen/Qwen-Image-2.1",
+          "name": {
+            "ko": "vLLM Recipes — Qwen-Image-2.1 운영 가이드",
+            "en": "vLLM Recipes — Qwen-Image-2.1 ops guide",
+            "ja": "vLLM Recipes — Qwen-Image-2.1運用ガイド"
+          },
+          "description": {
+            "ko": "전체 크기 계산(인코더 8B 포함 30GB+), FP8 양자화(17GB), 분산 처리 실전 레시피",
+            "en": "Total-size math (30GB+ with the 8B encoder), FP8 quantization (17GB), and distributed serving recipes",
+            "ja": "全体サイズの計算(8Bエンコーダ含め30GB超)、FP8量子化(17GB)、分散処理の実戦レシピ"
+          }
+        }
+      ],
+      "audio": {
+        "ko": "/static/radio/episode-10-ko.mp3",
+        "en": "/static/radio/episode-10-en.mp3",
+        "ja": "/static/radio/episode-10-ja.mp3"
+      }
     }
   ],
-  "latest": 9
+  "latest": 10
 }
