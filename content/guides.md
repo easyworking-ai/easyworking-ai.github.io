@@ -23,6 +23,10 @@ tags:
 </div>
 </div>
 <div class="ewa-guide-grid">
+<a class="ewa-guide-card" href="/guides/share-ai-output">
+<div class="ewa-guide-card-title">AI 작업 결과를 팀에 그대로 보내지 않는 법</div>
+<p>"AI가 정리해줬어" 한 줄로 보내면 첫 질문은 "이 숫자 어디서 났어?"다. 산출물·검증 근거·한계를 붙이는 공유 프롬프트.</p>
+</a>
 <a class="ewa-guide-card" href="/guides/long-document-qa">
 <div class="ewa-guide-card-title">100페이지 문서를 AI에게 읽히는 법</div>
 <p>통째로 붙여넣지 않고 지도를 먼저 만들고 관련 부분만 다시 읽히는 문서 질의 프롬프트. 근거 인용으로 지어낸 답을 걸러낸다.</p>

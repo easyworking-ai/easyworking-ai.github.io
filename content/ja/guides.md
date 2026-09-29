@@ -23,6 +23,10 @@ tags:
 </div>
 </div>
 <div class="ewa-guide-grid">
+<a class="ewa-guide-card" href="/ja/guides/share-ai-output">
+<div class="ewa-guide-card-title">AIの作業結果をチームにそのまま送らない方法</div>
+<p>「AIに整理してもらった」の一言で送ると、最初の質問は「この数字はどこから？」。成果物・根拠・限界を添える共有プロンプト。</p>
+</a>
 <a class="ewa-guide-card" href="/ja/guides/long-document-qa">
 <div class="ewa-guide-card-title">100ページの文書をAIに読ませる方法</div>
 <p>丸ごと貼り付けず、先に地図を作って関連部分だけを読み直させる文書質問プロンプト。根拠引用でのでっち上げをふるい落とす。</p>

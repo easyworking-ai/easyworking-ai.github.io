@@ -23,6 +23,10 @@ tags:
 </div>
 </div>
 <div class="ewa-guide-grid">
+<a class="ewa-guide-card" href="/en/guides/share-ai-output">
+<div class="ewa-guide-card-title">How Not to Send AI Work Results Straight to Your Team</div>
+<p>A sharing prompt that attaches output, verification basis, and limitations — so the first reply isn't "Where did this number come from?"</p>
+</a>
 <a class="ewa-guide-card" href="/en/guides/long-document-qa">
 <div class="ewa-guide-card-title">How to get AI to read a 100-page document</div>
 <p>A document-QA prompt that builds a map first and rereads only the relevant sections — mandatory verbatim citations filter out invented answers.</p>
