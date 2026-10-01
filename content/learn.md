@@ -17,6 +17,10 @@ tags:
 
 <div class="ewa-read-section">
 <div class="ewa-read-grid">
+<a class="ewa-read-card" href="/learn/beyond-benchmarks">
+<div class="ewa-read-card-title">벤치마크 1위 모델이 우리 업무에서는 왜 평범한가</div>
+<p>리더보드 점수로 모델을 골랐는데 회의록 요약은 그대로였다. 점수와 실무 사이에 갭이 생기는 네 가지 이유와, 실제 업무 샘플로 비교하는 선택 방식.</p>
+</a>
 <a class="ewa-read-card" href="/learn/agent-failure-cases">
 <div class="ewa-read-card-title">에이전트 도입이 무너지는 다섯 지점</div>
 <p>"알아서 하라고 맡겼는데 왜 다시 손으로 하나요?" 두 달 만에 수작업으로 돌아간 팀들이 반복하는 안티패턴 다섯 가지와 예방책.</p>

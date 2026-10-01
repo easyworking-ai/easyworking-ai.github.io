@@ -17,6 +17,10 @@ tags:
 
 <div class="ewa-read-section">
 <div class="ewa-read-grid">
+<a class="ewa-read-card" href="/ja/learn/beyond-benchmarks">
+<div class="ewa-read-card-title">ベンチマーク1位のモデルが、うちの業務ではなぜ平凡なのか</div>
+<p>リーダーボードのスコアで選んだのに、議事録の要約は変わらなかった。スコアと実務にギャップが生じる四つの理由と、自社の業務サンプルで比較する選び方。</p>
+</a>
 <a class="ewa-read-card" href="/ja/learn/agent-failure-cases">
 <div class="ewa-read-card-title">エージェント導入が崩れる五つのポイント</div>
 <p>「うまくいっていたのに、なぜやめたの？」 二か月で手作業に戻ったチームが繰り返す五つのアンチパターンと予防策。</p>
