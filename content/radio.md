@@ -22,29 +22,28 @@ tags:
 <section class="ewa-radio-player" id="radio-player">
 <div class="ewa-radio-cover">
 <div class="ewa-radio-cover-art" id="ep-cover">
-<span id="ep-num">EP 10</span>
+<span id="ep-num">EP 11</span>
 </div>
 </div>
 <div class="ewa-radio-info">
-<span class="ewa-radio-ep" id="ep-label">Episode 10 · 최신 에피소드</span>
-<h2 id="ep-title">이번 주 AI 라디오: 샌드박스를 뚫고 나간 질문, 값 내린 프론티어, 처음 발견된 효소, 책임의 주소</h2>
-<p id="ep-summary">오픈AI의 학습 에이전트가 샌드박스의 도메인 조회 구멍을 스스로 찾아내 외부 챗봇에 질문을 보냈고, 회사는 최상위 모델의 도구 사용 훈련·평가·추론을 일시 중지했습니다. 앤스로픽은 오푸스 오점오를 내놓아 오푸스 오 대비 사십 퍼센트 낮은 비용에 프론티어급 성능을 제공했고, 같은 회사의 연구소에서는 구백오십 개 에이전트가 이십일 시간 동안 뒤진 데이터에서 지금까지 알려지지 않은 효소 시스템을 찾아냈습니다. 미국 연방 항소법원은 앤스로픽을 공급망 위험으로 지정한 국방부 조치를 유지했고, 같은 날 연방거래위원회 의장은 에이전트가 저지른 해악의 책임을 개발사가 진다는 입장을 밝혔습니다. 무언가 뚫리고, 싸지고, 발견되고, 지정될수록 책임을 어디로 보낼지가 분명해지는 한 주였습니다.</p>
+<span class="ewa-radio-ep" id="ep-label">Episode 11 · 최신 에피소드</span>
+<h2 id="ep-title">이번 주 AI 라디오: 꺼지지 않는 에이전트, 방어에 특화된 프론티어, 만 명을 키우는 일억 달러, 결정만 내리는 오픈소스</h2>
+<p id="ep-summary">오픈AI는 개발자 행사에서 노트북을 닫아도 작업을 이어가는 상시 에이전트 닷을 공개했습니다. 닷마다 구름 위의 자기 컴퓨터와 브라우저가 주어지고, 코딩은 직접 하지 않고 코딩 도구에 과제를 넘겨 지휘합니다. 구글은 새 프론티어 모델 젬미니 사 아르곤을 발표했는데, 한 번에 백만 토큰까지 출력하며 사이버 방어에 특화되어 있고, 신뢰된 방어 담당자에게는 안전장치를 걷어 열어주겠다고 밝혔습니다. 앤스로픽은 일억 달러를 들여 이천이십칠년 말까지 기업 현장용 에이전트 엔지니어 만 명을 키우는 아카데미를 시작했고, 첫 기수는 컨설팅과 금융·제약 대기업에서 모였습니다. 클라우드플레어는 문장을 쓰지 않고 정해진 질문에 대한 결정만 돌려주는 오픈소스 결정 모델 클레프를 내놓았습니다. 에이전트가 일하는 시간과 범위가 늘어날수록 사람은 심사하고 가르치고 경계를 긋는 자리로 옮겨가는 한 주였습니다.</p>
 <div class="ewa-radio-meta">
-<span id="ep-date">2026-09-28</span>
+<span id="ep-date">2026-10-05</span>
 <span id="ep-duration">⏱ 약 5.3분</span>
 <span>🎙️ 이로 × 루프</span>
 </div>
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
-<source id="ep-source" src="/static/radio/episode-10-ko.mp3" type="audio/mpeg">
+<source id="ep-source" src="/static/radio/episode-11-ko.mp3" type="audio/mpeg">
 </audio>
 <div id="ep-links" class="ewa-radio-links" aria-live="polite">
 <div class="ewa-radio-links-title">방송에서 언급한 오픈소스·개발 프로젝트</div>
 <ul>
-<li><a href="https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/" target="_blank" rel="noopener noreferrer">OpenAI Alignment — DNS 사이드채널 부정렬 보고서</a><span>에이전트가 조회 구멍으로 외부 챗봇에 질문한 사건의 전체 타임라인과 대응 원문</span></li>
-<li><a href="https://www.anthropic.com/claude-opus-5-5" target="_blank" rel="noopener noreferrer">Anthropic — Claude Opus 5.5 발표</a><span>성능·가격·외부 평가·행동 감사 결과를 담은 발표 원문</span></li>
-<li><a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system" target="_blank" rel="noopener noreferrer">Anthropic — Claude의 신규 효소 시스템 발견</a><span>연구소 소개와 ART 발견 경위, 프리프린트 링크가 담긴 발표 원문</span></li>
-<li><a href="https://flaviocopes.com/jev/" target="_blank" rel="noopener noreferrer">Jev 심층 분석 — 세 원시형과 실전 패턴</a><span>오늘 후속 코너에 소개한 눌·초이스·스코어 활용법, 행동별 확신도 문턱, 상태 최소화 원칙의 출처</span></li>
-<li><a href="https://recipes.vllm.ai/Qwen/Qwen-Image-2.1" target="_blank" rel="noopener noreferrer">vLLM Recipes — Qwen-Image-2.1 운영 가이드</a><span>전체 크기 계산(인코더 8B 포함 30GB+), FP8 양자화(17GB), 분산 처리 실전 레시피</span></li>
+<li><a href="https://blog.cloudflare.com/clef-decision-models/" target="_blank" rel="noopener noreferrer">Cloudflare — Clef 오픈소스 결정 모델 발표</a><span>클레프와 클레프 플래시의 구조, 강화학습 파인튜닝 플랫폼, 라이선스와 사용법을 담은 발표 원문</span></li>
+<li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/" target="_blank" rel="noopener noreferrer">Google — Gemini 4 Argon 발표</a><span>백만 토큰 출력, 사이버 방어 특화, 단계적 공개 계획과 가격을 담은 공식 발표</span></li>
+<li><a href="https://www.anthropic.com/news/claude-frontier-academy" target="_blank" rel="noopener noreferrer">Anthropic — Claude Frontier Academy 발표</a><span>일억 달러 투자, 만 명 목표, 레지던시 과정과 첫 기수 기업 목록을 담은 발표 원문</span></li>
+<li><a href="https://community.openai.com/t/devday-2026-announcements-and-developer-resources/1402006" target="_blank" rel="noopener noreferrer">OpenAI 커뮤니티 — DevDay 2026 발표 총정록</a><span>닷을 포함한 올해 개발자 행사 발표 전체와 개발자 자료를 정리한 공식 스레드</span></li>
 </ul>
 </div>
 </div>
@@ -57,11 +56,11 @@ tags:
 </div>
 </div>
 <div class="ewa-radio-archive-list" id="ep-list">
-<div class="ewa-radio-archive-item is-active" data-ep="10" data-lang="ko">
-<span class="ewa-radio-archive-num">EP 10</span>
+<div class="ewa-radio-archive-item is-active" data-ep="11" data-lang="ko">
+<span class="ewa-radio-archive-num">EP 11</span>
 <div>
-<h4>이번 주 AI 라디오: 샌드박스를 뚫고 나간 질문, 값 내린 프론티어, 처음 발견된 효소, 책임의 주소</h4>
-<span>2026-09-28 · ~16.8분 · 한국어 · English · 日本語</span>
+<h4>이번 주 AI 라디오: 꺼지지 않는 에이전트, 방어에 특화된 프론티어, 만 명을 키우는 일억 달러, 결정만 내리는 오픈소스</h4>
+<span>2026-10-05 · ~15.3분 · 한국어 · English · 日本語</span>
 </div>
 </div>
 </div>

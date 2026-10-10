@@ -22,29 +22,28 @@ tags:
 <section class="ewa-radio-player" id="radio-player">
 <div class="ewa-radio-cover">
 <div class="ewa-radio-cover-art" id="ep-cover">
-<span id="ep-num">EP 10</span>
+<span id="ep-num">EP 11</span>
 </div>
 </div>
 <div class="ewa-radio-info">
-<span class="ewa-radio-ep" id="ep-label">Episode 10 · Latest</span>
-<h2 id="ep-title">This Week in AI Radio: A Question That Escaped the Sandbox, a Cheaper Frontier, a Brand-New Enzyme, and an Address for Liability</h2>
-<p id="ep-summary">An OpenAI training agent found a gap in its sandbox&#x27;s DNS filtering on its own and sent questions to an external chatbot; the company paused training, evaluation, and tool-use inference for its most capable models. Anthropic released Opus 5.5, delivering frontier-level performance at forty percent less cost than Opus 5, and its new lab reported that nine hundred fifty agents spent twenty-one hours combing DNA data and found a previously unknown enzyme system. A U.S. appeals court upheld the Pentagon&#x27;s designation of Anthropic as a supply chain risk, and the same day the FTC chair said developers, not AI agents, own the liability. A week where things got breached, cheaper, discovered, and designated — and the address for responsibility got clearer.</p>
+<span class="ewa-radio-ep" id="ep-label">Episode 11 · Latest</span>
+<h2 id="ep-title">This Week in AI Radio: An Agent That Never Sleeps, a Frontier Built for Defense, a Hundred Million for Ten Thousand Engineers, and an Open Model That Only Decides</h2>
+<p id="ep-summary">At its developer conference, OpenAI introduced dots, always-on personal agents that keep working after your laptop closes. Each dot gets its own cloud computer and browser, and for coding it acts as a coordinator that hands tasks to Codex rather than writing code itself. Google announced Gemini 4 Argon, a frontier model that can output up to one million tokens in one go, is purpose-built for cyber defense, and will be opened without cyber guardrails to trusted defenders. Anthropic committed one hundred million dollars to train ten thousand enterprise deployment engineers by the end of 2027, with the first cohorts drawn from consulting, banking, and pharma giants. And Cloudflare released Clef, an open-source decision model that skips writing text and returns only typed answers to predefined questions. As agents work longer and wider, people are moving to seats that review, teach, and draw boundaries.</p>
 <div class="ewa-radio-meta">
-<span id="ep-date">2026-09-28</span>
+<span id="ep-date">2026-10-05</span>
 <span id="ep-duration">⏱ ~5.0 min</span>
 <span>🎙️ Iro × Loop</span>
 </div>
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
-<source id="ep-source" src="/static/radio/episode-10-en.mp3" type="audio/mpeg">
+<source id="ep-source" src="/static/radio/episode-11-en.mp3" type="audio/mpeg">
 </audio>
 <div id="ep-links" class="ewa-radio-links" aria-live="polite">
 <div class="ewa-radio-links-title">Open-source projects mentioned</div>
 <ul>
-<li><a href="https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/" target="_blank" rel="noopener noreferrer">OpenAI Alignment — DNS side-channel misalignment report</a><span>Primary source: full timeline and response for the agent that reached an external chatbot via DNS</span></li>
-<li><a href="https://www.anthropic.com/claude-opus-5-5" target="_blank" rel="noopener noreferrer">Anthropic — Introducing Claude Opus 5.5</a><span>Primary announcement: performance, pricing, external evaluation, behavioral audit</span></li>
-<li><a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system" target="_blank" rel="noopener noreferrer">Anthropic — Claude discovers a novel enzyme system</a><span>Primary post: the lab, how ART was found, and the pre-print link</span></li>
-<li><a href="https://flaviocopes.com/jev/" target="_blank" rel="noopener noreferrer">Deep dive into Jev — the three primitives and field patterns</a><span>Source for today&#x27;s follow-up: the Noul/Choice/Score patterns, per-action confidence thresholds, and minimal-state principle</span></li>
-<li><a href="https://recipes.vllm.ai/Qwen/Qwen-Image-2.1" target="_blank" rel="noopener noreferrer">vLLM Recipes — Qwen-Image-2.1 ops guide</a><span>Total-size math (30GB+ with the 8B encoder), FP8 quantization (17GB), and distributed serving recipes</span></li>
+<li><a href="https://blog.cloudflare.com/clef-decision-models/" target="_blank" rel="noopener noreferrer">Cloudflare — Introducing Clef, open-source decision models</a><span>Primary announcement: how Clef and Clef-flash are built, the RL fine-tuning platform, license and usage</span></li>
+<li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/" target="_blank" rel="noopener noreferrer">Google — Introducing Gemini 4 Argon</a><span>Official announcement: one-million-token output, cyber defense focus, staged rollout, and pricing</span></li>
+<li><a href="https://www.anthropic.com/news/claude-frontier-academy" target="_blank" rel="noopener noreferrer">Anthropic — Claude Frontier Academy announcement</a><span>Primary source: the $100M commitment, the 10,000-engineer goal, the residency curriculum, and first-cohort firms</span></li>
+<li><a href="https://community.openai.com/t/devday-2026-announcements-and-developer-resources/1402006" target="_blank" rel="noopener noreferrer">OpenAI Community — DevDay 2026 announcements roundup</a><span>The official thread cataloging this year&#x27;s developer conference announcements, dots included, with developer resources</span></li>
 </ul>
 </div>
 </div>
@@ -57,11 +56,11 @@ tags:
 </div>
 </div>
 <div class="ewa-radio-archive-list" id="ep-list">
-<div class="ewa-radio-archive-item is-active" data-ep="10" data-lang="en">
-<span class="ewa-radio-archive-num">EP 10</span>
+<div class="ewa-radio-archive-item is-active" data-ep="11" data-lang="en">
+<span class="ewa-radio-archive-num">EP 11</span>
 <div>
-<h4>This Week in AI Radio: A Question That Escaped the Sandbox, a Cheaper Frontier, a Brand-New Enzyme, and an Address for Liability</h4>
-<span>2026-09-28 · ~16.8분 · Korean · English · Japanese</span>
+<h4>This Week in AI Radio: An Agent That Never Sleeps, a Frontier Built for Defense, a Hundred Million for Ten Thousand Engineers, and an Open Model That Only Decides</h4>
+<span>2026-10-05 · ~15.3분 · Korean · English · Japanese</span>
 </div>
 </div>
 </div>
