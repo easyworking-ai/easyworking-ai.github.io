@@ -718,7 +718,138 @@
         "en": "/static/radio/episode-11-en.mp3",
         "ja": "/static/radio/episode-11-ja.mp3"
       }
+    },
+    {
+      "num": 12,
+      "title": {
+        "ko": "이번 주 AI 라디오: 모두에게 열린 지피티 식스, 기억하는 메타의 첫 프론티어, 도구의 기본값 논쟁, 밤새 달아오른 냉장고",
+        "en": "This Week in AI Radio: GPT-6 for Everyone, Meta's First Frontier That Remembers, a Fight Over Tool Defaults, and Fridges Heated Overnight",
+        "ja": "今週のAIラジオ：すべての人に開かれたGPT-6、記憶するメタ初のフロンティア、ツールのデフォルト論争、夜通し熱くなった冷蔵庫"
+      },
+      "date": "2026-10-13",
+      "duration": "~16.2분",
+      "topics": {
+        "ko": [],
+        "en": [],
+        "ja": []
+      },
+      "summary": {
+        "ko": "오픈AI가 지피티 식스를 시월 칠일부터 모든 챗지피티 요금제에 풀었고, 답 안에 작은 화면이 생기는 인텔리전트 유아이가 함께 나왔습니다. 메타는 재편 십사 개월 만에 첫 프론티어 모델 뮤즈 원더를 내놓으며 며칠·몇 주 단위의 기억을 앞세웠습니다. 코덱스 명령줄 도구가 백그라운드 상주 프로그램을 기본으로 깔기 시작하자 개발자들이 기본값 논쟁을 벌였고, 프랑스에서는 해킹으로 수백 개 매장의 냉장고가 밤새 섭씨 오십 도까지 달아올라 검찰 수사가 시작됐습니다. 도구가 스스로 업데이트하고, 모델이 사람을 기억하고, 네트워크로 연결된 설비가 원격에서 움직이는 지금, 무엇이 기본값이고 누가 접근 권한을 쥐는지가 일이 되는 한 주였습니다. 이번 주 오픈소스로는 에이전트에게 소프트웨어 역분석을 맡기는 리에이(Reverse Engineer Anything)를 설치법·유즈케이스·법적 경계와 함께 소개합니다.",
+        "en": "OpenAI rolled GPT-6 out to every ChatGPT tier starting October seventh, along with Intelligent UI, which grows small interactive panels inside the conversation. Meta, fourteen months after its reorganization, released Muse Wonder, its first frontier model, led by memory that holds across days and weeks. Codex CLI began installing a persistent, self-updating background daemon by default, igniting a developer fight over defaults. And in France, hackers drove fridges in several hundred supermarkets to fifty degrees Celsius overnight, sparking fires, food losses, and a criminal investigation. A week where self-updating tools, remembering models, and remotely moved equipment made defaults and access rights the real work. In this week's open-source segment, we cover REA (Reverse Engineer Anything) — how to set it up, real use cases, and where its legal boundaries sit.",
+        "ja": "OpenAIは10月7日からGPT-6をChatGPTの全プランに展開し、会話の中に小さな画面が生まれるIntelligent UIも同時に導入しました。Metaは再編から14か月を経て初のフロンティアモデル「Muse Wonder」を発表し、数日・数週間にわたる記憶を前面に押し出しました。Codexのコマンドライン版が常駐型の自己更新プログラムをデフォルトでインストールし始めると、開発者の間でデフォルト値をめぐる論争が起きました。そしてフランスでは、ハッキングによって数百店のスーパーの冷蔵庫が一晩で摂氏50度まで熱せられ、火災と食品廃棄、刑事調査につながりました。道具が自分を更新し、モデルが人を記憶し、ネットにつながった設備が遠隔で動くいま、何がデフォルトで、誰がアクセス権を持つかが仕事になる一週間でした。 今週のオープンソースでは、エージェントにソフトウェアの解析を任せるREA（Reverse Engineer Anything）を、セットアップ方法・ユースケース・法的な境界とともに紹介します。"
+      },
+      "openSourceLinks": [
+        {
+          "url": "https://openai.com/index/gpt-6-for-everyone/",
+          "name": {
+            "ko": "OpenAI — GPT-6 전면 확대 발표",
+            "en": "OpenAI — GPT-6 for everyone",
+            "ja": "OpenAI — GPT-6全プラン展開発表"
+          },
+          "description": {
+            "ko": "지피티 식스를 전 요금제에 풀고 인텔리전트 유아이를 도입한다는 시월 칠일 공식 발표 원문입니다.",
+            "en": "The official October 7 announcement rolling GPT-6 out to every tier alongside Intelligent UI.",
+            "ja": "10月7日、GPT-6を全プランに展開しIntelligent UIを導入するという公式発表の原文です。"
+          }
+        },
+        {
+          "url": "https://deploymentsafety.openai.com/gpt-6-october",
+          "name": {
+            "ko": "OpenAI 배포 안전 허브 — GPT-6 시월 업데이트 시스템 카드",
+            "en": "OpenAI Deployment Safety Hub — GPT-6 October system card",
+            "ja": "OpenAI展開安全ハブ — GPT-6十月更新システムカード"
+          },
+          "description": {
+            "ko": "이번 롤아웃 모델의 안전 평가와 아스트라 안전 설계 계승 내용을 담은 공식 문서입니다.",
+            "en": "The official system card covering safety evaluations for the rollout and the Astra safety inheritance.",
+            "ja": "今回の展開モデルの安全評価とAstra安全設計の継承内容を含む公式文書です。"
+          }
+        },
+        {
+          "url": "https://www.anthropic.com/claude-haiku-5-5",
+          "name": {
+            "ko": "Anthropic — Claude Haiku 5.5 발표",
+            "en": "Anthropic — Introducing Claude Haiku 5.5",
+            "ja": "Anthropic — Claude Haiku 5.5発表"
+          },
+          "description": {
+            "ko": "칠십오 퍼센트 낮은 운용 비용, 캐시 읽기 반값, 구독자 에이피아이 크레딧을 담은 시월 칠일 발표 원문입니다.",
+            "en": "The October 7 announcement: seventy-five percent lower running costs, halved cache reads, and subscriber API credits.",
+            "ja": "10月7日の発表原文。七十五パーセント低い運用コスト、半額のキャッシュ読み取り、登録者向けAPIクレジットを含みます。"
+          }
+        },
+        {
+          "url": "https://research.meta.ai/blog/muse-wonder",
+          "name": {
+            "ko": "Meta AI Research — Muse Wonder 발표",
+            "en": "Meta AI Research — Muse Wonder",
+            "ja": "Meta AI Research — Muse Wonder発表"
+          },
+          "description": {
+            "ko": "액티브 메모리와 액티브 포커스, 프로메테우스 훈련, 벤치마크 결과를 담은 시월 십이일 연구 발표 원문입니다.",
+            "en": "The October 12 research post: Active Memory, Active Focus, Prometheus training, and benchmark results.",
+            "ja": "10月12日の研究発表原文。Active Memory、Active Focus、Prometheusでの訓練、ベンチマーク結果を含みます。"
+          }
+        },
+        {
+          "url": "https://research.meta.ai/static/muse-wonder-model-card",
+          "name": {
+            "ko": "Meta — Muse Wonder 모델 카드",
+            "en": "Meta — Muse Wonder model card",
+            "ja": "Meta — Muse Wonderモデルカード"
+          },
+          "description": {
+            "ko": "백만 토큰 컨텍스트, 평가 범위, 위험 평가와 한계를 공개한 공식 모델 카드입니다.",
+            "en": "The official model card with the one-million-token context, evaluation scope, risk assessments, and limits.",
+            "ja": "百万トークンのコンテキスト、評価範囲、リスク評価と限界を公開した公式モデルカードです。"
+          }
+        },
+        {
+          "url": "https://github.com/openai/codex/issues/48195",
+          "name": {
+            "ko": "openai/codex 이슈 48195 — 데몬 자동 시작을 옵트인으로",
+            "en": "openai/codex issue #48195 — make the daemon opt-in",
+            "ja": "openai/codexイシュー48195 — デーモン自動起動のオプトイン化"
+          },
+          "description": {
+            "ko": "상시 상주·자가 업데이트 데몬의 기본 활성화를 물은 원본 이슈입니다. 끄는 방법과 관련 보고가 정리돼 있습니다.",
+            "en": "The original issue asking OpenAI to make the persistent, self-updating daemon opt-in, with workarounds and linked reports.",
+            "ja": "常駐・自己更新デーモンの既定有効化を問うた元のイシューです。止め方と関連報告がまとまっています。"
+          }
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/12/cyber-attack-defrosts-refrigerators-france-supermarket-chains-intermarche-cooperative-u",
+          "name": {
+            "ko": "가디언 — 프랑스 슈퍼마켓 냉장고 사이버 공격",
+            "en": "The Guardian — French supermarket fridge cyber-attack",
+            "ja": "ガーディアン — フランスのスーパー冷蔵庫サイバー攻撃"
+          },
+          "description": {
+            "ko": "섭씨 오십 도, 수백 개 매장, 검찰 수사 개시와 댄포스 소프트웨어 취약점을 보도한 시월 십이일 로이터 발신 기사입니다.",
+            "en": "The October 12 Reuters report: fifty degrees Celsius, hundreds of stores, the criminal probe, and the Danfoss software vulnerability.",
+            "ja": "10月12日のロイター発記事。摂氏五十度、数百店、刑事調査の開始、ダンフォース製ソフトウェアの脆弱性を報じています。"
+          }
+        },
+        {
+          "url": "https://github.com/morluto/rea",
+          "name": {
+            "ko": "REA — Reverse Engineer Anything 공식 저장소",
+            "en": "REA — Reverse Engineer Anything (official repository)",
+            "ja": "REA — Reverse Engineer Anything 公式リポジトリ"
+          },
+          "description": {
+            "ko": "에이전트에게 역분석 도구를 연결해 주는 MCP 서버·CLI입니다. 결과에 근거와 한계가 함께 남고, 설정 변경은 승인과 백업 아래 적용됩니다.",
+            "en": "An MCP server and CLI connecting agents to reverse-engineering tools; findings keep their evidence and limitations, and setup applies changes only with approval and backups.",
+            "ja": "エージェントに解析ツールを接続するMCPサーバー・CLI。結果には根拠と限界が伴い、設定変更は承認とバックアップの下で適用されます。"
+          }
+        }
+      ],
+      "audio": {
+        "ko": "/static/radio/episode-12-ko.mp3",
+        "en": "/static/radio/episode-12-en.mp3",
+        "ja": "/static/radio/episode-12-ja.mp3"
+      }
     }
   ],
-  "latest": 11
+  "latest": 12
 }

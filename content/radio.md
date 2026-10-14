@@ -22,28 +22,32 @@ tags:
 <section class="ewa-radio-player" id="radio-player">
 <div class="ewa-radio-cover">
 <div class="ewa-radio-cover-art" id="ep-cover">
-<span id="ep-num">EP 11</span>
+<span id="ep-num">EP 12</span>
 </div>
 </div>
 <div class="ewa-radio-info">
-<span class="ewa-radio-ep" id="ep-label">Episode 11 · 최신 에피소드</span>
-<h2 id="ep-title">이번 주 AI 라디오: 꺼지지 않는 에이전트, 방어에 특화된 프론티어, 만 명을 키우는 일억 달러, 결정만 내리는 오픈소스</h2>
-<p id="ep-summary">오픈AI는 개발자 행사에서 노트북을 닫아도 작업을 이어가는 상시 에이전트 닷을 공개했습니다. 닷마다 구름 위의 자기 컴퓨터와 브라우저가 주어지고, 코딩은 직접 하지 않고 코딩 도구에 과제를 넘겨 지휘합니다. 구글은 새 프론티어 모델 젬미니 사 아르곤을 발표했는데, 한 번에 백만 토큰까지 출력하며 사이버 방어에 특화되어 있고, 신뢰된 방어 담당자에게는 안전장치를 걷어 열어주겠다고 밝혔습니다. 앤스로픽은 일억 달러를 들여 이천이십칠년 말까지 기업 현장용 에이전트 엔지니어 만 명을 키우는 아카데미를 시작했고, 첫 기수는 컨설팅과 금융·제약 대기업에서 모였습니다. 클라우드플레어는 문장을 쓰지 않고 정해진 질문에 대한 결정만 돌려주는 오픈소스 결정 모델 클레프를 내놓았습니다. 에이전트가 일하는 시간과 범위가 늘어날수록 사람은 심사하고 가르치고 경계를 긋는 자리로 옮겨가는 한 주였습니다.</p>
+<span class="ewa-radio-ep" id="ep-label">Episode 12 · 최신 에피소드</span>
+<h2 id="ep-title">이번 주 AI 라디오: 모두에게 열린 지피티 식스, 기억하는 메타의 첫 프론티어, 도구의 기본값 논쟁, 밤새 달아오른 냉장고</h2>
+<p id="ep-summary">오픈AI가 지피티 식스를 시월 칠일부터 모든 챗지피티 요금제에 풀었고, 답 안에 작은 화면이 생기는 인텔리전트 유아이가 함께 나왔습니다. 메타는 재편 십사 개월 만에 첫 프론티어 모델 뮤즈 원더를 내놓으며 며칠·몇 주 단위의 기억을 앞세웠습니다. 코덱스 명령줄 도구가 백그라운드 상주 프로그램을 기본으로 깔기 시작하자 개발자들이 기본값 논쟁을 벌였고, 프랑스에서는 해킹으로 수백 개 매장의 냉장고가 밤새 섭씨 오십 도까지 달아올라 검찰 수사가 시작됐습니다. 도구가 스스로 업데이트하고, 모델이 사람을 기억하고, 네트워크로 연결된 설비가 원격에서 움직이는 지금, 무엇이 기본값이고 누가 접근 권한을 쥐는지가 일이 되는 한 주였습니다. 이번 주 오픈소스로는 에이전트에게 소프트웨어 역분석을 맡기는 리에이(Reverse Engineer Anything)를 설치법·유즈케이스·법적 경계와 함께 소개합니다.</p>
 <div class="ewa-radio-meta">
-<span id="ep-date">2026-10-05</span>
+<span id="ep-date">2026-10-13</span>
 <span id="ep-duration">⏱ 약 5.3분</span>
 <span>🎙️ 이로 × 루프</span>
 </div>
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
-<source id="ep-source" src="/static/radio/episode-11-ko.mp3" type="audio/mpeg">
+<source id="ep-source" src="/static/radio/episode-12-ko.mp3" type="audio/mpeg">
 </audio>
 <div id="ep-links" class="ewa-radio-links" aria-live="polite">
 <div class="ewa-radio-links-title">방송에서 언급한 오픈소스·개발 프로젝트</div>
 <ul>
-<li><a href="https://blog.cloudflare.com/clef-decision-models/" target="_blank" rel="noopener noreferrer">Cloudflare — Clef 오픈소스 결정 모델 발표</a><span>클레프와 클레프 플래시의 구조, 강화학습 파인튜닝 플랫폼, 라이선스와 사용법을 담은 발표 원문</span></li>
-<li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/" target="_blank" rel="noopener noreferrer">Google — Gemini 4 Argon 발표</a><span>백만 토큰 출력, 사이버 방어 특화, 단계적 공개 계획과 가격을 담은 공식 발표</span></li>
-<li><a href="https://www.anthropic.com/news/claude-frontier-academy" target="_blank" rel="noopener noreferrer">Anthropic — Claude Frontier Academy 발표</a><span>일억 달러 투자, 만 명 목표, 레지던시 과정과 첫 기수 기업 목록을 담은 발표 원문</span></li>
-<li><a href="https://community.openai.com/t/devday-2026-announcements-and-developer-resources/1402006" target="_blank" rel="noopener noreferrer">OpenAI 커뮤니티 — DevDay 2026 발표 총정록</a><span>닷을 포함한 올해 개발자 행사 발표 전체와 개발자 자료를 정리한 공식 스레드</span></li>
+<li><a href="https://openai.com/index/gpt-6-for-everyone/" target="_blank" rel="noopener noreferrer">OpenAI — GPT-6 전면 확대 발표</a><span>지피티 식스를 전 요금제에 풀고 인텔리전트 유아이를 도입한다는 시월 칠일 공식 발표 원문입니다.</span></li>
+<li><a href="https://deploymentsafety.openai.com/gpt-6-october" target="_blank" rel="noopener noreferrer">OpenAI 배포 안전 허브 — GPT-6 시월 업데이트 시스템 카드</a><span>이번 롤아웃 모델의 안전 평가와 아스트라 안전 설계 계승 내용을 담은 공식 문서입니다.</span></li>
+<li><a href="https://www.anthropic.com/claude-haiku-5-5" target="_blank" rel="noopener noreferrer">Anthropic — Claude Haiku 5.5 발표</a><span>칠십오 퍼센트 낮은 운용 비용, 캐시 읽기 반값, 구독자 에이피아이 크레딧을 담은 시월 칠일 발표 원문입니다.</span></li>
+<li><a href="https://research.meta.ai/blog/muse-wonder" target="_blank" rel="noopener noreferrer">Meta AI Research — Muse Wonder 발표</a><span>액티브 메모리와 액티브 포커스, 프로메테우스 훈련, 벤치마크 결과를 담은 시월 십이일 연구 발표 원문입니다.</span></li>
+<li><a href="https://research.meta.ai/static/muse-wonder-model-card" target="_blank" rel="noopener noreferrer">Meta — Muse Wonder 모델 카드</a><span>백만 토큰 컨텍스트, 평가 범위, 위험 평가와 한계를 공개한 공식 모델 카드입니다.</span></li>
+<li><a href="https://github.com/openai/codex/issues/48195" target="_blank" rel="noopener noreferrer">openai/codex 이슈 48195 — 데몬 자동 시작을 옵트인으로</a><span>상시 상주·자가 업데이트 데몬의 기본 활성화를 물은 원본 이슈입니다. 끄는 방법과 관련 보고가 정리돼 있습니다.</span></li>
+<li><a href="https://www.theguardian.com/world/2026/oct/12/cyber-attack-defrosts-refrigerators-france-supermarket-chains-intermarche-cooperative-u" target="_blank" rel="noopener noreferrer">가디언 — 프랑스 슈퍼마켓 냉장고 사이버 공격</a><span>섭씨 오십 도, 수백 개 매장, 검찰 수사 개시와 댄포스 소프트웨어 취약점을 보도한 시월 십이일 로이터 발신 기사입니다.</span></li>
+<li><a href="https://github.com/morluto/rea" target="_blank" rel="noopener noreferrer">REA — Reverse Engineer Anything 공식 저장소</a><span>에이전트에게 역분석 도구를 연결해 주는 MCP 서버·CLI입니다. 결과에 근거와 한계가 함께 남고, 설정 변경은 승인과 백업 아래 적용됩니다.</span></li>
 </ul>
 </div>
 </div>
@@ -56,11 +60,11 @@ tags:
 </div>
 </div>
 <div class="ewa-radio-archive-list" id="ep-list">
-<div class="ewa-radio-archive-item is-active" data-ep="11" data-lang="ko">
-<span class="ewa-radio-archive-num">EP 11</span>
+<div class="ewa-radio-archive-item is-active" data-ep="12" data-lang="ko">
+<span class="ewa-radio-archive-num">EP 12</span>
 <div>
-<h4>이번 주 AI 라디오: 꺼지지 않는 에이전트, 방어에 특화된 프론티어, 만 명을 키우는 일억 달러, 결정만 내리는 오픈소스</h4>
-<span>2026-10-05 · ~15.3분 · 한국어 · English · 日本語</span>
+<h4>이번 주 AI 라디오: 모두에게 열린 지피티 식스, 기억하는 메타의 첫 프론티어, 도구의 기본값 논쟁, 밤새 달아오른 냉장고</h4>
+<span>2026-10-13 · ~16.2분 · 한국어 · English · 日本語</span>
 </div>
 </div>
 </div>
