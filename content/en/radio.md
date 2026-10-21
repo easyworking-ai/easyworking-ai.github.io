@@ -22,32 +22,33 @@ tags:
 <section class="ewa-radio-player" id="radio-player">
 <div class="ewa-radio-cover">
 <div class="ewa-radio-cover-art" id="ep-cover">
-<span id="ep-num">EP 12</span>
+<span id="ep-num">EP 13</span>
 </div>
 </div>
 <div class="ewa-radio-info">
-<span class="ewa-radio-ep" id="ep-label">Episode 12 · Latest</span>
-<h2 id="ep-title">This Week in AI Radio: GPT-6 for Everyone, Meta&#x27;s First Frontier That Remembers, a Fight Over Tool Defaults, and Fridges Heated Overnight</h2>
-<p id="ep-summary">OpenAI rolled GPT-6 out to every ChatGPT tier starting October seventh, along with Intelligent UI, which grows small interactive panels inside the conversation. Meta, fourteen months after its reorganization, released Muse Wonder, its first frontier model, led by memory that holds across days and weeks. Codex CLI began installing a persistent, self-updating background daemon by default, igniting a developer fight over defaults. And in France, hackers drove fridges in several hundred supermarkets to fifty degrees Celsius overnight, sparking fires, food losses, and a criminal investigation. A week where self-updating tools, remembering models, and remotely moved equipment made defaults and access rights the real work. In this week&#x27;s open-source segment, we cover REA (Reverse Engineer Anything) — how to set it up, real use cases, and where its legal boundaries sit.</p>
+<span class="ewa-radio-ep" id="ep-label">Episode 13 · Latest</span>
+<h2 id="ep-title">This Week in AI Radio: A Model Expelled by the Government, Two Scripts on One Page, a Recorder in the Conference Room, and a Map of Work</h2>
+<p id="ep-summary">The U.S. Department of Homeland Security made public an order requiring federal civilian agencies to remove all DeepSeek technology from their IT systems and to stop buying it. The same week, the Chinese AI company shipped V4.1-Flash, published its weights under an MIT license, and opened its Search API to every developer. Hidden instructions invisible to humans but readable by AI were found on WhatsApp&#x27;s help pages, including orders not to recommend a regulator. A disguised recording device surfaced in an OpenAI conference room, an engineer was charged under federal wiretap law, and the company says it used its own models to identify who planted it. And hiring-data firm Mercor reported that 90% of U.S. working hours go to tasks existing benchmarks barely cover. In quick hits: MiniMax M3.1 Flash and Mistral&#x27;s time-series model Timestral.</p>
 <div class="ewa-radio-meta">
-<span id="ep-date">2026-10-13</span>
+<span id="ep-date">2026-10-20</span>
 <span id="ep-duration">⏱ ~5.0 min</span>
 <span>🎙️ Iro × Loop</span>
 </div>
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
-<source id="ep-source" src="/static/radio/episode-12-en.mp3" type="audio/mpeg">
+<source id="ep-source" src="/static/radio/episode-13-en.mp3" type="audio/mpeg">
 </audio>
 <div id="ep-links" class="ewa-radio-links" aria-live="polite">
 <div class="ewa-radio-links-title">Open-source projects mentioned</div>
 <ul>
-<li><a href="https://openai.com/index/gpt-6-for-everyone/" target="_blank" rel="noopener noreferrer">OpenAI — GPT-6 for everyone</a><span>The official October 7 announcement rolling GPT-6 out to every tier alongside Intelligent UI.</span></li>
-<li><a href="https://deploymentsafety.openai.com/gpt-6-october" target="_blank" rel="noopener noreferrer">OpenAI Deployment Safety Hub — GPT-6 October system card</a><span>The official system card covering safety evaluations for the rollout and the Astra safety inheritance.</span></li>
-<li><a href="https://www.anthropic.com/claude-haiku-5-5" target="_blank" rel="noopener noreferrer">Anthropic — Introducing Claude Haiku 5.5</a><span>The October 7 announcement: seventy-five percent lower running costs, halved cache reads, and subscriber API credits.</span></li>
-<li><a href="https://research.meta.ai/blog/muse-wonder" target="_blank" rel="noopener noreferrer">Meta AI Research — Muse Wonder</a><span>The October 12 research post: Active Memory, Active Focus, Prometheus training, and benchmark results.</span></li>
-<li><a href="https://research.meta.ai/static/muse-wonder-model-card" target="_blank" rel="noopener noreferrer">Meta — Muse Wonder model card</a><span>The official model card with the one-million-token context, evaluation scope, risk assessments, and limits.</span></li>
-<li><a href="https://github.com/openai/codex/issues/48195" target="_blank" rel="noopener noreferrer">openai/codex issue #48195 — make the daemon opt-in</a><span>The original issue asking OpenAI to make the persistent, self-updating daemon opt-in, with workarounds and linked reports.</span></li>
-<li><a href="https://www.theguardian.com/world/2026/oct/12/cyber-attack-defrosts-refrigerators-france-supermarket-chains-intermarche-cooperative-u" target="_blank" rel="noopener noreferrer">The Guardian — French supermarket fridge cyber-attack</a><span>The October 12 Reuters report: fifty degrees Celsius, hundreds of stores, the criminal probe, and the Danfoss software vulnerability.</span></li>
-<li><a href="https://github.com/morluto/rea" target="_blank" rel="noopener noreferrer">REA — Reverse Engineer Anything (official repository)</a><span>An MCP server and CLI connecting agents to reverse-engineering tools; findings keep their evidence and limitations, and setup applies changes only with approval and backups.</span></li>
+<li><a href="https://www.federalregister.gov/public-inspection/2026-21447/order-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive-branch-information" target="_blank" rel="noopener noreferrer">U.S. Federal Register — DeepSeek exclusion and removal order</a><span>The public inspection copy of the DHS order requiring federal civilian agencies to remove DeepSeek products and stop procuring them.</span></li>
+<li><a href="https://www.cnbc.com/2026/10/20/us-deepseek-federal-agency-ban.html" target="_blank" rel="noopener noreferrer">CNBC — U.S. bans DeepSeek from government agency systems</a><span>The October 20 report covering the order&#x27;s background, affected agencies, third-party product coverage, and the exception process.</span></li>
+<li><a href="https://www.deepseek.com/en/news/deepseek-v4-1-flash/" target="_blank" rel="noopener noreferrer">DeepSeek — Introducing DeepSeek-V4.1-Flash</a><span>The same-week model release: architecture, pricing, and the newly opened Search and Fetch APIs.</span></li>
+<li><a href="https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions" target="_blank" rel="noopener noreferrer">Redact — WhatsApp&#x27;s hidden AI instructions investigation</a><span>The primary investigation: all 545 pages inspected, the hidden instructions quoted, and the visible-versus-AI-sent comparison.</span></li>
+<li><a href="https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/" target="_blank" rel="noopener noreferrer">WIRED — WhatsApp help pages leaked hidden chatbot instructions</a><span>The October 19 report on Meta&#x27;s bug explanation and the support chatbot&#x27;s operation.</span></li>
+<li><a href="https://www.justice.gov/usao-ndca/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai-san" target="_blank" rel="noopener noreferrer">U.S. DOJ — arrest for installing a recording device at OpenAI</a><span>The official Northern District of California release: timeline, CCTV evidence, the chatbot queries, and the charge.</span></li>
+<li><a href="https://www.mercor.com/research/labor-index/benchmark-map/" target="_blank" rel="noopener noreferrer">Mercor — A benchmark map of the US economy</a><span>The research mapping 923 occupations and 18,797 tasks against 29 benchmarks, published as an interactive map.</span></li>
+<li><a href="https://www.minimax.io/blog/minimax-m31f" target="_blank" rel="noopener noreferrer">MiniMax — Introducing M3.1 Flash</a><span>The announcement: the Space Bunny reveal, speed and cost claims, pricing, and the weight-release plan.</span></li>
+<li><a href="https://mistral.ai/news/timestral/" target="_blank" rel="noopener noreferrer">Mistral — Timestral time-series foundation models</a><span>The announcement covering the time-series architecture, zero-shot benchmark results, and CPU-scale deployment.</span></li>
 </ul>
 </div>
 </div>
@@ -60,11 +61,11 @@ tags:
 </div>
 </div>
 <div class="ewa-radio-archive-list" id="ep-list">
-<div class="ewa-radio-archive-item is-active" data-ep="12" data-lang="en">
-<span class="ewa-radio-archive-num">EP 12</span>
+<div class="ewa-radio-archive-item is-active" data-ep="13" data-lang="en">
+<span class="ewa-radio-archive-num">EP 13</span>
 <div>
-<h4>This Week in AI Radio: GPT-6 for Everyone, Meta&#x27;s First Frontier That Remembers, a Fight Over Tool Defaults, and Fridges Heated Overnight</h4>
-<span>2026-10-13 · ~16.2분 · Korean · English · Japanese</span>
+<h4>This Week in AI Radio: A Model Expelled by the Government, Two Scripts on One Page, a Recorder in the Conference Room, and a Map of Work</h4>
+<span>2026-10-20 · ~14.4분 · Korean · English · Japanese</span>
 </div>
 </div>
 </div>

@@ -22,32 +22,33 @@ tags:
 <section class="ewa-radio-player" id="radio-player">
 <div class="ewa-radio-cover">
 <div class="ewa-radio-cover-art" id="ep-cover">
-<span id="ep-num">EP 12</span>
+<span id="ep-num">EP 13</span>
 </div>
 </div>
 <div class="ewa-radio-info">
-<span class="ewa-radio-ep" id="ep-label">Episode 12 · 최신 에피소드</span>
-<h2 id="ep-title">이번 주 AI 라디오: 모두에게 열린 지피티 식스, 기억하는 메타의 첫 프론티어, 도구의 기본값 논쟁, 밤새 달아오른 냉장고</h2>
-<p id="ep-summary">오픈AI가 지피티 식스를 시월 칠일부터 모든 챗지피티 요금제에 풀었고, 답 안에 작은 화면이 생기는 인텔리전트 유아이가 함께 나왔습니다. 메타는 재편 십사 개월 만에 첫 프론티어 모델 뮤즈 원더를 내놓으며 며칠·몇 주 단위의 기억을 앞세웠습니다. 코덱스 명령줄 도구가 백그라운드 상주 프로그램을 기본으로 깔기 시작하자 개발자들이 기본값 논쟁을 벌였고, 프랑스에서는 해킹으로 수백 개 매장의 냉장고가 밤새 섭씨 오십 도까지 달아올라 검찰 수사가 시작됐습니다. 도구가 스스로 업데이트하고, 모델이 사람을 기억하고, 네트워크로 연결된 설비가 원격에서 움직이는 지금, 무엇이 기본값이고 누가 접근 권한을 쥐는지가 일이 되는 한 주였습니다. 이번 주 오픈소스로는 에이전트에게 소프트웨어 역분석을 맡기는 리에이(Reverse Engineer Anything)를 설치법·유즈케이스·법적 경계와 함께 소개합니다.</p>
+<span class="ewa-radio-ep" id="ep-label">Episode 13 · 최신 에피소드</span>
+<h2 id="ep-title">이번 주 AI 라디오: 정부가 퇴출한 모델, 한 페이지의 두 대본, 회의실의 녹음기, 일의 지도</h2>
+<p id="ep-summary">미국 국토안보부가 중국 인공지능 회사 딥시크를 연방 민간 기관 정보시스템에서 전면 제거하고 조달까지 금지하는 명령을 공개했습니다. 같은 주 딥시크는 V4.1-Flash 모델을 내고 가중치를 MIT 라이선스로 공개했으며, 검색 API를 모든 개발자에게 열어 시장에서는 계속 확장했습니다. 와츠앱 도움말 페이지에서는 화면에 보이지 않고 AI만 읽는 숨은 지시문이 발견돼, 감독 기관을 추천하지 말라는 문구가 논란이 됐습니다. 오픈AI 회의실에서는 위장된 녹음기가 나와 엔지니어가 연방 도청 혐의로 체포됐고, 회사는 자기 모델로 설치자를 특정했다고 밝혔습니다. 채용 데이터 회사 머코는 미국 노동시간의 90%가 기존 벤치마크가 제대로 커버하지 못하는 과제에 쓰인다는 노동지수 결과를 냈습니다. 짧은 소식으로는 미니맥스 M3.1 Flash와 미스트랄의 시계열 모델 Timestral을 전합니다.</p>
 <div class="ewa-radio-meta">
-<span id="ep-date">2026-10-13</span>
+<span id="ep-date">2026-10-20</span>
 <span id="ep-duration">⏱ 약 5.3분</span>
 <span>🎙️ 이로 × 루프</span>
 </div>
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
-<source id="ep-source" src="/static/radio/episode-12-ko.mp3" type="audio/mpeg">
+<source id="ep-source" src="/static/radio/episode-13-ko.mp3" type="audio/mpeg">
 </audio>
 <div id="ep-links" class="ewa-radio-links" aria-live="polite">
 <div class="ewa-radio-links-title">방송에서 언급한 오픈소스·개발 프로젝트</div>
 <ul>
-<li><a href="https://openai.com/index/gpt-6-for-everyone/" target="_blank" rel="noopener noreferrer">OpenAI — GPT-6 전면 확대 발표</a><span>지피티 식스를 전 요금제에 풀고 인텔리전트 유아이를 도입한다는 시월 칠일 공식 발표 원문입니다.</span></li>
-<li><a href="https://deploymentsafety.openai.com/gpt-6-october" target="_blank" rel="noopener noreferrer">OpenAI 배포 안전 허브 — GPT-6 시월 업데이트 시스템 카드</a><span>이번 롤아웃 모델의 안전 평가와 아스트라 안전 설계 계승 내용을 담은 공식 문서입니다.</span></li>
-<li><a href="https://www.anthropic.com/claude-haiku-5-5" target="_blank" rel="noopener noreferrer">Anthropic — Claude Haiku 5.5 발표</a><span>칠십오 퍼센트 낮은 운용 비용, 캐시 읽기 반값, 구독자 에이피아이 크레딧을 담은 시월 칠일 발표 원문입니다.</span></li>
-<li><a href="https://research.meta.ai/blog/muse-wonder" target="_blank" rel="noopener noreferrer">Meta AI Research — Muse Wonder 발표</a><span>액티브 메모리와 액티브 포커스, 프로메테우스 훈련, 벤치마크 결과를 담은 시월 십이일 연구 발표 원문입니다.</span></li>
-<li><a href="https://research.meta.ai/static/muse-wonder-model-card" target="_blank" rel="noopener noreferrer">Meta — Muse Wonder 모델 카드</a><span>백만 토큰 컨텍스트, 평가 범위, 위험 평가와 한계를 공개한 공식 모델 카드입니다.</span></li>
-<li><a href="https://github.com/openai/codex/issues/48195" target="_blank" rel="noopener noreferrer">openai/codex 이슈 48195 — 데몬 자동 시작을 옵트인으로</a><span>상시 상주·자가 업데이트 데몬의 기본 활성화를 물은 원본 이슈입니다. 끄는 방법과 관련 보고가 정리돼 있습니다.</span></li>
-<li><a href="https://www.theguardian.com/world/2026/oct/12/cyber-attack-defrosts-refrigerators-france-supermarket-chains-intermarche-cooperative-u" target="_blank" rel="noopener noreferrer">가디언 — 프랑스 슈퍼마켓 냉장고 사이버 공격</a><span>섭씨 오십 도, 수백 개 매장, 검찰 수사 개시와 댄포스 소프트웨어 취약점을 보도한 시월 십이일 로이터 발신 기사입니다.</span></li>
-<li><a href="https://github.com/morluto/rea" target="_blank" rel="noopener noreferrer">REA — Reverse Engineer Anything 공식 저장소</a><span>에이전트에게 역분석 도구를 연결해 주는 MCP 서버·CLI입니다. 결과에 근거와 한계가 함께 남고, 설정 변경은 승인과 백업 아래 적용됩니다.</span></li>
+<li><a href="https://www.federalregister.gov/public-inspection/2026-21447/order-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive-branch-information" target="_blank" rel="noopener noreferrer">미국 연방관보 — 딥시크 제품 제거·조달 금지 명령</a><span>국토안보부가 연방 민간 기관에 내린 딥시크 제거·조달 금지 명령의 공개 열람본입니다.</span></li>
+<li><a href="https://www.cnbc.com/2026/10/20/us-deepseek-federal-agency-ban.html" target="_blank" rel="noopener noreferrer">CNBC — 미국, 정부 기관 시스템에서 딥시크 금지</a><span>명령의 경위, 대상 기관, 제삼자 제품 포함 여부와 예외 절차를 정리한 시월 이십일 보도입니다.</span></li>
+<li><a href="https://www.deepseek.com/en/news/deepseek-v4-1-flash/" target="_blank" rel="noopener noreferrer">DeepSeek — V4.1-Flash 공식 발표</a><span>퇴출 명령과 같은 주에 나온 새 빠른 모델의 구조, 가격, 검색·자료수집 에이피아이 공개 내용입니다.</span></li>
+<li><a href="https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions" target="_blank" rel="noopener noreferrer">Redact — WhatsApp 도움말 페이지의 숨은 에이아이 지시문 조사</a><span>오백사십오 페이지 전수 조사와 숨은 지시문 원문, 화면에 보인 것과 에이아이에게 보낸 것의 대조를 담은 조사 원문입니다.</span></li>
+<li><a href="https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/" target="_blank" rel="noopener noreferrer">WIRED — WhatsApp 도움말 페이지에서 새어 나온 지원 챗봇 지시문</a><span>메타의 버그 해명과 지원 챗봇 운영 배경을 짚은 시월 십구일 보도입니다.</span></li>
+<li><a href="https://www.justice.gov/usao-ndca/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai-san" target="_blank" rel="noopener noreferrer">미국 법무부 — 오픈AI 사무실 녹음 장치 설치 혐의 체포 보도자료</a><span>타임라인, 폐쇄회로 영상, 챗봇 질의 내용과 적용 혐의를 담은 북부캘리포니아 검찰 공식 발표입니다.</span></li>
+<li><a href="https://www.mercor.com/research/labor-index/benchmark-map/" target="_blank" rel="noopener noreferrer">Mercor — 미국 경제의 벤치마크 지도</a><span>구백이십삼 개 직업, 만 팔천칠백구십칠 개 과제와 스물아홉 개 벤치마크의 대응 결과를 인터랙티브 지도로 공개한 연구입니다.</span></li>
+<li><a href="https://www.minimax.io/blog/minimax-m31f" target="_blank" rel="noopener noreferrer">MiniMax — M3.1 Flash 공식 발표</a><span>스페이스 버니의 정체 공개, 속도와 비용, 가격표와 웨이트 공개 계획을 담은 발표 원문입니다.</span></li>
+<li><a href="https://mistral.ai/news/timestral/" target="_blank" rel="noopener noreferrer">Mistral — Timestral 시계열 파운데이션 모델 발표</a><span>시계열 예측 전용 모델의 구조, 제로샷 벤치마크 결과와 씨피유 구동 가능성을 설명한 발표 원문입니다.</span></li>
 </ul>
 </div>
 </div>
@@ -60,11 +61,11 @@ tags:
 </div>
 </div>
 <div class="ewa-radio-archive-list" id="ep-list">
-<div class="ewa-radio-archive-item is-active" data-ep="12" data-lang="ko">
-<span class="ewa-radio-archive-num">EP 12</span>
+<div class="ewa-radio-archive-item is-active" data-ep="13" data-lang="ko">
+<span class="ewa-radio-archive-num">EP 13</span>
 <div>
-<h4>이번 주 AI 라디오: 모두에게 열린 지피티 식스, 기억하는 메타의 첫 프론티어, 도구의 기본값 논쟁, 밤새 달아오른 냉장고</h4>
-<span>2026-10-13 · ~16.2분 · 한국어 · English · 日本語</span>
+<h4>이번 주 AI 라디오: 정부가 퇴출한 모델, 한 페이지의 두 대본, 회의실의 녹음기, 일의 지도</h4>
+<span>2026-10-20 · ~14.4분 · 한국어 · English · 日本語</span>
 </div>
 </div>
 </div>
