@@ -22,33 +22,36 @@ tags:
 <section class="ewa-radio-player" id="radio-player">
 <div class="ewa-radio-cover">
 <div class="ewa-radio-cover-art" id="ep-cover">
-<span id="ep-num">EP 13</span>
+<span id="ep-num">EP 14</span>
 </div>
 </div>
 <div class="ewa-radio-info">
-<span class="ewa-radio-ep" id="ep-label">Episode 13 · 최신 에피소드</span>
-<h2 id="ep-title">이번 주 AI 라디오: 정부가 퇴출한 모델, 한 페이지의 두 대본, 회의실의 녹음기, 일의 지도</h2>
-<p id="ep-summary">미국 국토안보부가 중국 인공지능 회사 딥시크를 연방 민간 기관 정보시스템에서 전면 제거하고 조달까지 금지하는 명령을 공개했습니다. 같은 주 딥시크는 V4.1-Flash 모델을 내고 가중치를 MIT 라이선스로 공개했으며, 검색 API를 모든 개발자에게 열어 시장에서는 계속 확장했습니다. 와츠앱 도움말 페이지에서는 화면에 보이지 않고 AI만 읽는 숨은 지시문이 발견돼, 감독 기관을 추천하지 말라는 문구가 논란이 됐습니다. 오픈AI 회의실에서는 위장된 녹음기가 나와 엔지니어가 연방 도청 혐의로 체포됐고, 회사는 자기 모델로 설치자를 특정했다고 밝혔습니다. 채용 데이터 회사 머코는 미국 노동시간의 90%가 기존 벤치마크가 제대로 커버하지 못하는 과제에 쓰인다는 노동지수 결과를 냈습니다. 짧은 소식으로는 미니맥스 M3.1 Flash와 미스트랄의 시계열 모델 Timestral을 전합니다.</p>
+<span class="ewa-radio-ep" id="ep-label">Episode 14 · 최신 에피소드</span>
+<h2 id="ep-title">이번 주 AI 라디오: 사업을 접은 자물쇠 회사, 승인을 맡긴 클로드, 코드를 증명하는 에이아이, 그리고 냉정한 숫자</h2>
+<p id="ep-summary">인도의 인증 회사 이머드라는 중간 인증 기관 여덟 개의 개인 키가 사실상 뚫린 수준으로 약했다는 연구자 공개가 나오고 닷새 만에 글로벌 에스에스엘 인증서 사업 철회를 선언했고, 같은 주 프랑스 법원의 차단 명령을 받은 스위스 공익 에스디엔에스 쿼드나인도 프랑스 철수를 발표했습니다. 앤스로픽은 먼저 움직이는 에이전트 앱 클로드 듀엣을 공개하고, 클로드 앱의 새 세션을 매 단계 승인 대신 위험 행동만 막는 오토 모드 기본으로 바꾼다고 밝혔습니다. 오픈AI의 패치 더 플래닛에서 GPT-5.6 Sol이 웹사이트 칠십 퍼센트가 쓰는 PHP 엔진의 치명적 취약점을 찾아내 이개월 간의 조율 끝에 패치로 이어졌고, 앤스로픽은 클로드로 오픈소스 라이브러리 백이십삼 개의 안전성을 기계어 수준에서 증명했습니다. 아폴로의 수석 이코노미스트 토르스텐 슬록은 테크 섹터 밖에서 에이아이 페이오프가 보이지 않는다는 차트 다섯 장을 공개했고, 피부과 전문의는 십 년 된 이미지 모델이 최신 대형 모델 둘을 피부암 진단에서 이기는 결과를 냈습니다. 짧은 소식으로는 키미 K3.1 Pro, 챗지피티 광고 팔십구 개국 확대, 오픈AI의 오케스트라 바이오 인수와 GPT-Rosalind 뇌 데이터 연구, 에이전트 스킬스 표준의 재단 기증을 전합니다.</p>
 <div class="ewa-radio-meta">
-<span id="ep-date">2026-10-20</span>
+<span id="ep-date">2026-10-26</span>
 <span id="ep-duration">⏱ 약 5.3분</span>
 <span>🎙️ 이로 × 루프</span>
 </div>
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
-<source id="ep-source" src="/static/radio/episode-13-ko.mp3" type="audio/mpeg">
+<source id="ep-source" src="/static/radio/episode-14-ko.mp3" type="audio/mpeg">
 </audio>
 <div id="ep-links" class="ewa-radio-links" aria-live="polite">
 <div class="ewa-radio-links-title">방송에서 언급한 오픈소스·개발 프로젝트</div>
 <ul>
-<li><a href="https://www.federalregister.gov/public-inspection/2026-21447/order-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive-branch-information" target="_blank" rel="noopener noreferrer">미국 연방관보 — 딥시크 제품 제거·조달 금지 명령</a><span>국토안보부가 연방 민간 기관에 내린 딥시크 제거·조달 금지 명령의 공개 열람본입니다.</span></li>
-<li><a href="https://www.cnbc.com/2026/10/20/us-deepseek-federal-agency-ban.html" target="_blank" rel="noopener noreferrer">CNBC — 미국, 정부 기관 시스템에서 딥시크 금지</a><span>명령의 경위, 대상 기관, 제삼자 제품 포함 여부와 예외 절차를 정리한 시월 이십일 보도입니다.</span></li>
-<li><a href="https://www.deepseek.com/en/news/deepseek-v4-1-flash/" target="_blank" rel="noopener noreferrer">DeepSeek — V4.1-Flash 공식 발표</a><span>퇴출 명령과 같은 주에 나온 새 빠른 모델의 구조, 가격, 검색·자료수집 에이피아이 공개 내용입니다.</span></li>
-<li><a href="https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions" target="_blank" rel="noopener noreferrer">Redact — WhatsApp 도움말 페이지의 숨은 에이아이 지시문 조사</a><span>오백사십오 페이지 전수 조사와 숨은 지시문 원문, 화면에 보인 것과 에이아이에게 보낸 것의 대조를 담은 조사 원문입니다.</span></li>
-<li><a href="https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/" target="_blank" rel="noopener noreferrer">WIRED — WhatsApp 도움말 페이지에서 새어 나온 지원 챗봇 지시문</a><span>메타의 버그 해명과 지원 챗봇 운영 배경을 짚은 시월 십구일 보도입니다.</span></li>
-<li><a href="https://www.justice.gov/usao-ndca/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai-san" target="_blank" rel="noopener noreferrer">미국 법무부 — 오픈AI 사무실 녹음 장치 설치 혐의 체포 보도자료</a><span>타임라인, 폐쇄회로 영상, 챗봇 질의 내용과 적용 혐의를 담은 북부캘리포니아 검찰 공식 발표입니다.</span></li>
-<li><a href="https://www.mercor.com/research/labor-index/benchmark-map/" target="_blank" rel="noopener noreferrer">Mercor — 미국 경제의 벤치마크 지도</a><span>구백이십삼 개 직업, 만 팔천칠백구십칠 개 과제와 스물아홉 개 벤치마크의 대응 결과를 인터랙티브 지도로 공개한 연구입니다.</span></li>
-<li><a href="https://www.minimax.io/blog/minimax-m31f" target="_blank" rel="noopener noreferrer">MiniMax — M3.1 Flash 공식 발표</a><span>스페이스 버니의 정체 공개, 속도와 비용, 가격표와 웨이트 공개 계획을 담은 발표 원문입니다.</span></li>
-<li><a href="https://mistral.ai/news/timestral/" target="_blank" rel="noopener noreferrer">Mistral — Timestral 시계열 파운데이션 모델 발표</a><span>시계열 예측 전용 모델의 구조, 제로샷 벤치마크 결과와 씨피유 구동 가능성을 설명한 발표 원문입니다.</span></li>
+<li><a href="https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business" target="_blank" rel="noopener noreferrer">eMudhra — 글로벌 에스에스엘 인증서 사업 철회 공식 발표</a><span>이사회 결정으로 글로벌 인증서 사업에서 자발적으로 철회한다고 밝힌 이십이일 보도자료입니다.</span></li>
+<li><a href="https://cybersecuritynews.com/emudhra-exits-global-ssl-tls-certificate/" target="_blank" rel="noopener noreferrer">CyberSecurityNews — eMudhra 철회와 약한 키 경위</a><span>여덟 중간 인증 기관의 약한 키와 유사 키 라벨 실수, 긴급 차단 조치를 정리한 보도입니다.</span></li>
+<li><a href="https://claude.com/resources/articles/claude-duet" target="_blank" rel="noopener noreferrer">Anthropic — 클로드 듀엣 소개</a><span>먼저 움직이는 에이전트 앱의 구조와 대기자 절차를 담은 공식 문서입니다.</span></li>
+<li><a href="https://claude.com/resources/articles/auto-mode-default-in-claude-code" target="_blank" rel="noopener noreferrer">Anthropic — 오토 모드 기본화 공지</a><span>프로·맥스·팀의 새 세션이 오토 모드로 시작한다는 시월 이십이일 업데이트가 붙은 공식 문서입니다.</span></li>
+<li><a href="https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities" target="_blank" rel="noopener noreferrer">OpenAI — 패치 더 플래닛: 치명적 취약점의 조율된 공개</a><span>캘리프와 지피티 오점육 솔의 발견, 이개월 간의 조율, 다섯 단계 대응 프레임워크와 십억 달러 방어자 지원을 담은 발표 원문입니다.</span></li>
+<li><a href="https://www.anthropic.com/research/formal-verification" target="_blank" rel="noopener noreferrer">Anthropic — 대규모 형식 소프트웨어 검증 연구</a><span>클로드가 오픈소스 라이브러리 백이십삼 개의 안전성을 기계 검증 증명으로 확장한 연구 원문입니다.</span></li>
+<li><a href="https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector" target="_blank" rel="noopener noreferrer">Apollo — 테크 섹터 밖의 에이아이 페이오프 부재 노트</a><span>토르스텐 슬록 수석 이코노미스트가 차트 다섯 장으로 정리한 시월 이십사일 데일리 스파크 노트입니다.</span></li>
+<li><a href="https://lynchlab.net/llm-skin-cancer" target="_blank" rel="noopener noreferrer">Lynch Lab — 10년 된 CNN이 프론티어 모델을 이긴 피부암 진단 실험</a><span>조직 검사로 확진된 병변 이백 개에 대한 비교 실험과 흑색종 누락 결과까지 담은 연구 원문입니다.</span></li>
+<li><a href="https://simonwillison.net/2026/Oct/23/kimi-k31-pro/" target="_blank" rel="noopener noreferrer">Simon Willison — 키미 케이 삼점일 프로 출시 정리</a><span>가격 인하와 십일월 사일 가중치 공개 약속을 짚은 독립 정리 글입니다.</span></li>
+<li><a href="https://www.reuters.com/business/media-telecom/openai-expands-chatgpt-ads-26-more-countries-bid-boost-revenue-2026-10-21/" target="_blank" rel="noopener noreferrer">로이터 — 챗지피티 광고 이십육 개국 확대</a><span>총 팔십구 개국 확대와 수익 다각화 배경을 전하는 시월 이십일 보도입니다.</span></li>
+<li><a href="https://openai.com/index/openai-to-acquire-orchestra-bio" target="_blank" rel="noopener noreferrer">OpenAI — 오케스트라 바이오 인수 발표</a><span>에이아이 신약 개발 플랫폼 인수를 알린 시월 이십일 공식 발표입니다.</span></li>
+<li><a href="https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation" target="_blank" rel="noopener noreferrer">Anthropic — 에이전트 스킬스 표준의 재단 기증</a><span>칠십여 개 플랫폼이 쓰는 공개 표준을 리눅스 재단 산하 재단으로 넘긴다는 공식 발표입니다.</span></li>
 </ul>
 </div>
 </div>
@@ -61,11 +64,11 @@ tags:
 </div>
 </div>
 <div class="ewa-radio-archive-list" id="ep-list">
-<div class="ewa-radio-archive-item is-active" data-ep="13" data-lang="ko">
-<span class="ewa-radio-archive-num">EP 13</span>
+<div class="ewa-radio-archive-item is-active" data-ep="14" data-lang="ko">
+<span class="ewa-radio-archive-num">EP 14</span>
 <div>
-<h4>이번 주 AI 라디오: 정부가 퇴출한 모델, 한 페이지의 두 대본, 회의실의 녹음기, 일의 지도</h4>
-<span>2026-10-20 · ~14.4분 · 한국어 · English · 日本語</span>
+<h4>이번 주 AI 라디오: 사업을 접은 자물쇠 회사, 승인을 맡긴 클로드, 코드를 증명하는 에이아이, 그리고 냉정한 숫자</h4>
+<span>2026-10-26 · ~14.8분 · 한국어 · English · 日本語</span>
 </div>
 </div>
 </div>

@@ -22,33 +22,36 @@ tags:
 <section class="ewa-radio-player" id="radio-player">
 <div class="ewa-radio-cover">
 <div class="ewa-radio-cover-art" id="ep-cover">
-<span id="ep-num">EP 13</span>
+<span id="ep-num">EP 14</span>
 </div>
 </div>
 <div class="ewa-radio-info">
-<span class="ewa-radio-ep" id="ep-label">Episode 13 · Latest</span>
-<h2 id="ep-title">This Week in AI Radio: A Model Expelled by the Government, Two Scripts on One Page, a Recorder in the Conference Room, and a Map of Work</h2>
-<p id="ep-summary">The U.S. Department of Homeland Security made public an order requiring federal civilian agencies to remove all DeepSeek technology from their IT systems and to stop buying it. The same week, the Chinese AI company shipped V4.1-Flash, published its weights under an MIT license, and opened its Search API to every developer. Hidden instructions invisible to humans but readable by AI were found on WhatsApp&#x27;s help pages, including orders not to recommend a regulator. A disguised recording device surfaced in an OpenAI conference room, an engineer was charged under federal wiretap law, and the company says it used its own models to identify who planted it. And hiring-data firm Mercor reported that 90% of U.S. working hours go to tasks existing benchmarks barely cover. In quick hits: MiniMax M3.1 Flash and Mistral&#x27;s time-series model Timestral.</p>
+<span class="ewa-radio-ep" id="ep-label">Episode 14 · Latest</span>
+<h2 id="ep-title">This Week in AI Radio: A Padlock Seller Quits, Claude Hands Over the Keys, AI Proves the World&#x27;s Code, and Cold Numbers</h2>
+<p id="ep-summary">Five days after a researcher showed that eight of its intermediate certificate authorities had private keys so weak one was literally the number four, India&#x27;s eMudhra announced it is withdrawing from the global SSL/TLS certificate business — and the same week Switzerland&#x27;s Quad9 said it will leave France rather than obey a court-ordered site blocking demand. Anthropic opened a research preview of Claude Duet, a proactive agent app, and said new Claude sessions on Pro, Max, and Team will default to auto mode, where an automated check blocks risky actions instead of asking at every step. Under OpenAI&#x27;s Patch the Planet initiative, GPT-5.6 Sol helped uncover critical flaws in the PHP engine that runs about seventy percent of websites, leading to a two-month coordinated patch — and Anthropic had Claude write machine-checked proofs covering one hundred twenty-three open-source libraries at the compiled-binary level. Apollo&#x27;s chief economist published five charts finding no AI payoff outside the tech sector, and a dermatologist&#x27;s test showed a ten-year-old CNN beating two frontier LLMs at skin cancer diagnosis — while missing eighteen of thirty melanomas at its default threshold. In quick hits: Kimi K3.1 Pro, ChatGPT ads reaching eighty-nine countries, OpenAI&#x27;s acquisition of Orchestra Bio and its GPT-Rosalind brain-data research, and the Agent Skills standard moving to a foundation.</p>
 <div class="ewa-radio-meta">
-<span id="ep-date">2026-10-20</span>
+<span id="ep-date">2026-10-26</span>
 <span id="ep-duration">⏱ ~5.0 min</span>
 <span>🎙️ Iro × Loop</span>
 </div>
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
-<source id="ep-source" src="/static/radio/episode-13-en.mp3" type="audio/mpeg">
+<source id="ep-source" src="/static/radio/episode-14-en.mp3" type="audio/mpeg">
 </audio>
 <div id="ep-links" class="ewa-radio-links" aria-live="polite">
 <div class="ewa-radio-links-title">Open-source projects mentioned</div>
 <ul>
-<li><a href="https://www.federalregister.gov/public-inspection/2026-21447/order-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive-branch-information" target="_blank" rel="noopener noreferrer">U.S. Federal Register — DeepSeek exclusion and removal order</a><span>The public inspection copy of the DHS order requiring federal civilian agencies to remove DeepSeek products and stop procuring them.</span></li>
-<li><a href="https://www.cnbc.com/2026/10/20/us-deepseek-federal-agency-ban.html" target="_blank" rel="noopener noreferrer">CNBC — U.S. bans DeepSeek from government agency systems</a><span>The October 20 report covering the order&#x27;s background, affected agencies, third-party product coverage, and the exception process.</span></li>
-<li><a href="https://www.deepseek.com/en/news/deepseek-v4-1-flash/" target="_blank" rel="noopener noreferrer">DeepSeek — Introducing DeepSeek-V4.1-Flash</a><span>The same-week model release: architecture, pricing, and the newly opened Search and Fetch APIs.</span></li>
-<li><a href="https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions" target="_blank" rel="noopener noreferrer">Redact — WhatsApp&#x27;s hidden AI instructions investigation</a><span>The primary investigation: all 545 pages inspected, the hidden instructions quoted, and the visible-versus-AI-sent comparison.</span></li>
-<li><a href="https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/" target="_blank" rel="noopener noreferrer">WIRED — WhatsApp help pages leaked hidden chatbot instructions</a><span>The October 19 report on Meta&#x27;s bug explanation and the support chatbot&#x27;s operation.</span></li>
-<li><a href="https://www.justice.gov/usao-ndca/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai-san" target="_blank" rel="noopener noreferrer">U.S. DOJ — arrest for installing a recording device at OpenAI</a><span>The official Northern District of California release: timeline, CCTV evidence, the chatbot queries, and the charge.</span></li>
-<li><a href="https://www.mercor.com/research/labor-index/benchmark-map/" target="_blank" rel="noopener noreferrer">Mercor — A benchmark map of the US economy</a><span>The research mapping 923 occupations and 18,797 tasks against 29 benchmarks, published as an interactive map.</span></li>
-<li><a href="https://www.minimax.io/blog/minimax-m31f" target="_blank" rel="noopener noreferrer">MiniMax — Introducing M3.1 Flash</a><span>The announcement: the Space Bunny reveal, speed and cost claims, pricing, and the weight-release plan.</span></li>
-<li><a href="https://mistral.ai/news/timestral/" target="_blank" rel="noopener noreferrer">Mistral — Timestral time-series foundation models</a><span>The announcement covering the time-series architecture, zero-shot benchmark results, and CPU-scale deployment.</span></li>
+<li><a href="https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business" target="_blank" rel="noopener noreferrer">eMudhra — official exit announcement for the global SSL/TLS business</a><span>The October 22 press release announcing the board&#x27;s voluntary withdrawal from the global certificate business.</span></li>
+<li><a href="https://cybersecuritynews.com/emudhra-exits-global-ssl-tls-certificate/" target="_blank" rel="noopener noreferrer">CyberSecurityNews — eMudhra exit and the weak-key story</a><span>The report covering the eight weak intermediate keys, the similar-key-label mistake, and the emergency blocking.</span></li>
+<li><a href="https://claude.com/resources/articles/claude-duet" target="_blank" rel="noopener noreferrer">Anthropic — Introducing Claude Duet</a><span>The official article on the proactive agent app, how it works, and the waitlist.</span></li>
+<li><a href="https://claude.com/resources/articles/auto-mode-default-in-claude-code" target="_blank" rel="noopener noreferrer">Anthropic — auto mode becomes the default</a><span>The official doc carrying the October 22 update: new sessions on Pro, Max, and Team start in auto mode.</span></li>
+<li><a href="https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities" target="_blank" rel="noopener noreferrer">OpenAI — Patch the Planet: coordinated disclosure of critical vulnerabilities</a><span>The primary post: the Calif discovery with GPT-5.6 Sol, the two-month coordination, the five-stage framework, and the one-billion-dollar defender commitment.</span></li>
+<li><a href="https://www.anthropic.com/research/formal-verification" target="_blank" rel="noopener noreferrer">Anthropic — formal software verification at a much larger scale</a><span>The research post where Claude scales machine-checked proofs across one hundred twenty-three open-source libraries.</span></li>
+<li><a href="https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector" target="_blank" rel="noopener noreferrer">Apollo — No Signs of AI Payoff Outside the Tech Sector</a><span>Chief economist Torsten Slok&#x27;s October 24 Daily Spark note, laid out in five charts.</span></li>
+<li><a href="https://lynchlab.net/llm-skin-cancer" target="_blank" rel="noopener noreferrer">Lynch Lab — a 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis</a><span>The study itself: two hundred biopsy-proven lesions, the comparison, and the melanoma-miss finding.</span></li>
+<li><a href="https://simonwillison.net/2026/Oct/23/kimi-k31-pro/" target="_blank" rel="noopener noreferrer">Simon Willison — Introducing Kimi K3.1 Pro</a><span>An independent write-up covering the price cut and the November 4 open-weights promise.</span></li>
+<li><a href="https://www.reuters.com/business/media-telecom/openai-expands-chatgpt-ads-26-more-countries-bid-boost-revenue-2026-10-21/" target="_blank" rel="noopener noreferrer">Reuters — OpenAI expands ChatGPT ads to 26 more countries</a><span>The October 21 report on the expansion to eighty-nine countries and the revenue push behind it.</span></li>
+<li><a href="https://openai.com/index/openai-to-acquire-orchestra-bio" target="_blank" rel="noopener noreferrer">OpenAI — acquiring Orchestra Bio</a><span>The official October 20 announcement of the AI drug-development platform acquisition.</span></li>
+<li><a href="https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation" target="_blank" rel="noopener noreferrer">Anthropic — donating Agent Skills to the Agentic AI Foundation</a><span>The official post moving the open standard, adopted by seventy-plus platforms, to a Linux Foundation home.</span></li>
 </ul>
 </div>
 </div>
@@ -61,11 +64,11 @@ tags:
 </div>
 </div>
 <div class="ewa-radio-archive-list" id="ep-list">
-<div class="ewa-radio-archive-item is-active" data-ep="13" data-lang="en">
-<span class="ewa-radio-archive-num">EP 13</span>
+<div class="ewa-radio-archive-item is-active" data-ep="14" data-lang="en">
+<span class="ewa-radio-archive-num">EP 14</span>
 <div>
-<h4>This Week in AI Radio: A Model Expelled by the Government, Two Scripts on One Page, a Recorder in the Conference Room, and a Map of Work</h4>
-<span>2026-10-20 · ~14.4분 · Korean · English · Japanese</span>
+<h4>This Week in AI Radio: A Padlock Seller Quits, Claude Hands Over the Keys, AI Proves the World&#x27;s Code, and Cold Numbers</h4>
+<span>2026-10-26 · ~14.8분 · Korean · English · Japanese</span>
 </div>
 </div>
 </div>

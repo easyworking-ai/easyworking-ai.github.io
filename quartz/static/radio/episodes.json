@@ -993,7 +993,190 @@
         "en": "/static/radio/episode-13-en.mp3",
         "ja": "/static/radio/episode-13-ja.mp3"
       }
+    },
+    {
+      "num": 14,
+      "title": {
+        "ko": "이번 주 AI 라디오: 사업을 접은 자물쇠 회사, 승인을 맡긴 클로드, 코드를 증명하는 에이아이, 그리고 냉정한 숫자",
+        "en": "This Week in AI Radio: A Padlock Seller Quits, Claude Hands Over the Keys, AI Proves the World's Code, and Cold Numbers",
+        "ja": "今週のAIラジオ：錠前ビジネスを降りた会社、承認を預けたClaude、コードを証明するAI、そして冷静な数字"
+      },
+      "date": "2026-10-26",
+      "duration": "~14.8분",
+      "topics": {
+        "ko": [],
+        "en": [],
+        "ja": []
+      },
+      "summary": {
+        "ko": "인도의 인증 회사 이머드라는 중간 인증 기관 여덟 개의 개인 키가 사실상 뚫린 수준으로 약했다는 연구자 공개가 나오고 닷새 만에 글로벌 에스에스엘 인증서 사업 철회를 선언했고, 같은 주 프랑스 법원의 차단 명령을 받은 스위스 공익 에스디엔에스 쿼드나인도 프랑스 철수를 발표했습니다. 앤스로픽은 먼저 움직이는 에이전트 앱 클로드 듀엣을 공개하고, 클로드 앱의 새 세션을 매 단계 승인 대신 위험 행동만 막는 오토 모드 기본으로 바꾼다고 밝혔습니다. 오픈AI의 패치 더 플래닛에서 GPT-5.6 Sol이 웹사이트 칠십 퍼센트가 쓰는 PHP 엔진의 치명적 취약점을 찾아내 이개월 간의 조율 끝에 패치로 이어졌고, 앤스로픽은 클로드로 오픈소스 라이브러리 백이십삼 개의 안전성을 기계어 수준에서 증명했습니다. 아폴로의 수석 이코노미스트 토르스텐 슬록은 테크 섹터 밖에서 에이아이 페이오프가 보이지 않는다는 차트 다섯 장을 공개했고, 피부과 전문의는 십 년 된 이미지 모델이 최신 대형 모델 둘을 피부암 진단에서 이기는 결과를 냈습니다. 짧은 소식으로는 키미 K3.1 Pro, 챗지피티 광고 팔십구 개국 확대, 오픈AI의 오케스트라 바이오 인수와 GPT-Rosalind 뇌 데이터 연구, 에이전트 스킬스 표준의 재단 기증을 전합니다.",
+        "en": "Five days after a researcher showed that eight of its intermediate certificate authorities had private keys so weak one was literally the number four, India's eMudhra announced it is withdrawing from the global SSL/TLS certificate business — and the same week Switzerland's Quad9 said it will leave France rather than obey a court-ordered site blocking demand. Anthropic opened a research preview of Claude Duet, a proactive agent app, and said new Claude sessions on Pro, Max, and Team will default to auto mode, where an automated check blocks risky actions instead of asking at every step. Under OpenAI's Patch the Planet initiative, GPT-5.6 Sol helped uncover critical flaws in the PHP engine that runs about seventy percent of websites, leading to a two-month coordinated patch — and Anthropic had Claude write machine-checked proofs covering one hundred twenty-three open-source libraries at the compiled-binary level. Apollo's chief economist published five charts finding no AI payoff outside the tech sector, and a dermatologist's test showed a ten-year-old CNN beating two frontier LLMs at skin cancer diagnosis — while missing eighteen of thirty melanomas at its default threshold. In quick hits: Kimi K3.1 Pro, ChatGPT ads reaching eighty-nine countries, OpenAI's acquisition of Orchestra Bio and its GPT-Rosalind brain-data research, and the Agent Skills standard moving to a foundation.",
+        "ja": "インドの認証会社eMudhraは、中間認証局八つ の秘密鍵が事実上破られていたという研究者の公開から五日後、グローバルなSSL/TLS証明書事業からの撤退を発表しました。同じ週、フランスの裁判所によるブロック命令を受けたスイスの非営利DNS「Quad9」もフランスからの撤退を表明しました。Anthropicは自ら動くエージェントアプリ「Claude Duet」の研究プレビューを公開し、Pro・Max・Teamプランの新セッションを、一つ一つの承認ではなく危険な行動だけを自動で止めるオートモードを既定にすると発表しました。OpenAIの「Patch the Planet」では、GPT-5.6 Solがウェブサイトの七割が使うPHPエンジンの重大な脆弱性の発見につながり、二か月の調整を経てパッチが公開。AnthropicはClaudeで百二十三のオープンソースライブラリの安全性を機械語レベルで証明しました。Apolloのチーフエコノミストは、テック業界の外にAIのリターンが見えないとする五枚のチャートを公開し、皮膚科医の実験では十年前の画像モデルが最新の大型モデル二つを皮膚がん診断で上回りました。短いニュースでは、Kimi K3.1 Pro、ChatGPT広告の八十九か国展開、OpenAIによるOrchestra Bio買収とGPT-Rosalindの脳データ研究、Agent Skills標準の財団寄贈を伝えます。"
+      },
+      "openSourceLinks": [
+        {
+          "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+          "name": {
+            "ko": "eMudhra — 글로벌 에스에스엘 인증서 사업 철회 공식 발표",
+            "en": "eMudhra — official exit announcement for the global SSL/TLS business",
+            "ja": "eMudhra — グローバルSSL証明書事業撤退の公式発表"
+          },
+          "description": {
+            "ko": "이사회 결정으로 글로벌 인증서 사업에서 자발적으로 철회한다고 밝힌 이십이일 보도자료입니다.",
+            "en": "The October 22 press release announcing the board's voluntary withdrawal from the global certificate business.",
+            "ja": "理事会の決定によりグローバル証明書事業から自主撤退すると発表した二十二日付のプレスリリースです。"
+          }
+        },
+        {
+          "url": "https://cybersecuritynews.com/emudhra-exits-global-ssl-tls-certificate/",
+          "name": {
+            "ko": "CyberSecurityNews — eMudhra 철회와 약한 키 경위",
+            "en": "CyberSecurityNews — eMudhra exit and the weak-key story",
+            "ja": "CyberSecurityNews — eMudhra撤退と弱い鍵の経緯"
+          },
+          "description": {
+            "ko": "여덟 중간 인증 기관의 약한 키와 유사 키 라벨 실수, 긴급 차단 조치를 정리한 보도입니다.",
+            "en": "The report covering the eight weak intermediate keys, the similar-key-label mistake, and the emergency blocking.",
+            "ja": "八つの中間認証局の弱い鍵、類似鍵ラベルのミス、緊急ブロックをまとめた報道です。"
+          }
+        },
+        {
+          "url": "https://claude.com/resources/articles/claude-duet",
+          "name": {
+            "ko": "Anthropic — 클로드 듀엣 소개",
+            "en": "Anthropic — Introducing Claude Duet",
+            "ja": "Anthropic — Claude Duetの紹介"
+          },
+          "description": {
+            "ko": "먼저 움직이는 에이전트 앱의 구조와 대기자 절차를 담은 공식 문서입니다.",
+            "en": "The official article on the proactive agent app, how it works, and the waitlist.",
+            "ja": "先に動くエージェントアプリの仕組みと_waitlist手続きを示す公式記事です。"
+          }
+        },
+        {
+          "url": "https://claude.com/resources/articles/auto-mode-default-in-claude-code",
+          "name": {
+            "ko": "Anthropic — 오토 모드 기본화 공지",
+            "en": "Anthropic — auto mode becomes the default",
+            "ja": "Anthropic — オートモード既定化の告知"
+          },
+          "description": {
+            "ko": "프로·맥스·팀의 새 세션이 오토 모드로 시작한다는 시월 이십이일 업데이트가 붙은 공식 문서입니다.",
+            "en": "The official doc carrying the October 22 update: new sessions on Pro, Max, and Team start in auto mode.",
+            "ja": "Pro・Max・Teamの新セッションがオートモードで始まるという十月二十二日更新を含む公式文書です。"
+          }
+        },
+        {
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+          "name": {
+            "ko": "OpenAI — 패치 더 플래닛: 치명적 취약점의 조율된 공개",
+            "en": "OpenAI — Patch the Planet: coordinated disclosure of critical vulnerabilities",
+            "ja": "OpenAI — Patch the Planet：重大な脆弱性の調整された公開"
+          },
+          "description": {
+            "ko": "캘리프와 지피티 오점육 솔의 발견, 이개월 간의 조율, 다섯 단계 대응 프레임워크와 십억 달러 방어자 지원을 담은 발표 원문입니다.",
+            "en": "The primary post: the Calif discovery with GPT-5.6 Sol, the two-month coordination, the five-stage framework, and the one-billion-dollar defender commitment.",
+            "ja": "CalifとGPT-5.6 Solの発見、二か月の調整、五段階の対応枠組み、十億ドルの防御者支援を含む発表原文です。"
+          }
+        },
+        {
+          "url": "https://www.anthropic.com/research/formal-verification",
+          "name": {
+            "ko": "Anthropic — 대규모 형식 소프트웨어 검증 연구",
+            "en": "Anthropic — formal software verification at a much larger scale",
+            "ja": "Anthropic — 大規模な形式検証の研究"
+          },
+          "description": {
+            "ko": "클로드가 오픈소스 라이브러리 백이십삼 개의 안전성을 기계 검증 증명으로 확장한 연구 원문입니다.",
+            "en": "The research post where Claude scales machine-checked proofs across one hundred twenty-three open-source libraries.",
+            "ja": "Claudeが百二十三のオープンソースライブラリの安全性を機械検証証明に拡張した研究原文です。"
+          }
+        },
+        {
+          "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+          "name": {
+            "ko": "Apollo — 테크 섹터 밖의 에이아이 페이오프 부재 노트",
+            "en": "Apollo — No Signs of AI Payoff Outside the Tech Sector",
+            "ja": "Apollo — テック業界の外にAIのリターンは見えない"
+          },
+          "description": {
+            "ko": "토르스텐 슬록 수석 이코노미스트가 차트 다섯 장으로 정리한 시월 이십사일 데일리 스파크 노트입니다.",
+            "en": "Chief economist Torsten Slok's October 24 Daily Spark note, laid out in five charts.",
+            "ja": "チーフエコノミスト、トルステン・スロークが五枚のチャートにまとめた十月二十四日付ノートです。"
+          }
+        },
+        {
+          "url": "https://lynchlab.net/llm-skin-cancer",
+          "name": {
+            "ko": "Lynch Lab — 10년 된 CNN이 프론티어 모델을 이긴 피부암 진단 실험",
+            "en": "Lynch Lab — a 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+            "ja": "Lynch Lab — 十年前のCNNが最新モデルを上回った皮膚がん診断実験"
+          },
+          "description": {
+            "ko": "조직 검사로 확진된 병변 이백 개에 대한 비교 실험과 흑색종 누락 결과까지 담은 연구 원문입니다.",
+            "en": "The study itself: two hundred biopsy-proven lesions, the comparison, and the melanoma-miss finding.",
+            "ja": "組織検査で確定した二百病変の比較実験と、黑色腫の見逃し結果まで含む研究原文です。"
+          }
+        },
+        {
+          "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+          "name": {
+            "ko": "Simon Willison — 키미 케이 삼점일 프로 출시 정리",
+            "en": "Simon Willison — Introducing Kimi K3.1 Pro",
+            "ja": "Simon Willison — Kimi K3.1 Proのリリースまとめ"
+          },
+          "description": {
+            "ko": "가격 인하와 십일월 사일 가중치 공개 약속을 짚은 독립 정리 글입니다.",
+            "en": "An independent write-up covering the price cut and the November 4 open-weights promise.",
+            "ja": "値下げと十一月四日の重み公開約束を押さえた独立まとめ記事です。"
+          }
+        },
+        {
+          "url": "https://www.reuters.com/business/media-telecom/openai-expands-chatgpt-ads-26-more-countries-bid-boost-revenue-2026-10-21/",
+          "name": {
+            "ko": "로이터 — 챗지피티 광고 이십육 개국 확대",
+            "en": "Reuters — OpenAI expands ChatGPT ads to 26 more countries",
+            "ja": "ロイター — ChatGPT広告を26か国に拡大"
+          },
+          "description": {
+            "ko": "총 팔십구 개국 확대와 수익 다각화 배경을 전하는 시월 이십일 보도입니다.",
+            "en": "The October 21 report on the expansion to eighty-nine countries and the revenue push behind it.",
+            "ja": "合計八十九か国への展開と収益多角化の背景を伝える十月二十一日の報道です。"
+          }
+        },
+        {
+          "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+          "name": {
+            "ko": "OpenAI — 오케스트라 바이오 인수 발표",
+            "en": "OpenAI — acquiring Orchestra Bio",
+            "ja": "OpenAI — Orchestra Bioの買収発表"
+          },
+          "description": {
+            "ko": "에이아이 신약 개발 플랫폼 인수를 알린 시월 이십일 공식 발표입니다.",
+            "en": "The official October 20 announcement of the AI drug-development platform acquisition.",
+            "ja": "AI創薬プラットフォームの買収を伝える十月二十日付の公式発表です。"
+          }
+        },
+        {
+          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "name": {
+            "ko": "Anthropic — 에이전트 스킬스 표준의 재단 기증",
+            "en": "Anthropic — donating Agent Skills to the Agentic AI Foundation",
+            "ja": "Anthropic — Agent Skills標準の財団寄贈"
+          },
+          "description": {
+            "ko": "칠십여 개 플랫폼이 쓰는 공개 표준을 리눅스 재단 산하 재단으로 넘긴다는 공식 발표입니다.",
+            "en": "The official post moving the open standard, adopted by seventy-plus platforms, to a Linux Foundation home.",
+            "ja": "七十以上のプラットフォームが使う公開標準をLinux Foundation配下に移すという公式発表です。"
+          }
+        }
+      ],
+      "audio": {
+        "ko": "/static/radio/episode-14-ko.mp3",
+        "en": "/static/radio/episode-14-en.mp3",
+        "ja": "/static/radio/episode-14-ja.mp3"
+      }
     }
   ],
-  "latest": 13
+  "latest": 14
 }
