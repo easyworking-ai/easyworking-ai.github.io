@@ -495,7 +495,9 @@ def assemble(segments: list[tuple[Path, str, str]], work_dir: Path, output_mp3: 
     normalized: list[tuple[Path, str, str]] = []
     for index, (source, speaker, section) in enumerate(segments):
         destination = work_dir / f"seg_{index:03d}_{speaker}.wav"
-        ffmpeg_to_wav(source, destination, loudnorm=True)
+        # 2026-10-28: 대사별 loudnorm 제거 — 이중 정규화가 고역을 부풀려 쇳소리를 만듦(V0 vs V1 청취 실측).
+        # 클립 음량 편차는 1.2dB 수준이라 최종 loudnorm 1회로 충분.
+        ffmpeg_to_wav(source, destination, loudnorm=False)
         normalized.append((destination, speaker, section))
 
     for name, duration in (("s1", 0.2), ("s2", 0.4), ("s3", 0.8), ("s4", 1.2)):
@@ -593,7 +595,7 @@ def assemble(segments: list[tuple[Path, str, str]], work_dir: Path, output_mp3: 
             "-ac",
             "1",
             "-b:a",
-            "128k",
+            "192k",
             str(output_mp3),
         ],
         timeout=300,
