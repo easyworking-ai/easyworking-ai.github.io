@@ -68,7 +68,7 @@ tags:
 <span class="ewa-radio-archive-num">EP 14</span>
 <div>
 <h4>今週のAIラジオ：錠前ビジネスを降りた会社、承認を預けたClaude、コードを証明するAI、そして冷静な数字</h4>
-<span>2026-10-26 · ~14.8분 · 韓国語 · English · 日本語</span>
+<span>2026-10-26 · ~14.9분 · 韓国語 · English · 日本語</span>
 </div>
 </div>
 </div>

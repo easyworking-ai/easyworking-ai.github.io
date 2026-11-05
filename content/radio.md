@@ -68,7 +68,7 @@ tags:
 <span class="ewa-radio-archive-num">EP 14</span>
 <div>
 <h4>이번 주 AI 라디오: 사업을 접은 자물쇠 회사, 승인을 맡긴 클로드, 코드를 증명하는 에이아이, 그리고 냉정한 숫자</h4>
-<span>2026-10-26 · ~14.8분 · 한국어 · English · 日本語</span>
+<span>2026-10-26 · ~14.9분 · 한국어 · English · 日本語</span>
 </div>
 </div>
 </div>

@@ -68,7 +68,7 @@ tags:
 <span class="ewa-radio-archive-num">EP 14</span>
 <div>
 <h4>This Week in AI Radio: A Padlock Seller Quits, Claude Hands Over the Keys, AI Proves the World&#x27;s Code, and Cold Numbers</h4>
-<span>2026-10-26 · ~14.8분 · Korean · English · Japanese</span>
+<span>2026-10-26 · ~14.9분 · Korean · English · Japanese</span>
 </div>
 </div>
 </div>
