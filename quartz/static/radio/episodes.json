@@ -1176,7 +1176,138 @@
         "en": "/static/radio/episode-14-en.mp3",
         "ja": "/static/radio/episode-14-ja.mp3"
       }
+    },
+    {
+      "num": 15,
+      "title": {
+        "ko": "이번 주 AI 라디오: 조사받는 엔비디아의 얼굴, 새어나간 천 개 넘는 비밀, 기본값이 된 워터마크, 기억을 얻은 뮤즈",
+        "en": "This Week in AI Radio: Nvidia's Face Under Investigation, More Than a Thousand Leaked Secrets, A Watermark by Default, and a Muse That Remembers",
+        "ja": "今週のAIラジオ：調査を受けるNVIDIAの顔、千を超えて漏れた秘密、デフォルトになった透かし、記憶を得たMuse"
+      },
+      "date": "2026-11-09",
+      "duration": "~13분",
+      "topics": {
+        "ko": [],
+        "en": [],
+        "ja": []
+      },
+      "summary": {
+        "ko": "엔비디아 이사회가 11월 8일 젠슨 황을 둘러싼 보도에 대해 독립 조사를 시작한다고 발표했고, 국가안보나 기밀 유출의 근거는 없다고 밝혔습니다. 보안 회사 아피로는 공개 깃허브의 클로드 코드 설정 파일 사본 10만4,185개 중 1,122개에서 실제 비밀을 찾았고, 서로 다른 비밀은 1,379개였습니다. 파일 이력·공유 settings.json·저장된 에이전트 대화기록까지 합친 집계는 2,539개이며 포크는 별도 집계입니다. 같은 주 골드만삭스는 트레이더와 뱅커의 일부 AI 코딩 도구 사용을 엔지니어로 제한했습니다. xAI는 11월 7일부터 그록 API 7개 모델의 텍스트 출력에 보이지 않는 워터마크를 기본 적용했고, EU 공식 FAQ가 설명하는 12월 2일은 모든 AI 콘텐츠의 일반 마감일이 아니라 2026년 8월 2일 이전 출시 시스템의 AI 생성 콘텐츠 표시·탐지 의무(Article 50(2))에만 해당하는 제한적 유예입니다. 앤스로픽은 미래 클로드 모델에 워터마크를 적용한다고 설명했고, 2026년 8월 2일 이전 출시 모델은 앞으로 수개월에 걸쳐 확대한다고 밝혔으며 구형 모델의 구체적인 시행일은 공식 페이지에서 확인되지 않습니다. 메타는 11월 6일 뮤즈 원더로 학습한 뮤즈·메타 AI용 전문 모델을 발표했고, 자사 평가에서 목표 달성에 필요한 중요 정보를 잊는 일이 2.4배 감소했다고 적었습니다. 짧은 소식으로는 문샤잇의 키미 K3.1 프로 가중치 공개와 애질리티 로보틱스의 나스닥 상장을 전합니다.",
+        "en": "Nvidia's board announced on November 8 an independent investigation into reports involving founder and CEO Jensen Huang, while stating it has no reason to believe national security or company secrets were compromised. Security firm Apiiro found real secrets in 1,122 of 104,185 public copies of Claude Code settings files, with 1,379 distinct secrets. Its total of 2,539 includes the file's git history, shared settings.json files, and saved agent chat transcripts; forks were counted separately. The same week, Goldman Sachs restricted some AI coding-tool use by traders and bankers to engineers. Starting November 7, xAI applies an invisible watermark by default to text output from seven Grok API models. The EU's official FAQ says December 2 is not a general deadline for all AI-generated content: it is a limited grace period under Article 50(2) for the marking and detectability obligations of systems placed on the market before August 2, 2026. Anthropic says future Claude models will generate watermarked text and that models launched before August 2 will be covered over the coming months; its official page does not specify a rollout date for older models. Meta announced specialized models trained using Muse Wonder for Muse and Meta AI on November 6, and its own evaluation reports a 2.4x reduction in forgetting critical information necessary for helping users achieve their goals. Quick hits: Moonshot's Kimi K3.1 Pro open weights and Agility Robotics listing on Nasdaq.",
+        "ja": "NVIDIAの取締役会は11月8日、創業者兼CEOのジェンスン・フアン氏をめぐる報道について独立調査を始めると発表し、国家安全保障や社内機密が漏洩したと考える根拠はないとしました。セキュリティ企業Apiiroは、公開GitHubにあるClaude Code設定ファイル104,185件のうち1,122件から実際の秘密情報を見つけ、異なる秘密は1,379個でした。ファイル履歴、共有settings.json、保存されたエージェントのチャット記録を含む集計は2,539個で、フォークは別に数えられています。同じ週、Goldman Sachsはトレーダーとバンカーによる一部のAIコーディングツール利用をエンジニアに限りました。xAIは11月7日からGrok APIの7モデルのテキスト出力に不可視の透かしをデフォルトで入れています。EU公式FAQによれば、12月2日はすべてのAI生成コンテンツに対する一般的な期限ではなく、2026年8月2日より前に市場投入されたシステムのAI生成コンテンツに関する表示・検出義務（AI法50条2項）だけに認められた限定的な猶予です。Anthropicは将来のClaudeモデルが透かし入りテキストを生成すると説明し、8月2日より前に公開されたモデルは今後数か月かけて対象にするとしていますが、公式ページには旧モデルの具体的な展開日は記載されていません。Metaは11月6日、Muse Wonderで学習したMuse・Meta AI向け専用モデルを発表し、自社評価で目標達成に必要な重要情報の忘却が2.4倍減少したと記載しました。短いニュースでは、MoonshotのKimi K3.1 Proの重み公開とAgility Roboticsのナスダック上場を伝えます。"
+      },
+      "openSourceLinks": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+          "name": {
+            "ko": "NVIDIA — 이사회 공식 성명",
+            "en": "NVIDIA — official board statement",
+            "ja": "NVIDIA — 取締役会の公式声明"
+          },
+          "description": {
+            "ko": "십일월 팔일 자 이사회 성명 원문입니다. 독립 조사 착수, 국가안보·기밀 유출 근거 없다는 표명, 젠슨 황의 협조 의사가 적혀 있습니다.",
+            "en": "The November 8 board statement: the independent investigation, the statement that no evidence of compromise has been found, and Jensen Huang's commitment to cooperate.",
+            "ja": "11月8日付の取締役会声明の原文。独立調査の開始、機密漏洩の根拠がないとの表明、ジェンスン・フアン氏の協力意向が記されています。"
+          }
+        },
+        {
+          "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+          "name": {
+            "ko": "Apiiro — 코딩 에이전트 비밀 유출 측정 보고",
+            "en": "Apiiro — coding agents leaking secrets research",
+            "ja": "Apiiro — コーディングエージェントの秘密漏洩の測定報告"
+          },
+          "description": {
+            "ko": "공개 GitHub의 Claude Code 설정 파일 104,185개 중 1,122개에서 실제 비밀을 찾고, 파일 이력·공유 settings.json·저장된 에이전트 대화기록을 합친 서로 다른 비밀 2,539개를 집계한 연구입니다. 포크는 별도 집계됩니다.",
+            "en": "The study found real secrets in 1,122 of 104,185 public Claude Code settings-file copies and counted 2,539 distinct secrets across file history, shared settings.json files, and saved agent transcripts; forks were counted separately.",
+            "ja": "公開GitHubのClaude Code設定ファイル104,185件のうち1,122件から実際の秘密を見つけ、ファイル履歴・共有settings.json・保存されたエージェントのチャット記録を含めて異なる秘密2,539個を集計した研究です。フォークは別集計です。"
+          }
+        },
+        {
+          "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking",
+          "name": {
+            "ko": "xAI — 그록 API 워터마크 개발자 문서",
+            "en": "xAI — Grok API watermarking documentation",
+            "ja": "xAI — Grok API透かしの開発者文書"
+          },
+          "description": {
+            "ko": "그록 API 7개 모델의 텍스트 출력에 11월 7일부터 기본 적용되는 보이지 않는 워터마크와 팀 관리자별 해제 절차를 설명하는 공식 문서입니다.",
+            "en": "Official documentation for the invisible watermark enabled by default on text output from seven Grok API models starting November 7, including the team-admin opt-out procedure.",
+            "ja": "11月7日からGrok APIの7モデルのテキスト出力にデフォルトで適用される不可視の透かしと、チーム管理者による解除手順を説明する公式文書です。"
+          }
+        },
+        {
+          "url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+          "name": {
+            "ko": "EU 집행위원회 — AI법 제50조 투명성 의무 FAQ",
+            "en": "European Commission — Transparency obligations under Article 50 of the AI Act",
+            "ja": "欧州委員会 — AI法50条の透明性義務FAQ"
+          },
+          "description": {
+            "ko": "AI법 50조는 2026년 8월 2일부터 적용되고, 12월 2일은 8월 2일 이전 시장 출시 시스템의 AI 생성 콘텐츠 표시·탐지 의무(50조 2항)에만 적용되는 제한적 유예라고 설명합니다.",
+            "en": "The FAQ says Article 50 applies from August 2, 2026, while December 2 is a limited grace period only for Article 50(2) marking and detectability obligations for systems placed on the market before August 2.",
+            "ja": "AI法50条は2026年8月2日から適用され、12月2日は8月2日より前に市場投入されたシステムのAI生成コンテンツの表示・検出義務（50条2項）だけに認められた限定的な猶予だと説明しています。"
+          }
+        },
+        {
+          "url": "https://www.anthropic.com/news/claude-text-watermark",
+          "name": {
+            "ko": "Anthropic — 클로드 텍스트 워터마크 공식 설명",
+            "en": "Anthropic — how Claude text watermarking works",
+            "ja": "Anthropic — Claudeのテキスト透かしに関する公式説明"
+          },
+          "description": {
+            "ko": "미래 클로드 모델의 텍스트 워터마크와 2026년 8월 2일 이전 출시 모델에 대한 수개월에 걸친 전환 계획, 탐지 API의 공개 범위를 설명합니다.",
+            "en": "Anthropic's explanation of watermarks for future Claude models, the coming-months transition for models launched before August 2, 2026, and detection-API access.",
+            "ja": "将来のClaudeモデルのテキスト透かし、2026年8月2日より前に公開されたモデルへの数か月かけた展開、検出APIの利用範囲を説明しています。"
+          }
+        },
+        {
+          "url": "https://research.meta.ai/blog/specialized-models-for-muse-and-metaai",
+          "name": {
+            "ko": "Meta AI Research — 뮤즈·메타 AI 전문 모델 발표",
+            "en": "Meta AI Research — specialized models for Muse and Meta AI",
+            "ja": "Meta AI Research — Muse・Meta AI向け専用モデルの発表"
+          },
+          "description": {
+            "ko": "뮤즈 원더로 학습한 뮤즈·메타 AI용 전문 모델을 소개한 11월 6일 발표입니다. 액티브 메모리·액티브 포커스와 메타 자체 평가의 2.4배 감소 표현이 적혀 있습니다.",
+            "en": "The November 6 announcement introduces specialized models trained using Muse Wonder for Muse and Meta AI, covering Active Memory, Active Focus, and Meta's own 2.4x reduction-in-forgetting evaluation.",
+            "ja": "Muse Wonderで学習したMuse・Meta AI向け専用モデルを紹介する11月6日の発表です。Active Memory、Active Focus、Meta自社評価の2.4倍減少という表現が記載されています。"
+          }
+        },
+        {
+          "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+          "name": {
+            "ko": "문샤잇 — 키미 케이 삼점일 프로 모델 카드",
+            "en": "Moonshot AI — Kimi K3.1 Pro model card",
+            "ja": "Moonshot — Kimi K3.1 Proのモデルカード"
+          },
+          "description": {
+            "ko": "Kimi K3.1 Pro 모델 카드에서 확인되는 총 2.8조 매개변수, 활성 1,040억 개, 100만 토큰 문맥의 가중치 공개 저장소입니다.",
+            "en": "The Kimi K3.1 Pro model card and open-weights repository, listing 2.8T total parameters, 104B active parameters, and a one-million-token context window.",
+            "ja": "Kimi K3.1 Proのモデルカードと重み公開リポジトリ。総パラメータ2.8兆個、活性1,040億個、百万トークンの文脈が記載されています。"
+          }
+        },
+        {
+          "url": "https://mistral.ai/news/mistral-large-4-oss/",
+          "name": {
+            "ko": "Mistral AI — 미스트랄 라지 4 오픈 웨이트 발표",
+            "en": "Mistral AI — Mistral Large 4 open-weight announcement",
+            "ja": "Mistral AI — Mistral Large 4の重み公開発表"
+          },
+          "description": {
+            "ko": "10월 29일 공개된 미스트랄 라지 4 오픈 웨이트 발표입니다. 공개 시점을 확인하는 참고 링크입니다.",
+            "en": "The first-party open-weight announcement dated October 29; it is kept as a reference for the release date.",
+            "ja": "10月29日付のMistral Large 4重み公開発表です。公開時点を確認するための参考リンクです。"
+          }
+        }
+      ],
+      "audio": {
+        "ko": "/static/radio/episode-15-ko.mp3",
+        "en": "/static/radio/episode-15-en.mp3",
+        "ja": "/static/radio/episode-15-ja.mp3"
+      }
     }
   ],
-  "latest": 14
+  "latest": 15
 }
