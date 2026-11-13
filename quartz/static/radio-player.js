@@ -17,6 +17,7 @@
   const numEl = document.getElementById("ep-num");
   const listEl = document.getElementById("ep-list");
   const linksEl = document.getElementById("ep-links");
+  const playerEl = document.getElementById("radio-player");
 
   if (!audio || !source) return;
 
@@ -34,7 +35,7 @@
 
       // JSON의 latest를 기준으로 최신 에피소드와 링크를 초기 표시한다.
       const latest = episodes.find(function (ep) { return ep.num === latestNum; }) || episodes[episodes.length - 1];
-      selectEpisode(latest, currentLang, latestNum);
+      selectEpisode(latest, currentLang, latestNum, false);
     })
     .catch(function () {
       // JSON 로드 실패 시 정적 HTML fallback을 그대로 표시한다.
@@ -51,35 +52,31 @@
     listEl.innerHTML = "";
 
     episodes.slice().sort(function (a, b) { return a.num - b.num; }).forEach(function (ep) {
-      const item = document.createElement("div");
+      const item = document.createElement("button");
+      item.type = "button";
       item.className = "ewa-radio-archive-item" + (ep.num === latestNum ? " is-active" : "");
       item.setAttribute("data-ep", ep.num);
       item.setAttribute("data-lang", lang);
-      item.setAttribute("role", "button");
-      item.setAttribute("tabindex", "0");
+      item.setAttribute("aria-pressed", String(ep.num === latestNum));
 
       const num = document.createElement("span");
       num.className = "ewa-radio-archive-num";
       num.textContent = "EP " + String(ep.num).padStart(2, "0");
 
-      const body = document.createElement("div");
-      const title = document.createElement("h4");
+      const body = document.createElement("span");
+      body.className = "ewa-radio-archive-body";
+      const title = document.createElement("span");
+      title.className = "ewa-radio-archive-title";
       title.textContent = localized(ep.title, lang, "Episode " + ep.num);
       const meta = document.createElement("span");
+      meta.className = "ewa-radio-archive-meta";
       meta.textContent = (ep.date || "") + " · " + localized(ep.duration, lang, "") + " · 한국어 · English · 日本語";
       body.appendChild(title);
       body.appendChild(meta);
       item.appendChild(num);
       item.appendChild(body);
 
-      const activate = function () { selectEpisode(ep, lang, latestNum); };
-      item.addEventListener("click", activate);
-      item.addEventListener("keydown", function (event) {
-        if (event.key === "Enter" || event.key === " ") {
-          event.preventDefault();
-          activate();
-        }
-      });
+      item.addEventListener("click", function () { selectEpisode(ep, lang, latestNum, true); });
       listEl.appendChild(item);
     });
   }
@@ -131,7 +128,7 @@
     appendLinkGroup(linksEl, projects, lang, label.projects);
   }
 
-  function selectEpisode(ep, lang, latestNum) {
+  function selectEpisode(ep, lang, latestNum, shouldScroll) {
     const title = localized(ep.title, lang, "Episode " + ep.num);
     const summary = localized(ep.summary, lang, "");
     const audioUrl = localized(ep.audio, lang, "");
@@ -157,7 +154,16 @@
     renderLinks(ep, lang);
 
     document.querySelectorAll(".ewa-radio-archive-item").forEach(function (item) {
-      item.classList.toggle("is-active", Number(item.getAttribute("data-ep")) === ep.num);
+      const isActive = Number(item.getAttribute("data-ep")) === ep.num;
+      item.classList.toggle("is-active", isActive);
+      if (item.tagName === "BUTTON") item.setAttribute("aria-pressed", String(isActive));
     });
+
+    if (shouldScroll && playerEl) {
+      // Defer the viewport move until the click task has settled.
+      window.setTimeout(function () {
+        playerEl.scrollIntoView({ behavior: "instant", block: "start" });
+      }, 100);
+    }
   }
 })();

@@ -2504,6 +2504,10 @@ body {
   color: var(--ewa-text);
 }
 
+#radio-player {
+  scroll-margin-top: 5rem;
+}
+
 .ewa-radio-hero {
   text-align: center;
   padding: clamp(2rem, 8vw, 4rem) 0;
@@ -2737,6 +2741,64 @@ body {
   background: var(--ewa-bg-card);
 }
 
+button.ewa-radio-archive-item {
+  width: 100%;
+  margin: 0;
+  min-height: 48px;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+button.ewa-radio-archive-item:hover {
+  background: var(--ewa-bg-card-hover);
+  border-color: var(--ewa-rose);
+}
+
+button.ewa-radio-archive-item.is-active {
+  border-color: var(--ewa-rose);
+  background: var(--ewa-bg-card-hover);
+  box-shadow: 0 0 0 1px var(--ewa-rose), 0 10px 24px rgba(0, 0, 0, 0.16);
+}
+
+button.ewa-radio-archive-item.is-active .ewa-radio-archive-num,
+button.ewa-radio-archive-item.is-active .ewa-radio-archive-title {
+  color: var(--ewa-rose);
+}
+
+button.ewa-radio-archive-item:focus-visible {
+  outline: 2px solid var(--ewa-rose);
+  outline-offset: 2px;
+}
+
+button.ewa-radio-archive-item:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.ewa-radio-archive-body {
+  display: block;
+  flex: 1;
+  min-width: 0;
+}
+
+.ewa-radio-archive-title {
+  display: block;
+  margin: 0 0 0.35rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.ewa-radio-archive-meta {
+  display: block;
+  color: var(--ewa-text-muted);
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+
 .ewa-radio-archive-num {
   font-size: 0.75rem;
   font-weight: 800;
@@ -2937,6 +2999,12 @@ body {
 
   .ewa-radio-cover-art {
     margin: 0 auto;
+  }
+
+  .ewa-radio-archive-item {
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 0.9rem 1rem;
   }
 
   .ewa-mobile-nav {
