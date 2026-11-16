@@ -22,32 +22,32 @@ tags:
 <section class="ewa-radio-player" id="radio-player">
 <div class="ewa-radio-cover">
 <div class="ewa-radio-cover-art" id="ep-cover">
-<span id="ep-num">EP 15</span>
+<span id="ep-num">EP 16</span>
 </div>
 </div>
 <div class="ewa-radio-info">
-<span class="ewa-radio-ep" id="ep-label">Episode 15 · 최신 에피소드</span>
-<h2 id="ep-title">이번 주 AI 라디오: 조사받는 엔비디아의 얼굴, 새어나간 천 개 넘는 비밀, 기본값이 된 워터마크, 기억을 얻은 뮤즈</h2>
-<p id="ep-summary">엔비디아 이사회가 11월 8일 젠슨 황을 둘러싼 보도에 대해 독립 조사를 시작한다고 발표했고, 국가안보나 기밀 유출의 근거는 없다고 밝혔습니다. 보안 회사 아피로는 공개 깃허브의 클로드 코드 설정 파일 사본 10만4,185개 중 1,122개에서 실제 비밀을 찾았고, 서로 다른 비밀은 1,379개였습니다. 파일 이력·공유 settings.json·저장된 에이전트 대화기록까지 합친 집계는 2,539개이며 포크는 별도 집계입니다. 같은 주 골드만삭스는 트레이더와 뱅커의 일부 AI 코딩 도구 사용을 엔지니어로 제한했습니다. xAI는 11월 7일부터 그록 API 7개 모델의 텍스트 출력에 보이지 않는 워터마크를 기본 적용했고, EU 공식 FAQ가 설명하는 12월 2일은 모든 AI 콘텐츠의 일반 마감일이 아니라 2026년 8월 2일 이전 출시 시스템의 AI 생성 콘텐츠 표시·탐지 의무(Article 50(2))에만 해당하는 제한적 유예입니다. 앤스로픽은 미래 클로드 모델에 워터마크를 적용한다고 설명했고, 2026년 8월 2일 이전 출시 모델은 앞으로 수개월에 걸쳐 확대한다고 밝혔으며 구형 모델의 구체적인 시행일은 공식 페이지에서 확인되지 않습니다. 메타는 11월 6일 뮤즈 원더로 학습한 뮤즈·메타 AI용 전문 모델을 발표했고, 자사 평가에서 목표 달성에 필요한 중요 정보를 잊는 일이 2.4배 감소했다고 적었습니다. 짧은 소식으로는 문샤잇의 키미 K3.1 프로 가중치 공개와 애질리티 로보틱스의 나스닥 상장을 전합니다.</p>
+<span class="ewa-radio-ep" id="ep-label">Episode 16 · 최신 에피소드</span>
+<h2 id="ep-title">이번 주 AI 라디오: 물러난 엔비디아의 얼굴, 멈춘 메일이 놓친 경보, 열려 있던 여권, 재발견된 유적</h2>
+<p id="ep-summary">엔비디아 설립자 젠슨 황이 11월 12일 사장·최고경영자·이사직을 모두 내려놓았습니다. 두 건의 혼외 관계가 알려진 데 따른 것으로, 재무최고책임자 코레트 크레스가 임시 최고경영자를 맡았고 이사회는 후임 검색에 들어갔습니다. 이후 영국 파이낸셜 타임스는 황이 복귀를 검토 중이고 실리콘밸리 지지자들이 복귀를 밀고 있다고 보도했습니다. 마이크로소프트 365 장애(11월 12~14일)로 독일 판타지랜드 호텔 링 바오의 수영장 자동 염소 투여 장치 경보 이메일이 도착하지 않았고, 과다 투여된 염소 가스로 투숙객 15명이 다쳤습니다. 스웨덴 노코드 앱 빌더 러버블로 만든 약 16만 개 앱을 조사한 결과 7,000개 넘는 앱이 로그인 없이 여권 번호 1,000건 이상, 사적 메시지 20만 건, 결제 내역 등을 노출하고 있었습니다. 구글 연구자의 AI 에이전트 48개는 공개 나사 라이더 데이터 1,200km²에서 멕시코 공식 등록부에 없는 마야 유적 후보를 찾았지만, 이미 2025년 논문으로 보고된 곳으로 확인됐습니다. 짧은 소식으로는 Gemini 4 Hydrogen 출시와 구글 검색 적용, 앤스로픽 IPO 청약 마감(11월 17일)과 가격 결정(11월 18일), 이탈리아 개인정보 보호기관의 메타에 대한 8억500만 유로 벌금, 미 연방항공청의 전국 이륙 금지(약 12,462편 결항, 마이크로소프트 장애와는 무관), 파이썬 커뮤니티가 전한 팀 피터스 별세를 전합니다.</p>
 <div class="ewa-radio-meta">
-<span id="ep-date">2026-11-09</span>
+<span id="ep-date">2026-11-16</span>
 <span id="ep-duration">⏱ 약 5.3분</span>
 <span>🎙️ 이로 × 루프</span>
 </div>
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
-<source id="ep-source" src="/static/radio/episode-15-ko.mp3" type="audio/mpeg">
+<source id="ep-source" src="/static/radio/episode-16-ko.mp3" type="audio/mpeg">
 </audio>
 <div id="ep-links" class="ewa-radio-links" aria-live="polite">
 <div class="ewa-radio-links-title">방송에서 언급한 오픈소스·개발 프로젝트</div>
 <ul>
-<li><a href="https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors" target="_blank" rel="noopener noreferrer">NVIDIA — 이사회 공식 성명</a><span>십일월 팔일 자 이사회 성명 원문입니다. 독립 조사 착수, 국가안보·기밀 유출 근거 없다는 표명, 젠슨 황의 협조 의사가 적혀 있습니다.</span></li>
-<li><a href="https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again" target="_blank" rel="noopener noreferrer">Apiiro — 코딩 에이전트 비밀 유출 측정 보고</a><span>공개 GitHub의 Claude Code 설정 파일 104,185개 중 1,122개에서 실제 비밀을 찾고, 파일 이력·공유 settings.json·저장된 에이전트 대화기록을 합친 서로 다른 비밀 2,539개를 집계한 연구입니다. 포크는 별도 집계됩니다.</span></li>
-<li><a href="https://docs.x.ai/developers/advanced-api-usage/watermarking" target="_blank" rel="noopener noreferrer">xAI — 그록 API 워터마크 개발자 문서</a><span>그록 API 7개 모델의 텍스트 출력에 11월 7일부터 기본 적용되는 보이지 않는 워터마크와 팀 관리자별 해제 절차를 설명하는 공식 문서입니다.</span></li>
-<li><a href="https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act" target="_blank" rel="noopener noreferrer">EU 집행위원회 — AI법 제50조 투명성 의무 FAQ</a><span>AI법 50조는 2026년 8월 2일부터 적용되고, 12월 2일은 8월 2일 이전 시장 출시 시스템의 AI 생성 콘텐츠 표시·탐지 의무(50조 2항)에만 적용되는 제한적 유예라고 설명합니다.</span></li>
-<li><a href="https://www.anthropic.com/news/claude-text-watermark" target="_blank" rel="noopener noreferrer">Anthropic — 클로드 텍스트 워터마크 공식 설명</a><span>미래 클로드 모델의 텍스트 워터마크와 2026년 8월 2일 이전 출시 모델에 대한 수개월에 걸친 전환 계획, 탐지 API의 공개 범위를 설명합니다.</span></li>
-<li><a href="https://research.meta.ai/blog/specialized-models-for-muse-and-metaai" target="_blank" rel="noopener noreferrer">Meta AI Research — 뮤즈·메타 AI 전문 모델 발표</a><span>뮤즈 원더로 학습한 뮤즈·메타 AI용 전문 모델을 소개한 11월 6일 발표입니다. 액티브 메모리·액티브 포커스와 메타 자체 평가의 2.4배 감소 표현이 적혀 있습니다.</span></li>
-<li><a href="https://huggingface.co/moonshotai/Kimi-K3.1-Pro" target="_blank" rel="noopener noreferrer">문샤잇 — 키미 케이 삼점일 프로 모델 카드</a><span>Kimi K3.1 Pro 모델 카드에서 확인되는 총 2.8조 매개변수, 활성 1,040억 개, 100만 토큰 문맥의 가중치 공개 저장소입니다.</span></li>
-<li><a href="https://mistral.ai/news/mistral-large-4-oss/" target="_blank" rel="noopener noreferrer">Mistral AI — 미스트랄 라지 4 오픈 웨이트 발표</a><span>10월 29일 공개된 미스트랄 라지 4 오픈 웨이트 발표입니다. 공개 시점을 확인하는 참고 링크입니다.</span></li>
+<li><a href="https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition" target="_blank" rel="noopener noreferrer">NVIDIA — 최고경영자 교체 공식 발표</a><span>십일월 십이일 자 공식 발표입니다. 젠슨 황의 사장·최고경영자·이사직 즉시 사임과 코레트 크레스의 임시 최고경영자 선임이 적혀 있습니다.</span></li>
+<li><a href="https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html" target="_blank" rel="noopener noreferrer">WDR — 판타지랜드 염소 사고 1차 취재</a><span>호텔 링 바오 수영장의 자동 염소 투여 장치 고장과, 아웃룩 장애로 경보 메일이 도착하지 않았다는 회사 설명, 투숙객 부상 경위를 담은 독일 공영방송 보도입니다.</span></li>
+<li><a href="https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answers" target="_blank" rel="noopener noreferrer">미국 연방항공청 — 전국 이륙 금지 문답</a><span>십일월 십삼일 전국 이륙 금지의 원인과 경과를 항공청이 정리한 문답입니다. 노우 장비로 흘러든 데이터 홍수와 결항 규모가 적혀 있습니다.</span></li>
+<li><a href="https://oecd.ai/en/incidents/2026-11-03-6b59" target="_blank" rel="noopener noreferrer">OECD.AI — 러버블 앱 데이터 노출 사건 기록</a><span>AI로 만든 앱의 데이터 노출 사건을 공공 데이터베이스에 등록한 기록입니다. 노출 범위와 원인 개요를 확인할 수 있습니다.</span></li>
+<li><a href="https://pietromiotti.com/latest/maya-site/" target="_blank" rel="noopener noreferrer">피에트로 미오티 — 마야 유적 탐색 후기</a><span>에이전트 마흔여덟 개로 나사 라이더 데이터를 사흘간 훑은 과정을 연구자 본인이 정리한 글입니다. 공식 등록부에 없던 유적과, 이미 논문으로 보고됐다는 사실을 모두 적고 있습니다.</span></li>
+<li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/" target="_blank" rel="noopener noreferrer">Google — Gemini 4 Hydrogen 발표문</a><span>코딩과 에이전트 작업용 고속 모델 하이드로젬의 공식 발표문입니다. 최상위 모델 카본·아르곤과의 역할 구분이 정리돼 있습니다.</span></li>
+<li><a href="https://ipo.anthropic.com" target="_blank" rel="noopener noreferrer">Anthropic — IPO 공식 사이트</a><span>앤스로픽 주식 공개의 공식 문서와 청약 안내입니다. 신고서 원문을 확인할 수 있습니다.</span></li>
+<li><a href="https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028" target="_blank" rel="noopener noreferrer">Python 커뮤니티 — 팀 피터스 추모 공고</a><span>구도 반 로썸이 올린 추모 글입니다. 파이썬의 선과 팀소트를 남긴 팀 피터스의 기여가 정리돼 있습니다.</span></li>
 </ul>
 </div>
 </div>
@@ -60,11 +60,11 @@ tags:
 </div>
 </div>
 <div class="ewa-radio-archive-list" id="ep-list">
-<div class="ewa-radio-archive-item is-active" data-ep="15" data-lang="ko">
-<span class="ewa-radio-archive-num">EP 15</span>
+<div class="ewa-radio-archive-item is-active" data-ep="16" data-lang="ko">
+<span class="ewa-radio-archive-num">EP 16</span>
 <div>
-<h4>이번 주 AI 라디오: 조사받는 엔비디아의 얼굴, 새어나간 천 개 넘는 비밀, 기본값이 된 워터마크, 기억을 얻은 뮤즈</h4>
-<span>2026-11-09 · ~13분 · 한국어 · English · 日本語</span>
+<h4>이번 주 AI 라디오: 물러난 엔비디아의 얼굴, 멈춘 메일이 놓친 경보, 열려 있던 여권, 재발견된 유적</h4>
+<span>2026-11-16 · ~14.8분 · 한국어 · English · 日本語</span>
 </div>
 </div>
 </div>

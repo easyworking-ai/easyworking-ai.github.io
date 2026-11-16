@@ -22,32 +22,32 @@ tags:
 <section class="ewa-radio-player" id="radio-player">
 <div class="ewa-radio-cover">
 <div class="ewa-radio-cover-art" id="ep-cover">
-<span id="ep-num">EP 15</span>
+<span id="ep-num">EP 16</span>
 </div>
 </div>
 <div class="ewa-radio-info">
-<span class="ewa-radio-ep" id="ep-label">Episode 15 · 最新エピソード</span>
-<h2 id="ep-title">今週のAIラジオ：調査を受けるNVIDIAの顔、千を超えて漏れた秘密、デフォルトになった透かし、記憶を得たMuse</h2>
-<p id="ep-summary">NVIDIAの取締役会は11月8日、創業者兼CEOのジェンスン・フアン氏をめぐる報道について独立調査を始めると発表し、国家安全保障や社内機密が漏洩したと考える根拠はないとしました。セキュリティ企業Apiiroは、公開GitHubにあるClaude Code設定ファイル104,185件のうち1,122件から実際の秘密情報を見つけ、異なる秘密は1,379個でした。ファイル履歴、共有settings.json、保存されたエージェントのチャット記録を含む集計は2,539個で、フォークは別に数えられています。同じ週、Goldman Sachsはトレーダーとバンカーによる一部のAIコーディングツール利用をエンジニアに限りました。xAIは11月7日からGrok APIの7モデルのテキスト出力に不可視の透かしをデフォルトで入れています。EU公式FAQによれば、12月2日はすべてのAI生成コンテンツに対する一般的な期限ではなく、2026年8月2日より前に市場投入されたシステムのAI生成コンテンツに関する表示・検出義務（AI法50条2項）だけに認められた限定的な猶予です。Anthropicは将来のClaudeモデルが透かし入りテキストを生成すると説明し、8月2日より前に公開されたモデルは今後数か月かけて対象にするとしていますが、公式ページには旧モデルの具体的な展開日は記載されていません。Metaは11月6日、Muse Wonderで学習したMuse・Meta AI向け専用モデルを発表し、自社評価で目標達成に必要な重要情報の忘却が2.4倍減少したと記載しました。短いニュースでは、MoonshotのKimi K3.1 Proの重み公開とAgility Roboticsのナスダック上場を伝えます。</p>
+<span class="ewa-radio-ep" id="ep-label">Episode 16 · 最新エピソード</span>
+<h2 id="ep-title">今週のAIラジオ：去ったNVIDIAの顔、止まったメールが逃した警報、開かれたままのパスポート、再発見された遺跡</h2>
+<p id="ep-summary">NVIDIAの創業者ジェンスン・フアンが11月12日、社長・CEO・取締役をすべて辞任しました。二件の不倫が明るみに出たためで、CFOのコレット・クレスが暫定CEOに就任し、取締役会は後任探しを始めました。その後、英フィナンシャル・タイムズは、フアン氏が復帰を検討し、シリコンバレーの支援者が復帰を後押ししていると報じました。Microsoft 365の障害（11月12日〜14日）では、ドイツのテーマパーク「ファンタジーランド」内のホテル「リン・バオ」で、プールの自動塩素投入装置の警報メールが届かず、過剰に投入された塩素によるガスで宿泊客15人が負傷しました。スウェーデンのノーコードアプリ開発ツール「ラバブル」で作られた約16万個のアプリを調べたところ、7,000個超がログイン不要のデータベースで、有効期限と国籍つきのパスポート番号1,000件超、個人的なメッセージ20万件、決済情報などを露出していました。Googleの研究者が走らせた48個のAIエージェントは、公開されているNASAのライダーデータ1,200平方キロメートルを解析し、メキシコの公式遺跡台帳にないマヤ遺跡の候補を検出しましたが、実際には2025年の論文で既に報告された場所でした。短いニュースでは、Gemini 4 Hydrogenの公開とGoogle検索への適用、AnthropicのIPO（11月17日受付締切・18日価格決定）、イタリア個人情報保護庁のMetaに対する8億500万ユーロの課徴金、米連邦航空局の全米離陸禁止（約12,462便欠航、Microsoft障害とは無関係と当局は説明）、Pythonコミュニティが伝えたティム・ピーターズ氏の訃報をお伝えします。</p>
 <div class="ewa-radio-meta">
-<span id="ep-date">2026-11-09</span>
+<span id="ep-date">2026-11-16</span>
 <span id="ep-duration">⏱ 約6.1分</span>
 <span>🎙️ イロ × ループ</span>
 </div>
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
-<source id="ep-source" src="/static/radio/episode-15-ja.mp3" type="audio/mpeg">
+<source id="ep-source" src="/static/radio/episode-16-ja.mp3" type="audio/mpeg">
 </audio>
 <div id="ep-links" class="ewa-radio-links" aria-live="polite">
 <div class="ewa-radio-links-title">番組で紹介したオープンソース・開発プロジェクト</div>
 <ul>
-<li><a href="https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors" target="_blank" rel="noopener noreferrer">NVIDIA — 取締役会の公式声明</a><span>11月8日付の取締役会声明の原文。独立調査の開始、機密漏洩の根拠がないとの表明、ジェンスン・フアン氏の協力意向が記されています。</span></li>
-<li><a href="https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again" target="_blank" rel="noopener noreferrer">Apiiro — コーディングエージェントの秘密漏洩の測定報告</a><span>公開GitHubのClaude Code設定ファイル104,185件のうち1,122件から実際の秘密を見つけ、ファイル履歴・共有settings.json・保存されたエージェントのチャット記録を含めて異なる秘密2,539個を集計した研究です。フォークは別集計です。</span></li>
-<li><a href="https://docs.x.ai/developers/advanced-api-usage/watermarking" target="_blank" rel="noopener noreferrer">xAI — Grok API透かしの開発者文書</a><span>11月7日からGrok APIの7モデルのテキスト出力にデフォルトで適用される不可視の透かしと、チーム管理者による解除手順を説明する公式文書です。</span></li>
-<li><a href="https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act" target="_blank" rel="noopener noreferrer">欧州委員会 — AI法50条の透明性義務FAQ</a><span>AI法50条は2026年8月2日から適用され、12月2日は8月2日より前に市場投入されたシステムのAI生成コンテンツの表示・検出義務（50条2項）だけに認められた限定的な猶予だと説明しています。</span></li>
-<li><a href="https://www.anthropic.com/news/claude-text-watermark" target="_blank" rel="noopener noreferrer">Anthropic — Claudeのテキスト透かしに関する公式説明</a><span>将来のClaudeモデルのテキスト透かし、2026年8月2日より前に公開されたモデルへの数か月かけた展開、検出APIの利用範囲を説明しています。</span></li>
-<li><a href="https://research.meta.ai/blog/specialized-models-for-muse-and-metaai" target="_blank" rel="noopener noreferrer">Meta AI Research — Muse・Meta AI向け専用モデルの発表</a><span>Muse Wonderで学習したMuse・Meta AI向け専用モデルを紹介する11月6日の発表です。Active Memory、Active Focus、Meta自社評価の2.4倍減少という表現が記載されています。</span></li>
-<li><a href="https://huggingface.co/moonshotai/Kimi-K3.1-Pro" target="_blank" rel="noopener noreferrer">Moonshot — Kimi K3.1 Proのモデルカード</a><span>Kimi K3.1 Proのモデルカードと重み公開リポジトリ。総パラメータ2.8兆個、活性1,040億個、百万トークンの文脈が記載されています。</span></li>
-<li><a href="https://mistral.ai/news/mistral-large-4-oss/" target="_blank" rel="noopener noreferrer">Mistral AI — Mistral Large 4の重み公開発表</a><span>10月29日付のMistral Large 4重み公開発表です。公開時点を確認するための参考リンクです。</span></li>
+<li><a href="https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition" target="_blank" rel="noopener noreferrer">NVIDIA — CEO交代の公式発表</a><span>11月12日付の公式発表。ジェンスン・フアン氏の社長・CEO・取締役の即時辞任と、コレット・クレス氏の暫定CEO就任が記されています。</span></li>
+<li><a href="https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html" target="_blank" rel="noopener noreferrer">WDR — ファンタジーランド塩素事故の第一次取材</a><span>ホテル「リン・バオ」のプールについて、自動塩素投入装置の故障、アウトルック障害で警報メールが届かなかったという会社の説明、宿泊客の負傷の経緯を伝えるドイツ公共放送の報道です。</span></li>
+<li><a href="https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answers" target="_blank" rel="noopener noreferrer">米連邦航空局 — 全米離陸禁止のQ&amp;A</a><span>11月13日の全米離陸禁止の原因と経過を航空局がまとめたQ&amp;A。旧式設備に流れ込んだデータの洪水と、欠航の規模が記されています。</span></li>
+<li><a href="https://oecd.ai/en/incidents/2026-11-03-6b59" target="_blank" rel="noopener noreferrer">OECD.AI — ラバブル製アプリのデータ露出の記録</a><span>AIで作ったアプリのデータ露出事件を公共データベースに登録した記録。露出の範囲と原因の概要を確認できます。</span></li>
+<li><a href="https://pietromiotti.com/latest/maya-site/" target="_blank" rel="noopener noreferrer">ピエトロ・ミオッティ — マヤ遺跡探索の記録</a><span>四十八個のエージェントでNASAのライダーデータを三日間読ませた経緯を、研究者本人がまとめた記事。公式台帳にない遺跡の発見と、既に論文で報告されていたという事実の両方を記しています。</span></li>
+<li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/" target="_blank" rel="noopener noreferrer">Google — Gemini 4 Hydrogen発表</a><span>コーディングとエージェント作業向けの高速モデルHydrogenの公式発表。最上位モデルCarbon・Argonとの役割の違いが整理されています。</span></li>
+<li><a href="https://ipo.anthropic.com" target="_blank" rel="noopener noreferrer">Anthropic — IPO公式サイト</a><span>アンソロピックの新規上場に関する公式文書と募集の案内。登録文書の原文を確認できます。</span></li>
+<li><a href="https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028" target="_blank" rel="noopener noreferrer">Pythonコミュニティ — ティム・ピーターズ氏の追悼告知</a><span>グイド・ヴァン・ロッサムさんが投稿した追悼文。「パイソンの禅」と「ティムソート」を残したティム・ピーターズ氏の貢献がまとまっています。</span></li>
 </ul>
 </div>
 </div>
@@ -60,11 +60,11 @@ tags:
 </div>
 </div>
 <div class="ewa-radio-archive-list" id="ep-list">
-<div class="ewa-radio-archive-item is-active" data-ep="15" data-lang="ja">
-<span class="ewa-radio-archive-num">EP 15</span>
+<div class="ewa-radio-archive-item is-active" data-ep="16" data-lang="ja">
+<span class="ewa-radio-archive-num">EP 16</span>
 <div>
-<h4>今週のAIラジオ：調査を受けるNVIDIAの顔、千を超えて漏れた秘密、デフォルトになった透かし、記憶を得たMuse</h4>
-<span>2026-11-09 · ~13분 · 韓国語 · English · 日本語</span>
+<h4>今週のAIラジオ：去ったNVIDIAの顔、止まったメールが逃した警報、開かれたままのパスポート、再発見された遺跡</h4>
+<span>2026-11-16 · ~14.8분 · 韓国語 · English · 日本語</span>
 </div>
 </div>
 </div>

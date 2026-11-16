@@ -1307,7 +1307,138 @@
         "en": "/static/radio/episode-15-en.mp3",
         "ja": "/static/radio/episode-15-ja.mp3"
       }
+    },
+    {
+      "num": 16,
+      "title": {
+        "ko": "이번 주 AI 라디오: 물러난 엔비디아의 얼굴, 멈춘 메일이 놓친 경보, 열려 있던 여권, 재발견된 유적",
+        "en": "This Week in AI Radio: Nvidia's Face Steps Down, the Warning an Outage Swallowed, Passports Left Open, and a Ruin Rediscovered",
+        "ja": "今週のAIラジオ：去ったNVIDIAの顔、止まったメールが逃した警報、開かれたままのパスポート、再発見された遺跡"
+      },
+      "date": "2026-11-16",
+      "duration": "~14.8분",
+      "topics": {
+        "ko": [],
+        "en": [],
+        "ja": []
+      },
+      "summary": {
+        "ko": "엔비디아 설립자 젠슨 황이 11월 12일 사장·최고경영자·이사직을 모두 내려놓았습니다. 두 건의 혼외 관계가 알려진 데 따른 것으로, 재무최고책임자 코레트 크레스가 임시 최고경영자를 맡았고 이사회는 후임 검색에 들어갔습니다. 이후 영국 파이낸셜 타임스는 황이 복귀를 검토 중이고 실리콘밸리 지지자들이 복귀를 밀고 있다고 보도했습니다. 마이크로소프트 365 장애(11월 12~14일)로 독일 판타지랜드 호텔 링 바오의 수영장 자동 염소 투여 장치 경보 이메일이 도착하지 않았고, 과다 투여된 염소 가스로 투숙객 15명이 다쳤습니다. 스웨덴 노코드 앱 빌더 러버블로 만든 약 16만 개 앱을 조사한 결과 7,000개 넘는 앱이 로그인 없이 여권 번호 1,000건 이상, 사적 메시지 20만 건, 결제 내역 등을 노출하고 있었습니다. 구글 연구자의 AI 에이전트 48개는 공개 나사 라이더 데이터 1,200km²에서 멕시코 공식 등록부에 없는 마야 유적 후보를 찾았지만, 이미 2025년 논문으로 보고된 곳으로 확인됐습니다. 짧은 소식으로는 Gemini 4 Hydrogen 출시와 구글 검색 적용, 앤스로픽 IPO 청약 마감(11월 17일)과 가격 결정(11월 18일), 이탈리아 개인정보 보호기관의 메타에 대한 8억500만 유로 벌금, 미 연방항공청의 전국 이륙 금지(약 12,462편 결항, 마이크로소프트 장애와는 무관), 파이썬 커뮤니티가 전한 팀 피터스 별세를 전합니다.",
+        "en": "Nvidia founder Jensen Huang resigned as president, CEO, and board member on November 12, after two extramarital affairs became public — one reportedly involving a suspected Chinese spy, another an employee. CFO Colette Kress became interim CEO and the board started a search for the next leader; days later the Financial Times reported Huang is discussing a comeback as allies in Silicon Valley lobby for his return, while the US Treasury secretary calls for an outsider. During the Microsoft 365 outage (November 12–14), the Hotel Ling Bao at Germany's Phantasialand theme park missed the email alarm from its pool's automatic chlorine dosing system; the overdosed water released chlorine gas and injured 15 guests, with 40 first responders deployed. Researchers scanning roughly 160,000 apps built with Swedish vibe-coding platform Lovable found more than 7,000 exposing data — over 1,000 passport records with expiry dates and nationalities, 200,000 private chat messages, payment details, contracts, and invoices — in databases that needed no login. A Google researcher's 48 AI agents combed 1,200 km² of public NASA lidar and flagged a Maya site missing from Mexico's official register, which turned out to have been published by archaeologists in a 2025 paper. Quick hits: Gemini 4 Hydrogen's release and rollout into Google Search, Anthropic's IPO closing November 17 and pricing November 18, Italy's €805 million ($887M) fine on Meta over Android gallery access, the FAA's nationwide ground stop that canceled about 12,462 flights (unrelated to the Microsoft outage, officials said), and the Python community's announcement that Tim Peters has died.",
+        "ja": "NVIDIAの創業者ジェンスン・フアンが11月12日、社長・CEO・取締役をすべて辞任しました。二件の不倫が明るみに出たためで、CFOのコレット・クレスが暫定CEOに就任し、取締役会は後任探しを始めました。その後、英フィナンシャル・タイムズは、フアン氏が復帰を検討し、シリコンバレーの支援者が復帰を後押ししていると報じました。Microsoft 365の障害（11月12日〜14日）では、ドイツのテーマパーク「ファンタジーランド」内のホテル「リン・バオ」で、プールの自動塩素投入装置の警報メールが届かず、過剰に投入された塩素によるガスで宿泊客15人が負傷しました。スウェーデンのノーコードアプリ開発ツール「ラバブル」で作られた約16万個のアプリを調べたところ、7,000個超がログイン不要のデータベースで、有効期限と国籍つきのパスポート番号1,000件超、個人的なメッセージ20万件、決済情報などを露出していました。Googleの研究者が走らせた48個のAIエージェントは、公開されているNASAのライダーデータ1,200平方キロメートルを解析し、メキシコの公式遺跡台帳にないマヤ遺跡の候補を検出しましたが、実際には2025年の論文で既に報告された場所でした。短いニュースでは、Gemini 4 Hydrogenの公開とGoogle検索への適用、AnthropicのIPO（11月17日受付締切・18日価格決定）、イタリア個人情報保護庁のMetaに対する8億500万ユーロの課徴金、米連邦航空局の全米離陸禁止（約12,462便欠航、Microsoft障害とは無関係と当局は説明）、Pythonコミュニティが伝えたティム・ピーターズ氏の訃報をお伝えします。"
+      },
+      "openSourceLinks": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+          "name": {
+            "ko": "NVIDIA — 최고경영자 교체 공식 발표",
+            "en": "NVIDIA — official CEO transition announcement",
+            "ja": "NVIDIA — CEO交代の公式発表"
+          },
+          "description": {
+            "ko": "십일월 십이일 자 공식 발표입니다. 젠슨 황의 사장·최고경영자·이사직 즉시 사임과 코레트 크레스의 임시 최고경영자 선임이 적혀 있습니다.",
+            "en": "The November 12 announcement: Jensen Huang's immediate resignation as president, CEO, and board member, and Colette Kress's appointment as interim CEO.",
+            "ja": "11月12日付の公式発表。ジェンスン・フアン氏の社長・CEO・取締役の即時辞任と、コレット・クレス氏の暫定CEO就任が記されています。"
+          }
+        },
+        {
+          "url": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
+          "name": {
+            "ko": "WDR — 판타지랜드 염소 사고 1차 취재",
+            "en": "WDR — first report on the Phantasialand chlorine incident",
+            "ja": "WDR — ファンタジーランド塩素事故の第一次取材"
+          },
+          "description": {
+            "ko": "호텔 링 바오 수영장의 자동 염소 투여 장치 고장과, 아웃룩 장애로 경보 메일이 도착하지 않았다는 회사 설명, 투숙객 부상 경위를 담은 독일 공영방송 보도입니다.",
+            "en": "The German public broadcaster's report on the Hotel Ling Bao pool: the failed automatic chlorine doser, the company's account that Outlook outage stopped the alarm emails, and how guests were injured.",
+            "ja": "ホテル「リン・バオ」のプールについて、自動塩素投入装置の故障、アウトルック障害で警報メールが届かなかったという会社の説明、宿泊客の負傷の経緯を伝えるドイツ公共放送の報道です。"
+          }
+        },
+        {
+          "url": "https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answers",
+          "name": {
+            "ko": "미국 연방항공청 — 전국 이륙 금지 문답",
+            "en": "FAA — Nationwide Ground Stop Q&A",
+            "ja": "米連邦航空局 — 全米離陸禁止のQ&A"
+          },
+          "description": {
+            "ko": "십일월 십삼일 전국 이륙 금지의 원인과 경과를 항공청이 정리한 문답입니다. 노우 장비로 흘러든 데이터 홍수와 결항 규모가 적혀 있습니다.",
+            "en": "The FAA's own Q&A on the November 13 nationwide ground stop: the data flood that destabilized legacy equipment, and the cancellation count.",
+            "ja": "11月13日の全米離陸禁止の原因と経過を航空局がまとめたQ&A。旧式設備に流れ込んだデータの洪水と、欠航の規模が記されています。"
+          }
+        },
+        {
+          "url": "https://oecd.ai/en/incidents/2026-11-03-6b59",
+          "name": {
+            "ko": "OECD.AI — 러버블 앱 데이터 노출 사건 기록",
+            "en": "OECD.AI — incident record on exposed Lovable apps",
+            "ja": "OECD.AI — ラバブル製アプリのデータ露出の記録"
+          },
+          "description": {
+            "ko": "AI로 만든 앱의 데이터 노출 사건을 공공 데이터베이스에 등록한 기록입니다. 노출 범위와 원인 개요를 확인할 수 있습니다.",
+            "en": "The public incident registry entry for the exposed AI-built apps, with the scope and cause overview.",
+            "ja": "AIで作ったアプリのデータ露出事件を公共データベースに登録した記録。露出の範囲と原因の概要を確認できます。"
+          }
+        },
+        {
+          "url": "https://pietromiotti.com/latest/maya-site/",
+          "name": {
+            "ko": "피에트로 미오티 — 마야 유적 탐색 후기",
+            "en": "Pietro Miotti — the Maya site search write-up",
+            "ja": "ピエトロ・ミオッティ — マヤ遺跡探索の記録"
+          },
+          "description": {
+            "ko": "에이전트 마흔여덟 개로 나사 라이더 데이터를 사흘간 훑은 과정을 연구자 본인이 정리한 글입니다. 공식 등록부에 없던 유적과, 이미 논문으로 보고됐다는 사실을 모두 적고 있습니다.",
+            "en": "The researcher's own account of running forty-eight agents over NASA lidar for three days — including both the missing-from-register finding and the fact that archaeologists had already published it.",
+            "ja": "四十八個のエージェントでNASAのライダーデータを三日間読ませた経緯を、研究者本人がまとめた記事。公式台帳にない遺跡の発見と、既に論文で報告されていたという事実の両方を記しています。"
+          }
+        },
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+          "name": {
+            "ko": "Google — Gemini 4 Hydrogen 발표문",
+            "en": "Google — Introducing Gemini 4 Hydrogen",
+            "ja": "Google — Gemini 4 Hydrogen発表"
+          },
+          "description": {
+            "ko": "코딩과 에이전트 작업용 고속 모델 하이드로젬의 공식 발표문입니다. 최상위 모델 카본·아르곤과의 역할 구분이 정리돼 있습니다.",
+            "en": "The official announcement of Hydrogen, the fast model for coding and agentic workflows, and how it differs from the frontier Carbon and Argon models.",
+            "ja": "コーディングとエージェント作業向けの高速モデルHydrogenの公式発表。最上位モデルCarbon・Argonとの役割の違いが整理されています。"
+          }
+        },
+        {
+          "url": "https://ipo.anthropic.com",
+          "name": {
+            "ko": "Anthropic — IPO 공식 사이트",
+            "en": "Anthropic — official IPO site",
+            "ja": "Anthropic — IPO公式サイト"
+          },
+          "description": {
+            "ko": "앤스로픽 주식 공개의 공식 문서와 청약 안내입니다. 신고서 원문을 확인할 수 있습니다.",
+            "en": "The official documents and offer information for Anthropic's public offering, including the registration statement.",
+            "ja": "アンソロピックの新規上場に関する公式文書と募集の案内。登録文書の原文を確認できます。"
+          }
+        },
+        {
+          "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+          "name": {
+            "ko": "Python 커뮤니티 — 팀 피터스 추모 공고",
+            "en": "Python community — In Memoriam: Tim Peters",
+            "ja": "Pythonコミュニティ — ティム・ピーターズ氏の追悼告知"
+          },
+          "description": {
+            "ko": "구도 반 로썸이 올린 추모 글입니다. 파이썬의 선과 팀소트를 남긴 팀 피터스의 기여가 정리돼 있습니다.",
+            "en": "Guido van Rossum's memorial post, summarizing the contributions of Tim Peters — the Zen of Python and Timsort.",
+            "ja": "グイド・ヴァン・ロッサムさんが投稿した追悼文。「パイソンの禅」と「ティムソート」を残したティム・ピーターズ氏の貢献がまとまっています。"
+          }
+        }
+      ],
+      "audio": {
+        "ko": "/static/radio/episode-16-ko.mp3",
+        "en": "/static/radio/episode-16-en.mp3",
+        "ja": "/static/radio/episode-16-ja.mp3"
+      }
     }
   ],
-  "latest": 15
+  "latest": 16
 }

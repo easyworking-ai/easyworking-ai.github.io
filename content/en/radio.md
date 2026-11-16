@@ -22,32 +22,32 @@ tags:
 <section class="ewa-radio-player" id="radio-player">
 <div class="ewa-radio-cover">
 <div class="ewa-radio-cover-art" id="ep-cover">
-<span id="ep-num">EP 15</span>
+<span id="ep-num">EP 16</span>
 </div>
 </div>
 <div class="ewa-radio-info">
-<span class="ewa-radio-ep" id="ep-label">Episode 15 · Latest</span>
-<h2 id="ep-title">This Week in AI Radio: Nvidia&#x27;s Face Under Investigation, More Than a Thousand Leaked Secrets, A Watermark by Default, and a Muse That Remembers</h2>
-<p id="ep-summary">Nvidia&#x27;s board announced on November 8 an independent investigation into reports involving founder and CEO Jensen Huang, while stating it has no reason to believe national security or company secrets were compromised. Security firm Apiiro found real secrets in 1,122 of 104,185 public copies of Claude Code settings files, with 1,379 distinct secrets. Its total of 2,539 includes the file&#x27;s git history, shared settings.json files, and saved agent chat transcripts; forks were counted separately. The same week, Goldman Sachs restricted some AI coding-tool use by traders and bankers to engineers. Starting November 7, xAI applies an invisible watermark by default to text output from seven Grok API models. The EU&#x27;s official FAQ says December 2 is not a general deadline for all AI-generated content: it is a limited grace period under Article 50(2) for the marking and detectability obligations of systems placed on the market before August 2, 2026. Anthropic says future Claude models will generate watermarked text and that models launched before August 2 will be covered over the coming months; its official page does not specify a rollout date for older models. Meta announced specialized models trained using Muse Wonder for Muse and Meta AI on November 6, and its own evaluation reports a 2.4x reduction in forgetting critical information necessary for helping users achieve their goals. Quick hits: Moonshot&#x27;s Kimi K3.1 Pro open weights and Agility Robotics listing on Nasdaq.</p>
+<span class="ewa-radio-ep" id="ep-label">Episode 16 · Latest</span>
+<h2 id="ep-title">This Week in AI Radio: Nvidia&#x27;s Face Steps Down, the Warning an Outage Swallowed, Passports Left Open, and a Ruin Rediscovered</h2>
+<p id="ep-summary">Nvidia founder Jensen Huang resigned as president, CEO, and board member on November 12, after two extramarital affairs became public — one reportedly involving a suspected Chinese spy, another an employee. CFO Colette Kress became interim CEO and the board started a search for the next leader; days later the Financial Times reported Huang is discussing a comeback as allies in Silicon Valley lobby for his return, while the US Treasury secretary calls for an outsider. During the Microsoft 365 outage (November 12–14), the Hotel Ling Bao at Germany&#x27;s Phantasialand theme park missed the email alarm from its pool&#x27;s automatic chlorine dosing system; the overdosed water released chlorine gas and injured 15 guests, with 40 first responders deployed. Researchers scanning roughly 160,000 apps built with Swedish vibe-coding platform Lovable found more than 7,000 exposing data — over 1,000 passport records with expiry dates and nationalities, 200,000 private chat messages, payment details, contracts, and invoices — in databases that needed no login. A Google researcher&#x27;s 48 AI agents combed 1,200 km² of public NASA lidar and flagged a Maya site missing from Mexico&#x27;s official register, which turned out to have been published by archaeologists in a 2025 paper. Quick hits: Gemini 4 Hydrogen&#x27;s release and rollout into Google Search, Anthropic&#x27;s IPO closing November 17 and pricing November 18, Italy&#x27;s €805 million ($887M) fine on Meta over Android gallery access, the FAA&#x27;s nationwide ground stop that canceled about 12,462 flights (unrelated to the Microsoft outage, officials said), and the Python community&#x27;s announcement that Tim Peters has died.</p>
 <div class="ewa-radio-meta">
-<span id="ep-date">2026-11-09</span>
+<span id="ep-date">2026-11-16</span>
 <span id="ep-duration">⏱ ~5.0 min</span>
 <span>🎙️ Iro × Loop</span>
 </div>
 <audio id="ep-audio" controls preload="metadata" style="width:100%;margin-top:12px">
-<source id="ep-source" src="/static/radio/episode-15-en.mp3" type="audio/mpeg">
+<source id="ep-source" src="/static/radio/episode-16-en.mp3" type="audio/mpeg">
 </audio>
 <div id="ep-links" class="ewa-radio-links" aria-live="polite">
 <div class="ewa-radio-links-title">Open-source projects mentioned</div>
 <ul>
-<li><a href="https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors" target="_blank" rel="noopener noreferrer">NVIDIA — official board statement</a><span>The November 8 board statement: the independent investigation, the statement that no evidence of compromise has been found, and Jensen Huang&#x27;s commitment to cooperate.</span></li>
-<li><a href="https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again" target="_blank" rel="noopener noreferrer">Apiiro — coding agents leaking secrets research</a><span>The study found real secrets in 1,122 of 104,185 public Claude Code settings-file copies and counted 2,539 distinct secrets across file history, shared settings.json files, and saved agent transcripts; forks were counted separately.</span></li>
-<li><a href="https://docs.x.ai/developers/advanced-api-usage/watermarking" target="_blank" rel="noopener noreferrer">xAI — Grok API watermarking documentation</a><span>Official documentation for the invisible watermark enabled by default on text output from seven Grok API models starting November 7, including the team-admin opt-out procedure.</span></li>
-<li><a href="https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act" target="_blank" rel="noopener noreferrer">European Commission — Transparency obligations under Article 50 of the AI Act</a><span>The FAQ says Article 50 applies from August 2, 2026, while December 2 is a limited grace period only for Article 50(2) marking and detectability obligations for systems placed on the market before August 2.</span></li>
-<li><a href="https://www.anthropic.com/news/claude-text-watermark" target="_blank" rel="noopener noreferrer">Anthropic — how Claude text watermarking works</a><span>Anthropic&#x27;s explanation of watermarks for future Claude models, the coming-months transition for models launched before August 2, 2026, and detection-API access.</span></li>
-<li><a href="https://research.meta.ai/blog/specialized-models-for-muse-and-metaai" target="_blank" rel="noopener noreferrer">Meta AI Research — specialized models for Muse and Meta AI</a><span>The November 6 announcement introduces specialized models trained using Muse Wonder for Muse and Meta AI, covering Active Memory, Active Focus, and Meta&#x27;s own 2.4x reduction-in-forgetting evaluation.</span></li>
-<li><a href="https://huggingface.co/moonshotai/Kimi-K3.1-Pro" target="_blank" rel="noopener noreferrer">Moonshot AI — Kimi K3.1 Pro model card</a><span>The Kimi K3.1 Pro model card and open-weights repository, listing 2.8T total parameters, 104B active parameters, and a one-million-token context window.</span></li>
-<li><a href="https://mistral.ai/news/mistral-large-4-oss/" target="_blank" rel="noopener noreferrer">Mistral AI — Mistral Large 4 open-weight announcement</a><span>The first-party open-weight announcement dated October 29; it is kept as a reference for the release date.</span></li>
+<li><a href="https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition" target="_blank" rel="noopener noreferrer">NVIDIA — official CEO transition announcement</a><span>The November 12 announcement: Jensen Huang&#x27;s immediate resignation as president, CEO, and board member, and Colette Kress&#x27;s appointment as interim CEO.</span></li>
+<li><a href="https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html" target="_blank" rel="noopener noreferrer">WDR — first report on the Phantasialand chlorine incident</a><span>The German public broadcaster&#x27;s report on the Hotel Ling Bao pool: the failed automatic chlorine doser, the company&#x27;s account that Outlook outage stopped the alarm emails, and how guests were injured.</span></li>
+<li><a href="https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answers" target="_blank" rel="noopener noreferrer">FAA — Nationwide Ground Stop Q&amp;A</a><span>The FAA&#x27;s own Q&amp;A on the November 13 nationwide ground stop: the data flood that destabilized legacy equipment, and the cancellation count.</span></li>
+<li><a href="https://oecd.ai/en/incidents/2026-11-03-6b59" target="_blank" rel="noopener noreferrer">OECD.AI — incident record on exposed Lovable apps</a><span>The public incident registry entry for the exposed AI-built apps, with the scope and cause overview.</span></li>
+<li><a href="https://pietromiotti.com/latest/maya-site/" target="_blank" rel="noopener noreferrer">Pietro Miotti — the Maya site search write-up</a><span>The researcher&#x27;s own account of running forty-eight agents over NASA lidar for three days — including both the missing-from-register finding and the fact that archaeologists had already published it.</span></li>
+<li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/" target="_blank" rel="noopener noreferrer">Google — Introducing Gemini 4 Hydrogen</a><span>The official announcement of Hydrogen, the fast model for coding and agentic workflows, and how it differs from the frontier Carbon and Argon models.</span></li>
+<li><a href="https://ipo.anthropic.com" target="_blank" rel="noopener noreferrer">Anthropic — official IPO site</a><span>The official documents and offer information for Anthropic&#x27;s public offering, including the registration statement.</span></li>
+<li><a href="https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028" target="_blank" rel="noopener noreferrer">Python community — In Memoriam: Tim Peters</a><span>Guido van Rossum&#x27;s memorial post, summarizing the contributions of Tim Peters — the Zen of Python and Timsort.</span></li>
 </ul>
 </div>
 </div>
@@ -60,11 +60,11 @@ tags:
 </div>
 </div>
 <div class="ewa-radio-archive-list" id="ep-list">
-<div class="ewa-radio-archive-item is-active" data-ep="15" data-lang="en">
-<span class="ewa-radio-archive-num">EP 15</span>
+<div class="ewa-radio-archive-item is-active" data-ep="16" data-lang="en">
+<span class="ewa-radio-archive-num">EP 16</span>
 <div>
-<h4>This Week in AI Radio: Nvidia&#x27;s Face Under Investigation, More Than a Thousand Leaked Secrets, A Watermark by Default, and a Muse That Remembers</h4>
-<span>2026-11-09 · ~13분 · Korean · English · Japanese</span>
+<h4>This Week in AI Radio: Nvidia&#x27;s Face Steps Down, the Warning an Outage Swallowed, Passports Left Open, and a Ruin Rediscovered</h4>
+<span>2026-11-16 · ~14.8분 · Korean · English · Japanese</span>
 </div>
 </div>
 </div>
