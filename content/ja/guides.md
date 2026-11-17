@@ -23,6 +23,10 @@ tags:
 </div>
 </div>
 <div class="ewa-guide-grid">
+<a class="ewa-guide-card" href="/ja/guides/handover-doc">
+<div class="ewa-guide-card-title">散在した業務メモを引き継ぎ文書に変えるプロンプト</div>
+<p>退職者のメモ・メール・チャットを「まとめて」に投げると、資料ごとの要約とのでっち上げ手順が混ざる。先に質問リストを作り、根拠のある答えだけ埋める2段階プロンプト。</p>
+</a>
 <a class="ewa-guide-card" href="/ja/guides/share-ai-output">
 <div class="ewa-guide-card-title">AIの作業結果をチームにそのまま送らない方法</div>
 <p>「AIに整理してもらった」の一言で送ると、最初の質問は「この数字はどこから？」。成果物・根拠・限界を添える共有プロンプト。</p>

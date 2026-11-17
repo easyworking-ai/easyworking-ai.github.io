@@ -29,7 +29,7 @@
 | 6 | 09-08 | ✅ published 09-15 | `ai-brainstorming.md` | AI에게 브레인스토밍을 시키는 올바른 방법 | "아이디어 내줘" 실패 원인과 제약 기반 발산 |
 | 7 | 09-15 | ✅ published 09-23 | `long-document-qa.md` | 긴 문서를 AI에게 읽히고 질문하는 법 | 문서 분할 + 컨텍스트 윈도우 한계 대응 |
 | 8 | 09-22 | ✅ published 09-29 | `share-ai-output.md` | AI 작업 결과를 팀에 공유하는 형식 | 산출물 → 검증 근거 → 한계 명시 |
-| 9 | 11-17 | ⬜ pending | `handover-doc.md` | 퇴사자 업무 노트를 AI로 인수인계 문서로 바꾸는 법 | 흩어진 자료를 매뉴얼로 — 질문 리스트가 먼저다 |
+| 9 | 11-17 | ✅ published 11-17 | `handover-doc.md` | 퇴사자 업무 노트를 AI로 인수인계 문서로 바꾸는 법 | 흩어진 자료를 매뉴얼로 — 질문 리스트가 먼저다 |
 | 10 | 11-24 | ⬜ pending | `executive-summary.md` | 10페이지 보고서를 한 장 요약으로 압축하는 프롬프트 | 요약은 줄이기가 아니라 위계 판단을 맡기는 것 |
 | 11 | 12-01 | ⬜ pending | `presentation-script.md` | 발표 골격과 대본을 AI와 같이 잡는 법 | 청중과 시간 제약을 주면 골격이 달라진다 |
 | 12 | 12-08 | ⬜ pending | `team-knowledge-base.md` | 내 업무 지식을 AI로 팀 위키에 쌓는 법 | 원시 메모가 지식자산이 되는 구조 조건 |

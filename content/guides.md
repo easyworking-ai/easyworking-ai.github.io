@@ -23,6 +23,10 @@ tags:
 </div>
 </div>
 <div class="ewa-guide-grid">
+<a class="ewa-guide-card" href="/guides/handover-doc">
+<div class="ewa-guide-card-title">흩어진 업무 노트를 인수인계 문서로 바꾸는 프롬프트</div>
+<p>퇴사자의 노트·메일·채팅을 "정리해줘"에 던지면 자료별 요약과 지어낸 절차가 섞여 나온다. 질문 리스트를 먼저 뽑고 근거 있는 답만 채우는 2단계 프롬프트.</p>
+</a>
 <a class="ewa-guide-card" href="/guides/share-ai-output">
 <div class="ewa-guide-card-title">AI 작업 결과를 팀에 그대로 보내지 않는 법</div>
 <p>"AI가 정리해줬어" 한 줄로 보내면 첫 질문은 "이 숫자 어디서 났어?"다. 산출물·검증 근거·한계를 붙이는 공유 프롬프트.</p>

@@ -23,6 +23,10 @@ tags:
 </div>
 </div>
 <div class="ewa-guide-grid">
+<a class="ewa-guide-card" href="/en/guides/handover-doc">
+<div class="ewa-guide-card-title">A Prompt for Turning Scattered Work Notes into a Handover Document</div>
+<p>Dumping leftover notes, emails and chats with "make a handover doc" gets you a source-by-source summary laced with invented steps. A two-step prompt: pull the questions first, then fill in evidence-backed answers.</p>
+</a>
 <a class="ewa-guide-card" href="/en/guides/share-ai-output">
 <div class="ewa-guide-card-title">How Not to Send AI Work Results Straight to Your Team</div>
 <p>A sharing prompt that attaches output, verification basis, and limitations — so the first reply isn't "Where did this number come from?"</p>
