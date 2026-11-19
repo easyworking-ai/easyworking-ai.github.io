@@ -17,6 +17,10 @@ tags:
 
 <div class="ewa-read-section">
 <div class="ewa-read-grid">
+<a class="ewa-read-card" href="/en/learn/mcp-explained">
+<div class="ewa-read-card-title">What is MCP, and why should you care?</div>
+<p>"MCP integration supported" now shows up in every AI tool evaluation. How a standard for connecting tools removes integration work — and why permissions come with it.</p>
+</a>
 <a class="ewa-read-card" href="/en/learn/beyond-benchmarks">
 <div class="ewa-read-card-title">Why the top-ranked model was only average at our work</div>
 <p>The team picked the model with the best benchmark score, but meeting summaries came out no better. Four reasons scores and real work diverge, and how to compare on your own samples instead.</p>

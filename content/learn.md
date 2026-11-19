@@ -17,6 +17,10 @@ tags:
 
 <div class="ewa-read-section">
 <div class="ewa-read-grid">
+<a class="ewa-read-card" href="/learn/mcp-explained">
+<div class="ewa-read-card-title">MCP가 뭔데 직장인이 알아야 하나</div>
+<p>"MCP 연동 지원"이 도입 검토 자료마다 붙는 이유가 MCP다. AI 앱이 도구에 다는 표준 규격이 연결 개발을 없애는 구조와, 권한이 따라 넘어가는 문제를 정리한다.</p>
+</a>
 <a class="ewa-read-card" href="/learn/beyond-benchmarks">
 <div class="ewa-read-card-title">벤치마크 1위 모델이 우리 업무에서는 왜 평범한가</div>
 <p>리더보드 점수로 모델을 골랐는데 회의록 요약은 그대로였다. 점수와 실무 사이에 갭이 생기는 네 가지 이유와, 실제 업무 샘플로 비교하는 선택 방식.</p>

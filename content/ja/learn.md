@@ -17,6 +17,10 @@ tags:
 
 <div class="ewa-read-section">
 <div class="ewa-read-grid">
+<a class="ewa-read-card" href="/ja/learn/mcp-explained">
+<div class="ewa-read-card-title">MCPって何？ なぜ知っておくべきなのか</div>
+<p>導入検討資料に必ず出る「MCP連携対応」。ツール接続の標準規格が連携開発をなくす仕組みと、権限の問題がついて回る理由を整理します。</p>
+</a>
 <a class="ewa-read-card" href="/ja/learn/beyond-benchmarks">
 <div class="ewa-read-card-title">ベンチマーク1位のモデルが、うちの業務ではなぜ平凡なのか</div>
 <p>リーダーボードのスコアで選んだのに、議事録の要約は変わらなかった。スコアと実務にギャップが生じる四つの理由と、自社の業務サンプルで比較する選び方。</p>

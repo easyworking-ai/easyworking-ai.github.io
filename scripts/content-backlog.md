@@ -50,7 +50,7 @@
 | 6 | 09-11 | ✅ published 09-17 | `open-vs-closed-models.md` | 오픈소스 vs 클로즈드 모델 — 선택 기준 | 비용·보안·성능 트레이드오프 |
 | 7 | 09-18 | ✅ published 09-24 | `agent-failure-cases.md` | AI 에이전트 도입 실패 케이스 5가지 | 실제 사례에서 배우는 안티패턴 |
 | 8 | 09-25 | ✅ published 10-01 | `beyond-benchmarks.md` | AI 도구를 고르는 기준 — 벤치마크 다음 | 실무 성능과 벤치마크 점수의 괴리 |
-| 9 | 11-19 | ⬜ pending | `mcp-explained.md` | MCP가 뭔데 직장인이 알아야 하나 | AI 앱이 도구를 다는 표준 규격 — USB-C 같은 것 |
+| 9 | 11-19 | ✅ published 11-19 | `mcp-explained.md` | MCP가 뭔데 직장인이 알아야 하나 | AI 앱이 도구를 다는 표준 규격 — USB-C 같은 것 |
 | 10 | 11-26 | ⬜ pending | `computer-use-explained.md` | 컴퓨터 유즈 — AI가 브라우저와 PC를 대신 조작한다는 것 | 화면을 보고 클릭하는 AI의 가능과 한계 |
 | 11 | 12-03 | ⬜ pending | `reasoning-models.md` | 생각하고 답하는 모델 — 언제 쓰고 언제 낭비인가 | 추론 시간은 비용이다 — 단순 질문의 낭비 구조 |
 | 12 | 12-10 | ⬜ pending | `token-pricing.md` | AI 사용료는 어떻게 계산되나 | 토큰 과금 구조를 읽어야 도입 비용이 보인다 |
